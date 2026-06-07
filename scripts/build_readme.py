@@ -255,12 +255,9 @@ def build_fetch_failures(metadata: dict) -> str:
 def build_readme(payload: dict, metadata: dict) -> str:
     total_repos = payload["total_unique_repos"]
     fetched_ok = sum(1 for repo in metadata["repos"].values() if repo.get("fetched_ok"))
-    failures = len(metadata.get("failures", {}))
     categories = category_entries(payload)
-    uncategorized = payload["uncategorized_count"]
     star_badge = f"https://img.shields.io/badge/indexed%20repos-{total_repos}-1f6f5b"
     category_badge = f"https://img.shields.io/badge/categories-{len(categories)}-2f4858"
-    review_badge = f"https://img.shields.io/badge/review%20queue-{uncategorized}-b84a2f"
     fetched_badge = f"https://img.shields.io/badge/fetched-{fetched_ok}-4f7f52"
 
     lines = [
@@ -274,7 +271,6 @@ def build_readme(payload: dict, metadata: dict) -> str:
         f"  <img alt=\"Indexed repositories\" src=\"{star_badge}\">",
         f"  <img alt=\"Categories\" src=\"{category_badge}\">",
         f"  <img alt=\"Fetched repositories\" src=\"{fetched_badge}\">",
-        f"  <img alt=\"Review queue\" src=\"{review_badge}\">",
         "</p>",
         "",
         "Robotics Star Atlas turns my GitHub stars into a searchable, manually curated research map. It is designed as a personal navigation system first, and as a public reference for researchers and engineers who work around robotics, 3D vision, and autonomous systems.",
@@ -285,7 +281,6 @@ def build_readme(payload: dict, metadata: dict) -> str:
         "| --- | --- |",
         "| [Category Index](docs/category-index.md) | Compact category overview. |",
         "| [Update Guide](docs/update-guide.md) | How to add new stars, categories, and manual labels. |",
-        "| [Fetch Failures](docs/fetch-failures.md) | Repositories that could not be fetched during the latest sync. |",
         "",
         "## Setup",
         "",
@@ -305,8 +300,8 @@ def build_readme(payload: dict, metadata: dict) -> str:
         "  </tr>",
         "  <tr>",
         f"    <td><strong>Fetched successfully</strong><br><code>{fetched_ok}</code></td>",
-        f"    <td><strong>Fetch failures</strong><br><code>{failures}</code></td>",
-        f"    <td><strong>Needs review</strong><br><code>{uncategorized}</code></td>",
+        "    <td><strong>Focus</strong><br><code>Robotics & 3D Vision</code></td>",
+        "    <td><strong>Maintenance</strong><br><code>Manual + Generated</code></td>",
         "  </tr>",
         "</table>",
         "",
@@ -365,7 +360,6 @@ def build_readme(payload: dict, metadata: dict) -> str:
             "## Supporting Docs",
             "",
             "- [Category Index](docs/category-index.md)",
-            "- [Fetch Failures](docs/fetch-failures.md)",
             "- [Update Guide](docs/update-guide.md)",
         ]
     )

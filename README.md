@@ -8,7 +8,6 @@
   <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1373-1f6f5b">
   <img alt="Categories" src="https://img.shields.io/badge/categories-26-2f4858">
   <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1370-4f7f52">
-  <img alt="Review queue" src="https://img.shields.io/badge/review%20queue-21-b84a2f">
 </p>
 
 Robotics Star Atlas turns my GitHub stars into a searchable, manually curated research map. It is designed as a personal navigation system first, and as a public reference for researchers and engineers who work around robotics, 3D vision, and autonomous systems.
@@ -19,7 +18,6 @@ Robotics Star Atlas turns my GitHub stars into a searchable, manually curated re
 | --- | --- |
 | [Category Index](docs/category-index.md) | Compact category overview. |
 | [Update Guide](docs/update-guide.md) | How to add new stars, categories, and manual labels. |
-| [Fetch Failures](docs/fetch-failures.md) | Repositories that could not be fetched during the latest sync. |
 
 ## Setup
 
@@ -39,8 +37,8 @@ The generated README and category pages can be browsed directly on GitHub. The l
   </tr>
   <tr>
     <td><strong>Fetched successfully</strong><br><code>1370</code></td>
-    <td><strong>Fetch failures</strong><br><code>3</code></td>
-    <td><strong>Needs review</strong><br><code>21</code></td>
+    <td><strong>Focus</strong><br><code>Robotics & 3D Vision</code></td>
+    <td><strong>Maintenance</strong><br><code>Manual + Generated</code></td>
   </tr>
 </table>
 
@@ -117,5 +115,4 @@ See [Update Guide](docs/update-guide.md) for details.
 ## Supporting Docs
 
 - [Category Index](docs/category-index.md)
-- [Fetch Failures](docs/fetch-failures.md)
 - [Update Guide](docs/update-guide.md)
