@@ -1,0 +1,256 @@
+{
+  "github_user": "astronaunt",
+  "repo_title": "Robotics Star Atlas",
+  "repo_subtitle": "A curated atlas of GitHub repositories for SLAM, LiDAR, 3D vision, localization, mapping, and robotics research tooling.",
+  "repo_subtitle_zh": "基于 GitHub Stars / Lists 整理的 SLAM、激光雷达、三维视觉、定位建图与研究工具导航。",
+  "sections": [
+    {
+      "id": "slam-core",
+      "name": "SLAM Core",
+      "description": "Core SLAM systems, odometry pipelines, and robustness-focused front-end/back-end work.",
+      "description_zh": "SLAM 主算法、里程计系统，以及退化场景与鲁棒性相关工作。",
+      "lists": [
+        {
+          "slug": "slam-single-algorithm",
+          "name": "SLAM-single algorithm",
+          "note": "General-purpose SLAM algorithms.",
+          "note_zh": "通用 SLAM 算法。"
+        },
+        {
+          "slug": "slam-lio",
+          "name": "SLAM-LIO",
+          "note": "LiDAR(-Inertial) odometry and mapping.",
+          "note_zh": "激光/激光惯导里程计。"
+        },
+        {
+          "slug": "slam-livo",
+          "name": "SLAM-LIVO",
+          "note": "LiDAR-inertial-visual odometry.",
+          "note_zh": "激光-惯导-视觉融合里程计。"
+        },
+        {
+          "slug": "vio",
+          "name": "VIO",
+          "note": "Visual-inertial odometry.",
+          "note_zh": "视觉惯导里程计。"
+        },
+        {
+          "slug": "lo",
+          "name": "LO",
+          "note": "LiDAR-only odometry.",
+          "note_zh": "纯激光里程计。"
+        },
+        {
+          "slug": "stereo-visual-odometry",
+          "name": "Stereo Visual Odometry",
+          "note": "Stereo VO baselines and references.",
+          "note_zh": "双目视觉里程计。"
+        },
+        {
+          "slug": "slam-degenerate",
+          "name": "SLAM-Degenerate",
+          "note": "Degeneracy analysis and robustness in difficult scenes.",
+          "note_zh": "退化场景分析与鲁棒性研究。"
+        }
+      ]
+    },
+    {
+      "id": "localization",
+      "name": "Localization & Place Recognition",
+      "description": "Global localization, relocalization, place recognition, and map-based positioning.",
+      "description_zh": "全局定位、重定位、地点识别与地图辅助定位。",
+      "lists": [
+        {
+          "slug": "slam-loc",
+          "name": "SLAM-Loc",
+          "note": "Global localization, scan-context, overlap, and neural relocalization.",
+          "note_zh": "全局定位、Scan Context、重叠预测与神经重定位。"
+        },
+        {
+          "slug": "place-recognition",
+          "name": "Place Recognition",
+          "note": "Loop closure and place recognition pipelines.",
+          "note_zh": "回环检测与地点识别。"
+        },
+        {
+          "slug": "gnss",
+          "name": "GNSS",
+          "note": "GNSS integration and positioning references.",
+          "note_zh": "GNSS 融合定位。"
+        },
+        {
+          "slug": "hd-map",
+          "name": "HD-Map",
+          "note": "HD map resources for localization and autonomy.",
+          "note_zh": "高精地图相关资源。"
+        }
+      ]
+    },
+    {
+      "id": "mapping-3d",
+      "name": "Mapping & 3D Representation",
+      "description": "Map representation, point clouds, detection, and neural scene modeling.",
+      "description_zh": "地图表达、点云处理、点云检测与神经场景表示。",
+      "lists": [
+        {
+          "slug": "slam-map",
+          "name": "SLAM-map",
+          "note": "Map representation and structure design.",
+          "note_zh": "地图表达与结构设计。"
+        },
+        {
+          "slug": "point-cloud",
+          "name": "point cloud",
+          "note": "Point-cloud processing and learning.",
+          "note_zh": "点云处理与学习。"
+        },
+        {
+          "slug": "point-cloud-detect",
+          "name": "Point Cloud Detect",
+          "note": "3D object detection on point clouds.",
+          "note_zh": "点云目标检测。"
+        },
+        {
+          "slug": "sfm",
+          "name": "sfm",
+          "note": "Structure-from-Motion references.",
+          "note_zh": "SFM 相关资料。"
+        },
+        {
+          "slug": "nerf",
+          "name": "Nerf",
+          "note": "Neural radiance fields.",
+          "note_zh": "NeRF 方向。"
+        },
+        {
+          "slug": "3dgs",
+          "name": "3DGS",
+          "note": "3D Gaussian Splatting and derivatives.",
+          "note_zh": "3D Gaussian Splatting 方向。"
+        }
+      ]
+    },
+    {
+      "id": "calib-data-tools",
+      "name": "Calibration, Datasets & Tools",
+      "description": "Calibration, datasets, reusable libraries, and general productivity tools.",
+      "description_zh": "标定、数据集、常用库与研究效率工具。",
+      "lists": [
+        {
+          "slug": "slam-calib",
+          "name": "SLAM-calib",
+          "note": "Sensor calibration resources.",
+          "note_zh": "传感器标定。"
+        },
+        {
+          "slug": "slam-dataset",
+          "name": "SLAM dataset",
+          "note": "Datasets and benchmarks.",
+          "note_zh": "SLAM 数据集与 benchmark。"
+        },
+        {
+          "slug": "slam-tools",
+          "name": "SLAM-tools",
+          "note": "Common SLAM libraries and utilities.",
+          "note_zh": "SLAM 常用库与工具。"
+        },
+        {
+          "slug": "other-tools",
+          "name": "Other Tools",
+          "note": "General tools that support research and engineering workflows.",
+          "note_zh": "支撑科研与工程流程的通用工具。"
+        }
+      ]
+    },
+    {
+      "id": "multi-agent-platforms",
+      "name": "Multi-Agent & Platforms",
+      "description": "Multi-robot SLAM, collaborative perception, multi-LiDAR systems, and platform-specific work.",
+      "description_zh": "多机器人 SLAM、协同感知、多激光雷达系统与平台相关资源。",
+      "lists": [
+        {
+          "slug": "slam-multirobot",
+          "name": "SLAM-MultiRobot",
+          "note": "Multi-robot SLAM algorithms.",
+          "note_zh": "多机器人 SLAM。"
+        },
+        {
+          "slug": "collaborative-perception",
+          "name": "collaborative perception",
+          "note": "Collaborative perception references.",
+          "note_zh": "协同感知。"
+        },
+        {
+          "slug": "slam-multilidar",
+          "name": "SLAM-multiLidar",
+          "note": "Multiple-LiDAR calibration and fusion systems.",
+          "note_zh": "多激光雷达系统。"
+        },
+        {
+          "slug": "uav",
+          "name": "UAV",
+          "note": "UAV-related autonomy and mapping projects.",
+          "note_zh": "无人机相关项目。"
+        }
+      ]
+    },
+    {
+      "id": "sensors",
+      "name": "Sensors",
+      "description": "Sensor modalities closely related to SLAM and perception beyond standard LiDAR/cameras.",
+      "description_zh": "SLAM/感知中常见的扩展传感器方向。",
+      "lists": [
+        {
+          "slug": "radar",
+          "name": "Radar",
+          "note": "Radar perception and radar SLAM.",
+          "note_zh": "雷达感知与雷达 SLAM。"
+        },
+        {
+          "slug": "fmcw-lidar",
+          "name": "FMCW LiDAR",
+          "note": "FMCW LiDAR references and tooling.",
+          "note_zh": "FMCW 激光雷达。"
+        },
+        {
+          "slug": "event",
+          "name": "event",
+          "note": "Event-camera based perception and SLAM.",
+          "note_zh": "事件相机感知与 SLAM。"
+        }
+      ]
+    },
+    {
+      "id": "learning-ai",
+      "name": "Learning, Planning & AI",
+      "description": "Learning material, planning stacks, language models, and broader research-adjacent topics.",
+      "description_zh": "学习资料、规划系统、大模型与周边研究方向。",
+      "lists": [
+        {
+          "slug": "slam-learning",
+          "name": "SLAM-learning",
+          "note": "SLAM tutorials, notes, and educational material.",
+          "note_zh": "SLAM 学习资料。"
+        },
+        {
+          "slug": "c-learning",
+          "name": "C++ learning",
+          "note": "C++ learning resources useful for robotics development.",
+          "note_zh": "面向机器人开发的 C++ 学习资料。"
+        },
+        {
+          "slug": "plan",
+          "name": "plan",
+          "note": "Planning algorithms and trajectory optimization.",
+          "note_zh": "规划算法与轨迹优化。"
+        },
+        {
+          "slug": "llm",
+          "name": "LLM",
+          "note": "Language models and agent/tooling references.",
+          "note_zh": "大模型与智能体/工具相关资源。"
+        }
+      ]
+    }
+  ]
+}

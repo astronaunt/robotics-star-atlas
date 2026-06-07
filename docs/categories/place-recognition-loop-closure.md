@@ -1,0 +1,105 @@
+# Place Recognition & Loop Closure
+
+Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
+
+Repositories: `97`
+
+[Back to README](../../README.md)
+
+- [hku-mars/STD](https://github.com/hku-mars/STD) - A 3D point cloud descriptor for place recognition
+- [AnyLoc/AnyLoc](https://github.com/AnyLoc/AnyLoc) - AnyLoc: Universal Visual Place Recognition (RA-L 2023)
+- [wh200720041/iscloam](https://github.com/wh200720041/iscloam) - Intensity Scan Context based full SLAM implementation for autonomous driving. ICRA 2020
+- [TixiaoShan/imaging_lidar_place_recognition](https://github.com/TixiaoShan/imaging_lidar_place_recognition) - ICRA 2021 - Robust Place Recognition using an Imaging Lidar
+- [PRBonn/MapClosures](https://github.com/PRBonn/MapClosures) - Effectively Detecting Loop Closures using Point Cloud Density Maps
+- [kxhit/awesome-point-cloud-place-recognition](https://github.com/kxhit/awesome-point-cloud-place-recognition) - A list of papers about point cloud based place recognition, also known as loop closure detection in SLAM (processing)
+- [zjuluolun/BEVPlace2](https://github.com/zjuluolun/BEVPlace2) - [TRO2025] A LiDAR-based complete global localization method.
+- [hku-mars/btc_descriptor](https://github.com/hku-mars/btc_descriptor)
+- [gisbi-kim/scancontext_tro](https://github.com/gisbi-kim/scancontext_tro) - scancontext++ (TRO 2022) codes
+- [haomo-ai/OverlapTransformer](https://github.com/haomo-ai/OverlapTransformer) - [RAL/IROS 2022] OverlapTransformer: An Efficient and Yaw-Angle-Invariant Transformer Network for LiDAR-Based Place Recognition.
+- [lilin-hitcrt/SSC](https://github.com/lilin-hitcrt/SSC) - Semantic Scan Context
+- [lus6-Jenny/RING](https://github.com/lus6-Jenny/RING) - [IEEE T-RO 2023] Source code of RING and RING++ for loop closure detection in LiDAR SLAM.
+- [robot-learning-freiburg/LCDNet](https://github.com/robot-learning-freiburg/LCDNet) - PyTorch code for training LCDNet for loop closure detection in LiDAR SLAM. http://rl.uni-freiburg.de/research/lidar-slam-lc
+- [SlamCabbage/NDTMC](https://github.com/SlamCabbage/NDTMC) - [IROS 2024] A 3D Global Descriptor For Loop Closure Detection. NDT-Map-Code.
+- [hogyun2/awesome-lidar-place-recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) - A curated list of Place Recognition methods, datasets, and various algorithms for LiDAR
+- [lewisjiang/contour-context](https://github.com/lewisjiang/contour-context) - [ICRA'23] Official code repo for "Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation"
+- [kxhit/SG_PR](https://github.com/kxhit/SG_PR) - Implementation of IROS20 paper - "Semantic Graph Based Place Recognition for 3D Point Clouds"
+- [sparolab/SOLiD](https://github.com/sparolab/SOLiD) - SOTA LiDAR Global Descriptor in LiDAR Place Recognition (accepted in RA-L'24 w/ ICRA'25)
+- [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) - Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter
+- [mpkuse/cerebro](https://github.com/mpkuse/cerebro) - Intelligent place recognition module for vins-fusion
+- [Pamphlett/Outram](https://github.com/Pamphlett/Outram) - [ICRA 2024] Outram: One-shot Global Localization via Triangulated Scene Graph and Global Outlier Pruning
+- [jinyummiao/map-in-mono-reloc](https://github.com/jinyummiao/map-in-mono-reloc) - a paper list of visual re-localization algorithms
+- [nubot-nudt/SGLC](https://github.com/nubot-nudt/SGLC) - [RA-L 24] SGLC: Semantic Graph-Guided Coarse-Fine-Refine Full Loop Closing for LiDAR SLAM
+- [hku-mars/iBTC](https://github.com/hku-mars/iBTC)
+- [liw95/DiffLoc](https://github.com/liw95/DiffLoc) - [CVPR2024] DiffLoc: Diffusion Model for Outdoor LiDAR Localization
+- [MigVega/SLAM2REF](https://github.com/MigVega/SLAM2REF) - This project allows the alignment and correction of LiDAR-based SLAM session data with a reference map or another session, also the retrieval of 6-DoF poses with accuracy of up to 3 cm gi...
+- [amaralibey/gsv-cities](https://github.com/amaralibey/gsv-cities) - GSV-Cities: a large-scale dataset for visual place recognition
+- [ShiPC-AI/LPR-Survey](https://github.com/ShiPC-AI/LPR-Survey) - [CSUR 2024] LiDAR-based Place Recognition For Autonomous Driving: A Survey
+- [4ku/Place-recognition-evaluation](https://github.com/4ku/Place-recognition-evaluation) - Benchmarking and evaluation framework for place recognition methods, featuring SuperPoint+SuperGlue, LoGG3D-Net, Scan Context, DBoW2, MixVPR, STD
+- [BigMoWangying/LiDAR-Iris](https://github.com/BigMoWangying/LiDAR-Iris) - LiDAR Iris for Loop-Closure Detection(IROS 2020)
+- [nubot-nudt/LCR-Net](https://github.com/nubot-nudt/LCR-Net) - [TRO] Fast and Accurate Deep Loop Closing and Relocalization for Reliable LiDAR SLAM
+- [csiro-robotics/LoGG3D-Net](https://github.com/csiro-robotics/LoGG3D-Net) - [ICRA 2022] The official repository for "LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition", In 2022 International Conference on Robotics and Automation (ICRA...
+- [BIT-MJY/CVTNet](https://github.com/BIT-MJY/CVTNet) - [TII 2023] A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments.
+- [BIT-MJY/SeqOT](https://github.com/BIT-MJY/SeqOT) - [TIE 2022] SeqOT: A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data.
+- [minwoo0611/HeLiOS](https://github.com/minwoo0611/HeLiOS) - [ICRA2025] HeLiOS: Heterogeneous LiDAR Place Recognition
+- [TruongKhang/DeViLoc](https://github.com/TruongKhang/DeViLoc) - [CVPR2024 Oral] Learning to Produce Semi-dense Correspondences for Visual Localization
+- [yutongwangBIT/GOReloc](https://github.com/yutongwangBIT/GOReloc)
+- [csiro-robotics/Wild-Places](https://github.com/csiro-robotics/Wild-Places) - 🏞️ [IEEE ICRA2023] The official repository for paper "Wild-Places: A Large-Scale Dataset for Lidar Place Recognition in Unstructured Natural Environments" To appear in 2023 IEEE Internati...
+- [sparolab/uni-mapper](https://github.com/sparolab/uni-mapper) - SOTA Multi-modal LiDARs Mapping Framework (accepted in T-IV)
+- [yzhangec/Exploration-with-Global-Consistency](https://github.com/yzhangec/Exploration-with-Global-Consistency) - [ICRA 2022] Exploration with Global Consistency Using Real-Time Re-integration and Active Loop Closure
+- [Yan-Xia/Text2Loc](https://github.com/Yan-Xia/Text2Loc) - The codes for CVPR2024 paper 'Text2Loc: 3D Point Cloud Localization from Natural Language'
+- [YungeCui/LinK3D](https://github.com/YungeCui/LinK3D) - [RA-L] LinK3D: Linear Keypoint Representation for 3D LiDAR Point Cloud
+- [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".
+- [SCNU-RISLAB/OverlapMamba](https://github.com/SCNU-RISLAB/OverlapMamba) - OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition
+- [wangyizhao/PRIOR-SLAM](https://github.com/wangyizhao/PRIOR-SLAM) - PRIOR-SLAM: Enabling Visual SLAM for Loop Closure under Large Viewpoint Variations
+- [gmberton/MeshVPR](https://github.com/gmberton/MeshVPR) - Visual Place Recognition using 3D Meshes
+- [url-kaist/Quatro-LeGO-LOAM](https://github.com/url-kaist/Quatro-LeGO-LOAM)
+- [jarvisyjw/GV-Bench](https://github.com/jarvisyjw/GV-Bench) - [IROS2024] GV-Bench: A geometric verification benchmark targeting long-term loop closure detection.
+- [soytony/FreSCo](https://github.com/soytony/FreSCo) - Frequency-Domain Scan Context for Robust LiDAR-based Place Recognition with Translation and Rotation Invariance.
+- [tony1098/Stereo-Localization-in-LiDAR-Maps](https://github.com/tony1098/Stereo-Localization-in-LiDAR-Maps) - Visual localization method in LiDAR maps. Only a stereo camera is need during localization since the LiDAR map can be built offline.
+- [csiro-robotics/Uncertainty-LPR](https://github.com/csiro-robotics/Uncertainty-LPR) - 📣 [IEEE IROS 2023] Official Repository of IROS 23 paper "Uncertainty-Aware Lidar Place Recognition in Novel Environments"
+- [rayguan97/crossloc3d](https://github.com/rayguan97/crossloc3d) - CrossLoc3D: Aerial-Ground Cross-Source 3D Place Recognition -- ICCV 2023
+- [lian-yue0515/NVMS-SLAM](https://github.com/lian-yue0515/NVMS-SLAM) - a normal vector-based multi-session LiDAR SLAM system tailored for indoor environments
+- [robot-learning-freiburg/PADLoC](https://github.com/robot-learning-freiburg/PADLoC) - [RAL'23] LiDAR-Based Deep Loop Closure Detection and Registration using Panoptic Attention
+- [IMRL/ActiveLoopClosure](https://github.com/IMRL/ActiveLoopClosure) - This is the code repository for the IROS'24 paper "Active Loop Closure for OSM-guided Robotic Mapping in Large-Scale Urban Environment"
+- [sijieaaa/HypLiLoc](https://github.com/sijieaaa/HypLiLoc) - (CVPR 2023) HypLiLoc: Towards Effective LiDAR Pose Regression with Hyperbolic Fusion
+- [Ybchun/LiSA](https://github.com/Ybchun/LiSA) - [CVPR 2024 Highlight] LiSA: LiDAR Localization with Semantic Awareness
+- [minwoo0611/HeLiPR-File-Player](https://github.com/minwoo0611/HeLiPR-File-Player) - This is the repository for HeLiPR file player.
+- [HuanYin94/radar-to-lidar-place-recognition](https://github.com/HuanYin94/radar-to-lidar-place-recognition) - Radar-to-Lidar: Heterogeneous Place Recognition via Joint Learning
+- [MetaSLAM/SphereVLAD](https://github.com/MetaSLAM/SphereVLAD) - Offical Code of SphereVLAD and SphereVLAD++
+- [MetaSLAM/AdaFusion](https://github.com/MetaSLAM/AdaFusion) - AdaFusion: Visual-LiDAR Fusion with Adaptive Weights for Place Recognition
+- [zouxianghong/Reliable-loc](https://github.com/zouxianghong/Reliable-loc) - Reliable LiDAR global localization using spatial verification and pose uncertainty. The implementation is based on PatchAugNet, Overlap-loc, and SpectralGV.
+- [WHU-USI3DV/PatchAugNet](https://github.com/WHU-USI3DV/PatchAugNet) - PatchAugNet: Patch feature augmentation-based heterogeneous point cloud place recognition in large-scale street scenes
+- [yzdad/D-GLSNet](https://github.com/yzdad/D-GLSNet) - The code of Geo-localization with Transformer-based 2D-3D match Network
+- [IMRL/Super-LiDAR-Intensity](https://github.com/IMRL/Super-LiDAR-Intensity) - This is the code repository for the IEEE-RAL'26 paper "Super LiDAR Intensity for Robotic Perception""
+- [KirillMouraviev/PRISM-TopoMap](https://github.com/KirillMouraviev/PRISM-TopoMap) - The PRISM-TopoMap - online topological mapping method with place recognition and scan matching
+- [fcchit/CFPR](https://github.com/fcchit/CFPR) - [ICRA'24] Official implementation of "A Coarse-to-Fine Place Recognition Approach using Attention-guided Descriptors and Overlap Estimation"
+- [hyesu-jang/RaPlace](https://github.com/hyesu-jang/RaPlace)
+- [minwoo0611/HeLiPR-Pointcloud-Toolbox](https://github.com/minwoo0611/HeLiPR-Pointcloud-Toolbox) - The HeLiPR Pointcloud Toolbox is a sophisticated software suite tailored for processing and analyzing the HeLiPR (Heterogeneous LiDAR Place Recognition) dataset.
+- [SYSU-RoboticsLab/GAPR](https://github.com/SYSU-RoboticsLab/GAPR) - [RA-L 23] Heterogeneous Deep Metric Learning for Ground and Aerial Point Cloud-Based Place Recognition
+- [3dv-casia/LSLM_VLoc](https://github.com/3dv-casia/LSLM_VLoc) - [RAL 2024] Lightweight Structured Line Map Based Visual Localization
+- [alexjunholee/LC2_crossmatching](https://github.com/alexjunholee/LC2_crossmatching) - Codes for Paper <LC2: LiDAR-Camera Loop Constraints From Cross-Modal Place Recognition>.
+- [ethz-asl/s2loc](https://github.com/ethz-asl/s2loc)
+- [minwoo0611/HeLiPR-Place-Recognition](https://github.com/minwoo0611/HeLiPR-Place-Recognition) - Place Recognition methods for HeLiPR dataset
+- [LTU-RAI/opt-key](https://github.com/LTU-RAI/opt-key) - Official page for MSA (Minimal Subset Approach for Informed Keyframe Sampling), accepted @ RA-L'25, to be presented @ ICRA'26
+- [RoboFeng/ITD](https://github.com/RoboFeng/ITD) - Intensity Triangle Descriptor Constructed from High-Resolution Spinning LiDAR Intensity Image for Loop Closure Detection
+- [whu-lyh/SaliencyI2PLoc](https://github.com/whu-lyh/SaliencyI2PLoc) - Official code of SaliencyI2PLoc
+- [SYSU-RoboticsLab/EHPR](https://github.com/SYSU-RoboticsLab/EHPR) - 3D LiDAR place recognition targeting the heterogeneous robots scenario
+- [pyc5714/RE-TRIP](https://github.com/pyc5714/RE-TRIP) - [ICRA2025] RE-TRIP : Reflectivity Instance Augmented Triangle Descriptor for 3D Place Recognition
+- [samsdolphin/sc_ct_icp](https://github.com/samsdolphin/sc_ct_icp) - Scan Context with CT_ICP
+- [csiro-robotics/HOTFormerLoc](https://github.com/csiro-robotics/HOTFormerLoc) - [IEEE/CVF CVPR 2025] Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views
+- [EinsTian1/iftd](https://github.com/EinsTian1/iftd) - Image Feature Triangle Descriptor for Loop Detection in Driving Scenes
+- [PRBonn/kppr](https://github.com/PRBonn/kppr) - KPPR: Exploiting Momentum Contrast for Point Cloud-Based Place Recognition
+- [ShiPC-AI/MCS](https://github.com/ShiPC-AI/MCS) - A New Horizon: Employing Map Clustering Similarity for LiDAR-based Place Recognition
+- [crepuscularlight/SemanticLoopClosure](https://github.com/crepuscularlight/SemanticLoopClosure) - Master thesis regarding semantic loop closure
+- [sijieaaa/AGPlace](https://github.com/sijieaaa/AGPlace) - (CVPR 2025) Multi-Modal Aerial-Ground Cross-View Place Recognition with Neural ODEs
+- [AbangLZU/SC-LeGO-LOAM](https://github.com/AbangLZU/SC-LeGO-LOAM) - LiDAR SLAM: Scan Context + LeGO-LOAM
+- [jerichoji/RangePlace](https://github.com/jerichoji/RangePlace)
+- [WHU-USI3DV/LAWS](https://github.com/WHU-USI3DV/LAWS) - [ISPRS J 24] Look At the Whole Scene: General Point Cloud Place Recognition by Classification Proxy
+- [NeSC-IV/iBoW3D](https://github.com/NeSC-IV/iBoW3D) - The repository for for paper iBoW3D: Place Recognition Based on Incremental and General Bag of Words in 3D Scans (ICRA 2024).
+- [zhongbusishaonianyou/Image_fingerprint](https://github.com/zhongbusishaonianyou/Image_fingerprint) - loop closure detection method
+- [raktimgg/FlashMix](https://github.com/raktimgg/FlashMix)
+- [sijieaaa/PRFusion](https://github.com/sijieaaa/PRFusion) - (TITS 2024) PRFusion: Toward Effective and Robust Multi-Modal Place Recognition with Image and Point Cloud Fusion
+- [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
+- [yeweihuang/LIO_Connector](https://github.com/yeweihuang/LIO_Connector) - tool for generate and visualize inter-dataset loop closure for long-term SLAM
+- [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
+- [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019

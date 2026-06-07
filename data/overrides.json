@@ -1,0 +1,19 @@
+{
+  "README": {
+    "usage": "Add manual category corrections here when an auto-classified repository is wrong.",
+    "format": {
+      "owner/repo": {
+        "category": "target-category-id",
+        "note": "optional reason"
+      }
+    }
+  },
+  "SLAM-Handbook-contributors/slam-handbook-public-release": {
+    "category": "slam-learning-handbooks",
+    "note": "SLAM Handbook is a learning resource."
+  },
+  "caochao39/mtare_docker": {
+    "category": "tools-engineering-productivity",
+    "note": "Docker environment for reproduction/deployment."
+  }
+}

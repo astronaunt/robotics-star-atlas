@@ -1,0 +1,155 @@
+# LiDAR-Inertial State Estimation
+
+LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
+
+Repositories: `147`
+
+[Back to README](../../README.md)
+
+- [TixiaoShan/LIO-SAM](https://github.com/TixiaoShan/LIO-SAM) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
+- [hku-mars/FAST_LIO](https://github.com/hku-mars/FAST_LIO) - A computationally efficient and robust LiDAR-inertial odometry (LIO) package
+- [hku-mars/FAST-LIVO2](https://github.com/hku-mars/FAST-LIVO2) - FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry
+- [hku-mars/r3live](https://github.com/hku-mars/r3live) - A Robust, Real-time, RGB-colored, LiDAR-Inertial-Visual tightly-coupled state Estimation and mapping package
+- [hku-mars/LiDAR_IMU_Init](https://github.com/hku-mars/LiDAR_IMU_Init) - [IROS2022] Robust Real-time LiDAR-inertial Initialization Method.
+- [vectr-ucla/direct_lidar_inertial_odometry](https://github.com/vectr-ucla/direct_lidar_inertial_odometry) - [IEEE ICRA'23] A new lightweight LiDAR-inertial odometry algorithm with a novel coarse-to-fine approach in constructing continuous-time trajectories for precise motion correction.
+- [HViktorTsoi/FAST_LIO_LOCALIZATION](https://github.com/HViktorTsoi/FAST_LIO_LOCALIZATION) - A simple localization framework that can re-localize in built maps based on FAST-LIO.
+- [superxslam/SuperOdom](https://github.com/superxslam/SuperOdom) - A highly robust and accurate LiDAR-only, LiDAR-inertial odometry
+- [zm0612/funny_lidar_slam](https://github.com/zm0612/funny_lidar_slam) - A real-time multifunctional Lidar SLAM package.
+- [JokerJohn/LIO_SAM_6AXIS](https://github.com/JokerJohn/LIO_SAM_6AXIS) - LIO_SAM for 6-axis IMU and GNSS.
+- [kahowang/FAST_LIO_SAM](https://github.com/kahowang/FAST_LIO_SAM) - Front_end : fastlio2 Back_end : lio_sam
+- [deepglint/FAST_LIO_LOCALIZATION_HUMANOID](https://github.com/deepglint/FAST_LIO_LOCALIZATION_HUMANOID) - Localization by LiDAR for Humanoid(like Unitree G1)
+- [ChaoqinRobotics/LINS---LiDAR-inertial-SLAM](https://github.com/ChaoqinRobotics/LINS---LiDAR-inertial-SLAM) - A Lidar-Inertial State Estimator for Robust and Efficient Navigation based on iterated error-state Kalman filter
+- [zlwang7/S-FAST_LIO](https://github.com/zlwang7/S-FAST_LIO) - A simplified implementation of FAST_LIO (with Chinese note)
+- [hku-mars/ImMesh](https://github.com/hku-mars/ImMesh) - ImMesh: An Immediate LiDAR Localization and Meshing Framework
+- [Yixin-F/better_fastlio2](https://github.com/Yixin-F/better_fastlio2) - Postgraduate Thesis: fast_lio_sam + dynamic removal (T-GRS 2024) + multi-session mapping (ICRA 2022 Kim) + object-level update + online relocalization (ICRA 2025) + real-world application...
+- [liangheming/FASTLIO2_ROS2](https://github.com/liangheming/FASTLIO2_ROS2) - ROS2 / FAST_LIO / PGO / Online Re-Localization / Consistent Map with BA or HBA
+- [lausen001/LIO-SAM-DetailedNote](https://github.com/lausen001/LIO-SAM-DetailedNote)
+- [KIT-ISAS/lili-om](https://github.com/KIT-ISAS/lili-om) - LiLi-OM is a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs.
+- [Gaochao-hit/LIO-SAM_based_relocalization](https://github.com/Gaochao-hit/LIO-SAM_based_relocalization) - A simple system that can relocalize a robot on a built map is developed in this system. The system is based on LIO-SAM.
+- [ZikangYuan/liw_oam](https://github.com/ZikangYuan/liw_oam) - [IROS 2023] A LiDAR-inertial-wheel odometry and mapping system based on BA framework
+- [Ericsii/FAST_LIO_ROS2](https://github.com/Ericsii/FAST_LIO_ROS2) - ROS2 version of FAST_LIO2. Welcome to the technical communication discord server discord: https://discord.gg/U3B65MGH8m
+- [yanliang-wang/FAST_LIO_LC](https://github.com/yanliang-wang/FAST_LIO_LC) - The tight integration of FAST-LIO with Radius-Search-based loop closure module.
+- [PRBonn/rko_lio](https://github.com/PRBonn/rko_lio) - A Robust Approach for LiDAR-Inertial Odometry Without Sensor-Specific Modelling
+- [PJLab-ADG/Livox-Mapping](https://github.com/PJLab-ADG/Livox-Mapping) - An all-in-one and ready-to-use LiDAR-inertial odometry system for Livox LiDAR
+- [YJZLuckyBoy/liorf](https://github.com/YJZLuckyBoy/liorf) - This repo is modified based on LIO_SAM, which remove the feature extraction module and makes it easier to adapt your sensor.
+- [ZikangYuan/sr_lio](https://github.com/ZikangYuan/sr_lio) - [IROS 2024] A LiDAR-inertial odometry (LIO) package that can adjust the execution frequency beyond the sweep frequency
+- [HViktorTsoi/PV-LIO](https://github.com/HViktorTsoi/PV-LIO) - A probabilistic voxelmap-based LiDAR-Inertial Odometry.
+- [hku-mars/LTAOM](https://github.com/hku-mars/LTAOM)
+- [chengwei0427/ct-lio](https://github.com/chengwei0427/ct-lio) - CT-LIO: Continuous-Time LiDAR-Inertial Odometry
+- [ethz-asl/COIN-LIO](https://github.com/ethz-asl/COIN-LIO) - 🪙 COIN-LIO: Complementary Intensity-Augmented LiDAR Inertial Odometry (ICRA 2024)
+- [Liansheng-Wang/Super-LIO](https://github.com/Liansheng-Wang/Super-LIO) - 【RA-L 2026】 A Robust and Efficient LiDAR-Inertial Odometry System with a Compact Mapping Strategy.
+- [hku-mars/Swarm-LIO2](https://github.com/hku-mars/Swarm-LIO2) - [T-RO 24] Swarm-LIO2: Decentralized, Efficient LiDAR-inertial Odometry for UAV Swarms
+- [Yixin-F/LiLoc](https://github.com/Yixin-F/LiLoc) - (ICRA 2025) LiLoc: Lifelong Localization using Adaptive Submap Joining and Egocentric Factor Graph
+- [MapsHD/HDMapping](https://github.com/MapsHD/HDMapping)
+- [minwoo0611/MA-LIO](https://github.com/minwoo0611/MA-LIO) - Asynchronous Multiple LiDAR-Inertial Odometry using Point-wise Inter-LiDAR Uncertainty Propagation
+- [nkymzsy/LIO-SAM-MID360](https://github.com/nkymzsy/LIO-SAM-MID360)
+- [lovelyyoshino/FAST_LIO2_Noted](https://github.com/lovelyyoshino/FAST_LIO2_Noted)
+- [chengwei0427/Lidar_IMU_Localization](https://github.com/chengwei0427/Lidar_IMU_Localization) - Lidar-IMU Localization System with Prior Map Constraint and Lio Constraint
+- [peterWon/D-LIOM](https://github.com/peterWon/D-LIOM) - Tightly-coupled Direct LiDAR-Inertial Odometry and Mapping Based on Cartographer3D.
+- [YibinWu/LIO-EKF](https://github.com/YibinWu/LIO-EKF) - [ICRA2024] Maybe the simplest LiDAR-inertial odometry that one can have.
+- [GDUT-Kyle/faster_lio_sam](https://github.com/GDUT-Kyle/faster_lio_sam) - FASTER-LIO-SAM: A SLAM system based on iVox and GTSAM.
+- [engcang/FAST-LIO-SAM-QN](https://github.com/engcang/FAST-LIO-SAM-QN) - A SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on Quatro and Nano-GICP
+- [Huguet57/LIMO-Velo](https://github.com/Huguet57/LIMO-Velo) - A real-time, direct and tightly-coupled LiDAR-Inertial SLAM for high velocities with spinning LiDARs
+- [ouguangjun/Leg-KILO](https://github.com/ouguangjun/Leg-KILO) - Leg-KILO: Robust Kinematic-Inertial-Lidar Odometry for Dynamic Legged Robots
+- [MIT-SPARK/spark-fast-lio](https://github.com/MIT-SPARK/spark-fast-lio) - FAST-LIO2 on ROS2 with various functionalities for LIO mapping
+- [dhchung/nv_liom](https://github.com/dhchung/nv_liom) - LiDAR-Inertial Odometry and Mapping using Normal Vectors Towards Robust SLAM in Multifloor Environments
+- [zeal-up/Simple-LIO-SAM](https://github.com/zeal-up/Simple-LIO-SAM) - Code for simplified LIO-SAM
+- [chengwei0427/ESKF_LIO](https://github.com/chengwei0427/ESKF_LIO)
+- [APRIL-ZJU/clins](https://github.com/APRIL-ZJU/clins) - [IROS 2021] CLINS: Continuous-Time Trajectory Estimation for LiDAR-Inertial System
+- [brytsknguyen/gptr](https://github.com/brytsknguyen/gptr)
+- [engcang/FAST-LIO-Localization-QN](https://github.com/engcang/FAST-LIO-Localization-QN) - A Map-based localization implementation combining FAST-LIO2 as an odometry with Quatro + Nano-GICP as a map matching method
+- [ZikangYuan/dynamic_lio](https://github.com/ZikangYuan/dynamic_lio) - [IROS 2025] A LiDAR-inertial odometry for dynamic environments
+- [StephLin/LIO-SEGMOT](https://github.com/StephLin/LIO-SEGMOT) - LiDAR-Inertial Odometry via Simultaneous Ego-motion Estimation and Multiple Object Tracking (ICRA 2023)
+- [liangheming/VoxelMapPlus_FASTLIO2](https://github.com/liangheming/VoxelMapPlus_FASTLIO2) - FAST-LIO 2 with VoxelMapPlus and STD
+- [chengwei0427/Adaptive-LIO](https://github.com/chengwei0427/Adaptive-LIO) - [JIOT 2024] Adaptive-LIO: Enhancing Robustness and Precision through Environmental Adaptation in LiDAR Inertial Odometry
+- [hku-mars/SLAM-HKU-MaRS-LAB](https://github.com/hku-mars/SLAM-HKU-MaRS-LAB) - In this repository, we present our research works of HKU-MaRS lab that related to SLAM
+- [HaisenbergPeng/ROLL](https://github.com/HaisenbergPeng/ROLL) - A real-time, robust LiDAR-inertial localization system
+- [xingyuuchen/LIO-PPF](https://github.com/xingyuuchen/LIO-PPF) - [IROS 2023] Fast LiDAR-Inertial Odometry via Incremental Plane Pre-Fitting and Skeleton Tracking
+- [fetty31/fast_LIMO](https://github.com/fetty31/fast_LIMO) - A tightly coupled and real time LiDAR-Inertial SLAM algorithm. Based upon LIMO-Velo and FAST_LIO projects.
+- [liangheming/iG-LIO_SAM_LC](https://github.com/liangheming/iG-LIO_SAM_LC) - iG-LIO with Loop Closure(PGO) and Online Re-Localize
+- [93won/lidar_inertial_odometry](https://github.com/93won/lidar_inertial_odometry) - Tightly-Coupled Lidar Inertial Odometry
+- [Liansheng-Wang/faster_lio_localization](https://github.com/Liansheng-Wang/faster_lio_localization) - Livox-Mid-360 Used in UAV based faster-lio. Add localization mode in built maps.
+- [tiev-tongji/LOG-LIO2](https://github.com/tiev-tongji/LOG-LIO2) - A LiDAR-Inertial Odometry with Efficient Uncertainty Analysis.
+- [Tompson11/SLAM_comparison](https://github.com/Tompson11/SLAM_comparison)
+- [qdLMF/LIO-SAM-GPU-ScanToMapOpt](https://github.com/qdLMF/LIO-SAM-GPU-ScanToMapOpt) - A CUDA reimplementation of the line/plane odometry of LIO-SAM. A point cloud hash map (inspired by iVox of Faster-LIO) on GPU is used to accelerate 5-neighbour KNN search. Run on Jetson O...
+- [je310/ESKF](https://github.com/je310/ESKF) - An implementation of an Error State Kalman Filter (ESKF)
+- [minwoo0611/IA_LIO_SAM](https://github.com/minwoo0611/IA_LIO_SAM) - IA-LIO-SAM is enhanced LIO-SAM using Intensity and Ambient channel from OUSTER LiDAR.
+- [BingqiShen/EMV-LIO](https://github.com/BingqiShen/EMV-LIO) - EMV-LIO: An Efficient Multiple Vision aided LiDAR-Inertial Odometry
+- [engcang/FAST-LIO-SAM-SC-QN](https://github.com/engcang/FAST-LIO-SAM-SC-QN) - A SLAM implementation combining FAST-LIO2 with pose graph optimization and loop closing based on ScanContext, Quatro, and Nano-GICP
+- [leggedrobotics/holistic_fusion](https://github.com/leggedrobotics/holistic_fusion) - Official repository for holistic fusion.
+- [YWL0720/FAST-LIO-COLOR-MAPPING](https://github.com/YWL0720/FAST-LIO-COLOR-MAPPING) - A modified version of FAST-LIO2 that can generate RGB point cloud maps
+- [lian-yue0515/D-LI-Init](https://github.com/lian-yue0515/D-LI-Init) - Dynamic Initialization for LiDAR-inertial SLAM
+- [lian-yue0515/MM-LINS](https://github.com/lian-yue0515/MM-LINS) - a Multi-Map LiDAR-Inertial System for Over-Degraded Environments
+- [engcang/FAST_LIO_MULTI](https://github.com/engcang/FAST_LIO_MULTI) - Multi-LiDAR version of FAST-LIO2: A computationally efficient and robust LiDAR-inertial odometry (LIO) package
+- [xpxie/AKF-LIO](https://github.com/xpxie/AKF-LIO)
+- [davidskdds/DMSA_LiDAR_SLAM](https://github.com/davidskdds/DMSA_LiDAR_SLAM) - [ICRA 2024] LiDAR Inertial Mapping Package
+- [KangchengLiu/DLC_LiDAR_SLAM](https://github.com/KangchengLiu/DLC_LiDAR_SLAM) - 🔥 💪 Official Project: A Robust and Effective LiDAR-SLAM System with Learning-based Denoising and Loop Closure (DLC-SLAM)
+- [xz00/fast-lio2-map-based-localization](https://github.com/xz00/fast-lio2-map-based-localization) - map-based localization.Modified from fast-lio2.
+- [clegenti/2fast2lamaa](https://github.com/clegenti/2fast2lamaa) - Real-time lidar-inertial odometry and mapping framework for large-scale environements
+- [kafeiyin00/UA-MPC](https://github.com/kafeiyin00/UA-MPC) - [IEEE RAL'25 & IROS'25] UA-MPC: Uncertainty-Aware Model Predictive Control for Motorized LiDAR Odometry
+- [wwenhongich/LIO-FUSION](https://github.com/wwenhongich/LIO-FUSION) - A reinforced LiDAR inertial odometry system provides accurate and robust 6-DoF movement estimation under challenging perceptual conditions.
+- [engcang/FAST-LIO-Localization-SC-QN](https://github.com/engcang/FAST-LIO-Localization-SC-QN) - A Map-based localization implementation combining FAST-LIO2 as an odometry with Quatro + Nano-GICP as a map matching method, and with ScanContext as a loop candidate detection method
+- [mengkai98/ieskf_slam](https://github.com/mengkai98/ieskf_slam) - ieskf lio
+- [SlamCabbage/NDTMC-LIO-SAM](https://github.com/SlamCabbage/NDTMC-LIO-SAM) - [IROS2024] A SLAM method combined with NDTMC and LIO-SAM.
+- [robotics-upo/D-LIO](https://github.com/robotics-upo/D-LIO) - D-LIO: 6DoF Direct LiDAR-Inertial Odometry based on Simultaneous Truncated Distance Field Mapping
+- [v4rl-ucy/ellipselio](https://github.com/v4rl-ucy/ellipselio) - EllipseLIO is an Adaptive LiDAR Inertial Odometry Approach with an Ellipsoid Representation
+- [tiev-tongji/LIMOT](https://github.com/tiev-tongji/LIMOT) - A Tightly-Coupled System for LiDAR-Inertial Odometry and Multi-Object Tracking.
+- [CPerezRuiz335/LIMOncello](https://github.com/CPerezRuiz335/LIMOncello) - Iterated Error-State Kalman Filter on the SGal(3) Manifold for Fast LiDAR-Inertial Odometry.
+- [hr2894235132/faster-livo](https://github.com/hr2894235132/faster-livo)
+- [Ji1Xingyu/lio_gvm](https://github.com/Ji1Xingyu/lio_gvm)
+- [ntnu-arl/mimosa](https://github.com/ntnu-arl/mimosa) - Multi-modal SLAM
+- [chengwei0427/hm-lio](https://github.com/chengwei0427/hm-lio) - A Hash-map based Lidar-Inertial Odometry (A simple reproduction of fastlio 1.0 with Hash-map).
+- [iDonghq/FAST_LIO_LOCALIZATION_PLUS](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS) - The repo is pure localization for fastlio with given initial pose from rviz
+- [YWL0720/DLIOM](https://github.com/YWL0720/DLIOM)
+- [DCSI2022/DALI_SLAM](https://github.com/DCSI2022/DALI_SLAM) - DALI-SLAM: Degeneracy-Aware LiDAR-inertial SLAM with novel distortion correction and accurate multi-constraint pose graph optimization
+- [M-Evanovic/LL-Localizer](https://github.com/M-Evanovic/LL-Localizer) - [T-IM 2025] A real time LIO system focused on lifelong localization
+- [Eliaul/Eq-LIO](https://github.com/Eliaul/Eq-LIO) - A tightly coupled LIO framework based on the equivariant filter.
+- [lewisjiang/puma-lio](https://github.com/lewisjiang/puma-lio) - [IROS'22] Official code repo for "A LiDAR-inertial Odometry with Principled Uncertainty Modeling"
+- [rohrschacht/FAST_LIO_SLAM_ros2](https://github.com/rohrschacht/FAST_LIO_SLAM_ros2) - LiDAR SLAM = FAST-LIO + Scan Context, ported to ros2
+- [JS-622/YOLO-fast-lio-sam](https://github.com/JS-622/YOLO-fast-lio-sam)
+- [RoboFeng/RI-LIO](https://github.com/RoboFeng/RI-LIO) - Reflectivity Image Assisted Tightly-Coupled LiDAR-Inertial Odometry
+- [neu-autonomy/FeatureLIOM](https://github.com/neu-autonomy/FeatureLIOM) - Official Implementation of Feature Extractor for DFLIOM
+- [xingyuuchen/faster-lio-ppf](https://github.com/xingyuuchen/faster-lio-ppf) - [IROS 2023] Fast LiDAR-Inertial Odometry via Incremental Plane Pre-Fitting and Skeleton Tracking
+- [JoCatW/FAST_LIO_Relocation](https://github.com/JoCatW/FAST_LIO_Relocation) - Base on Fastlio2 develop a robust relocation system
+- [thisparticle/btsa](https://github.com/thisparticle/btsa) - A Dynamic-Aware LIO Framework Via Spatio-Temporal Normal Analysis
+- [YangSiri/OR-LIM](https://github.com/YangSiri/OR-LIM) - OR-LIM: Observability-aware robust LiDAR-Inertial-Mapping under High Dynamic Sensor Motion
+- [MeiyuanXiang/FAST_LIO_MeiyuanXiang](https://github.com/MeiyuanXiang/FAST_LIO_MeiyuanXiang)
+- [DUTRobot/CLID-SLAM](https://github.com/DUTRobot/CLID-SLAM) - [RA-L'25] CLID-SLAM: A Coupled LiDAR-Inertial Neural Implicit Dense SLAM with Region-Specific SDF Estimation
+- [Gatsby23/Semantic-LIO-Paper](https://github.com/Gatsby23/Semantic-LIO-Paper) - The code of ICRA 2023
+- [Hero941215/fast_lio-sam_loop-gps](https://github.com/Hero941215/fast_lio-sam_loop-gps) - fast-lio with loop factor and gps factor for back end optimization.
+- [piluohong/hc_lio](https://github.com/piluohong/hc_lio) - Repository for 3D localization and mapping of multi-agricultural scenes via a hierarchically-coupled LiDAR-Inertial Odometry
+- [KimSeongJun-kr/AWV-MOS](https://github.com/KimSeongJun-kr/AWV-MOS) - 3D LiDAR Moving Object Segmentation Module. Includes AWV-MOS package and AWV-MOS-LIO package
+- [tu-darmstadt-ros-pkg/dynamic_direct_lidar_odometry](https://github.com/tu-darmstadt-ros-pkg/dynamic_direct_lidar_odometry)
+- [Hero941215/fast_lio-sam_loop](https://github.com/Hero941215/fast_lio-sam_loop) - Fast lio with loop closing function. the Transform between map coordinate to Odom coordinate is maintained and used to correct the FAST-LIO pose to the map system, providing initial pose-...
+- [xuankuzcr/DVL_SLAM_ROS](https://github.com/xuankuzcr/DVL_SLAM_ROS) - DVL_SLAM_ROS
+- [JokerJohn/Robust_LIO_Localization](https://github.com/JokerJohn/Robust_LIO_Localization) - Lidar localization system with prior map constraint and lio constraint based on GTSAM
+- [haiyang2022/Hybrid-VoxelMap](https://github.com/haiyang2022/Hybrid-VoxelMap) - [IEEE RA-L & ICRA 2026] Semantic-Driven Voxel Representation for LiDAR–Inertial Odometry
+- [KennyWGH/Elegant_FAST_LIO](https://github.com/KennyWGH/Elegant_FAST_LIO)
+- [Mr-Zqr/LIKO](https://github.com/Mr-Zqr/LIKO) - A LiDAR-Inertial-Kinematic Odometry (LIKO) for biped robot state estimation
+- [kafeiyin00/HCTO](https://github.com/kafeiyin00/HCTO) - [ISPRS.J'24] HCTO: Optimality-aware LiDAR inertial odometry with hybrid continuous time optimization for compact wearable mapping system
+- [fanggenzaiXHBS/fast_lio_balm](https://github.com/fanggenzaiXHBS/fast_lio_balm)
+- [lovelyyoshino/direct_lidar_inertial_odometry-noted](https://github.com/lovelyyoshino/direct_lidar_inertial_odometry-noted)
+- [Hero941215/fast_lio-swba](https://github.com/Hero941215/fast_lio-swba) - A LiDAR-inertial odometry (LIO) package with lidar bundle adjustment algorithm
+- [sutaoxu/CuHashSLAM-based-on-FAST-LIVO2](https://github.com/sutaoxu/CuHashSLAM-based-on-FAST-LIVO2) - CuHashSLAM: GPU-Accelerated LiDAR-IMU SLAM with Parallel Voxel Hash Tables (based on FAST-LIVO2)
+- [chengwei920412/TC-IMU-LIO-SAM-laser_slam](https://github.com/chengwei920412/TC-IMU-LIO-SAM-laser_slam) - Tightly Coupled with IMU factor and LiDAR factor(original LIO-SAM do not supprot tightly coupled, only loosely coupled)
+- [piluohong/IG-lio-color](https://github.com/piluohong/IG-lio-color)
+- [pym96/Go2-Adaptive-LIO](https://github.com/pym96/Go2-Adaptive-LIO)
+- [efc-robot/FAST_LIO_SAM](https://github.com/efc-robot/FAST_LIO_SAM) - NICS FAST-LIO-SAM branch. With FAST-LIO 2 fount-end and LIO-SAM back-end. Add Multi-agent support and Hesai Lidar support,
+- [zhongguanLiu/Azimuth-LIO](https://github.com/zhongguanLiu/Azimuth-LIO)
+- [ASIG-X/LiLi-OM](https://github.com/ASIG-X/LiLi-OM) - This is the official repository of LiLi-OM, a tightly-coupled, keyframe-based LiDAR-inertial odometry and mapping system for both solid-state-LiDAR and conventional LiDARs.
+- [harshalkataria/LIO-SAM-Localization](https://github.com/harshalkataria/LIO-SAM-Localization) - Estimate the odometry of a robot in pre-built map using LIO-SAM
+- [SanghyunPark01/FAST_LIO_gravity_align](https://github.com/SanghyunPark01/FAST_LIO_gravity_align) - edit fast-lio for gravity align
+- [RuizhiChang/FAST-lio-withSTD](https://github.com/RuizhiChang/FAST-lio-withSTD) - loop closure test
+- [U-AMC/POINT_LIO_LOCALIZATION](https://github.com/U-AMC/POINT_LIO_LOCALIZATION) - A simple localization framework that can re-localize in built maps based on POINT-LIO. This fork works with ROS Noetic (and Python3)
+- [shuliufeng/LiDAR-IMU-GNSS-SLAM-](https://github.com/shuliufeng/LiDAR-IMU-GNSS-SLAM-) - A Real-time and Fast LiDAR–IMU-GNSS SLAM System with Point Cloud Semantic Graph Descriptor Loop Closure Detection
+- [RuijieXu0408/RTT-LIO](https://github.com/RuijieXu0408/RTT-LIO) - RTT-LIO is a Wi-Fi RTT-aided LiDAR-Inertial Odometry via Tightly-Coupled Factor Graph Optimization for UAS
+- [zlwang7/LiDAR_IMU_Init-Noted](https://github.com/zlwang7/LiDAR_IMU_Init-Noted) - LiDAR_IMU_Init with Chinese note
+- [LIO-Benchmark/LIO-Benchmark](https://github.com/LIO-Benchmark/LIO-Benchmark)
+- [jxx315/FAST_LIO_GPS](https://github.com/jxx315/FAST_LIO_GPS)
+- [zhujun3753/splin](https://github.com/zhujun3753/splin)
+- [PolyU-TASLAB/LIUO](https://github.com/PolyU-TASLAB/LIUO) - LIUO: Outlier-Aware LiDAR/IMU/UWB Integration with NLOS Mitigation and Anchor Self-Calibration in Complex Scenarios
+- [Robot-WH/FAST_LWIO_SAM](https://github.com/Robot-WH/FAST_LWIO_SAM)
+- [R-C-Group/SuperOdom](https://github.com/R-C-Group/SuperOdom)
+- [wolf943134497/FAST-LIO-Multi-Sensor-Fusion](https://github.com/wolf943134497/FAST-LIO-Multi-Sensor-Fusion) - Fusing GNSS and wheel measurements based on FAST-LIO and IKFOM
+- [changh95/LIO-SAM-nvidia-docker](https://github.com/changh95/LIO-SAM-nvidia-docker) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
+- [comrob/liorf-crl](https://github.com/comrob/liorf-crl) - CRL modification of the ROS1 liorf SLAM

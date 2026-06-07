@@ -1,0 +1,40 @@
+{
+  "categories": [
+    {
+      "id": "deep-imu",
+      "name": "Deep IMU",
+      "name_zh": "Deep IMU",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
+      "id": "fmcw-slam",
+      "name": "FMCW SLAM",
+      "name_zh": "FMCW SLAM",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
+      "id": "leg",
+      "name": "Leg",
+      "name_zh": "Leg",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
+      "id": "uwb",
+      "name": "uwb",
+      "name_zh": "uwb",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    }
+  ]
+}
