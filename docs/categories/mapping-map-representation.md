@@ -2,22 +2,23 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `173`
+Repositories: `179`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General Mapping | 57 |
+| General Mapping | 59 |
 | 3D Gaussian Splatting | 55 |
-| NeRF & Neural Rendering | 26 |
-| General | 21 |
+| NeRF & Neural Rendering | 27 |
+| General | 24 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
 | Research Productivity | 1 |
 
 ## General Mapping
 
+- [AtsushiSakai/PythonRobotics](https://github.com/AtsushiSakai/PythonRobotics) - Python sample codes and textbook for robotics algorithms.
 - [wuxiaolang/Visual_SLAM_Related_Research](https://github.com/wuxiaolang/Visual_SLAM_Related_Research)
 - [ANYbotics/elevation_mapping](https://github.com/ANYbotics/elevation_mapping) - Robot-centric elevation mapping for rough terrain navigation
 - [concept-graphs/concept-graphs](https://github.com/concept-graphs/concept-graphs) - Official code release for ConceptGraphs
@@ -75,6 +76,7 @@ Repositories: `173`
 - [hjxwhy/LODM](https://github.com/hjxwhy/LODM)
 - [BIT-DYN/MACIM](https://github.com/BIT-DYN/MACIM) - [RAL 2024] MACIM: Multi-Agent Collaborative Implicit Mapping Through Distributed Optimizationn
 - [uniericuni/MultiRobotSAM](https://github.com/uniericuni/MultiRobotSAM) - An implementation of the 2010 paper "Multiple Relative Pose Graphs for Robust Cooperative Mapping" by Been et. al.
+- [efc-robot/MR-COGraphs](https://github.com/efc-robot/MR-COGraphs) - [RA-L25] MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs
 
 ## 3D Gaussian Splatting
 
@@ -152,6 +154,7 @@ Repositories: `173`
 - [yangkang2021/nerf-learn](https://github.com/yangkang2021/nerf-learn)
 - [sled-group/chat-with-nerf](https://github.com/sled-group/chat-with-nerf) - [ICRA 2024] Chat with NeRF enables users to interact with a NeRF model by typing in natural language.
 - [oppo-us-research/NeuRBF](https://github.com/oppo-us-research/NeuRBF)
+- [MIT-SPARK/Loc-NeRF](https://github.com/MIT-SPARK/Loc-NeRF) - Monte Carlo Localization using Neural Radiance Fields
 - [perf-project/PeRF](https://github.com/perf-project/PeRF) - [TPAMI 2024] PERF: Panoramic Neural Radiance Field from a Single Panorama
 - [cvg/EMAP](https://github.com/cvg/EMAP) - [CVPR'24] 3D Neural Edge Reconstruction
 - [tangtaogo/lidar-nerf](https://github.com/tangtaogo/lidar-nerf) - LiDAR-NeRF: Novel LiDAR View Synthesis via Neural Radiance Fields
@@ -179,11 +182,14 @@ Repositories: `173`
 - [ethz-asl/3d_vsg](https://github.com/ethz-asl/3d_vsg) - 3D Variable Scene Graphs for long-term semantic scene change prediction.
 - [StarRealMan/EINRUL](https://github.com/StarRealMan/EINRUL) - [ICRA2023] Efficient Implicit Neural Reconstruction Using LiDAR
 - [ghm0819/ERPoT](https://github.com/ghm0819/ERPoT) - ERPoT: Effective and Reliable Pose Tracking for Mobile Robots Using Lightweight Polygon Maps
+- [SenseRoboticsLab/CURL](https://github.com/SenseRoboticsLab/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
 - [changhaonan/OVSG](https://github.com/changhaonan/OVSG) - [CoRL2023] Open-Vocabulary Scene-Graph
 - [csiro-robotics/ElasticLidar-plusplus](https://github.com/csiro-robotics/ElasticLidar-plusplus) - Elasticity Meets Continuous-Time: Map-Centric Dense 3D SLAM
 - [perception-and-robotics-group/CURL](https://github.com/perception-and-robotics-group/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
 - [ShuyiZhou495/INF](https://github.com/ShuyiZhou495/INF) - INF: Implicit Neural Fusion for LiDAR and Camera (IROS2023)
 - [staymylove/3DMIT](https://github.com/staymylove/3DMIT) - Code of 3DMIT: 3D MULTI-MODAL INSTRUCTION TUNING FOR SCENE UNDERSTANDING
+- [bairuofei/CGE](https://github.com/bairuofei/CGE) - [IROS 2024]: Multi-robot active graph exploration with reduced pose-SLAM uncertainty via submodular optimization.
+- [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
 - [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
 - [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
 

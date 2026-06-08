@@ -2,11 +2,10 @@
 
 Point cloud registration, ICP/GICP/NDT, scan matching, feature matching, and correspondence-based alignment.
 
-Repositories: `43`
+Repositories: `41`
 
 [Back to README](../../README.md)
 
-- [gaoxiang12/slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving)
 - [norlab-ulaval/libpointmatcher](https://github.com/norlab-ulaval/libpointmatcher) - An Iterative Closest Point (ICP) library for 2D and 3D mapping in Robotics
 - [koide3/fast_gicp](https://github.com/koide3/fast_gicp) - A collection of GICP-based fast point cloud registration algorithms
 - [koide3/hdl_localization](https://github.com/koide3/hdl_localization) - Real-time 3D localization using a (velodyne) 3D LIDAR
@@ -45,7 +44,6 @@ Repositories: `43`
 - [Rolin-zrl/MicroG](https://github.com/Rolin-zrl/MicroG) - Micro-Structures Graph-Based Point Cloud Registration for Balancing Efficiency and Accuracy
 - [ispc-lab/HRegNet2](https://github.com/ispc-lab/HRegNet2) - Source code of paper: "HRegNet: A Hierarchical Network for Efficient and Accurate Outdoor LiDAR Point Cloud Registration".
 - [SLAMWang/MGN-GICP](https://github.com/SLAMWang/MGN-GICP)
-- [gongjun136/STD_noted](https://github.com/gongjun136/STD_noted)
 - [hyungjinkim0508/gpicp](https://github.com/hyungjinkim0508/gpicp)
 - [homtimon/gt_traj_icp_registration](https://github.com/homtimon/gt_traj_icp_registration) - Tool to register point clouds to generate ground truth trajectories
 - [mdrwiega/3d_map_server](https://github.com/mdrwiega/3d_map_server)

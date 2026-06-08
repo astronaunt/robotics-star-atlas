@@ -1,3 +1,19 @@
 {
-  "repos": []
+  "repos": [
+    {
+      "full_name": "efc-robot/MR-COGraphs",
+      "url": "https://github.com/efc-robot/MR-COGraphs",
+      "added_at": "2026-06-08T02:24:55.107977+00:00"
+    },
+    {
+      "full_name": "Printeger/uwb-imu-fusion",
+      "url": "https://github.com/Printeger/uwb-imu-fusion",
+      "added_at": "2026-06-08T02:21:41.200554+00:00"
+    },
+    {
+      "full_name": "SJTU-ViSYS-team/AI-IO",
+      "url": "https://github.com/SJTU-ViSYS-team/AI-IO",
+      "added_at": "2026-06-08T02:27:14.675579+00:00"
+    }
+  ]
 }

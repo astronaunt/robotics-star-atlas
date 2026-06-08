@@ -2,7 +2,7 @@
 
 Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
 
-Repositories: `97`
+Repositories: `105`
 
 [Back to README](../../README.md)
 
@@ -23,6 +23,7 @@ Repositories: `97`
 - [hogyun2/awesome-lidar-place-recognition](https://github.com/hogyun2/awesome-lidar-place-recognition) - A curated list of Place Recognition methods, datasets, and various algorithms for LiDAR
 - [lewisjiang/contour-context](https://github.com/lewisjiang/contour-context) - [ICRA'23] Official code repo for "Contour Context: Abstract Structural Distribution for 3D LiDAR Loop Detection and Metric Pose Estimation"
 - [kxhit/SG_PR](https://github.com/kxhit/SG_PR) - Implementation of IROS20 paper - "Semantic Graph Based Place Recognition for 3D Point Clouds"
+- [hku-mars/LAMM](https://github.com/hku-mars/LAMM)
 - [sparolab/SOLiD](https://github.com/sparolab/SOLiD) - SOTA LiDAR Global Descriptor in LiDAR Place Recognition (accepted in RA-L'24 w/ ICRA'25)
 - [gmberton/VPR-methods-evaluation](https://github.com/gmberton/VPR-methods-evaluation) - Wrapper for 10+ VPR models. Use any SOTA VPR model just by changing one parameter
 - [mpkuse/cerebro](https://github.com/mpkuse/cerebro) - Intelligent place recognition module for vins-fusion
@@ -40,6 +41,7 @@ Repositories: `97`
 - [csiro-robotics/LoGG3D-Net](https://github.com/csiro-robotics/LoGG3D-Net) - [ICRA 2022] The official repository for "LoGG3D-Net: Locally Guided Global Descriptor Learning for 3D Place Recognition", In 2022 International Conference on Robotics and Automation (ICRA...
 - [BIT-MJY/CVTNet](https://github.com/BIT-MJY/CVTNet) - [TII 2023] A Cross-View Transformer Network for LiDAR-Based Place Recognition in Autonomous Driving Environments.
 - [BIT-MJY/SeqOT](https://github.com/BIT-MJY/SeqOT) - [TIE 2022] SeqOT: A Spatial-Temporal Transformer Network for Place Recognition Using Sequential LiDAR Data.
+- [David-Willo/APMP](https://github.com/David-Willo/APMP) - [ICRA'24] Accurate Prior-centric Monocular Positioning with Offline LiDAR Fusion
 - [minwoo0611/HeLiOS](https://github.com/minwoo0611/HeLiOS) - [ICRA2025] HeLiOS: Heterogeneous LiDAR Place Recognition
 - [TruongKhang/DeViLoc](https://github.com/TruongKhang/DeViLoc) - [CVPR2024 Oral] Learning to Produce Semi-dense Correspondences for Visual Localization
 - [yutongwangBIT/GOReloc](https://github.com/yutongwangBIT/GOReloc)
@@ -79,8 +81,10 @@ Repositories: `97`
 - [3dv-casia/LSLM_VLoc](https://github.com/3dv-casia/LSLM_VLoc) - [RAL 2024] Lightweight Structured Line Map Based Visual Localization
 - [alexjunholee/LC2_crossmatching](https://github.com/alexjunholee/LC2_crossmatching) - Codes for Paper <LC2: LiDAR-Camera Loop Constraints From Cross-Modal Place Recognition>.
 - [ethz-asl/s2loc](https://github.com/ethz-asl/s2loc)
+- [MaverickPeter/vDiSCO](https://github.com/MaverickPeter/vDiSCO)
 - [minwoo0611/HeLiPR-Place-Recognition](https://github.com/minwoo0611/HeLiPR-Place-Recognition) - Place Recognition methods for HeLiPR dataset
 - [LTU-RAI/opt-key](https://github.com/LTU-RAI/opt-key) - Official page for MSA (Minimal Subset Approach for Informed Keyframe Sampling), accepted @ RA-L'25, to be presented @ ICRA'26
+- [Weixin-Ma/tripletloc](https://github.com/Weixin-Ma/tripletloc) - RA-L 2025, A fast, efficient, and robust registration-based 6-DoF global localization method in urban environments, requiring no initial pose guess.
 - [RoboFeng/ITD](https://github.com/RoboFeng/ITD) - Intensity Triangle Descriptor Constructed from High-Resolution Spinning LiDAR Intensity Image for Loop Closure Detection
 - [whu-lyh/SaliencyI2PLoc](https://github.com/whu-lyh/SaliencyI2PLoc) - Official code of SaliencyI2PLoc
 - [SYSU-RoboticsLab/EHPR](https://github.com/SYSU-RoboticsLab/EHPR) - 3D LiDAR place recognition targeting the heterogeneous robots scenario
@@ -88,6 +92,7 @@ Repositories: `97`
 - [samsdolphin/sc_ct_icp](https://github.com/samsdolphin/sc_ct_icp) - Scan Context with CT_ICP
 - [csiro-robotics/HOTFormerLoc](https://github.com/csiro-robotics/HOTFormerLoc) - [IEEE/CVF CVPR 2025] Hierarchical Octree Transformer for Versatile Lidar Place Recognition Across Ground and Aerial Views
 - [EinsTian1/iftd](https://github.com/EinsTian1/iftd) - Image Feature Triangle Descriptor for Loop Detection in Driving Scenes
+- [Weixin-Ma/Triplet-Graph](https://github.com/Weixin-Ma/Triplet-Graph) - RA-L 2024, A key-frame based LiDAR global localization method.
 - [PRBonn/kppr](https://github.com/PRBonn/kppr) - KPPR: Exploiting Momentum Contrast for Point Cloud-Based Place Recognition
 - [ShiPC-AI/MCS](https://github.com/ShiPC-AI/MCS) - A New Horizon: Employing Map Clustering Similarity for LiDAR-based Place Recognition
 - [crepuscularlight/SemanticLoopClosure](https://github.com/crepuscularlight/SemanticLoopClosure) - Master thesis regarding semantic loop closure
@@ -96,10 +101,13 @@ Repositories: `97`
 - [jerichoji/RangePlace](https://github.com/jerichoji/RangePlace)
 - [WHU-USI3DV/LAWS](https://github.com/WHU-USI3DV/LAWS) - [ISPRS J 24] Look At the Whole Scene: General Point Cloud Place Recognition by Classification Proxy
 - [NeSC-IV/iBoW3D](https://github.com/NeSC-IV/iBoW3D) - The repository for for paper iBoW3D: Place Recognition Based on Incremental and General Bag of Words in 3D Scans (ICRA 2024).
+- [duanxz0127/Co-viewContext](https://github.com/duanxz0127/Co-viewContext) - This is the demo code of our work "A Base Map-Guided Global Localization Solution for Heterogeneous Multi-Robot Systems Using a Co-View Context Descriptor"
 - [zhongbusishaonianyou/Image_fingerprint](https://github.com/zhongbusishaonianyou/Image_fingerprint) - loop closure detection method
+- [Hfx-J/MSOL](https://github.com/Hfx-J/MSOL) - Multi-Sector Overlap Loss: A Universal Framework for 6DoF Global Localization Across Heterogeneous LiDARs
 - [raktimgg/FlashMix](https://github.com/raktimgg/FlashMix)
+- [rayguan97/AGL-Net](https://github.com/rayguan97/AGL-Net) - AGL-NET: Aerial-Ground Cross-Modal Global Localization with Varying Scales
 - [sijieaaa/PRFusion](https://github.com/sijieaaa/PRFusion) - (TITS 2024) PRFusion: Toward Effective and Robust Multi-Modal Place Recognition with Image and Point Cloud Fusion
+- [gongjun136/STD_noted](https://github.com/gongjun136/STD_noted)
 - [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
-- [yeweihuang/LIO_Connector](https://github.com/yeweihuang/LIO_Connector) - tool for generate and visualize inter-dataset loop closure for long-term SLAM
 - [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
 - [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019

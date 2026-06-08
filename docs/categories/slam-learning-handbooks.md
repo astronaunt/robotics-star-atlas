@@ -2,7 +2,7 @@
 
 SLAM handbooks, tutorials, courses, annotated code, code-reading notes, and learning resources.
 
-Repositories: `49`
+Repositories: `51`
 
 [Back to README](../../README.md)
 
@@ -25,6 +25,7 @@ Repositories: `49`
 - [rougier/matplotlib-tutorial](https://github.com/rougier/matplotlib-tutorial) - Matplotlib tutorial for beginner
 - [YiChenCityU/Recent_SLAM_Research](https://github.com/YiChenCityU/Recent_SLAM_Research)
 - [QianMo/Real-Time-Rendering-3rd-CN-Summary-Ebook](https://github.com/QianMo/Real-Time-Rendering-3rd-CN-Summary-Ebook)
+- [gaoxiang12/slam_in_autonomous_driving](https://github.com/gaoxiang12/slam_in_autonomous_driving)
 - [michiganrobotics/rob501](https://github.com/michiganrobotics/rob501) - Mathematics for Robotics
 - [jbmouret/matplotlib_for_papers](https://github.com/jbmouret/matplotlib_for_papers) - Handout for the tutorial "Creating publication-quality figures with matplotlib"
 - [TommyZihao/zihao_course](https://github.com/TommyZihao/zihao_course)
@@ -43,6 +44,7 @@ Repositories: `49`
 - [gisbi-kim/nano-pgo](https://github.com/gisbi-kim/nano-pgo) - For an education purpose, from-scratch, single-file, python-only pose-graph optimization implementation
 - [nstathou/hello-slam](https://github.com/nstathou/hello-slam) - A beginner-friendly SLAM mini-course with Jupyter notebooks — covering Bayes Filters, Kalman Filters, Particle Filters, and Graph-based SLAM with hands-on Python examples.
 - [puttsk/cuda-tutorial](https://github.com/puttsk/cuda-tutorial) - A set of hands-on tutorials for CUDA programming
+- [weisongwen/researchTools](https://github.com/weisongwen/researchTools) - useful blogs for research
 - [cgbcgb/A-LOAM-NOTED](https://github.com/cgbcgb/A-LOAM-NOTED) - Chinese annotated version of A-LOAM
 - [JokerJohn/opensource_slam_noted](https://github.com/JokerJohn/opensource_slam_noted) - open source slam system notes
 - [Will-Gao/Embodied_Intelligence](https://github.com/Will-Gao/Embodied_Intelligence)

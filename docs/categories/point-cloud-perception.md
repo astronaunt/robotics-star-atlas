@@ -2,22 +2,20 @@
 
 Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.
 
-Repositories: `69`
+Repositories: `61`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| Segmentation | 28 |
-| Processing Libraries | 22 |
-| General | 14 |
+| Segmentation | 26 |
+| Processing Libraries | 17 |
+| General | 13 |
 | 3D Detection | 3 |
 | Representation Learning | 2 |
 
 ## Segmentation
 
-- [amusi/CVPR2026-Papers-with-Code](https://github.com/amusi/CVPR2026-Papers-with-Code)
-- [amusi/ICCV2025-Papers-with-Code](https://github.com/amusi/ICCV2025-Papers-with-Code)
 - [Pointcept/SegmentAnything3D](https://github.com/Pointcept/SegmentAnything3D) - [ICCV'23 Workshop] SAM3D: Segment Anything in 3D Scenes
 - [PRBonn/depth_clustering](https://github.com/PRBonn/depth_clustering) - 🚕 Fast and robust clustering of point clouds generated with a Velodyne sensor.
 - [szenergy/awesome-lidar](https://github.com/szenergy/awesome-lidar) - 😎 Awesome LIDAR list. The list includes LIDAR manufacturers, datasets, point cloud-processing algorithms, point cloud frameworks and simulators.
@@ -56,23 +54,17 @@ Repositories: `69`
 - [EPVelasco/lidar-camera-fusion](https://github.com/EPVelasco/lidar-camera-fusion) - The code implemented in ROS projects a point cloud obtained by a Velodyne VLP16 3D-Lidar sensor on an image from an RGB camera.
 - [hku-mars/M2Mapping](https://github.com/hku-mars/M2Mapping) - [ICRA 2025] Neural Surface Reconstruction and Rendering for LiDAR-Visual Systems
 - [SiyuanHuang95/Livox-Localization](https://github.com/SiyuanHuang95/Livox-Localization) - A simple localization framework that can re-localize in one point-cloud map.
-- [hku-mars/LAMM](https://github.com/hku-mars/LAMM)
 - [Livox-SDK/livox_cloud_undistortion](https://github.com/Livox-SDK/livox_cloud_undistortion) - This project is used for lidar point cloud undistortion.
 - [ziquan111/RobustPCLReconstruction](https://github.com/ziquan111/RobustPCLReconstruction) - Robust Point Cloud Based Reconstruction of Large-Scale Outdoor Scenes
 - [ctu-mrs/RMS](https://github.com/ctu-mrs/RMS) - Code for RA-L paper "RMS: Redundancy-Minimizing Point Cloud Sampling for Real-Time Pose Estimation"
 - [Geekgineer/CloudPeek](https://github.com/Geekgineer/CloudPeek) - CloudPeek is a lightweight, cross-platform, single-header C++ point cloud viewer. It’s designed for simplicity and efficiency, requiring no heavy libraries like PCL or Open3D. Ideal for v...
-- [kekeliu-whu/Wildcat-SLAM](https://github.com/kekeliu-whu/Wildcat-SLAM) - An unofficial open source implentation of CSIRO's Wildcat SLAM.
 - [leo-drive/color-point-cloud](https://github.com/leo-drive/color-point-cloud) - Create color point clouds with ROS2
-- [SenseRoboticsLab/CURL](https://github.com/SenseRoboticsLab/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
 - [ZhangXiaze/DeepPointMap](https://github.com/ZhangXiaze/DeepPointMap) - Implementation of DeepPointMap (AAAI2024), a nerual network-based LiDAR SLAM architecture in Pytorch
-- [ROBOT-WSC/RGC-SLAM](https://github.com/ROBOT-WSC/RGC-SLAM) - Robust Ground Constrained SLAM for Mobile Robot With Sparse-Channel LiDAR 2024 TIV
-- [Ji1Xingyu/SGBA](https://github.com/Ji1Xingyu/SGBA)
 - [LTU-RAI/sga-dpcc](https://github.com/LTU-RAI/sga-dpcc) - Official page for SGA-DPCC (Scene Graph-Aware Deep Point Cloud Compression), accepted @ RA-L'25, to be presented @ ICRA'26
 - [zhuhongwei123/Point-Cloud-Dynamic-Point-Removal-Framework](https://github.com/zhuhongwei123/Point-Cloud-Dynamic-Point-Removal-Framework)
 
 ## General
 
-- [koide3/hdl_graph_slam](https://github.com/koide3/hdl_graph_slam) - 3D LIDAR-based Graph SLAM
 - [nv-tlabs/NKSR](https://github.com/nv-tlabs/NKSR) - [CVPR 2023 Highlight] Neural Kernel Surface Reconstruction
 - [MOLAorg/mola](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mApping (MOLA)
 - [xiaohulugo/3DLineDetection](https://github.com/xiaohulugo/3DLineDetection) - A simple and efficient 3D line detection algorithm for large scale unorganized point cloud

@@ -35,6 +35,15 @@
       "kind": "custom",
       "keywords": {},
       "lists": {}
+    },
+    {
+      "id": "wheel",
+      "name": "Wheel",
+      "name_zh": "Wheel",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
     }
   ]
 }

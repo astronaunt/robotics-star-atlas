@@ -2,13 +2,13 @@
 
 Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.
 
-Repositories: `67`
+Repositories: `68`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 66 |
+| General | 67 |
 | 3D Gaussian Splatting | 1 |
 
 ## General
@@ -22,6 +22,7 @@ Repositories: `67`
 - [MIT-SPARK/Kimera-VIO](https://github.com/MIT-SPARK/Kimera-VIO) - Visual Inertial Odometry with SLAM capabilities and 3D Mesh generation.
 - [TixiaoShan/LVI-SAM](https://github.com/TixiaoShan/LVI-SAM) - LVI-SAM: Tightly-coupled Lidar-Visual-Inertial Odometry via Smoothing and Mapping
 - [verlab/accelerated_features](https://github.com/verlab/accelerated_features) - Implementation of XFeat (CVPR 2024). Do you need robust and fast local feature extraction? You are in the right place!
+- [cvg/nice-slam](https://github.com/cvg/nice-slam) - [CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
 - [nvidia-isaac/cuVSLAM](https://github.com/nvidia-isaac/cuVSLAM) - cuVSLAM: CUDA-Accelerated Visual Odometry and Mapping
 - [siyuanliii/masa](https://github.com/siyuanliii/masa) - Official Implementation of CVPR24 highlight paper: Matching Anything by Segmenting Anything
 - [mega-sam/mega-sam](https://github.com/mega-sam/mega-sam) - Code for the project "MegaSaM: Accurate, Fast and Robust Structure and Motion from Casual Dynamic Videos"

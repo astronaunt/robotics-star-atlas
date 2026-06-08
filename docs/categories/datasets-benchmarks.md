@@ -2,7 +2,7 @@
 
 Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.
 
-Repositories: `59`
+Repositories: `60`
 
 [Back to README](../../README.md)
 
@@ -30,22 +30,22 @@ Repositories: `59`
 - [Factor-Robotics/Roller-Coaster-SLAM-Dataset](https://github.com/Factor-Robotics/Roller-Coaster-SLAM-Dataset) - The world's first roller coaster SLAM dataset
 - [SJTU-ViSYS/M2DGR-plus](https://github.com/SJTU-ViSYS/M2DGR-plus) - Extension and update of M2DGR: a novel Multi-modal and Multi-scenario SLAM Dataset for Ground Robots (ICRA2022 & ICRA2024)
 - [ntnu-arl/lidar_degeneracy_datasets](https://github.com/ntnu-arl/lidar_degeneracy_datasets) - LiDAR degeneracy dataset for LiDAR-radar-inertial fusion methods.
+- [Tompson11/SLAM_comparison](https://github.com/Tompson11/SLAM_comparison)
 - [MetaSLAM/GPRS_Survey](https://github.com/MetaSLAM/GPRS_Survey) - Benchmark for lidar and visual place recognition
 - [MetaSLAM/GPR_Competition](https://github.com/MetaSLAM/GPR_Competition) - Dataset for MetaSLAM Challenge
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
 - [TIERS/tiers-lidars-dataset-enhanced](https://github.com/TIERS/tiers-lidars-dataset-enhanced)
 - [RPM-Robotics-Lab/file_player_mulran](https://github.com/RPM-Robotics-Lab/file_player_mulran) - File Player for MulRan Dataset
-- [MigVega/SLAM2REF](https://github.com/MigVega/SLAM2REF) - This project allows the alignment and correction of LiDAR-based SLAM session data with a reference map or another session, also the retrieval of 6-DoF poses with accuracy of up to 3 cm gi...
 - [zhan994/AgriLiRa4D](https://github.com/zhan994/AgriLiRa4D) - AgriLiRa4D: A Multi-Sensor UAV Dataset for Robust SLAM in Challenging Agricultural Fields
 - [leggedrobotics/grand_tour_dataset](https://github.com/leggedrobotics/grand_tour_dataset) - The GrandTour Dataset: A Legged Robotics Dataset in the Wild
 - [water-cookie/citynav](https://github.com/water-cookie/citynav)
 - [RingoWRW/UAVD4L](https://github.com/RingoWRW/UAVD4L)
 - [mac137/ConSLAM](https://github.com/mac137/ConSLAM) - ConSLAM: Construction Dataset for SLAM
 - [cavayangtao/lidar_clustering_bench](https://github.com/cavayangtao/lidar_clustering_bench) - LiPC: LiDAR Point Cloud Clustering Benchmark Suite
+- [csiro-robotics/Wild-Places](https://github.com/csiro-robotics/Wild-Places) - 🏞️ [IEEE ICRA2023] The official repository for paper "Wild-Places: A Large-Scale Dataset for Lidar Place Recognition in Unstructured Natural Environments" To appear in 2023 IEEE Internati...
 - [csiro-robotics/WildScenes](https://github.com/csiro-robotics/WildScenes) - [IJRR2024] The official repository for the WildScenes: A Benchmark for 2D and 3D Semantic Segmentation in Natural Environments
 - [SYSU-RoboticsLab/GrAco](https://github.com/SYSU-RoboticsLab/GrAco) - A Multimodal-Heterogeneous Dataset for Ground and Aerial Cooperative Localization and Mapping
 - [sparolab/DiTer-plusplus](https://github.com/sparolab/DiTer-plusplus) - (ICRA 2025) This repository is the official code for DiTer++: Diverse Terrain and Multi-modal Dataset for Multi-Robot Navigation in Multi-session Outdoor Environments.
-- [prime-slam/EF-plane-SLAM](https://github.com/prime-slam/EF-plane-SLAM) - Source code for "Eigen-factors a bilevel optimization for plane SLAM of 3D point clouds"
 - [dongjae0107/ConPR](https://github.com/dongjae0107/ConPR) - Ongoing Construction Site Dataset for Place Recognition
 - [CNITECH-CV-LAB/Backpack2025](https://github.com/CNITECH-CV-LAB/Backpack2025) - Dataset release for RA-L 2025 paper "Towards Degradation-Robust High-Precision Mapping: A Large-Scale LiDAR–Inertial Dataset".
 - [YushengWHU/Railroad-dataset](https://github.com/YushengWHU/Railroad-dataset)
@@ -61,6 +61,7 @@ Repositories: `59`
 - [mit-acl/lunarloc-data](https://github.com/mit-acl/lunarloc-data)
 - [iit-DLSLab/state_estimation_benchmark](https://github.com/iit-DLSLab/state_estimation_benchmark) - A Proprioceptive-Only Benchmark for Quadruped Robot's State Estimation
 - [DeepDuke/MOE-Dataset](https://github.com/DeepDuke/MOE-Dataset)
+- [LIO-Benchmark/LIO-Benchmark](https://github.com/LIO-Benchmark/LIO-Benchmark)
 - [Canpu999/Trimbot-Wageningen-SLAM-Dataset](https://github.com/Canpu999/Trimbot-Wageningen-SLAM-Dataset) - A real outdoor garden dataset captured in Wageningen for Trimbot2020 project. The dataset could be used for depth estimation, pose estiamtion, SLAM, 3D reconstruction, etc. .
 - [GuCJ-Acc/LLIO-Dataset](https://github.com/GuCJ-Acc/LLIO-Dataset)
 - [MISTLab/Mars_Analogue_CSLAM_Dataset](https://github.com/MISTLab/Mars_Analogue_CSLAM_Dataset)

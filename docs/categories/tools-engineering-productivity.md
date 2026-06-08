@@ -2,19 +2,19 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `201`
+Repositories: `202`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 82 |
-| Research Productivity | 35 |
+| ROS / Robotics Tools | 81 |
 | C++ / Development | 34 |
+| Research Productivity | 34 |
 | LLM / AI Tools | 26 |
 | Docker / Reproducibility | 13 |
+| General | 7 |
 | Visualization / Annotation | 7 |
-| General | 4 |
 
 ## ROS / Robotics Tools
 
@@ -90,7 +90,6 @@ Repositories: `201`
 - [rsasaki0109/localization_zoo](https://github.com/rsasaki0109/localization_zoo) - C++ implementations, derived variants, and compact baselines for localization papers with ROS 2, tests, and benchmarks.
 - [shengqihailuo1/Time_Synchronization](https://github.com/shengqihailuo1/Time_Synchronization)
 - [JzHuai0108/cascaded_pgo](https://github.com/JzHuai0108/cascaded_pgo) - Rotation only PGO + translation only PGO + 6DOF PGO by ceres
-- [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
 - [ntnu-arl/reasoning_hydra](https://github.com/ntnu-arl/reasoning_hydra) - Relationship-aware hierarchical 3D scene graph for task reasoning
 - [thisparticle/rosbag_extractor](https://github.com/thisparticle/rosbag_extractor) - Package created to extract data from rosbags using rosbag API
 - [AndreasAZiegler/leica_streaming_app](https://github.com/AndreasAZiegler/leica_streaming_app) - A ROS node and nodelet to interface with the LeicaCaptivate TPS SurveyStreaming app
@@ -100,44 +99,6 @@ Repositories: `201`
 - [arpit6232/Leica_Total_Station_ROS](https://github.com/arpit6232/Leica_Total_Station_ROS)
 - [gogojjh/hkustgz_segnet](https://github.com/gogojjh/hkustgz_segnet)
 - [wwtinwhu/ros_tools](https://github.com/wwtinwhu/ros_tools)
-
-## Research Productivity
-
-- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-- [datalab-to/marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy
-- [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
-- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
-- [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
-- [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
-- [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots) - Matplotlib styles for scientific plotting
-- [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Everything about note management. All in Zotero.
-- [dyweb/awesome-resume-for-chinese](https://github.com/dyweb/awesome-resume-for-chinese)
-- [facebookresearch/sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) - SAM 3D Objects
-- [TideDra/zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily) - Recommend new arxiv papers of your interest daily according to your Zotero libarary.
-- [HugoBlox/hugo-theme-academic-cv](https://github.com/HugoBlox/hugo-theme-academic-cv)
-- [secdr/research-method](https://github.com/secdr/research-method)
-- [RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io) - AcadHomepage: A Modern and Responsive Academic Personal Homepage
-- [Cpp-Club/Cxx_HOPL4_zh](https://github.com/Cpp-Club/Cxx_HOPL4_zh) - Chinese translation of Bjarne Stroustrup's HOPL4 paper
-- [potamides/DeTikZify](https://github.com/potamides/DeTikZify) - Synthesizing Graphics Programs for Scientific Figures and Sketches with TikZ.
-- [cvg/nice-slam](https://github.com/cvg/nice-slam) - [CVPR'22] NICE-SLAM: Neural Implicit Scalable Encoding for SLAM
-- [yzhao062/cs-paper-checklist](https://github.com/yzhao062/cs-paper-checklist) - A final sanity checklist to help your CS paper get accepted, not desk rejected.
-- [LetheSec/HuggingFace-Download-Accelerator](https://github.com/LetheSec/HuggingFace-Download-Accelerator)
-- [MLNLP-World/Paper-Picture-Writing-Code](https://github.com/MLNLP-World/Paper-Picture-Writing-Code) - MLNLP: Paper Picture Writing Code
-- [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) - Curated academic CV templates and guidelines for PhD students, researchers, and faculty job applicants.
-- [Ruzim/NSFC-application-template-latex](https://github.com/Ruzim/NSFC-application-template-latex)
-- [jrin771/Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) - The world's largest GitHub Repository for LLMs + Robotics
-- [018/zotcard](https://github.com/018/zotcard) - ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, yo...
-- [ethz-asl/dynablox](https://github.com/ethz-asl/dynablox) - Real-time detection of diverse dynamic objects in complex environments.
-- [YimianDai/iNSFC](https://github.com/YimianDai/iNSFC) - An awesome LaTeX template for NSFC proposal.
-- [shinyypig/latex-vscode-config](https://github.com/shinyypig/latex-vscode-config) - Use LaTeX in VSCode.
-- [Trae1ounG/paper-plot-skills](https://github.com/Trae1ounG/paper-plot-skills)
-- [zhangyuejoslin/VLN-Survey-with-Foundation-Models](https://github.com/zhangyuejoslin/VLN-Survey-with-Foundation-Models) - [TMLR 2024] repository for VLN with foundation models
-- [LC-Robotics/FreeDOM](https://github.com/LC-Robotics/FreeDOM) - FreeDOM: Online Dynamic Object Removal Framework for Static Map Construction Based on Conservative Free Space Estimation [RA-L 25]
-- [zjwzcx/GLEAM](https://github.com/zjwzcx/GLEAM) - [ICCV 2025] GLEAM: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scene
-- [Shiaoming/ALIKE-cpp](https://github.com/Shiaoming/ALIKE-cpp) - CPP implementation of paper "ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction".
-- [EmilioOlivastri/IPC](https://github.com/EmilioOlivastri/IPC) - IPC: Incremental Probabilistic Consensus-based Consistent Set Maximization for SLAM Backends
-- [url-kaist/HeLiMOS-visualizer](https://github.com/url-kaist/HeLiMOS-visualizer) - A LiDAR visualization tool for HeLiMOS dataset
 
 ## C++ / Development
 
@@ -175,6 +136,43 @@ Repositories: `201`
 - [MX-LZX/free_dog_AddContact](https://github.com/MX-LZX/free_dog_AddContact)
 - [Taeyoung96/GTSAM-example-supplementary](https://github.com/Taeyoung96/GTSAM-example-supplementary) - A personal study material for the IMU Factor example in Korean
 - [wangx1996/Semantic-Kitti-Label-Read](https://github.com/wangx1996/Semantic-Kitti-Label-Read) - A c++ version code to read semantic kitti label.
+
+## Research Productivity
+
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+- [datalab-to/marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy
+- [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
+- [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
+- [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
+- [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots) - Matplotlib styles for scientific plotting
+- [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Everything about note management. All in Zotero.
+- [dyweb/awesome-resume-for-chinese](https://github.com/dyweb/awesome-resume-for-chinese)
+- [facebookresearch/sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) - SAM 3D Objects
+- [TideDra/zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily) - Recommend new arxiv papers of your interest daily according to your Zotero libarary.
+- [HugoBlox/hugo-theme-academic-cv](https://github.com/HugoBlox/hugo-theme-academic-cv)
+- [secdr/research-method](https://github.com/secdr/research-method)
+- [RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io) - AcadHomepage: A Modern and Responsive Academic Personal Homepage
+- [Cpp-Club/Cxx_HOPL4_zh](https://github.com/Cpp-Club/Cxx_HOPL4_zh) - Chinese translation of Bjarne Stroustrup's HOPL4 paper
+- [potamides/DeTikZify](https://github.com/potamides/DeTikZify) - Synthesizing Graphics Programs for Scientific Figures and Sketches with TikZ.
+- [yzhao062/cs-paper-checklist](https://github.com/yzhao062/cs-paper-checklist) - A final sanity checklist to help your CS paper get accepted, not desk rejected.
+- [LetheSec/HuggingFace-Download-Accelerator](https://github.com/LetheSec/HuggingFace-Download-Accelerator)
+- [MLNLP-World/Paper-Picture-Writing-Code](https://github.com/MLNLP-World/Paper-Picture-Writing-Code) - MLNLP: Paper Picture Writing Code
+- [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) - Curated academic CV templates and guidelines for PhD students, researchers, and faculty job applicants.
+- [Ruzim/NSFC-application-template-latex](https://github.com/Ruzim/NSFC-application-template-latex)
+- [jrin771/Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) - The world's largest GitHub Repository for LLMs + Robotics
+- [018/zotcard](https://github.com/018/zotcard) - ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, yo...
+- [ethz-asl/dynablox](https://github.com/ethz-asl/dynablox) - Real-time detection of diverse dynamic objects in complex environments.
+- [YimianDai/iNSFC](https://github.com/YimianDai/iNSFC) - An awesome LaTeX template for NSFC proposal.
+- [shinyypig/latex-vscode-config](https://github.com/shinyypig/latex-vscode-config) - Use LaTeX in VSCode.
+- [Trae1ounG/paper-plot-skills](https://github.com/Trae1ounG/paper-plot-skills)
+- [zhangyuejoslin/VLN-Survey-with-Foundation-Models](https://github.com/zhangyuejoslin/VLN-Survey-with-Foundation-Models) - [TMLR 2024] repository for VLN with foundation models
+- [LC-Robotics/FreeDOM](https://github.com/LC-Robotics/FreeDOM) - FreeDOM: Online Dynamic Object Removal Framework for Static Map Construction Based on Conservative Free Space Estimation [RA-L 25]
+- [zjwzcx/GLEAM](https://github.com/zjwzcx/GLEAM) - [ICCV 2025] GLEAM: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scene
+- [Shiaoming/ALIKE-cpp](https://github.com/Shiaoming/ALIKE-cpp) - CPP implementation of paper "ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction".
+- [EmilioOlivastri/IPC](https://github.com/EmilioOlivastri/IPC) - IPC: Incremental Probabilistic Consensus-based Consistent Set Maximization for SLAM Backends
+- [url-kaist/HeLiMOS-visualizer](https://github.com/url-kaist/HeLiMOS-visualizer) - A LiDAR visualization tool for HeLiMOS dataset
 
 ## LLM / AI Tools
 
@@ -221,6 +219,16 @@ Repositories: `201`
 - [pyc5714/LiDARTag_docker](https://github.com/pyc5714/LiDARTag_docker) - lidartag with docker
 - [Lee-JaeWon/Docker-Zip](https://github.com/Lee-JaeWon/Docker-Zip)
 
+## General
+
+- [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) - A build-it-yourself, 6-wheel rover based on the rovers on Mars!
+- [Alpha-LiDAR/alpha_lidar](https://github.com/Alpha-LiDAR/alpha_lidar) - Official implementation of αLiDAR: An Adaptive High-Resolution Panoramic LiDAR System
+- [scomup/MathematicalRobotics](https://github.com/scomup/MathematicalRobotics)
+- [Jurio0304/Codex_Automated_Paper_Reader](https://github.com/Jurio0304/Codex_Automated_Paper_Reader) - Codex-assisted daily academic paper reader and recommendation workflow
+- [gogojjh/pointcloud_image_converter](https://github.com/gogojjh/pointcloud_image_converter)
+- [jizhang-cmu/360_camera](https://github.com/jizhang-cmu/360_camera) - Ricoh Theta Z1 camera driver and lidar-to-camera extrinsic/latency calibration for Mecanum wheel platform
+- [homtimon/gt_traj_icp_registration](https://github.com/homtimon/gt_traj_icp_registration) - Tool to register point clouds to generate ground truth trajectories
+
 ## Visualization / Annotation
 
 - [Baiyuetribe/paper2gui](https://github.com/Baiyuetribe/paper2gui)
@@ -230,10 +238,3 @@ Repositories: `201`
 - [apachecn/matplotlib-doc-zh](https://github.com/apachecn/matplotlib-doc-zh)
 - [sunshanlu/SLAM_VIEWER](https://github.com/sunshanlu/SLAM_VIEWER)
 - [inealey/points2pano](https://github.com/inealey/points2pano) - project LiDAR point clouds to 360 panorama
-
-## General
-
-- [nasa-jpl/open-source-rover](https://github.com/nasa-jpl/open-source-rover) - A build-it-yourself, 6-wheel rover based on the rovers on Mars!
-- [scomup/MathematicalRobotics](https://github.com/scomup/MathematicalRobotics)
-- [Jurio0304/Codex_Automated_Paper_Reader](https://github.com/Jurio0304/Codex_Automated_Paper_Reader) - Codex-assisted daily academic paper reader and recommendation workflow
-- [gogojjh/pointcloud_image_converter](https://github.com/gogojjh/pointcloud_image_converter)

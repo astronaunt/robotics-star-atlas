@@ -2,7 +2,7 @@
 
 Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.
 
-Repositories: `18`
+Repositories: `17`
 
 [Back to README](../../README.md)
 
@@ -20,7 +20,6 @@ Repositories: `18`
 - [JokerJohn/LTLoc](https://github.com/JokerJohn/LTLoc) - Beyond Pure Geometry: An Uncertainty-Driven Perspective on Long-Term LiDAR Localization
 - [zht1117/LiDAR-PGO-uncertainty](https://github.com/zht1117/LiDAR-PGO-uncertainty)
 - [jiejie567/SelectiveKF](https://github.com/jiejie567/SelectiveKF)
-- [bairuofei/CGE](https://github.com/bairuofei/CGE) - [IROS 2024]: Multi-robot active graph exploration with reduced pose-SLAM uncertainty via submodular optimization.
 - [CookieAnt/DG-KILO](https://github.com/CookieAnt/DG-KILO) - We propose DG-KILO, a novel kinematic-inertial-LiDAR odometry framework integrating degradation optimization and ground constraints.
 - [JokerJohn/lda](https://github.com/JokerJohn/lda) - LiDAR Degenercy Analysis
 - [leggedrobotics/compslam_subt](https://github.com/leggedrobotics/compslam_subt) - The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.
