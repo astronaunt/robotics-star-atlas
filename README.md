@@ -1,13 +1,17 @@
 # Robotics Star Atlas
 
 <p align="center">
+  <img src="assets/robotics-star-atlas-hero.png" alt="Robotics Star Atlas hero banner">
+</p>
+
+<p align="center">
   <strong>A curated atlas of GitHub repositories for SLAM, LiDAR, localization, mapping, perception, planning, and robotics research tooling.</strong>
 </p>
 
 <p align="center">
-  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1376-1f6f5b">
+  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1377-1f6f5b">
   <img alt="Categories" src="https://img.shields.io/badge/categories-27-2f4858">
-  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1373-4f7f52">
+  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1374-4f7f52">
 </p>
 
 Robotics Star Atlas turns my GitHub stars into a searchable, manually curated research map. It is designed as a personal navigation system first, and as a public reference for researchers and engineers who work around robotics, 3D vision, and autonomous systems.
@@ -32,11 +36,11 @@ The generated README and category pages can be browsed directly on GitHub. The l
 <table>
   <tr>
     <td><strong>GitHub user</strong><br><code>@astronaunt</code></td>
-    <td><strong>Indexed repositories</strong><br><code>1376</code></td>
+    <td><strong>Indexed repositories</strong><br><code>1377</code></td>
     <td><strong>Categories</strong><br><code>27</code></td>
   </tr>
   <tr>
-    <td><strong>Fetched successfully</strong><br><code>1373</code></td>
+    <td><strong>Fetched successfully</strong><br><code>1374</code></td>
     <td><strong>Focus</strong><br><code>Robotics & 3D Vision</code></td>
     <td><strong>Maintenance</strong><br><code>Manual + Generated</code></td>
   </tr>
@@ -75,7 +79,7 @@ This index is semi-automatic. Repository metadata, GitHub Lists, README snippets
 | [Deep IMU](docs/categories/deep-imu.md) | 7 | Custom user-defined category. |
 | [FMCW SLAM](docs/categories/fmcw-slam.md) | 4 | Custom user-defined category. |
 | [Leg](docs/categories/leg.md) | 7 | Custom user-defined category. |
-| [uwb](docs/categories/uwb.md) | 2 | Custom user-defined category. |
+| [uwb](docs/categories/uwb.md) | 3 | Custom user-defined category. |
 | [Wheel](docs/categories/wheel.md) | 1 | Custom user-defined category. |
 
 ## How To Update

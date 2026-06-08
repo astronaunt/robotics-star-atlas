@@ -1,6 +1,11 @@
 {
   "repos": [
     {
+      "full_name": "ASIG-X/SFUISE",
+      "url": "https://github.com/ASIG-X/SFUISE",
+      "added_at": "2026-06-08T03:51:20.343631+00:00"
+    },
+    {
       "full_name": "efc-robot/MR-COGraphs",
       "url": "https://github.com/efc-robot/MR-COGraphs",
       "added_at": "2026-06-08T02:24:55.107977+00:00"

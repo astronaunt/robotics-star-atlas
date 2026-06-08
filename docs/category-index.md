@@ -29,5 +29,5 @@ Direct small-category index generated from repository metadata and the original 
 | [Deep IMU](categories/deep-imu.md) | 7 | Custom user-defined category. |
 | [FMCW SLAM](categories/fmcw-slam.md) | 4 | Custom user-defined category. |
 | [Leg](categories/leg.md) | 7 | Custom user-defined category. |
-| [uwb](categories/uwb.md) | 2 | Custom user-defined category. |
+| [uwb](categories/uwb.md) | 3 | Custom user-defined category. |
 | [Wheel](categories/wheel.md) | 1 | Custom user-defined category. |
