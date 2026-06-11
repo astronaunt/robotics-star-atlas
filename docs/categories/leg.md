@@ -2,7 +2,7 @@
 
 Custom user-defined category.
 
-Repositories: `7`
+Repositories: `9`
 
 [Back to README](../../README.md)
 
@@ -12,4 +12,6 @@ Repositories: `7`
 - [iit-DLSLab/muse](https://github.com/iit-DLSLab/muse) - A State Estimation Package for Quadruped Robots, that fuses Proprioceptive and Exteroceptive data
 - [TakuOkawara/full_linear_wheel_odometry_factor](https://github.com/TakuOkawara/full_linear_wheel_odometry_factor) - The full_linear_wheel_odometry_factor provides motion constraints and online calibration for skid-steering robots. This constraint can be incorporated into your SLAM framework. Here is an...
 - [JixinGao/HR2-KILO](https://github.com/JixinGao/HR2-KILO) - A High-Rate, Robust, Kinematic-Inertial-LiDAR Odometry for Humanoid Robots
+- [Karltommy/WL-SLAM](https://github.com/Karltommy/WL-SLAM)
 - [SangwooJung98/SPOT_ego_Velocity](https://github.com/SangwooJung98/SPOT_ego_Velocity) - leg kinematic based ego-velocity estimator for Boston Dynamics SPOT
+- [ori-drs/pronto](https://github.com/ori-drs/pronto) - Pronto - Legged Robot State Estimator - libraries, ROS wrapper and messages

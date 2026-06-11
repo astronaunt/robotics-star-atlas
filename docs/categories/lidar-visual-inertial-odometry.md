@@ -2,13 +2,13 @@
 
 LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.
 
-Repositories: `32`
+Repositories: `33`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 30 |
+| General | 31 |
 | General Mapping | 1 |
 | ROS / Robotics Tools | 1 |
 
@@ -24,6 +24,7 @@ Repositories: `32`
 - [cchester25/FAST_LIVO2_Noted](https://github.com/cchester25/FAST_LIVO2_Noted)
 - [sjtuyinjie/awesome-LiDAR-Visual-SLAM](https://github.com/sjtuyinjie/awesome-LiDAR-Visual-SLAM) - A curated list of resources relevant to LiDAR-Visual-Fusion-SLAM
 - [APRIL-ZJU/clic](https://github.com/APRIL-ZJU/clic) - [TMECH 2023] Continuous-Time Fixed-Lag Smoothing for LiDAR-Inertial-Camera SLAM
+- [BingqiShen/EMV-LIO](https://github.com/BingqiShen/EMV-LIO) - EMV-LIO: An Efficient Multiple Vision aided LiDAR-Inertial Odometry
 - [leggedrobotics/holistic_fusion](https://github.com/leggedrobotics/holistic_fusion) - Official repository for holistic fusion.
 - [IF-A-CAT/LIR-LIVO](https://github.com/IF-A-CAT/LIR-LIVO) - LIR-LIVO: A Lightweight,Robust Lidar/Vision/Inertial Odometry with Illumination-Resilient Deep Features
 - [yqmy0814/FAST-LIVO2](https://github.com/yqmy0814/FAST-LIVO2) - FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry

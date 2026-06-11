@@ -2,13 +2,13 @@
 
 Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.
 
-Repositories: `61`
+Repositories: `62`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 60 |
+| General | 61 |
 | General Mapping | 1 |
 
 ## General
@@ -73,6 +73,7 @@ Repositories: `61`
 - [yeweihuang/LIO_Connector](https://github.com/yeweihuang/LIO_Connector) - tool for generate and visualize inter-dataset loop closure for long-term SLAM
 - [some66/UECP](https://github.com/some66/UECP) - Datasets for Multi-Robot Pose Graph Merging
 - [yeweihuang/distributed-mapper](https://github.com/yeweihuang/distributed-mapper) - Replace the GaussianFactorGraph in rotation optimization with nonlinearFactorGraph & ISAM2
+- [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
 
 ## General Mapping
 

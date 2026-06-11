@@ -33,7 +33,6 @@ Repositories: `60`
 - [Tompson11/SLAM_comparison](https://github.com/Tompson11/SLAM_comparison)
 - [MetaSLAM/GPRS_Survey](https://github.com/MetaSLAM/GPRS_Survey) - Benchmark for lidar and visual place recognition
 - [MetaSLAM/GPR_Competition](https://github.com/MetaSLAM/GPR_Competition) - Dataset for MetaSLAM Challenge
-- [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
 - [TIERS/tiers-lidars-dataset-enhanced](https://github.com/TIERS/tiers-lidars-dataset-enhanced)
 - [RPM-Robotics-Lab/file_player_mulran](https://github.com/RPM-Robotics-Lab/file_player_mulran) - File Player for MulRan Dataset
 - [zhan994/AgriLiRa4D](https://github.com/zhan994/AgriLiRa4D) - AgriLiRa4D: A Multi-Sensor UAV Dataset for Robust SLAM in Challenging Agricultural Fields
@@ -66,3 +65,4 @@ Repositories: `60`
 - [GuCJ-Acc/LLIO-Dataset](https://github.com/GuCJ-Acc/LLIO-Dataset)
 - [MISTLab/Mars_Analogue_CSLAM_Dataset](https://github.com/MISTLab/Mars_Analogue_CSLAM_Dataset)
 - [aserbremen/nebula-multirobot-dataset-ros2](https://github.com/aserbremen/nebula-multirobot-dataset-ros2) - This repository helps analysing and replaying data from the Nebula multi-robot dataset.
+- [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...

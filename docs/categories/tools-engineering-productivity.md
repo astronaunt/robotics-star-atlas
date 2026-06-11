@@ -2,13 +2,13 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `202`
+Repositories: `203`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 81 |
+| ROS / Robotics Tools | 82 |
 | C++ / Development | 34 |
 | Research Productivity | 34 |
 | LLM / AI Tools | 26 |
@@ -99,6 +99,7 @@ Repositories: `202`
 - [arpit6232/Leica_Total_Station_ROS](https://github.com/arpit6232/Leica_Total_Station_ROS)
 - [gogojjh/hkustgz_segnet](https://github.com/gogojjh/hkustgz_segnet)
 - [wwtinwhu/ros_tools](https://github.com/wwtinwhu/ros_tools)
+- [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++ GNSS/RTK/PPP/CLAS toolkit.
 
 ## C++ / Development
 

@@ -2,14 +2,14 @@
 
 Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.
 
-Repositories: `68`
+Repositories: `70`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 67 |
-| 3D Gaussian Splatting | 1 |
+| General | 68 |
+| 3D Gaussian Splatting | 2 |
 
 ## General
 
@@ -80,7 +80,9 @@ Repositories: `68`
 - [JixinGao/KILVO](https://github.com/JixinGao/KILVO) - Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
 - [HITSZ-NRSL/ETIO](https://github.com/HITSZ-NRSL/ETIO) - Source code for Edge-Based Monocular Thermal-Inertial Odometry in Visually Degraded Environments
 - [U-AMC/rpg_vikit_rational_polynomial](https://github.com/U-AMC/rpg_vikit_rational_polynomial)
+- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 
 ## 3D Gaussian Splatting
 
 - [Fudan-MAGIC-Lab/VINGS-Mono](https://github.com/Fudan-MAGIC-Lab/VINGS-Mono) - Source code for [TRO2025] VINGS-Mono: Visual Inertial Gaussian Splatting Monocular SLAM in Large Scenes.
+- [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction

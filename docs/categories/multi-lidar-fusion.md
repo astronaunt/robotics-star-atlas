@@ -2,13 +2,13 @@
 
 Multi-LiDAR calibration, fusion, synchronization, and multi-LiDAR SLAM systems.
 
-Repositories: `16`
+Repositories: `15`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 15 |
+| General | 14 |
 | ROS / Robotics Tools | 1 |
 
 ## General
@@ -26,7 +26,6 @@ Repositories: `16`
 - [SeoDU/multi_fastlio](https://github.com/SeoDU/multi_fastlio)
 - [TIERS/multi_lidar_multi_uav_dataset](https://github.com/TIERS/multi_lidar_multi_uav_dataset)
 - [hku-mars/multi_lidar_calib](https://github.com/hku-mars/multi_lidar_calib)
-- [Karltommy/WL-SLAM](https://github.com/Karltommy/WL-SLAM)
 - [brytsknguyen/M-LOAM](https://github.com/brytsknguyen/M-LOAM) - Robust Odometry and Mapping for Multi-LiDAR Systems with Online Extrinsic Calibration
 
 ## ROS / Robotics Tools

@@ -2,16 +2,16 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `179`
+Repositories: `181`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
 | General Mapping | 59 |
-| 3D Gaussian Splatting | 55 |
+| 3D Gaussian Splatting | 56 |
 | NeRF & Neural Rendering | 27 |
-| General | 24 |
+| General | 25 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
 | Research Productivity | 1 |
@@ -135,6 +135,7 @@ Repositories: `179`
 - [Liouvi/IG-SLAM](https://github.com/Liouvi/IG-SLAM) - Official Implementation of IG-SLAM
 - [WHU-USI3DV/GAGS](https://github.com/WHU-USI3DV/GAGS) - [AAAI-26] GAGS: Granularity-Aware 3D Feature Distillation for Gaussian Splatting
 - [KwanWaiPang/Gaussian-SLAM_comment](https://github.com/KwanWaiPang/Gaussian-SLAM_comment)
+- [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
 
 ## NeRF & Neural Rendering
 
@@ -192,6 +193,7 @@ Repositories: `179`
 - [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
 - [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
 - [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
+- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 
 ## Voxel / TSDF / Occupancy Maps
 
