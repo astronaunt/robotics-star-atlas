@@ -2,13 +2,13 @@
 
 LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.
 
-Repositories: `74`
+Repositories: `75`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 73 |
+| General | 74 |
 | Research Productivity | 1 |
 
 ## General
@@ -37,6 +37,7 @@ Repositories: `74`
 - [leggedrobotics/delora](https://github.com/leggedrobotics/delora) - Self-supervised Deep LiDAR Odometry for Robotic Applications
 - [KumarRobotics/sloam](https://github.com/KumarRobotics/sloam) - Semantic LIDAR odometry and mapping for cylinderical objects (e.g. trees in forests)
 - [sdwyc/ROLO](https://github.com/sdwyc/ROLO) - This is a ROS package for lidar odometry implementation using rotation optimization method.
+- [ASIG-X/RESPLE](https://github.com/ASIG-X/RESPLE) - The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry
 - [url-kaist/AlterGround-LeGO-LOAM](https://github.com/url-kaist/AlterGround-LeGO-LOAM) - The page for PaGO-LOAM: Robust Ground-Optimized LiDAR Odometry
 - [Yaepiii/TRLO](https://github.com/Yaepiii/TRLO) - [T-IM 2025] TRLO: An Efficient LiDAR Odometry with 3D Dynamic Object Tracking and Removal
 - [Mitchell-Lee-93/kitti-lego-loam](https://github.com/Mitchell-Lee-93/kitti-lego-loam) - Easy description to run and evaluate Lego-LOAM with KITTI-data

@@ -6,14 +6,39 @@
       "added_at": "2026-06-08T03:51:20.343631+00:00"
     },
     {
+      "full_name": "dongjae0107/LAPS",
+      "url": "https://github.com/dongjae0107/LAPS",
+      "added_at": "2026-06-18T02:18:37.561453+00:00"
+    },
+    {
       "full_name": "efc-robot/MR-COGraphs",
       "url": "https://github.com/efc-robot/MR-COGraphs",
       "added_at": "2026-06-08T02:24:55.107977+00:00"
     },
     {
+      "full_name": "G-SEI-Lab/Leap-SLAM",
+      "url": "https://github.com/G-SEI-Lab/Leap-SLAM",
+      "added_at": "2026-06-12T02:14:36.876630+00:00"
+    },
+    {
+      "full_name": "Garfield-cn/GLINS",
+      "url": "https://github.com/Garfield-cn/GLINS",
+      "added_at": "2026-06-18T01:52:21.828118+00:00"
+    },
+    {
       "full_name": "jashshah999/vggt-factor-refinement",
       "url": "https://github.com/jashshah999/vggt-factor-refinement",
       "added_at": "2026-06-09T02:36:21.035411+00:00"
+    },
+    {
+      "full_name": "MIT-SPARK/Clio",
+      "url": "https://github.com/MIT-SPARK/Clio",
+      "added_at": "2026-06-15T02:06:08.726945+00:00"
+    },
+    {
+      "full_name": "nasa-jpl/nebula2-wildos",
+      "url": "https://github.com/nasa-jpl/nebula2-wildos",
+      "added_at": "2026-06-18T02:10:48.958360+00:00"
     },
     {
       "full_name": "NeBula-Autonomy/nebula-odometry-dataset",
@@ -24,6 +49,11 @@
       "full_name": "ori-drs/pronto",
       "url": "https://github.com/ori-drs/pronto",
       "added_at": "2026-06-11T01:49:16.777578+00:00"
+    },
+    {
+      "full_name": "ouguangjun/kilo-map",
+      "url": "https://github.com/ouguangjun/kilo-map",
+      "added_at": "2026-06-15T02:11:10.574775+00:00"
     },
     {
       "full_name": "Printeger/uwb-imu-fusion",
@@ -44,6 +74,16 @@
       "full_name": "SJTU-ViSYS-team/AI-IO",
       "url": "https://github.com/SJTU-ViSYS-team/AI-IO",
       "added_at": "2026-06-08T02:27:14.675579+00:00"
+    },
+    {
+      "full_name": "sjtuyinjie/Ultra-Fusion",
+      "url": "https://github.com/sjtuyinjie/Ultra-Fusion",
+      "added_at": "2026-06-18T01:59:59.511827+00:00"
+    },
+    {
+      "full_name": "wuyi2121/SCAN-Planner",
+      "url": "https://github.com/wuyi2121/SCAN-Planner",
+      "added_at": "2026-06-18T02:31:28.396377+00:00"
     }
   ]
 }

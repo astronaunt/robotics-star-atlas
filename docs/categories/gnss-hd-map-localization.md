@@ -2,13 +2,13 @@
 
 GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.
 
-Repositories: `33`
+Repositories: `34`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 32 |
+| General | 33 |
 | ROS / Robotics Tools | 1 |
 
 ## General
@@ -45,6 +45,7 @@ Repositories: `33`
 - [rayguan97/AGL-Net](https://github.com/rayguan97/AGL-Net) - AGL-NET: Aerial-Ground Cross-Modal Global Localization with Varying Scales
 - [lab-sun/SkyLoc](https://github.com/lab-sun/SkyLoc) - [TITS 2025] SkyLoc: Cross-Modal Global Localization With a Sky-Looking Fish-Eye Camera and OpenStreetMap
 - [RISC-NYUAD/tomographic-map-matching](https://github.com/RISC-NYUAD/tomographic-map-matching) - A lightweight algorithm for large-scale 3D map matching
+- [Garfield-cn/GLINS](https://github.com/Garfield-cn/GLINS) - GNSS-LiDAR-INS Integrated Navigation System
 
 ## ROS / Robotics Tools
 

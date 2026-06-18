@@ -2,13 +2,13 @@
 
 LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.
 
-Repositories: `33`
+Repositories: `34`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 31 |
+| General | 32 |
 | General Mapping | 1 |
 | ROS / Robotics Tools | 1 |
 
@@ -45,6 +45,7 @@ Repositories: `33`
 - [asdleng/LiDAR-Visual-Inertial-Localization](https://github.com/asdleng/LiDAR-Visual-Inertial-Localization) - Localization in a pre-built LiDAR map
 - [Cc19245/r2live-CC_Comments](https://github.com/Cc19245/r2live-CC_Comments)
 - [leggedrobotics/compslam_subt](https://github.com/leggedrobotics/compslam_subt) - The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.
+- [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation
 
 ## General Mapping
 

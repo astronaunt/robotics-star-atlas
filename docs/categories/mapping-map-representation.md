@@ -2,16 +2,16 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `181`
+Repositories: `183`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General Mapping | 59 |
+| General Mapping | 60 |
 | 3D Gaussian Splatting | 56 |
 | NeRF & Neural Rendering | 27 |
-| General | 25 |
+| General | 26 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
 | Research Productivity | 1 |
@@ -76,6 +76,7 @@ Repositories: `181`
 - [hjxwhy/LODM](https://github.com/hjxwhy/LODM)
 - [BIT-DYN/MACIM](https://github.com/BIT-DYN/MACIM) - [RAL 2024] MACIM: Multi-Agent Collaborative Implicit Mapping Through Distributed Optimizationn
 - [uniericuni/MultiRobotSAM](https://github.com/uniericuni/MultiRobotSAM) - An implementation of the 2010 paper "Multiple Relative Pose Graphs for Robust Cooperative Mapping" by Been et. al.
+- [dongjae0107/LAPS](https://github.com/dongjae0107/LAPS) - [RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields
 - [efc-robot/MR-COGraphs](https://github.com/efc-robot/MR-COGraphs) - [RA-L25] MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs
 
 ## 3D Gaussian Splatting
@@ -114,7 +115,6 @@ Repositories: `181`
 - [Fudan-MAGIC-Lab/VINGS-Mono](https://github.com/Fudan-MAGIC-Lab/VINGS-Mono) - Source code for [TRO2025] VINGS-Mono: Visual Inertial Gaussian Splatting Monocular SLAM in Large Scenes.
 - [KwanWaiPang/Awesome-3DGS-SLAM](https://github.com/KwanWaiPang/Awesome-3DGS-SLAM) - Paper Survey for 3DGS SLAM
 - [ziplab/Awesome-Feed-Forward-3D](https://github.com/ziplab/Awesome-Feed-Forward-3D) - An curated list for feed-forward 3D scene modeling, including research directions, datasets, and applications.
-- [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
 - [NVlabs/LSM](https://github.com/NVlabs/LSM) - [NeurIPS'24] Large Spatial Model: End-to-end Unposed Images to Semantic 3D
 - [PRBonn/PINGS](https://github.com/PRBonn/PINGS) - 📌 PINGS: Gaussian Splatting Meets Distance Fields within a Point-Based Implicit Neural Map [RSS' 25]
 - [VITA-Group/MM3DGS-SLAM](https://github.com/VITA-Group/MM3DGS-SLAM) - [IROS 2024] MM3DGS SLAM: Multi-modal 3D Gaussian Splatting for SLAM Using Vision, Depth, and Inertial Measurements
@@ -136,6 +136,7 @@ Repositories: `181`
 - [WHU-USI3DV/GAGS](https://github.com/WHU-USI3DV/GAGS) - [AAAI-26] GAGS: Granularity-Aware 3D Feature Distillation for Gaussian Splatting
 - [KwanWaiPang/Gaussian-SLAM_comment](https://github.com/KwanWaiPang/Gaussian-SLAM_comment)
 - [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
+- [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
 
 ## NeRF & Neural Rendering
 
@@ -193,6 +194,7 @@ Repositories: `181`
 - [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
 - [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
 - [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
+- [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
 - [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 
 ## Voxel / TSDF / Occupancy Maps

@@ -2,13 +2,13 @@
 
 Motion planning, path planning, trajectory optimization, navigation stacks, and control.
 
-Repositories: `69`
+Repositories: `71`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 68 |
+| General | 70 |
 | General Mapping | 1 |
 
 ## General
@@ -81,6 +81,8 @@ Repositories: `69`
 - [maozihaoo/Multi-UAV-Cooperative-Motion-Planning](https://github.com/maozihaoo/Multi-UAV-Cooperative-Motion-Planning) - Multi-UAV Cooperative Motion Planning Under Global Spatio-Temporal Path Inspiration in Constraint-Rich Dynamic Environments
 - [RENyunfan/Fast-Planner-Ubuntu20](https://github.com/RENyunfan/Fast-Planner-Ubuntu20) - Base line test with: A Robust and Efficient Trajectory Planner for Quadrotors
 - [efc-robot/MR-GMMExplore](https://github.com/efc-robot/MR-GMMExplore)
+- [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
+- [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner) - SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation
 
 ## General Mapping
 

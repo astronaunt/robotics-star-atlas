@@ -2,7 +2,7 @@
 
 LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
 
-Repositories: `148`
+Repositories: `150`
 
 [Back to README](../../README.md)
 
@@ -64,6 +64,7 @@ Repositories: `148`
 - [hku-mars/SLAM-HKU-MaRS-LAB](https://github.com/hku-mars/SLAM-HKU-MaRS-LAB) - In this repository, we present our research works of HKU-MaRS lab that related to SLAM
 - [HaisenbergPeng/ROLL](https://github.com/HaisenbergPeng/ROLL) - A real-time, robust LiDAR-inertial localization system
 - [xingyuuchen/LIO-PPF](https://github.com/xingyuuchen/LIO-PPF) - [IROS 2023] Fast LiDAR-Inertial Odometry via Incremental Plane Pre-Fitting and Skeleton Tracking
+- [ASIG-X/RESPLE](https://github.com/ASIG-X/RESPLE) - The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry
 - [Alpha-LiDAR/alpha_lidar](https://github.com/Alpha-LiDAR/alpha_lidar) - Official implementation of αLiDAR: An Adaptive High-Resolution Panoramic LiDAR System
 - [fetty31/fast_LIMO](https://github.com/fetty31/fast_LIMO) - A tightly coupled and real time LiDAR-Inertial SLAM algorithm. Based upon LIMO-Velo and FAST_LIO projects.
 - [liangheming/iG-LIO_SAM_LC](https://github.com/liangheming/iG-LIO_SAM_LC) - iG-LIO with Loop Closure(PGO) and Online Re-Localize
@@ -154,3 +155,4 @@ Repositories: `148`
 - [wolf943134497/FAST-LIO-Multi-Sensor-Fusion](https://github.com/wolf943134497/FAST-LIO-Multi-Sensor-Fusion) - Fusing GNSS and wheel measurements based on FAST-LIO and IKFOM
 - [changh95/LIO-SAM-nvidia-docker](https://github.com/changh95/LIO-SAM-nvidia-docker) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
 - [comrob/liorf-crl](https://github.com/comrob/liorf-crl) - CRL modification of the ROS1 liorf SLAM
+- [ouguangjun/kilo-map](https://github.com/ouguangjun/kilo-map) - kilo-map: Robust Lidar-based Odometry and Mapping

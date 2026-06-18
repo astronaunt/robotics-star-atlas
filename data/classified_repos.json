@@ -1,21 +1,21 @@
 {
-  "generated_at": "2026-06-11T01:49:19.989014+00:00",
-  "total_unique_repos": 1381,
+  "generated_at": "2026-06-18T02:31:30.749877+00:00",
+  "total_unique_repos": 1388,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
       "name_zh": "激光惯导里程计",
       "description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
       "kind": "algorithm",
-      "count": 148,
-      "primary_count": 144
+      "count": 150,
+      "primary_count": 145
     },
     "lidar-odometry": {
       "name": "LiDAR State Estimation",
       "name_zh": "纯激光里程计",
       "description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
       "kind": "algorithm",
-      "count": 74,
+      "count": 75,
       "primary_count": 68
     },
     "visual-inertial-odometry": {
@@ -31,8 +31,8 @@
       "name_zh": "激光视觉惯导里程计",
       "description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
       "kind": "algorithm",
-      "count": 33,
-      "primary_count": 27
+      "count": 34,
+      "primary_count": 28
     },
     "place-recognition-loop-closure": {
       "name": "Place Recognition & Loop Closure",
@@ -47,8 +47,8 @@
       "name_zh": "建图与地图表达",
       "description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "kind": "algorithm",
-      "count": 181,
-      "primary_count": 171
+      "count": 183,
+      "primary_count": 172
     },
     "point-cloud-registration": {
       "name": "Point Cloud Registration",
@@ -71,7 +71,7 @@
       "name_zh": "多机器人 SLAM 与协同感知",
       "description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
       "kind": "algorithm",
-      "count": 62,
+      "count": 63,
       "primary_count": 58
     },
     "radar-slam-perception": {
@@ -95,8 +95,8 @@
       "name_zh": "退化、鲁棒性与失效分析",
       "description": "Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.",
       "kind": "algorithm",
-      "count": 18,
-      "primary_count": 17
+      "count": 20,
+      "primary_count": 18
     },
     "uav-aerial-robotics": {
       "name": "UAV & Aerial Robotics",
@@ -135,16 +135,16 @@
       "name_zh": "GNSS、高精地图与全局定位",
       "description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
       "kind": "algorithm",
-      "count": 33,
-      "primary_count": 30
+      "count": 34,
+      "primary_count": 31
     },
     "planning-navigation": {
       "name": "Planning & Navigation",
       "name_zh": "规划与导航",
       "description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
       "kind": "algorithm",
-      "count": 69,
-      "primary_count": 66
+      "count": 71,
+      "primary_count": 68
     },
     "datasets-benchmarks": {
       "name": "Datasets & Benchmarks",
@@ -1313,9 +1313,14 @@
       "display_name": "ASIG-X/RESPLE",
       "display_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
       "manual_note": "",
-      "manual_labels": [],
+      "manual_labels": [
+        "lidar-inertial-odometry",
+        "lidar-odometry"
+      ],
       "labels": [
-        "multi-lidar-fusion"
+        "multi-lidar-fusion",
+        "lidar-inertial-odometry",
+        "lidar-odometry"
       ],
       "primary_category": "multi-lidar-fusion",
       "primary_category_name": "Multi-LiDAR Fusion",
@@ -1323,14 +1328,10 @@
       "primary_category_description": "Multi-LiDAR calibration, fusion, synchronization, and multi-LiDAR SLAM systems.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "",
-      "primary_score": 59,
-      "secondary_categories": [
-        "lidar-inertial-odometry"
-      ],
+      "primary_score": 999,
+      "secondary_categories": [],
       "match_hits": [
-        "list:slam-multilidar",
-        "multi lidar",
-        "multi-lidar"
+        "manual override"
       ]
     },
     "AbnerCSZ /lidar2rosbag_KITTI": {
@@ -12792,15 +12793,15 @@
     "MIT-SPARK /Clio": {
       "full_name": "MIT-SPARK /Clio",
       "url": "https://github.com/MIT-SPARK/Clio",
-      "owner": "MIT-SPARK ",
+      "owner": "MIT-SPARK",
       "repo": "Clio",
       "list_description": "",
-      "list_stars_label": "244",
-      "list_language": "Python",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "slam-map"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T14:55:23.910232+00:00",
+      "fetched_at": "2026-06-15T02:06:11.191789+00:00",
       "archived": false,
       "about": "Contribute to MIT-SPARK/Clio development by creating an account on GitHub.",
       "topics": [],
@@ -12820,10 +12821,9 @@
       "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "3D Gaussian Splatting",
-      "primary_score": 27,
+      "primary_score": 10,
       "secondary_categories": [],
       "match_hits": [
-        "list:slam-map",
         "readme:gaussian splatting",
         "readme:splatting"
       ]
@@ -58692,6 +58692,293 @@
       "match_hits": [
         "manual override"
       ]
+    },
+    "G-SEI-Lab /Leap-SLAM": {
+      "full_name": "G-SEI-Lab /Leap-SLAM",
+      "url": "https://github.com/G-SEI-Lab/Leap-SLAM",
+      "owner": "G-SEI-Lab",
+      "repo": "Leap-SLAM",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-12T02:14:39.340504+00:00",
+      "archived": false,
+      "about": "Home page",
+      "topics": [],
+      "homepage": "https://js-ch3n.github.io/leap-slam.io/",
+      "readme_excerpt": "Leap-SLAM 📰 News 2026-06-05: Our paper has been accepted by Information Fusion ! 🎉 🗂️ Pipeline 💾 Dataset All the rosbag data used in this project can be downloaded from Google Drive . ⚙️ Prerequisites 1. System Requirements OS: Ubuntu 20.04. ROS: Noetic. Follow the official ROS Installation guide . 2. Dependencies PCL (>= 1.8): Follow the PCL Installation guide . Eigen (>= 3.3.4): Follow the Eigen Installation guide . 3. Hardware Drivers livox_ros_driver: Required for Livox LiDAR integration. Follow the official installation instructions . 🛠️ Build & Installation Clone the repository and build using catkin_make : mkdir -p ~ /leap_ws/src cd ~ /leap_ws/src git clone https://github.com/G-SEI-Lab/Leap-SLAM.git cd .. catkin_make source devel/setup.bash 🚀 Results & Demonstrations We validated the superiority of our algorithm in three tunnel scenarios. Below are the comparison results with Fast-LIO2. Tunnel Mapping Length Comparison Mapping length comparison across the three tunnels. Tunnel Mapping Detail Comparison Detailed comparison in one of the tunnels. 📝 Citation If you find this work useful, please cite our paper: @article { chen2026leapslam , title = { Leap-SLAM: A Degeneracy-Mitigated Robust LiDAR-Inertial Framework } , author = { Chen, Shoubin and Chen, Jiasheng and Zhang, Baiyang and Yan, Maosheng and Li, Jianping and Zhang, Bo and Li, Qingquan } , journal = { Information Fusion } , year = { 2026 } , note = { to appear } } Acknowledgement This project is built upon the foundational work of FAST-LIO2 . We highly recommend referring to their repository for deeper insights into the core framework.",
+      "fetched_ok": true,
+      "display_name": "G-SEI-Lab/Leap-SLAM",
+      "display_description": "Home page",
+      "manual_note": "",
+      "manual_labels": [
+        "multi-robot-slam"
+      ],
+      "labels": [
+        "degeneracy-robustness",
+        "multi-robot-slam"
+      ],
+      "primary_category": "degeneracy-robustness",
+      "primary_category_name": "Degeneracy, Robustness & Failure Analysis",
+      "primary_category_name_zh": "退化、鲁棒性与失效分析",
+      "primary_category_description": "Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "ouguangjun /kilo-map": {
+      "full_name": "ouguangjun /kilo-map",
+      "url": "https://github.com/ouguangjun/kilo-map",
+      "owner": "ouguangjun",
+      "repo": "kilo-map",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T02:01:32.468713+00:00",
+      "archived": false,
+      "about": "kilo-map: Robust Lidar-based Odometry and Mapping",
+      "topics": [
+        "legged-robots",
+        "lidar",
+        "lio",
+        "mapping",
+        "odometry",
+        "robot",
+        "slam"
+      ],
+      "homepage": "https://space.bilibili.com/82127930/lists?sid=6240305&amp;spm_id_from=333.788.0.0",
+      "readme_excerpt": "Robust Lidar-based Odometry and Mapping kilo-map is a real-time LiDAR-based SLAM system with the following features: Hybrid Feature Gaussian Voxel Map : Incrementally maintains uncertain hybrid features (planar and NDT-variant), improving feature utilization across both structured and unstructured environments. Two-Stage ESKF Frontend : Fuses LiDAR and IMU in an Error-State Kalman Filter with a two-stage lidar update for high-dynamic motion: Stage 1 performs incremental per-point ESKF updates along the scan timeline to compensate for motion distortion (analogous to Point-LIO); Stage 2 backpropagates the distortion-corrected points to body frame and runs iterated ESKF (IESKF) over the full frame for global consistency refinement. This design makes the system robust against aggressive platform dynamics (e.g., legged robots) while preserving IESKF's fast convergence property. Factor Graph Backend : Uses Ceres-based factor graph optimization to tightly couple loop-closure constraints with odometry factors, reducing global drift. small_gicp and KISS-Matcher serve as verification modules for loop closure, improving matching accuracy. Real-Time Visualization : Built on Iridescence for real-time 3D visualization and debugging. Outputs frontend and backend trajectories for algorithm evaluation, and supports saving global maps (as a single map or tiled blocks) for localization systems. Cross-Platform Support : Supports both ROS 1 and ROS 2, validated on multiple public datasets with different LiDAR sensors. Most configurations share the same YAML structure and require little to no parameter tuning across different platforms and sensor setups. Prerequisites This project supports both ROS 1 and ROS 2 , and has been tested on these distributions( melodic , noetic , foxy ). It should also work with ROS 2 distributions on Ubuntu 22.04 and 24.04 (e.g., Humble , Jazzy ). All third-party libraries and ROS message packages are bundled in this repository. You only need to install the following system dependencies via apt: # required sudo apt update && sudo apt install -y libeigen3-dev libpcl-dev libgoogle-glog-dev libgflags-dev libyaml-cpp-dev libboost-filesystem-dev libboost-system-dev libtbb-dev liblz4-dev libceres-dev libglm-dev libglfw3-dev # optional sudo apt install -y libpng-dev libjpeg-dev libassimp-dev Build cd ~ /kilo_map_ws/src git clone https://github.com/ouguangjun/kilo-map.git cd .. # ros1 catkin_make # or catkin build # ros2 colcon build Run Public dataset The system has been validated on NCLT, SuperLoc, m3dgr, diter and other public datasets. You can download these datasets and test with the corresponding launch files (make sure to match the LiDAR type, topic, and extrinsic parameters in the YAML config). Taking the legged robot legkilo dataset as an exa",
+      "fetched_ok": true,
+      "display_name": "ouguangjun/kilo-map",
+      "display_description": "kilo-map: Robust Lidar-based Odometry and Mapping",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "lidar-inertial-odometry"
+      ],
+      "primary_category": "lidar-inertial-odometry",
+      "primary_category_name": "LiDAR-Inertial State Estimation",
+      "primary_category_name_zh": "激光惯导里程计",
+      "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "Garfield-cn /GLINS": {
+      "full_name": "Garfield-cn /GLINS",
+      "url": "https://github.com/Garfield-cn/GLINS",
+      "owner": "Garfield-cn",
+      "repo": "GLINS",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T01:52:22.989950+00:00",
+      "archived": false,
+      "about": "GNSS-LiDAR-INS Integrated Navigation System",
+      "topics": [],
+      "homepage": "https://eigen.tuxfamily.org/",
+      "readme_excerpt": "GLINS GLINS is a GNSS-LiDAR-INS integrated navigation system for accurate and reliable navigation in challenging urban environments. GLINS jointly optimizes GNSS measurements, LiDAR landmarks, and inertial states in a unified factor graph. This repository currently provides an overview of the system, Code is coming soon. Highlights Tightly coupled GNSS-LiDAR-INS fusion in a unified optimization framework Joint landmark-state formulation for consistency under GNSS corrections Pipeline Authors Jiahui Liu, Cheng Chi, Xin Zhang, Binlin Zhang, Dongen Li, Xingqun Zhan, and Marcelo H. Ang Jr. Related Papers J. Liu, C. Chi, X. Zhang, B. Zhang, D. Li, X. Zhan and M. H. Ang Jr., \"GLINS: GNSS-LiDAR-INS Integrated Navigation System,\" in IEEE Robotics and Automation Letters, accepted, Mar. 2026. C. Chi, X. Zhang, J. Liu, Y. Sun, Z. Zhang and X. Zhan, \"GICI-LIB: A GNSS/INS/Camera Integrated Navigation Library,\" in IEEE Robotics and Automation Letters, vol. 8, no. 12, pp. 7970-7977, Dec. 2023, doi: 10.1109/LRA.2023.3324825. Video Demo More demo videos and materials will be released soon. Dataset Our LiDAR data was collected together with GICI. Please refer to the following public dataset repository for related data resources: GICI Open Dataset Dependencies 1.1 Ubuntu We are developing our code on Ubuntu 22.04, and tested on Ubuntu 20.04 and Ubuntu 24.04. We recommend you use the same or a similar environment if you are not familiar with cross-compiling. 1.2 Eigen 3.3 or later. REQUIRED. Eigen is a C++ template library for linear algebra. You can find the releases on Eigen . 1.3 OpenCV 4.2.0 or later. REQUIRED. OpenCV is a computer vision library. You can find the releases on OpenCV . 1.4 yaml-cpp 0.6.0 or later. REQUIRED. yaml-cpp is a decoder and encoder for YAML formats. We use YAML files to configure the workflow. You can find the releases on yaml-cpp . 1.5 glog 0.6.0 or later. REQUIRED. glog is a logging control library. You can find the releases on glog . You should install glog together with gflags. We suggest you install glog from source code rather than apt-get, because installing from apt-get may make GLINS fail to find the glog library during compiling. 1.6 Ceres-Solver 2.1.0 or later. REQUIRED. Ceres-Solver is a nonlinear optimization library. You can find the releases on Ceres-Solver . 1.7 PCL 1.12 or later. REQUIRED. PCL is a library for point cloud processing. GLINS relies on PCL for LiDAR point cloud representation and geometric processing. Please make sure your installed PCL version is 1.12 or later. You can find the releases on PCL . 1.8 ROS 1. REQUIRED. ROS is a software framework for robot applications. GLINS currently depends on ROS 1 for message transport, sensor interfaces, and runtime integration. Please make sure a ROS 1 distribution is prop",
+      "fetched_ok": true,
+      "display_name": "Garfield-cn/GLINS",
+      "display_description": "GNSS-LiDAR-INS Integrated Navigation System",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "gnss-hd-map-localization"
+      ],
+      "primary_category": "gnss-hd-map-localization",
+      "primary_category_name": "GNSS, HD Map & Global Localization",
+      "primary_category_name_zh": "GNSS、高精地图与全局定位",
+      "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 28,
+      "secondary_categories": [],
+      "match_hits": [
+        "gnss",
+        "ins"
+      ]
+    },
+    "sjtuyinjie /Ultra-Fusion": {
+      "full_name": "sjtuyinjie /Ultra-Fusion",
+      "url": "https://github.com/sjtuyinjie/Ultra-Fusion",
+      "owner": "sjtuyinjie",
+      "repo": "Ultra-Fusion",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T02:01:09.341351+00:00",
+      "archived": false,
+      "about": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+      "topics": [
+        "lio",
+        "lvio",
+        "slam",
+        "vio"
+      ],
+      "homepage": "https://sjtuyinjie.github.io/ultrafusion-web/",
+      "readme_excerpt": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems Ultra-Fusion is a tightly-coupled multi-sensor SLAM/localization framework for intelligent transportation systems (ITS). It is designed for real deployment where sensor degradation (illumination changes, LiDAR degeneracy, wheel slippage, GNSS outage) and spatiotemporal miscalibration are common. The system unifies WIO, VIO, LIO, and LVIO in one configurable optimization framework, with optional wheel/GNSS fusion and online calibration. Note We currently release executable binaries and demos. Full source code will be released after paper acceptance. Highlights Unified sliding-window estimator with timestamp-ordered heterogeneous factors. Observability-aware initialization for robust bootstrap under diverse motion/sensor conditions. Factor-wise reliability scheduling (FRS) to gate/down-weight degraded measurements. Online LiDAR-IMU spatiotemporal calibration during operation. Validated on wheeled, legged, and aerial platforms across multiple public benchmarks. Method Overview Ultra-Fusion converts asynchronous sensor streams into optional factors in one optimization window, with shared state representation, marginalization, and calibration logic. Unified pipeline: initialization, reliability scheduling, online calibration, and multi-modal fusion in one framework. Why Ultra-Fusion Compared with conventional fusion pipelines that are heavily tied to a fixed sensor set, Ultra-Fusion emphasizes: Configurability : one framework for WIO/VIO/LIO/LVIO (+ wheel/GNSS). Reliability : robust localization under corner-case degradations. Deployability : support for long-term and high-speed operation in real ITS scenarios. Transferability : validated beyond wheeled robots to legged and aerial platforms. Qualitative Results Robustness Under Degradation Representative stress cases: challenging perception conditions with consistent trajectory and map quality. Cross-Platform Results Trajectory estimation examples on ground, legged, and UAV datasets. Benchmarks and Findings Ultra-Fusion is evaluated on: M3DGR (including simulation extension), M2DGR-Plus (wheeled), KAIST (Complex Urban Dataset) (autonomous driving), GrandTour (legged), MARS-LVIG (aerial). Across these datasets, the paper reports competitive localization performance and improved availability under: sensor degradation (visual/LiDAR/wheel/GNSS), temporal/extrinsic perturbations, long-duration and high-speed operation. Quick Start The public runtime is tested on Ubuntu 20.04 + ROS Noetic. The Docker image is only the ROS/runtime environment: it contains ROS Noetic, rosbag, RViz, Ceres, yaml-cpp, and the required system libraries. It does no",
+      "fetched_ok": true,
+      "display_name": "sjtuyinjie/Ultra-Fusion",
+      "display_description": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+      "manual_note": "",
+      "manual_labels": [
+        "degeneracy-robustness"
+      ],
+      "labels": [
+        "lidar-visual-inertial-odometry",
+        "degeneracy-robustness"
+      ],
+      "primary_category": "lidar-visual-inertial-odometry",
+      "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+      "primary_category_name_zh": "激光视觉惯导里程计",
+      "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "nasa-jpl /nebula2-wildos": {
+      "full_name": "nasa-jpl /nebula2-wildos",
+      "url": "https://github.com/nasa-jpl/nebula2-wildos",
+      "owner": "nasa-jpl",
+      "repo": "nebula2-wildos",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T02:11:26.994940+00:00",
+      "archived": false,
+      "about": "WildOS: Open-Vocabulary Object Search in the Wild",
+      "topics": [],
+      "homepage": "https://hardik01shah.github.io/",
+      "readme_excerpt": "WildOS: Open-Vocabulary Object Search in the Wild Hardik Shah 1,2 , Erica Tevere 1 , Deegan Atha 1 , Marcel Kaufmann 1 , Shehryar Khattak 1 , Manthan Patel 2 , Marco Hutter 2 , Jonas Frey 2,3,4 , Patrick Spieler 1 1 Jet Propulsion Laboratory (JPL), NASA 2 Robotics Systems Lab, ETH Zurich 3 Stanford University 4 University of California, Berkeley 📄 Abstract Autonomous navigation in complex, unstructured outdoor environments requires robots to operate over long ranges without prior maps and limited depth sensing. In such settings, relying solely on geometric frontiers for exploration is often insufficient; the ability to reason semantically about where to go and what is safe to traverse is crucial for robust, efficient exploration. This work presents WildOS , a unified system for long-range, open-vocabulary object search that combines safe geometric exploration with semantic visual reasoning. WildOS builds a sparse navigation graph to maintain spatial memory, while utilizing a foundation-model-based vision module, ExploRFM , to score frontier nodes of the graph. ExploRFM simultaneously predicts traversability, visual frontiers, and object similarity in image space, enabling real-time, onboard semantic navigation tasks. The resulting vision-scored graph enables the robot to explore semantically meaningful directions while ensuring geometric safety. Furthermore, we introduce a particle-filter-based method for coarse localization of the open-vocabulary target query, that estimates candidate goal positions beyond the robot's immediate depth horizon, enabling effective planning toward distant goals. Extensive closed-loop field experiments across diverse off-road and urban terrains demonstrate that WildOS enables robust navigation, significantly outperforming purely geometric and purely vision-based baselines in both efficiency and autonomy. 📁 Repository Structure wildos/ ├── nvidia_radio/ # Modified RADIO backbone with NACLIP + SigLIP2 alignment ├── explorfm/ # ExploRFM model (inference): frontiers, traversability, object similarity ├── explorfm_trainer/ # Training pipeline for ExploRFM heads (Lightning + Hydra) ├── visual_navigation/ # ROS 2 navigation: WildOS, baselines (LRN, ImgFrontierNav) ├── triangulation3d/ # Particle-filter-based 3D object triangulation ├── graphnav_planner/ # Graph-based path planner (C++) ├── graphnav_msgs/ # ROS 2 message definitions for navigation graph ├── object_search_msgs/ # ROS 2 message definitions for object search ├── gps_visualization/ # GPS path visualization (ROS 2 C++) └── ckpts/ # Model checkpoints Each package has its own README with additional details. See the Component Overview section below. ⚙️ Installation Prerequisites ROS 2 Jazzy (tested) Python >= 3.10 uv — Python package manager CUDA-capable GPU (ExploRFM t",
+      "fetched_ok": true,
+      "display_name": "nasa-jpl/nebula2-wildos",
+      "display_description": "WildOS: Open-Vocabulary Object Search in the Wild",
+      "manual_note": "",
+      "manual_labels": [
+        "mapping-map-representation"
+      ],
+      "labels": [
+        "planning-navigation",
+        "mapping-map-representation"
+      ],
+      "primary_category": "planning-navigation",
+      "primary_category_name": "Planning & Navigation",
+      "primary_category_name_zh": "规划与导航",
+      "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "dongjae0107 /LAPS": {
+      "full_name": "dongjae0107 /LAPS",
+      "url": "https://github.com/dongjae0107/LAPS",
+      "owner": "dongjae0107",
+      "repo": "LAPS",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T02:18:40.037242+00:00",
+      "archived": false,
+      "about": "[RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields",
+      "topics": [
+        "3d-mapping",
+        "implicit-neural-representation",
+        "robotics"
+      ],
+      "homepage": "https://arxiv.org/abs/2605.15496",
+      "readme_excerpt": "LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields Dongjae Lee 1 · Wooseong Yang 1 · Yifu Tao 2 · Maurice Fallon 2 · Ayoung Kim 1 1 RPM Robotics Lab, Seoul National University ; 2 Dynamic Robot Systems Group, University of Oxford TL;DR LAPS improves incremental neural LiDAR mapping by actively managing replay samples under a fixed memory and training budget. It consists of two key components: Reliability-based Active Pooling , which retains reliable replay samples while reducing spatial imbalance, and Uncertainty-guided Active Sampling , which allocates online training samples based on uncertainty. Overview of the LAPS pipeline. Updates [June, 2026] : Code released. [May, 2026] : LAPS was accepted to IEEE Robotics and Automation Letters (RA-L)! Installation 0. Clone the repository git clone https://github.com/dongjae0107/LAPS.git 1. Set up conda environment conda create -n laps python=3.10 conda activate laps 2. Install PyTorch conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia For different CUDA or PyTorch versions, please refer to the official PyTorch installation guide . 3. Install additional dependencies python -m pip install matplotlib open3d scikit-image tabulate conda install -c conda-forge quaternion Download Datasets Please download the datasets and organize them as follows: LAPS/ └── dataset/ ├── maicity/ ├── ncd/ └── spires/ MaiCity Dataset Download the dataset from here or use the following script: cd dataset/scripts/ bash download_maicity.sh Newer College Dataset Download the dataset from here . Oxford Spires Dataset Download the dataset from here . Running LAPS Run LAPS with the corresponding configuration file: # MaiCity python run.py config/maicity/maicity.yaml # Newer College python run.py config/ncd/ncd.yaml # Oxford Spires python run.py config/spires/blenheim_palace.yaml # [blenheim_palace, christ_church, keble_college, observatory_quarter] Citation If you use this code or find our work useful for your research, please consider citing: @article { lee2026laps , title = { LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields } , author = { Lee, Dongjae and Yang, Wooseong and Tao, Yifu and Fallon, Maurice and Kim, Ayoung } , journal = { IEEE Robotics and Automation Letters } , year = { 2026 } , volume = { 11 } , number = { 7 } , pages = { 8584-8591 } , doi = { 10.1109/LRA.2026.3699255 } } Acknowledgements This codebase builds on ideas and implementations from the following excellent works: SHINE_mapping PIN_SLAM 4dNDF N3-Mapping SiLVR Bayes'Rays",
+      "fetched_ok": true,
+      "display_name": "dongjae0107/LAPS",
+      "display_description": "[RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "mapping-map-representation"
+      ],
+      "primary_category": "mapping-map-representation",
+      "primary_category_name": "Mapping & Map Representation",
+      "primary_category_name_zh": "建图与地图表达",
+      "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "General Mapping",
+      "primary_score": 14,
+      "secondary_categories": [],
+      "match_hits": [
+        "mapping"
+      ]
+    },
+    "wuyi2121 /SCAN-Planner": {
+      "full_name": "wuyi2121 /SCAN-Planner",
+      "url": "https://github.com/wuyi2121/SCAN-Planner",
+      "owner": "wuyi2121",
+      "repo": "SCAN-Planner",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-18T02:31:30.748876+00:00",
+      "archived": false,
+      "about": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
+      "topics": [],
+      "homepage": "https://wuyi2121.github.io/SCAN-Planner/",
+      "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation Citation information will be added once the paper is available. License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+      "fetched_ok": true,
+      "display_name": "wuyi2121/SCAN-Planner",
+      "display_description": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "planning-navigation"
+      ],
+      "primary_category": "planning-navigation",
+      "primary_category_name": "Planning & Navigation",
+      "primary_category_name_zh": "规划与导航",
+      "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 31,
+      "secondary_categories": [],
+      "match_hits": [
+        "navigation",
+        "planner"
+      ]
     }
   },
   "grouped": {
@@ -59732,6 +60019,51 @@
         "labels": [
           "lidar-visual-inertial-odometry",
           "paper-survey-awesome"
+        ],
+        "primary_category": "lidar-visual-inertial-odometry",
+        "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+        "primary_category_name_zh": "激光视觉惯导里程计",
+        "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
+        "full_name": "sjtuyinjie /Ultra-Fusion",
+        "url": "https://github.com/sjtuyinjie/Ultra-Fusion",
+        "owner": "sjtuyinjie",
+        "repo": "Ultra-Fusion",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:01:09.341351+00:00",
+        "archived": false,
+        "about": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+        "topics": [
+          "lio",
+          "lvio",
+          "slam",
+          "vio"
+        ],
+        "homepage": "https://sjtuyinjie.github.io/ultrafusion-web/",
+        "readme_excerpt": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems Ultra-Fusion is a tightly-coupled multi-sensor SLAM/localization framework for intelligent transportation systems (ITS). It is designed for real deployment where sensor degradation (illumination changes, LiDAR degeneracy, wheel slippage, GNSS outage) and spatiotemporal miscalibration are common. The system unifies WIO, VIO, LIO, and LVIO in one configurable optimization framework, with optional wheel/GNSS fusion and online calibration. Note We currently release executable binaries and demos. Full source code will be released after paper acceptance. Highlights Unified sliding-window estimator with timestamp-ordered heterogeneous factors. Observability-aware initialization for robust bootstrap under diverse motion/sensor conditions. Factor-wise reliability scheduling (FRS) to gate/down-weight degraded measurements. Online LiDAR-IMU spatiotemporal calibration during operation. Validated on wheeled, legged, and aerial platforms across multiple public benchmarks. Method Overview Ultra-Fusion converts asynchronous sensor streams into optional factors in one optimization window, with shared state representation, marginalization, and calibration logic. Unified pipeline: initialization, reliability scheduling, online calibration, and multi-modal fusion in one framework. Why Ultra-Fusion Compared with conventional fusion pipelines that are heavily tied to a fixed sensor set, Ultra-Fusion emphasizes: Configurability : one framework for WIO/VIO/LIO/LVIO (+ wheel/GNSS). Reliability : robust localization under corner-case degradations. Deployability : support for long-term and high-speed operation in real ITS scenarios. Transferability : validated beyond wheeled robots to legged and aerial platforms. Qualitative Results Robustness Under Degradation Representative stress cases: challenging perception conditions with consistent trajectory and map quality. Cross-Platform Results Trajectory estimation examples on ground, legged, and UAV datasets. Benchmarks and Findings Ultra-Fusion is evaluated on: M3DGR (including simulation extension), M2DGR-Plus (wheeled), KAIST (Complex Urban Dataset) (autonomous driving), GrandTour (legged), MARS-LVIG (aerial). Across these datasets, the paper reports competitive localization performance and improved availability under: sensor degradation (visual/LiDAR/wheel/GNSS), temporal/extrinsic perturbations, long-duration and high-speed operation. Quick Start The public runtime is tested on Ubuntu 20.04 + ROS Noetic. The Docker image is only the ROS/runtime environment: it contains ROS Noetic, rosbag, RViz, Ceres, yaml-cpp, and the required system libraries. It does no",
+        "fetched_ok": true,
+        "display_name": "sjtuyinjie/Ultra-Fusion",
+        "display_description": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+        "manual_note": "",
+        "manual_labels": [
+          "degeneracy-robustness"
+        ],
+        "labels": [
+          "lidar-visual-inertial-odometry",
+          "degeneracy-robustness"
         ],
         "primary_category": "lidar-visual-inertial-odometry",
         "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
@@ -77182,6 +77514,47 @@
         ]
       },
       {
+        "full_name": "dongjae0107 /LAPS",
+        "url": "https://github.com/dongjae0107/LAPS",
+        "owner": "dongjae0107",
+        "repo": "LAPS",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:18:40.037242+00:00",
+        "archived": false,
+        "about": "[RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields",
+        "topics": [
+          "3d-mapping",
+          "implicit-neural-representation",
+          "robotics"
+        ],
+        "homepage": "https://arxiv.org/abs/2605.15496",
+        "readme_excerpt": "LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields Dongjae Lee 1 · Wooseong Yang 1 · Yifu Tao 2 · Maurice Fallon 2 · Ayoung Kim 1 1 RPM Robotics Lab, Seoul National University ; 2 Dynamic Robot Systems Group, University of Oxford TL;DR LAPS improves incremental neural LiDAR mapping by actively managing replay samples under a fixed memory and training budget. It consists of two key components: Reliability-based Active Pooling , which retains reliable replay samples while reducing spatial imbalance, and Uncertainty-guided Active Sampling , which allocates online training samples based on uncertainty. Overview of the LAPS pipeline. Updates [June, 2026] : Code released. [May, 2026] : LAPS was accepted to IEEE Robotics and Automation Letters (RA-L)! Installation 0. Clone the repository git clone https://github.com/dongjae0107/LAPS.git 1. Set up conda environment conda create -n laps python=3.10 conda activate laps 2. Install PyTorch conda install pytorch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 pytorch-cuda=12.1 -c pytorch -c nvidia For different CUDA or PyTorch versions, please refer to the official PyTorch installation guide . 3. Install additional dependencies python -m pip install matplotlib open3d scikit-image tabulate conda install -c conda-forge quaternion Download Datasets Please download the datasets and organize them as follows: LAPS/ └── dataset/ ├── maicity/ ├── ncd/ └── spires/ MaiCity Dataset Download the dataset from here or use the following script: cd dataset/scripts/ bash download_maicity.sh Newer College Dataset Download the dataset from here . Oxford Spires Dataset Download the dataset from here . Running LAPS Run LAPS with the corresponding configuration file: # MaiCity python run.py config/maicity/maicity.yaml # Newer College python run.py config/ncd/ncd.yaml # Oxford Spires python run.py config/spires/blenheim_palace.yaml # [blenheim_palace, christ_church, keble_college, observatory_quarter] Citation If you use this code or find our work useful for your research, please consider citing: @article { lee2026laps , title = { LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields } , author = { Lee, Dongjae and Yang, Wooseong and Tao, Yifu and Fallon, Maurice and Kim, Ayoung } , journal = { IEEE Robotics and Automation Letters } , year = { 2026 } , volume = { 11 } , number = { 7 } , pages = { 8584-8591 } , doi = { 10.1109/LRA.2026.3699255 } } Acknowledgements This codebase builds on ideas and implementations from the following excellent works: SHINE_mapping PIN_SLAM 4dNDF N3-Mapping SiLVR Bayes'Rays",
+        "fetched_ok": true,
+        "display_name": "dongjae0107/LAPS",
+        "display_description": "[RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "mapping-map-representation"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "General Mapping",
+        "primary_score": 14,
+        "secondary_categories": [],
+        "match_hits": [
+          "mapping"
+        ]
+      },
+      {
         "full_name": "donydchen /mvsplat",
         "url": "https://github.com/donydchen/mvsplat",
         "owner": "donydchen ",
@@ -80167,15 +80540,15 @@
       {
         "full_name": "MIT-SPARK /Clio",
         "url": "https://github.com/MIT-SPARK/Clio",
-        "owner": "MIT-SPARK ",
+        "owner": "MIT-SPARK",
         "repo": "Clio",
         "list_description": "",
-        "list_stars_label": "244",
-        "list_language": "Python",
+        "list_stars_label": "",
+        "list_language": "",
         "source_lists": [
-          "slam-map"
+          "manual"
         ],
-        "fetched_at": "2026-06-06T14:55:23.910232+00:00",
+        "fetched_at": "2026-06-15T02:06:11.191789+00:00",
         "archived": false,
         "about": "Contribute to MIT-SPARK/Clio development by creating an account on GitHub.",
         "topics": [],
@@ -80195,10 +80568,9 @@
         "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "3D Gaussian Splatting",
-        "primary_score": 27,
+        "primary_score": 10,
         "secondary_categories": [],
         "match_hits": [
-          "list:slam-map",
           "readme:gaussian splatting",
           "readme:splatting"
         ]
@@ -80500,6 +80872,46 @@
           "list:3dgs",
           "readme:3d gaussian splatting",
           "splatting"
+        ]
+      },
+      {
+        "full_name": "nasa-jpl /nebula2-wildos",
+        "url": "https://github.com/nasa-jpl/nebula2-wildos",
+        "owner": "nasa-jpl",
+        "repo": "nebula2-wildos",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:11:26.994940+00:00",
+        "archived": false,
+        "about": "WildOS: Open-Vocabulary Object Search in the Wild",
+        "topics": [],
+        "homepage": "https://hardik01shah.github.io/",
+        "readme_excerpt": "WildOS: Open-Vocabulary Object Search in the Wild Hardik Shah 1,2 , Erica Tevere 1 , Deegan Atha 1 , Marcel Kaufmann 1 , Shehryar Khattak 1 , Manthan Patel 2 , Marco Hutter 2 , Jonas Frey 2,3,4 , Patrick Spieler 1 1 Jet Propulsion Laboratory (JPL), NASA 2 Robotics Systems Lab, ETH Zurich 3 Stanford University 4 University of California, Berkeley 📄 Abstract Autonomous navigation in complex, unstructured outdoor environments requires robots to operate over long ranges without prior maps and limited depth sensing. In such settings, relying solely on geometric frontiers for exploration is often insufficient; the ability to reason semantically about where to go and what is safe to traverse is crucial for robust, efficient exploration. This work presents WildOS , a unified system for long-range, open-vocabulary object search that combines safe geometric exploration with semantic visual reasoning. WildOS builds a sparse navigation graph to maintain spatial memory, while utilizing a foundation-model-based vision module, ExploRFM , to score frontier nodes of the graph. ExploRFM simultaneously predicts traversability, visual frontiers, and object similarity in image space, enabling real-time, onboard semantic navigation tasks. The resulting vision-scored graph enables the robot to explore semantically meaningful directions while ensuring geometric safety. Furthermore, we introduce a particle-filter-based method for coarse localization of the open-vocabulary target query, that estimates candidate goal positions beyond the robot's immediate depth horizon, enabling effective planning toward distant goals. Extensive closed-loop field experiments across diverse off-road and urban terrains demonstrate that WildOS enables robust navigation, significantly outperforming purely geometric and purely vision-based baselines in both efficiency and autonomy. 📁 Repository Structure wildos/ ├── nvidia_radio/ # Modified RADIO backbone with NACLIP + SigLIP2 alignment ├── explorfm/ # ExploRFM model (inference): frontiers, traversability, object similarity ├── explorfm_trainer/ # Training pipeline for ExploRFM heads (Lightning + Hydra) ├── visual_navigation/ # ROS 2 navigation: WildOS, baselines (LRN, ImgFrontierNav) ├── triangulation3d/ # Particle-filter-based 3D object triangulation ├── graphnav_planner/ # Graph-based path planner (C++) ├── graphnav_msgs/ # ROS 2 message definitions for navigation graph ├── object_search_msgs/ # ROS 2 message definitions for object search ├── gps_visualization/ # GPS path visualization (ROS 2 C++) └── ckpts/ # Model checkpoints Each package has its own README with additional details. See the Component Overview section below. ⚙️ Installation Prerequisites ROS 2 Jazzy (tested) Python >= 3.10 uv — Python package manager CUDA-capable GPU (ExploRFM t",
+        "fetched_ok": true,
+        "display_name": "nasa-jpl/nebula2-wildos",
+        "display_description": "WildOS: Open-Vocabulary Object Search in the Wild",
+        "manual_note": "",
+        "manual_labels": [
+          "mapping-map-representation"
+        ],
+        "labels": [
+          "planning-navigation",
+          "mapping-map-representation"
+        ],
+        "primary_category": "planning-navigation",
+        "primary_category_name": "Planning & Navigation",
+        "primary_category_name_zh": "规划与导航",
+        "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -88018,6 +88430,62 @@
         ]
       },
       {
+        "full_name": "ASIG-X /RESPLE",
+        "url": "https://github.com/ASIG-X/RESPLE",
+        "owner": "ASIG-X ",
+        "repo": "RESPLE",
+        "list_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "list_stars_label": "221",
+        "list_language": "C++",
+        "source_lists": [
+          "slam-lio",
+          "slam-multilidar"
+        ],
+        "fetched_at": "2026-06-06T14:53:44.732557+00:00",
+        "archived": false,
+        "about": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "topics": [
+          "continuous-time",
+          "lidar",
+          "lidar-inertial-odometry",
+          "lidar-odometry",
+          "multi-lidar-inertial-odometry",
+          "real-time",
+          "ros",
+          "ros2",
+          "sensor-fusion",
+          "slam",
+          "solid-state-lidar",
+          "state-estimation"
+        ],
+        "homepage": "https://youtu.be/3-xLRRT25ys",
+        "readme_excerpt": "RESPLE: Recursive Spline Estimation for LiDAR-Based Odometry YouTube | arXiv | Website | IEEE RA-L | Demonstrator --> Branch for benchmarking News 2026-01: A new feature is now available to save estimated trajectories specifically for benchmarking. Please check out the branch here . An example using the HelmDyn dataset can be found here . The estimated trajectory will be generated through spline interpolation at ground-truth timestamps in a .txt file following the TUM format . 2025-12: The design of a handheld demostrator for RESPLE is now publicly available. Check out our web page here . 2025-12: Additional evaluation results of RESPLE-LIO and corresponding parameter sets on the Newer College dataset (including its extension) and the MCD dataset are now available on our web page . Instructions for testing are given below. 2025-09: The TudoRun dataset is released as a supplementary dataset. This is the offcial repository for RESPLE, the first B-spline-based recursive state estimation framework for estimating 6-DoF dynamic motions. Using RESPLE as the estimation backbone, we developed a unified suite of direct LiDAR-based odometry systems, including: LiDAR-only odometry (LO) LiDAR-inertial odometry (LIO) Multi-LiDAR odometry (MLO) Multi-LiDAR-inertial Odometry (MLIO) These four variants have been tested in real-world datasets and our own experiments, covering aerial, wheeled, legged, and wearable platforms operating in indoor, urban, wild environments with diverse LiDAR types. We look forward to your comments and feedback! BibTex Citation @ARTICLE{cao2025resple, author={Cao, Ziyu and Talbot, William and Li, Kailai}, title={RESPLE: Recursive Spline Estimation for LiDAR-Based Odometry}, journal={IEEE Robotics and Automation Letters}, volume={10}, number={10}, pages={10666-10673}, year={2025} } Dependencies Tested with ROS2 Humble on Ubuntu 22.04 sudo apt install libomp-dev libpcl-dev libeigen3-dev sudo apt install ros-humble-pcl* # Optional: sudo apt install ros-humble-rosbag2-storage-mcap (for playing .mcap file if testing GrandTour dataset) Compilation cd ~/ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE.git cd .. colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select estimate_msgs livox_ros_driver livox_interfaces livox_ros_driver2 resple Docker Build To build a docker image capable of running the examples and dataset: cd ~ /path/to/src git clone --recursive https://github.com/ASIG-X/RESPLE.git cd RESPLE docker build --ssh default --tag resple . Own experimental datasets ( LINK to SURFdrive ) Password: RESPLE2025 HelmDyn (Helm Dynamic) dataset 1 Livox Mid360 mounted on a helmet as a mobile platform 10 sequences recorded with very dynamic motions combining walking, running, jumping, and in-hand wavi",
+        "fetched_ok": true,
+        "display_name": "ASIG-X/RESPLE",
+        "display_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "manual_note": "",
+        "manual_labels": [
+          "lidar-inertial-odometry",
+          "lidar-odometry"
+        ],
+        "labels": [
+          "multi-lidar-fusion",
+          "lidar-inertial-odometry",
+          "lidar-odometry"
+        ],
+        "primary_category": "multi-lidar-fusion",
+        "primary_category_name": "Multi-LiDAR Fusion",
+        "primary_category_name_zh": "多激光雷达融合",
+        "primary_category_description": "Multi-LiDAR calibration, fusion, synchronization, and multi-LiDAR SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "Black-Chocolate /sc_lego_loam_noted",
         "url": "https://github.com/Black-Chocolate/sc_lego_loam_noted",
         "owner": "Black-Chocolate ",
@@ -91048,6 +91516,62 @@
         "match_hits": [
           "lidar inertial odometry",
           "lidar-inertial odometry"
+        ]
+      },
+      {
+        "full_name": "ASIG-X /RESPLE",
+        "url": "https://github.com/ASIG-X/RESPLE",
+        "owner": "ASIG-X ",
+        "repo": "RESPLE",
+        "list_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "list_stars_label": "221",
+        "list_language": "C++",
+        "source_lists": [
+          "slam-lio",
+          "slam-multilidar"
+        ],
+        "fetched_at": "2026-06-06T14:53:44.732557+00:00",
+        "archived": false,
+        "about": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "topics": [
+          "continuous-time",
+          "lidar",
+          "lidar-inertial-odometry",
+          "lidar-odometry",
+          "multi-lidar-inertial-odometry",
+          "real-time",
+          "ros",
+          "ros2",
+          "sensor-fusion",
+          "slam",
+          "solid-state-lidar",
+          "state-estimation"
+        ],
+        "homepage": "https://youtu.be/3-xLRRT25ys",
+        "readme_excerpt": "RESPLE: Recursive Spline Estimation for LiDAR-Based Odometry YouTube | arXiv | Website | IEEE RA-L | Demonstrator --> Branch for benchmarking News 2026-01: A new feature is now available to save estimated trajectories specifically for benchmarking. Please check out the branch here . An example using the HelmDyn dataset can be found here . The estimated trajectory will be generated through spline interpolation at ground-truth timestamps in a .txt file following the TUM format . 2025-12: The design of a handheld demostrator for RESPLE is now publicly available. Check out our web page here . 2025-12: Additional evaluation results of RESPLE-LIO and corresponding parameter sets on the Newer College dataset (including its extension) and the MCD dataset are now available on our web page . Instructions for testing are given below. 2025-09: The TudoRun dataset is released as a supplementary dataset. This is the offcial repository for RESPLE, the first B-spline-based recursive state estimation framework for estimating 6-DoF dynamic motions. Using RESPLE as the estimation backbone, we developed a unified suite of direct LiDAR-based odometry systems, including: LiDAR-only odometry (LO) LiDAR-inertial odometry (LIO) Multi-LiDAR odometry (MLO) Multi-LiDAR-inertial Odometry (MLIO) These four variants have been tested in real-world datasets and our own experiments, covering aerial, wheeled, legged, and wearable platforms operating in indoor, urban, wild environments with diverse LiDAR types. We look forward to your comments and feedback! BibTex Citation @ARTICLE{cao2025resple, author={Cao, Ziyu and Talbot, William and Li, Kailai}, title={RESPLE: Recursive Spline Estimation for LiDAR-Based Odometry}, journal={IEEE Robotics and Automation Letters}, volume={10}, number={10}, pages={10666-10673}, year={2025} } Dependencies Tested with ROS2 Humble on Ubuntu 22.04 sudo apt install libomp-dev libpcl-dev libeigen3-dev sudo apt install ros-humble-pcl* # Optional: sudo apt install ros-humble-rosbag2-storage-mcap (for playing .mcap file if testing GrandTour dataset) Compilation cd ~/ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE.git cd .. colcon build --symlink-install --cmake-args -DCMAKE_BUILD_TYPE=Release --packages-select estimate_msgs livox_ros_driver livox_interfaces livox_ros_driver2 resple Docker Build To build a docker image capable of running the examples and dataset: cd ~ /path/to/src git clone --recursive https://github.com/ASIG-X/RESPLE.git cd RESPLE docker build --ssh default --tag resple . Own experimental datasets ( LINK to SURFdrive ) Password: RESPLE2025 HelmDyn (Helm Dynamic) dataset 1 Livox Mid360 mounted on a helmet as a mobile platform 10 sequences recorded with very dynamic motions combining walking, running, jumping, and in-hand wavi",
+        "fetched_ok": true,
+        "display_name": "ASIG-X/RESPLE",
+        "display_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
+        "manual_note": "",
+        "manual_labels": [
+          "lidar-inertial-odometry",
+          "lidar-odometry"
+        ],
+        "labels": [
+          "multi-lidar-fusion",
+          "lidar-inertial-odometry",
+          "lidar-odometry"
+        ],
+        "primary_category": "multi-lidar-fusion",
+        "primary_category_name": "Multi-LiDAR Fusion",
+        "primary_category_name_zh": "多激光雷达融合",
+        "primary_category_description": "Multi-LiDAR calibration, fusion, synchronization, and multi-LiDAR SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -94869,6 +95393,51 @@
         ]
       },
       {
+        "full_name": "ouguangjun /kilo-map",
+        "url": "https://github.com/ouguangjun/kilo-map",
+        "owner": "ouguangjun",
+        "repo": "kilo-map",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:01:32.468713+00:00",
+        "archived": false,
+        "about": "kilo-map: Robust Lidar-based Odometry and Mapping",
+        "topics": [
+          "legged-robots",
+          "lidar",
+          "lio",
+          "mapping",
+          "odometry",
+          "robot",
+          "slam"
+        ],
+        "homepage": "https://space.bilibili.com/82127930/lists?sid=6240305&amp;spm_id_from=333.788.0.0",
+        "readme_excerpt": "Robust Lidar-based Odometry and Mapping kilo-map is a real-time LiDAR-based SLAM system with the following features: Hybrid Feature Gaussian Voxel Map : Incrementally maintains uncertain hybrid features (planar and NDT-variant), improving feature utilization across both structured and unstructured environments. Two-Stage ESKF Frontend : Fuses LiDAR and IMU in an Error-State Kalman Filter with a two-stage lidar update for high-dynamic motion: Stage 1 performs incremental per-point ESKF updates along the scan timeline to compensate for motion distortion (analogous to Point-LIO); Stage 2 backpropagates the distortion-corrected points to body frame and runs iterated ESKF (IESKF) over the full frame for global consistency refinement. This design makes the system robust against aggressive platform dynamics (e.g., legged robots) while preserving IESKF's fast convergence property. Factor Graph Backend : Uses Ceres-based factor graph optimization to tightly couple loop-closure constraints with odometry factors, reducing global drift. small_gicp and KISS-Matcher serve as verification modules for loop closure, improving matching accuracy. Real-Time Visualization : Built on Iridescence for real-time 3D visualization and debugging. Outputs frontend and backend trajectories for algorithm evaluation, and supports saving global maps (as a single map or tiled blocks) for localization systems. Cross-Platform Support : Supports both ROS 1 and ROS 2, validated on multiple public datasets with different LiDAR sensors. Most configurations share the same YAML structure and require little to no parameter tuning across different platforms and sensor setups. Prerequisites This project supports both ROS 1 and ROS 2 , and has been tested on these distributions( melodic , noetic , foxy ). It should also work with ROS 2 distributions on Ubuntu 22.04 and 24.04 (e.g., Humble , Jazzy ). All third-party libraries and ROS message packages are bundled in this repository. You only need to install the following system dependencies via apt: # required sudo apt update && sudo apt install -y libeigen3-dev libpcl-dev libgoogle-glog-dev libgflags-dev libyaml-cpp-dev libboost-filesystem-dev libboost-system-dev libtbb-dev liblz4-dev libceres-dev libglm-dev libglfw3-dev # optional sudo apt install -y libpng-dev libjpeg-dev libassimp-dev Build cd ~ /kilo_map_ws/src git clone https://github.com/ouguangjun/kilo-map.git cd .. # ros1 catkin_make # or catkin build # ros2 colcon build Run Public dataset The system has been validated on NCLT, SuperLoc, m3dgr, diter and other public datasets. You can download these datasets and test with the corresponding launch files (make sure to match the LiDAR type, topic, and extrinsic parameters in the YAML config). Taking the legged robot legkilo dataset as an exa",
+        "fetched_ok": true,
+        "display_name": "ouguangjun/kilo-map",
+        "display_description": "kilo-map: Robust Lidar-based Odometry and Mapping",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "lidar-inertial-odometry"
+        ],
+        "primary_category": "lidar-inertial-odometry",
+        "primary_category_name": "LiDAR-Inertial State Estimation",
+        "primary_category_name_zh": "激光惯导里程计",
+        "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "ouguangjun /Leg-KILO",
         "url": "https://github.com/ouguangjun/Leg-KILO",
         "owner": "ouguangjun ",
@@ -98456,9 +99025,14 @@
         "display_name": "ASIG-X/RESPLE",
         "display_description": "The first 6-DoF spline-based recursive motion esimator for LiDAR-based odometry",
         "manual_note": "",
-        "manual_labels": [],
+        "manual_labels": [
+          "lidar-inertial-odometry",
+          "lidar-odometry"
+        ],
         "labels": [
-          "multi-lidar-fusion"
+          "multi-lidar-fusion",
+          "lidar-inertial-odometry",
+          "lidar-odometry"
         ],
         "primary_category": "multi-lidar-fusion",
         "primary_category_name": "Multi-LiDAR Fusion",
@@ -98466,14 +99040,10 @@
         "primary_category_description": "Multi-LiDAR calibration, fusion, synchronization, and multi-LiDAR SLAM systems.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "",
-        "primary_score": 59,
-        "secondary_categories": [
-          "lidar-inertial-odometry"
-        ],
+        "primary_score": 999,
+        "secondary_categories": [],
         "match_hits": [
-          "list:slam-multilidar",
-          "multi lidar",
-          "multi-lidar"
+          "manual override"
         ]
       },
       {
@@ -100836,6 +101406,46 @@
         ]
       },
       {
+        "full_name": "nasa-jpl /nebula2-wildos",
+        "url": "https://github.com/nasa-jpl/nebula2-wildos",
+        "owner": "nasa-jpl",
+        "repo": "nebula2-wildos",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:11:26.994940+00:00",
+        "archived": false,
+        "about": "WildOS: Open-Vocabulary Object Search in the Wild",
+        "topics": [],
+        "homepage": "https://hardik01shah.github.io/",
+        "readme_excerpt": "WildOS: Open-Vocabulary Object Search in the Wild Hardik Shah 1,2 , Erica Tevere 1 , Deegan Atha 1 , Marcel Kaufmann 1 , Shehryar Khattak 1 , Manthan Patel 2 , Marco Hutter 2 , Jonas Frey 2,3,4 , Patrick Spieler 1 1 Jet Propulsion Laboratory (JPL), NASA 2 Robotics Systems Lab, ETH Zurich 3 Stanford University 4 University of California, Berkeley 📄 Abstract Autonomous navigation in complex, unstructured outdoor environments requires robots to operate over long ranges without prior maps and limited depth sensing. In such settings, relying solely on geometric frontiers for exploration is often insufficient; the ability to reason semantically about where to go and what is safe to traverse is crucial for robust, efficient exploration. This work presents WildOS , a unified system for long-range, open-vocabulary object search that combines safe geometric exploration with semantic visual reasoning. WildOS builds a sparse navigation graph to maintain spatial memory, while utilizing a foundation-model-based vision module, ExploRFM , to score frontier nodes of the graph. ExploRFM simultaneously predicts traversability, visual frontiers, and object similarity in image space, enabling real-time, onboard semantic navigation tasks. The resulting vision-scored graph enables the robot to explore semantically meaningful directions while ensuring geometric safety. Furthermore, we introduce a particle-filter-based method for coarse localization of the open-vocabulary target query, that estimates candidate goal positions beyond the robot's immediate depth horizon, enabling effective planning toward distant goals. Extensive closed-loop field experiments across diverse off-road and urban terrains demonstrate that WildOS enables robust navigation, significantly outperforming purely geometric and purely vision-based baselines in both efficiency and autonomy. 📁 Repository Structure wildos/ ├── nvidia_radio/ # Modified RADIO backbone with NACLIP + SigLIP2 alignment ├── explorfm/ # ExploRFM model (inference): frontiers, traversability, object similarity ├── explorfm_trainer/ # Training pipeline for ExploRFM heads (Lightning + Hydra) ├── visual_navigation/ # ROS 2 navigation: WildOS, baselines (LRN, ImgFrontierNav) ├── triangulation3d/ # Particle-filter-based 3D object triangulation ├── graphnav_planner/ # Graph-based path planner (C++) ├── graphnav_msgs/ # ROS 2 message definitions for navigation graph ├── object_search_msgs/ # ROS 2 message definitions for object search ├── gps_visualization/ # GPS path visualization (ROS 2 C++) └── ckpts/ # Model checkpoints Each package has its own README with additional details. See the Component Overview section below. ⚙️ Installation Prerequisites ROS 2 Jazzy (tested) Python >= 3.10 uv — Python package manager CUDA-capable GPU (ExploRFM t",
+        "fetched_ok": true,
+        "display_name": "nasa-jpl/nebula2-wildos",
+        "display_description": "WildOS: Open-Vocabulary Object Search in the Wild",
+        "manual_note": "",
+        "manual_labels": [
+          "mapping-map-representation"
+        ],
+        "labels": [
+          "planning-navigation",
+          "mapping-map-representation"
+        ],
+        "primary_category": "planning-navigation",
+        "primary_category_name": "Planning & Navigation",
+        "primary_category_name_zh": "规划与导航",
+        "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "NKU-MobFly-Robotics /LRAE",
         "url": "https://github.com/NKU-MobFly-Robotics/LRAE",
         "owner": "NKU-MobFly-Robotics ",
@@ -101720,6 +102330,44 @@
         ]
       },
       {
+        "full_name": "wuyi2121 /SCAN-Planner",
+        "url": "https://github.com/wuyi2121/SCAN-Planner",
+        "owner": "wuyi2121",
+        "repo": "SCAN-Planner",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:31:30.748876+00:00",
+        "archived": false,
+        "about": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
+        "topics": [],
+        "homepage": "https://wuyi2121.github.io/SCAN-Planner/",
+        "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation Citation information will be added once the paper is available. License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+        "fetched_ok": true,
+        "display_name": "wuyi2121/SCAN-Planner",
+        "display_description": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "planning-navigation"
+        ],
+        "primary_category": "planning-navigation",
+        "primary_category_name": "Planning & Navigation",
+        "primary_category_name_zh": "规划与导航",
+        "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 31,
+        "secondary_categories": [],
+        "match_hits": [
+          "navigation",
+          "planner"
+        ]
+      },
+      {
         "full_name": "yzhangec /Exploration-with-Global-Consistency",
         "url": "https://github.com/yzhangec/Exploration-with-Global-Consistency",
         "owner": "yzhangec ",
@@ -102338,6 +102986,46 @@
           "list:slam-multirobot",
           "readme:multi robot slam",
           "readme:multi-robot slam"
+        ]
+      },
+      {
+        "full_name": "G-SEI-Lab /Leap-SLAM",
+        "url": "https://github.com/G-SEI-Lab/Leap-SLAM",
+        "owner": "G-SEI-Lab",
+        "repo": "Leap-SLAM",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-12T02:14:39.340504+00:00",
+        "archived": false,
+        "about": "Home page",
+        "topics": [],
+        "homepage": "https://js-ch3n.github.io/leap-slam.io/",
+        "readme_excerpt": "Leap-SLAM 📰 News 2026-06-05: Our paper has been accepted by Information Fusion ! 🎉 🗂️ Pipeline 💾 Dataset All the rosbag data used in this project can be downloaded from Google Drive . ⚙️ Prerequisites 1. System Requirements OS: Ubuntu 20.04. ROS: Noetic. Follow the official ROS Installation guide . 2. Dependencies PCL (>= 1.8): Follow the PCL Installation guide . Eigen (>= 3.3.4): Follow the Eigen Installation guide . 3. Hardware Drivers livox_ros_driver: Required for Livox LiDAR integration. Follow the official installation instructions . 🛠️ Build & Installation Clone the repository and build using catkin_make : mkdir -p ~ /leap_ws/src cd ~ /leap_ws/src git clone https://github.com/G-SEI-Lab/Leap-SLAM.git cd .. catkin_make source devel/setup.bash 🚀 Results & Demonstrations We validated the superiority of our algorithm in three tunnel scenarios. Below are the comparison results with Fast-LIO2. Tunnel Mapping Length Comparison Mapping length comparison across the three tunnels. Tunnel Mapping Detail Comparison Detailed comparison in one of the tunnels. 📝 Citation If you find this work useful, please cite our paper: @article { chen2026leapslam , title = { Leap-SLAM: A Degeneracy-Mitigated Robust LiDAR-Inertial Framework } , author = { Chen, Shoubin and Chen, Jiasheng and Zhang, Baiyang and Yan, Maosheng and Li, Jianping and Zhang, Bo and Li, Qingquan } , journal = { Information Fusion } , year = { 2026 } , note = { to appear } } Acknowledgement This project is built upon the foundational work of FAST-LIO2 . We highly recommend referring to their repository for deeper insights into the core framework.",
+        "fetched_ok": true,
+        "display_name": "G-SEI-Lab/Leap-SLAM",
+        "display_description": "Home page",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "degeneracy-robustness",
+          "multi-robot-slam"
+        ],
+        "primary_category": "degeneracy-robustness",
+        "primary_category_name": "Degeneracy, Robustness & Failure Analysis",
+        "primary_category_name_zh": "退化、鲁棒性与失效分析",
+        "primary_category_description": "Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -112396,6 +113084,44 @@
         ]
       },
       {
+        "full_name": "Garfield-cn /GLINS",
+        "url": "https://github.com/Garfield-cn/GLINS",
+        "owner": "Garfield-cn",
+        "repo": "GLINS",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T01:52:22.989950+00:00",
+        "archived": false,
+        "about": "GNSS-LiDAR-INS Integrated Navigation System",
+        "topics": [],
+        "homepage": "https://eigen.tuxfamily.org/",
+        "readme_excerpt": "GLINS GLINS is a GNSS-LiDAR-INS integrated navigation system for accurate and reliable navigation in challenging urban environments. GLINS jointly optimizes GNSS measurements, LiDAR landmarks, and inertial states in a unified factor graph. This repository currently provides an overview of the system, Code is coming soon. Highlights Tightly coupled GNSS-LiDAR-INS fusion in a unified optimization framework Joint landmark-state formulation for consistency under GNSS corrections Pipeline Authors Jiahui Liu, Cheng Chi, Xin Zhang, Binlin Zhang, Dongen Li, Xingqun Zhan, and Marcelo H. Ang Jr. Related Papers J. Liu, C. Chi, X. Zhang, B. Zhang, D. Li, X. Zhan and M. H. Ang Jr., \"GLINS: GNSS-LiDAR-INS Integrated Navigation System,\" in IEEE Robotics and Automation Letters, accepted, Mar. 2026. C. Chi, X. Zhang, J. Liu, Y. Sun, Z. Zhang and X. Zhan, \"GICI-LIB: A GNSS/INS/Camera Integrated Navigation Library,\" in IEEE Robotics and Automation Letters, vol. 8, no. 12, pp. 7970-7977, Dec. 2023, doi: 10.1109/LRA.2023.3324825. Video Demo More demo videos and materials will be released soon. Dataset Our LiDAR data was collected together with GICI. Please refer to the following public dataset repository for related data resources: GICI Open Dataset Dependencies 1.1 Ubuntu We are developing our code on Ubuntu 22.04, and tested on Ubuntu 20.04 and Ubuntu 24.04. We recommend you use the same or a similar environment if you are not familiar with cross-compiling. 1.2 Eigen 3.3 or later. REQUIRED. Eigen is a C++ template library for linear algebra. You can find the releases on Eigen . 1.3 OpenCV 4.2.0 or later. REQUIRED. OpenCV is a computer vision library. You can find the releases on OpenCV . 1.4 yaml-cpp 0.6.0 or later. REQUIRED. yaml-cpp is a decoder and encoder for YAML formats. We use YAML files to configure the workflow. You can find the releases on yaml-cpp . 1.5 glog 0.6.0 or later. REQUIRED. glog is a logging control library. You can find the releases on glog . You should install glog together with gflags. We suggest you install glog from source code rather than apt-get, because installing from apt-get may make GLINS fail to find the glog library during compiling. 1.6 Ceres-Solver 2.1.0 or later. REQUIRED. Ceres-Solver is a nonlinear optimization library. You can find the releases on Ceres-Solver . 1.7 PCL 1.12 or later. REQUIRED. PCL is a library for point cloud processing. GLINS relies on PCL for LiDAR point cloud representation and geometric processing. Please make sure your installed PCL version is 1.12 or later. You can find the releases on PCL . 1.8 ROS 1. REQUIRED. ROS is a software framework for robot applications. GLINS currently depends on ROS 1 for message transport, sensor interfaces, and runtime integration. Please make sure a ROS 1 distribution is prop",
+        "fetched_ok": true,
+        "display_name": "Garfield-cn/GLINS",
+        "display_description": "GNSS-LiDAR-INS Integrated Navigation System",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "gnss-hd-map-localization"
+        ],
+        "primary_category": "gnss-hd-map-localization",
+        "primary_category_name": "GNSS, HD Map & Global Localization",
+        "primary_category_name_zh": "GNSS、高精地图与全局定位",
+        "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 28,
+        "secondary_categories": [],
+        "match_hits": [
+          "gnss",
+          "ins"
+        ]
+      },
+      {
         "full_name": "HKUST-Aerial-Robotics /GVINS",
         "url": "https://github.com/HKUST-Aerial-Robotics/GVINS",
         "owner": "HKUST-Aerial-Robotics ",
@@ -115105,6 +115831,46 @@
         ]
       },
       {
+        "full_name": "G-SEI-Lab /Leap-SLAM",
+        "url": "https://github.com/G-SEI-Lab/Leap-SLAM",
+        "owner": "G-SEI-Lab",
+        "repo": "Leap-SLAM",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-12T02:14:39.340504+00:00",
+        "archived": false,
+        "about": "Home page",
+        "topics": [],
+        "homepage": "https://js-ch3n.github.io/leap-slam.io/",
+        "readme_excerpt": "Leap-SLAM 📰 News 2026-06-05: Our paper has been accepted by Information Fusion ! 🎉 🗂️ Pipeline 💾 Dataset All the rosbag data used in this project can be downloaded from Google Drive . ⚙️ Prerequisites 1. System Requirements OS: Ubuntu 20.04. ROS: Noetic. Follow the official ROS Installation guide . 2. Dependencies PCL (>= 1.8): Follow the PCL Installation guide . Eigen (>= 3.3.4): Follow the Eigen Installation guide . 3. Hardware Drivers livox_ros_driver: Required for Livox LiDAR integration. Follow the official installation instructions . 🛠️ Build & Installation Clone the repository and build using catkin_make : mkdir -p ~ /leap_ws/src cd ~ /leap_ws/src git clone https://github.com/G-SEI-Lab/Leap-SLAM.git cd .. catkin_make source devel/setup.bash 🚀 Results & Demonstrations We validated the superiority of our algorithm in three tunnel scenarios. Below are the comparison results with Fast-LIO2. Tunnel Mapping Length Comparison Mapping length comparison across the three tunnels. Tunnel Mapping Detail Comparison Detailed comparison in one of the tunnels. 📝 Citation If you find this work useful, please cite our paper: @article { chen2026leapslam , title = { Leap-SLAM: A Degeneracy-Mitigated Robust LiDAR-Inertial Framework } , author = { Chen, Shoubin and Chen, Jiasheng and Zhang, Baiyang and Yan, Maosheng and Li, Jianping and Zhang, Bo and Li, Qingquan } , journal = { Information Fusion } , year = { 2026 } , note = { to appear } } Acknowledgement This project is built upon the foundational work of FAST-LIO2 . We highly recommend referring to their repository for deeper insights into the core framework.",
+        "fetched_ok": true,
+        "display_name": "G-SEI-Lab/Leap-SLAM",
+        "display_description": "Home page",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "degeneracy-robustness",
+          "multi-robot-slam"
+        ],
+        "primary_category": "degeneracy-robustness",
+        "primary_category_name": "Degeneracy, Robustness & Failure Analysis",
+        "primary_category_name_zh": "退化、鲁棒性与失效分析",
+        "primary_category_description": "Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "jiejie567 /SelectiveKF",
         "url": "https://github.com/jiejie567/SelectiveKF",
         "owner": "jiejie567 ",
@@ -115689,6 +116455,51 @@
         "match_hits": [
           "list:slam-degenerate",
           "readme:degeneracy"
+        ]
+      },
+      {
+        "full_name": "sjtuyinjie /Ultra-Fusion",
+        "url": "https://github.com/sjtuyinjie/Ultra-Fusion",
+        "owner": "sjtuyinjie",
+        "repo": "Ultra-Fusion",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-18T02:01:09.341351+00:00",
+        "archived": false,
+        "about": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+        "topics": [
+          "lio",
+          "lvio",
+          "slam",
+          "vio"
+        ],
+        "homepage": "https://sjtuyinjie.github.io/ultrafusion-web/",
+        "readme_excerpt": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems Ultra-Fusion is a tightly-coupled multi-sensor SLAM/localization framework for intelligent transportation systems (ITS). It is designed for real deployment where sensor degradation (illumination changes, LiDAR degeneracy, wheel slippage, GNSS outage) and spatiotemporal miscalibration are common. The system unifies WIO, VIO, LIO, and LVIO in one configurable optimization framework, with optional wheel/GNSS fusion and online calibration. Note We currently release executable binaries and demos. Full source code will be released after paper acceptance. Highlights Unified sliding-window estimator with timestamp-ordered heterogeneous factors. Observability-aware initialization for robust bootstrap under diverse motion/sensor conditions. Factor-wise reliability scheduling (FRS) to gate/down-weight degraded measurements. Online LiDAR-IMU spatiotemporal calibration during operation. Validated on wheeled, legged, and aerial platforms across multiple public benchmarks. Method Overview Ultra-Fusion converts asynchronous sensor streams into optional factors in one optimization window, with shared state representation, marginalization, and calibration logic. Unified pipeline: initialization, reliability scheduling, online calibration, and multi-modal fusion in one framework. Why Ultra-Fusion Compared with conventional fusion pipelines that are heavily tied to a fixed sensor set, Ultra-Fusion emphasizes: Configurability : one framework for WIO/VIO/LIO/LVIO (+ wheel/GNSS). Reliability : robust localization under corner-case degradations. Deployability : support for long-term and high-speed operation in real ITS scenarios. Transferability : validated beyond wheeled robots to legged and aerial platforms. Qualitative Results Robustness Under Degradation Representative stress cases: challenging perception conditions with consistent trajectory and map quality. Cross-Platform Results Trajectory estimation examples on ground, legged, and UAV datasets. Benchmarks and Findings Ultra-Fusion is evaluated on: M3DGR (including simulation extension), M2DGR-Plus (wheeled), KAIST (Complex Urban Dataset) (autonomous driving), GrandTour (legged), MARS-LVIG (aerial). Across these datasets, the paper reports competitive localization performance and improved availability under: sensor degradation (visual/LiDAR/wheel/GNSS), temporal/extrinsic perturbations, long-duration and high-speed operation. Quick Start The public runtime is tested on Ubuntu 20.04 + ROS Noetic. The Docker image is only the ROS/runtime environment: it contains ROS Noetic, rosbag, RViz, Ceres, yaml-cpp, and the required system libraries. It does no",
+        "fetched_ok": true,
+        "display_name": "sjtuyinjie/Ultra-Fusion",
+        "display_description": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
+        "manual_note": "",
+        "manual_labels": [
+          "degeneracy-robustness"
+        ],
+        "labels": [
+          "lidar-visual-inertial-odometry",
+          "degeneracy-robustness"
+        ],
+        "primary_category": "lidar-visual-inertial-odometry",
+        "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+        "primary_category_name_zh": "激光视觉惯导里程计",
+        "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
