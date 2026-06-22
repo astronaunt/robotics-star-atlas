@@ -2,7 +2,7 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `203`
+Repositories: `205`
 
 [Back to README](../../README.md)
 
@@ -11,9 +11,9 @@ Repositories: `203`
 | ROS / Robotics Tools | 82 |
 | C++ / Development | 34 |
 | Research Productivity | 34 |
-| LLM / AI Tools | 26 |
+| LLM / AI Tools | 27 |
 | Docker / Reproducibility | 13 |
-| General | 7 |
+| General | 8 |
 | Visualization / Annotation | 7 |
 
 ## ROS / Robotics Tools
@@ -203,6 +203,7 @@ Repositories: `203`
 - [CHAOZHAO-1/The-Ph.D.-journey-scenery](https://github.com/CHAOZHAO-1/The-Ph.D.-journey-scenery)
 - [nzantout/SORT3D](https://github.com/nzantout/SORT3D) - SORT3D, an LLM-based object-centric grounding and indoor navigation system employing a spatial reasoning toolbox and state of the art 2D VLMs for perception.
 - [szx-0633/DeepSeek-R1-learning-note](https://github.com/szx-0633/DeepSeek-R1-learning-note) - My learning note about DeepSeek-R1 reasoning LLM
+- [pypose/bae](https://github.com/pypose/bae) - [T-RO 2026] Bundle Adjustment in the Eager Mode
 
 ## Docker / Reproducibility
 
@@ -229,6 +230,7 @@ Repositories: `203`
 - [gogojjh/pointcloud_image_converter](https://github.com/gogojjh/pointcloud_image_converter)
 - [jizhang-cmu/360_camera](https://github.com/jizhang-cmu/360_camera) - Ricoh Theta Z1 camera driver and lidar-to-camera extrinsic/latency calibration for Mecanum wheel platform
 - [homtimon/gt_traj_icp_registration](https://github.com/homtimon/gt_traj_icp_registration) - Tool to register point clouds to generate ground truth trajectories
+- [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation
 
 ## Visualization / Annotation
 

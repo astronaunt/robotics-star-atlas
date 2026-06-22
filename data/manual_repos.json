@@ -51,14 +51,29 @@
       "added_at": "2026-06-11T01:49:16.777578+00:00"
     },
     {
+      "full_name": "ori-drs/ScaRF-SLAM",
+      "url": "https://github.com/ori-drs/ScaRF-SLAM",
+      "added_at": "2026-06-19T01:41:20.795070+00:00"
+    },
+    {
       "full_name": "ouguangjun/kilo-map",
       "url": "https://github.com/ouguangjun/kilo-map",
       "added_at": "2026-06-15T02:11:10.574775+00:00"
     },
     {
+      "full_name": "PANshuyi/MR-Voxel-SVIO",
+      "url": "https://github.com/PANshuyi/MR-Voxel-SVIO",
+      "added_at": "2026-06-19T01:42:17.024627+00:00"
+    },
+    {
       "full_name": "Printeger/uwb-imu-fusion",
       "url": "https://github.com/Printeger/uwb-imu-fusion",
       "added_at": "2026-06-08T02:21:41.200554+00:00"
+    },
+    {
+      "full_name": "pypose/bae",
+      "url": "https://github.com/pypose/bae",
+      "added_at": "2026-06-22T01:47:33.975876+00:00"
     },
     {
       "full_name": "rsasaki0109/gnssplusplus-library",

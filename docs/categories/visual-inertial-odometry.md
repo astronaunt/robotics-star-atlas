@@ -2,13 +2,13 @@
 
 Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.
 
-Repositories: `70`
+Repositories: `71`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 68 |
+| General | 69 |
 | 3D Gaussian Splatting | 2 |
 
 ## General
@@ -80,6 +80,7 @@ Repositories: `70`
 - [JixinGao/KILVO](https://github.com/JixinGao/KILVO) - Kinematic-Inertial-LiDAR-Visual Odometry with Robust Multimodal Adaptation for Humanoid Robots
 - [HITSZ-NRSL/ETIO](https://github.com/HITSZ-NRSL/ETIO) - Source code for Edge-Based Monocular Thermal-Inertial Odometry in Visually Degraded Environments
 - [U-AMC/rpg_vikit_rational_polynomial](https://github.com/U-AMC/rpg_vikit_rational_polynomial)
+- [PANshuyi/MR-Voxel-SVIO](https://github.com/PANshuyi/MR-Voxel-SVIO)
 - [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 
 ## 3D Gaussian Splatting

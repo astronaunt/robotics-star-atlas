@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-18T02:31:30.749877+00:00",
-  "total_unique_repos": 1388,
+  "generated_at": "2026-06-22T01:50:20.011741+00:00",
+  "total_unique_repos": 1391,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -30633,17 +30633,18 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-18T02:01:09.341351+00:00",
+      "fetched_at": "2026-06-22T01:50:20.010741+00:00",
       "archived": false,
       "about": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation",
       "topics": [
+        "gaussiansplatting",
         "lio",
         "lvio",
         "slam",
         "vio"
       ],
       "homepage": "https://sjtuyinjie.github.io/ultrafusion-web/",
-      "readme_excerpt": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems Ultra-Fusion is a tightly-coupled multi-sensor SLAM/localization framework for intelligent transportation systems (ITS). It is designed for real deployment where sensor degradation (illumination changes, LiDAR degeneracy, wheel slippage, GNSS outage) and spatiotemporal miscalibration are common. The system unifies WIO, VIO, LIO, and LVIO in one configurable optimization framework, with optional wheel/GNSS fusion and online calibration. Note We currently release executable binaries and demos. Full source code will be released after paper acceptance. Highlights Unified sliding-window estimator with timestamp-ordered heterogeneous factors. Observability-aware initialization for robust bootstrap under diverse motion/sensor conditions. Factor-wise reliability scheduling (FRS) to gate/down-weight degraded measurements. Online LiDAR-IMU spatiotemporal calibration during operation. Validated on wheeled, legged, and aerial platforms across multiple public benchmarks. Method Overview Ultra-Fusion converts asynchronous sensor streams into optional factors in one optimization window, with shared state representation, marginalization, and calibration logic. Unified pipeline: initialization, reliability scheduling, online calibration, and multi-modal fusion in one framework. Why Ultra-Fusion Compared with conventional fusion pipelines that are heavily tied to a fixed sensor set, Ultra-Fusion emphasizes: Configurability : one framework for WIO/VIO/LIO/LVIO (+ wheel/GNSS). Reliability : robust localization under corner-case degradations. Deployability : support for long-term and high-speed operation in real ITS scenarios. Transferability : validated beyond wheeled robots to legged and aerial platforms. Qualitative Results Robustness Under Degradation Representative stress cases: challenging perception conditions with consistent trajectory and map quality. Cross-Platform Results Trajectory estimation examples on ground, legged, and UAV datasets. Benchmarks and Findings Ultra-Fusion is evaluated on: M3DGR (including simulation extension), M2DGR-Plus (wheeled), KAIST (Complex Urban Dataset) (autonomous driving), GrandTour (legged), MARS-LVIG (aerial). Across these datasets, the paper reports competitive localization performance and improved availability under: sensor degradation (visual/LiDAR/wheel/GNSS), temporal/extrinsic perturbations, long-duration and high-speed operation. Quick Start The public runtime is tested on Ubuntu 20.04 + ROS Noetic. The Docker image is only the ROS/runtime environment: it contains ROS Noetic, rosbag, RViz, Ceres, yaml-cpp, and the required system libraries. It does no",
+      "readme_excerpt": "Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation for Intelligent Transportation Systems Core contributors: Yihong Tian , Junjie Zhang , Liuyang Li , and Jie Yin * Ultra-Fusion is a tightly-coupled multi-sensor SLAM/localization framework for intelligent transportation systems (ITS). It is designed for real deployment where sensor degradation (illumination changes, LiDAR degeneracy, wheel slippage, GNSS outage) and spatiotemporal miscalibration are common. The system unifies WIO, VIO, LIO, and LVIO in one configurable optimization framework, with optional wheel/GNSS fusion and online calibration. Overview Highlights Unified sliding-window estimator with timestamp-ordered heterogeneous factors. Observability-aware initialization for robust bootstrap under diverse motion/sensor conditions. Factor-wise reliability scheduling (FRS) to gate/down-weight degraded measurements. Online LiDAR-IMU spatiotemporal calibration during operation. Validated on wheeled, legged, and aerial platforms across multiple public benchmarks. Go to our project website for more details! Method Overview Ultra-Fusion converts asynchronous sensor streams into optional factors in one optimization window, with shared state representation, marginalization, and calibration logic. Unified pipeline: initialization, reliability scheduling, online calibration, and multi-modal fusion in one framework. Why Ultra-Fusion Compared with conventional fusion pipelines that are heavily tied to a fixed sensor set, Ultra-Fusion emphasizes: Configurability : one framework for WIO/VIO/LIO/LVIO (+ wheel/GNSS). Reliability : robust localization under corner-case degradations. Deployability : support for long-term and high-speed operation in real ITS scenarios. Transferability : validated beyond wheeled robots to legged and aerial platforms. Benchmarks and Findings Ultra-Fusion is evaluated on: M3DGR (wheeled, real+sim, sensor degradation), M2DGR-Plus (wheeled), KAIST (Complex Urban Dataset) (autonomous driving), GrandTour (legged), MARS-LVIG (aerial). Across these datasets, the paper reports competitive localization performance and improved availability under: sensor degradation (visual/LiDAR/wheel/GNSS), temporal/extrinsic perturbations, long-duration and high-speed operation. Note We currently release executable binaries and demos. Full source code will be released after paper acceptance . And we will update the arxiv link of this project in a few days. Please refer to our prior works Ground-Fusion and Ground-Fusion++ for implementation reference. ⚙️1. Prerequisites & Installation The public runtime is tested on Ubuntu 20.04 + ROS Noetic. The Docker image is only the ROS/runtime environment: it contains ROS Noetic, rosb",
       "fetched_ok": true
     },
     "nasa-jpl /nebula2-wildos": {
@@ -30705,6 +30706,63 @@
       "topics": [],
       "homepage": "https://wuyi2121.github.io/SCAN-Planner/",
       "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation Citation information will be added once the paper is available. License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+      "fetched_ok": true
+    },
+    "ori-drs /ScaRF-SLAM": {
+      "full_name": "ori-drs /ScaRF-SLAM",
+      "url": "https://github.com/ori-drs/ScaRF-SLAM",
+      "owner": "ori-drs",
+      "repo": "ScaRF-SLAM",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-19T01:41:23.323768+00:00",
+      "archived": false,
+      "about": "ScaRF-SLAM: A Framework for Globally Consistent Online Visual Dense Reconstruction",
+      "topics": [],
+      "homepage": "https://yuhaozhang7.github.io",
+      "readme_excerpt": "ScaRF-SLAM🧣: Scale-Consistent Reconstruction with Feed-Forward Models and Classical Visual SLAM Yuhao Zhang 1 , Yifu Tao 1 , Frank Dellaert 2 , Maurice Fallon 1 1 Dynamic Robot Systems Group, University of Oxford 2 Georgia Institute of Technology ScaRF-SLAM is a dense visual mapping framework that combines the robustness of classical visual SLAM with the reconstruction capability of modern geometric foundation models (GFMs). Instead of relying on learned geometry for camera tracking, ScaRF-SLAM decouples localization and dense mapping: classical SLAM provides accurate, low-latency pose estimation, while GFMs are used exclusively for feed-forward depth prediction and reconstruction. By anchoring dense mapping to reliable SLAM poses and enforcing lightweight scale-consistency optimization across frames and submaps, the system achieves globally consistent, high-quality 3D reconstruction while remaining robust to limited batch sizes and loop closures. The framework is compatible with a wide range of SLAM configurations — including monocular, stereo, mono-inertial, multi-camera, and fisheye-camera systems — making it practical for real-world robotics and large-scale mapping applications. You can take your classical visual SLAM system and wrap ScaRF-SLAM around it! Table of Contents 🎬 Preview 📷 Real-World Dataset 📦 Environment Setup 🗺️ Offline Reconstruction 🚀 Online Reconstruction with SLAM 🔀 Multi-Session Mapping ⚙️ Configuration 📐 Evaluation 📄 License 📚 Citation 🎬 Preview 📷 Real-World Dataset We evaluate ScaRF-SLAM on a real-world dataset collected at the Oxford Robotics Institute (ORI) with accurate ground-truth camera trajectories and LiDAR point clouds for quantitative evaluation ( download link ). The dataset is recorded using the front fisheye camera and IMU of an Insta360 ONE RS 1-Inch, rigidly mounted to a LiDAR–inertial mapping system. Ground-truth poses are obtained by registering the undistorted LiDAR scans to a high-precision terrestrial laser scanner map. It contains five sequences, each organized according to the folder structure below (using R01 as an example): r01 ├── r01_bag │ ├── metadata.yaml │ └── r01_bag_0.mcap └── r01_gt ├── cloud_gt_fov │ ├── <sec>_<nsec>.pcd │ ├── <sec>_<nsec>.pcd │ └── ... ├── cloud_gt.pcd ├── poses_gt.csv └── poses_gt.txt r01_bag : ROS 2 data bag containing fisheye images and IMU measurements. cloud_gt_fov : sparse undistorted LiDAR point clouds at each timestamp in the local camera coordinate frame, with points outside the camera field of view removed. Used for recall evaluation. cloud_gt.pcd : dense registered and undistorted LiDAR point cloud. Used for precision and reconstruction error evaluation. poses_gt.csv : ground-truth camera trajectory in CSV format. poses_gt.txt : ground-truth camera trajectory in TU",
+      "fetched_ok": true
+    },
+    "PANshuyi /MR-Voxel-SVIO": {
+      "full_name": "PANshuyi /MR-Voxel-SVIO",
+      "url": "https://github.com/PANshuyi/MR-Voxel-SVIO",
+      "owner": "PANshuyi",
+      "repo": "MR-Voxel-SVIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-19T01:42:19.427840+00:00",
+      "archived": false,
+      "about": "Contribute to PANshuyi/MR-Voxel-SVIO development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "http://eigen.tuxfamily.org/index.php?title=Main_Page",
+      "readme_excerpt": "Multi-Resolution Voxelized Map-Based Stereo Visual-Inertial Odometry 📜 Introduction This project implements the method in Multi-Resolution Voxelized Map-Based Stereo Visual-Inertial Odometry , which introduces a map-based stereo VIO framework designed for edge-cloud scenarios with limited transmission bandwidth. The core idea is to build a multi-resolution voxelized prior map where each voxel stores a single representative 3D point. During online odometry, 2D image features are associated with prior 3D map points through a depth-adaptive cone/ray indexing strategy and 3D-DDA traversal , enabling efficient data association with low communication and computation cost. Built on an MSCKF-style estimator, the system integrates prior-map constraints and visual-inertial observations to improve accuracy and robustness on both indoor and outdoor datasets. Key ideas: Multi-resolution voxelized prior map with one-point-per-voxel representation Depth-aware resolution selection and ray-based 2D-3D association 3D-DDA voxel traversal for efficient map indexing Stereo + IMU tightly-coupled state estimation with map constraints Please kindly star ⭐️ this project if it helps you. We take great efforts to develop and maintain it 😁. 🛠️ Installation 1. Requirements GCC >= 7.5.0 Cmake >= 3.16.0 Eigen3 >= 3.3.4 OpenCV == 4.2.0 for Ubuntu 20.04 PCL == 1.10 for Ubuntu 20.04 Ceres >= 1.14 ROS Have Tested On: OS GCC Cmake Eigen3 OpenCV PCL Ceres Ubuntu 20.04 10.5.0 3.16.3 3.3.7 4.2.0 1.10.0 1.14.0 2. Create ROS workspace mkdir -p ~ /MR-Voxel-SVIO/src cd MR-Voxel-SVIO/src 3. Clone the directory and build git clone https://github.com/PANshuyi/MR-Voxel-SVIO.git cd .. catkin_make 🚀 Run on Public Datasets Noted: A. Please create a folder named \"output\" before running. When MR-Voxel-SVIO is running, the estimated pose is recorded in real time in the pose.txt located in the output folder . B. Our ground-truth pose files are provided in the GT-Pose folders, prior maps are provided in the prior_voxel_lidar_map . You may also download data from the official dataset websites KAIST and Euroc_MAV . However, for KAIST, the ground-truth poses need to be transformed into the IMU coordinate frame. C. Before running, update the launch file to use the ground-truth pose file and prior map corresponding to the target sequence. 1. Run on EuRoC_MAV Please go to the workspace of MR-Voxel-SVIO and type: cd MR-Voxel-SVIO source devel/setup.bash roslaunch mr_voxel_svio vio_euroc.launch Then open the terminal in the path of the bag file, and type: rosbag play SEQUENCE_NAME.bag --clock -d 1.0 2. Run on KAIST Please go to the workspace of MR-Voxel-SVIO and type: cd MR-Voxel-SVIO source devel/setup.bash roslaunch mr_voxel_svio vio_kaist.launch Then open the terminal in the path of the bag file, and type: ro",
+      "fetched_ok": true
+    },
+    "pypose /bae": {
+      "full_name": "pypose /bae",
+      "url": "https://github.com/pypose/bae",
+      "owner": "pypose",
+      "repo": "bae",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-22T01:47:38.139128+00:00",
+      "archived": false,
+      "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode",
+      "topics": [],
+      "homepage": "https://www.linkedin.com/in/huan-xu-999700169/?locale=en_US",
+      "readme_excerpt": "Accepted to IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Add Apple Silicon GPU support, PyTorch PR WIP Reduce runtime overhead using CUDA graph Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization An new backend for distributed solver Schur complement (added in PR #35 ) Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m pip install --no-build-isolation -v -e . # following https://github.com/pytorch/pytorch Agent Skills This repo includes skills in .agent/skills : bae-compute-graph : guidance for defining BAL/PGO and more complex compute graphs Example Usage Bundle Adjustment Bundle Adjustment optimizes camera poses and 3D point positions to minimiz",
       "fetched_ok": true
     }
   },

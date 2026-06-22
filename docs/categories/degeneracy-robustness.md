@@ -2,7 +2,7 @@
 
 Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.
 
-Repositories: `20`
+Repositories: `19`
 
 [Back to README](../../README.md)
 
@@ -25,4 +25,3 @@ Repositories: `20`
 - [leggedrobotics/compslam_subt](https://github.com/leggedrobotics/compslam_subt) - The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.
 - [G-SEI-Lab/Leap-SLAM](https://github.com/G-SEI-Lab/Leap-SLAM) - Home page
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
-- [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation

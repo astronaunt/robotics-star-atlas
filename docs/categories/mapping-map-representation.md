@@ -2,13 +2,13 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `183`
+Repositories: `184`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General Mapping | 60 |
+| General Mapping | 61 |
 | 3D Gaussian Splatting | 56 |
 | NeRF & Neural Rendering | 27 |
 | General | 26 |
@@ -78,6 +78,7 @@ Repositories: `183`
 - [uniericuni/MultiRobotSAM](https://github.com/uniericuni/MultiRobotSAM) - An implementation of the 2010 paper "Multiple Relative Pose Graphs for Robust Cooperative Mapping" by Been et. al.
 - [dongjae0107/LAPS](https://github.com/dongjae0107/LAPS) - [RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields
 - [efc-robot/MR-COGraphs](https://github.com/efc-robot/MR-COGraphs) - [RA-L25] MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs
+- [ori-drs/ScaRF-SLAM](https://github.com/ori-drs/ScaRF-SLAM) - ScaRF-SLAM: A Framework for Globally Consistent Online Visual Dense Reconstruction
 
 ## 3D Gaussian Splatting
 
