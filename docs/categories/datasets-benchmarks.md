@@ -2,7 +2,7 @@
 
 Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.
 
-Repositories: `60`
+Repositories: `61`
 
 [Back to README](../../README.md)
 
@@ -66,3 +66,4 @@ Repositories: `60`
 - [MISTLab/Mars_Analogue_CSLAM_Dataset](https://github.com/MISTLab/Mars_Analogue_CSLAM_Dataset)
 - [aserbremen/nebula-multirobot-dataset-ros2](https://github.com/aserbremen/nebula-multirobot-dataset-ros2) - This repository helps analysing and replaying data from the Nebula multi-robot dataset.
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
+- [RNP-lab/viking_hill_radar_lidar_camera_dataset](https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset) - Radar, lidar and camera dataset focusing on obstacle classification in forest environment

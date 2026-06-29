@@ -2,7 +2,7 @@
 
 Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
 
-Repositories: `105`
+Repositories: `106`
 
 [Back to README](../../README.md)
 
@@ -111,3 +111,4 @@ Repositories: `105`
 - [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
 - [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
 - [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019
+- [minwoo0611/TreeLoc-plusplus](https://github.com/minwoo0611/TreeLoc-plusplus) - Repository for TreeLoc++ (TFR 2026)

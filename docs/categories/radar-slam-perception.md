@@ -2,7 +2,7 @@
 
 Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.
 
-Repositories: `37`
+Repositories: `39`
 
 [Back to README](../../README.md)
 
@@ -43,3 +43,5 @@ Repositories: `37`
 - [LTU-RAI/MRIO](https://github.com/LTU-RAI/MRIO)
 - [utiasASRL/doppler_odom](https://github.com/utiasASRL/doppler_odom)
 - [xtyang16/River2](https://github.com/xtyang16/River2) - River2: A Tightly-coupled Multi-Radar Multi-IMU Velocity Estimator Based on Continuous-time Optimization
+- [KJ-Falloutlast/FIRE-LIVWO](https://github.com/KJ-Falloutlast/FIRE-LIVWO) - [IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement
+- [RNP-lab/viking_hill_radar_lidar_camera_dataset](https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset) - Radar, lidar and camera dataset focusing on obstacle classification in forest environment

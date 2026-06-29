@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-06-22T01:50:20.011741+00:00",
-  "total_unique_repos": 1391,
+  "generated_at": "2026-06-29T02:17:09.523182+00:00",
+  "total_unique_repos": 1398,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
       "name_zh": "激光惯导里程计",
       "description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
       "kind": "algorithm",
-      "count": 150,
-      "primary_count": 145
+      "count": 153,
+      "primary_count": 148
     },
     "lidar-odometry": {
       "name": "LiDAR State Estimation",
@@ -39,8 +39,8 @@
       "name_zh": "地点识别与回环检测",
       "description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
       "kind": "algorithm",
-      "count": 105,
-      "primary_count": 100
+      "count": 106,
+      "primary_count": 101
     },
     "mapping-map-representation": {
       "name": "Mapping & Map Representation",
@@ -79,8 +79,8 @@
       "name_zh": "雷达 SLAM 与感知",
       "description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
       "kind": "algorithm",
-      "count": 37,
-      "primary_count": 37
+      "count": 39,
+      "primary_count": 38
     },
     "calibration-synchronization": {
       "name": "Calibration & Time Synchronization",
@@ -151,8 +151,8 @@
       "name_zh": "数据集与基准",
       "description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
       "kind": "resource",
-      "count": 60,
-      "primary_count": 58
+      "count": 61,
+      "primary_count": 59
     },
     "slam-learning-handbooks": {
       "name": "SLAM Learning, Handbooks & Notes",
@@ -167,7 +167,7 @@
       "name_zh": "工具、工程与科研效率",
       "description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
       "kind": "tool",
-      "count": 205,
+      "count": 206,
       "primary_count": 200
     },
     "paper-survey-awesome": {
@@ -199,8 +199,8 @@
       "name_zh": "Leg",
       "description": "Custom user-defined category.",
       "kind": "custom",
-      "count": 9,
-      "primary_count": 6
+      "count": 10,
+      "primary_count": 7
     },
     "uwb": {
       "name": "uwb",
@@ -58954,12 +58954,12 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-18T02:31:30.748876+00:00",
+      "fetched_at": "2026-06-29T02:03:11.978234+00:00",
       "archived": false,
       "about": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
       "topics": [],
-      "homepage": "https://wuyi2121.github.io/SCAN-Planner/",
-      "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation Citation information will be added once the paper is available. License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+      "homepage": "https://arxiv.org/abs/2606.19555",
+      "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation @article { zheng2026scan , title = { SCAN-Planner: Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation } , author = { Zheng, Han and Chen, Zhe and Fu, Yiwen and Yang, Ming and Qin, Tong } , journal = { arXiv preprint arXiv:2606.19555 } , year = { 2026 } } License This project is licensed under the Apache License 2.0. See LICENSE for details.",
       "fetched_ok": true,
       "display_name": "wuyi2121/SCAN-Planner",
       "display_description": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
@@ -59093,6 +59093,278 @@
       "secondary_categories": [],
       "match_hits": [
         "readme:agent"
+      ]
+    },
+    "RNP-lab /viking_hill_radar_lidar_camera_dataset": {
+      "full_name": "RNP-lab /viking_hill_radar_lidar_camera_dataset",
+      "url": "https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset",
+      "owner": "RNP-lab",
+      "repo": "viking_hill_radar_lidar_camera_dataset",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-25T02:08:49.737377+00:00",
+      "archived": false,
+      "about": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+      "topics": [],
+      "homepage": "https://segments.ai",
+      "readme_excerpt": "📚 Table of Contents Dataset Description Dataset Parts Data Structure and File Organization Downloads Examples and Teasers Acknowledgement Viking Hill Dataset: A Lidar-Radar-Camera Dataset for Detection and Segmentation in Forest Scenes Dataset description The recorded dataset captures a forested area that contains fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. The dataset captures a forested area that contains both fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. Clearpath Husky robot was teleoperated through the area in May and June 2024, each time driving roughly one hour while recording its onboard sensors: LiDAR, high-resolution 4D radar, GNSS, RGB camera, IMU and internal odometry. Thanks to the GNSS receiver and lidar data, reference lidar point cloud map and thus absolute positioning of the robot during the experiment are available. Moreover, to support 4D radar research in detetection and classification of obstacles in similar environments, the dataset provides labels (3D cuboids) for several classes (e.g., tree trunk, tree canopy, bush, ...) and ROS2 tools that use these cuboids to label arbitrary point clouds in the dataset (lidar, radar, accumulated versions of those, or sub-maps). Using the Segments.ai online 3D labeling solution, the reference point cloud maps from two recording runs were manually labelled. The data are provided as ROS bag files, both for ROS1 and ROS2, and the point-cloud-labeling tools are available for ROS2. Since the labelled point clouds are published as standard PointCloud2 messages, it is possible to convert the labelled clouds back to ROS1 either by ROS bridge, or by converting bag files (e.g., by Rosbags library.) A tool for point cloud accumulation is also provided. Based on the message count or distance travelled, denser point clouds are produced and optionally saved in .pcd format, allowing easy post-processing. Provided ROS tools annotate the radar or lidar pointclouds, display used cuboids in Rviz. Dataset Components Data from the recording sessions Short grass: May 2024 (4068s) Area of approx. 180x140m was captured by the Husky mobile robot in a \"search pattern\" fashion, resulting in dense coverage by all the onboard sensors. In the beginning of summer, the undergrowth is not yet fully developed, therefore the visibility conditions for the camera and lidar are good. Besides the raw data from the robot, a reference map is provided as well as raw GNSS data from a static and mobile receiver. Tall grass: June 2024 (3811s) The same area was visited again one month later in June, when the undergrowth became in some sections even higher than the robot itself. In these conditions, the comparison between camera, lidar and radar becomes interest",
+      "fetched_ok": true,
+      "display_name": "RNP-lab/viking_hill_radar_lidar_camera_dataset",
+      "display_description": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+      "manual_note": "",
+      "manual_labels": [
+        "radar-slam-perception"
+      ],
+      "labels": [
+        "datasets-benchmarks",
+        "radar-slam-perception"
+      ],
+      "primary_category": "datasets-benchmarks",
+      "primary_category_name": "Datasets & Benchmarks",
+      "primary_category_name_zh": "数据集与基准",
+      "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+      "primary_category_kind": "resource",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "zzywhu /R3LIO": {
+      "full_name": "zzywhu /R3LIO",
+      "url": "https://github.com/zzywhu/R3LIO",
+      "owner": "zzywhu",
+      "repo": "R3LIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-25T02:12:30.128784+00:00",
+      "archived": false,
+      "about": "[ISRPS JPRS 2026] Official implementation of R³LIO, a robust and accurate mobile mapping system, targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV).",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "R³LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate Environments ISPRS JPRS (2026, major revision) Official implementation of R³LIO , a robust and accurate mobile mapping system built upon an iterative error-state Kalman filter (IESKF), targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV). Quick Start Real Wrold launch Launch the real-robot pipeline with: roslaunch rigelslam_rot run.launch Test on self-recorded sequences: “Building“ sequence “IndustrialPark“ sequence “ParkingLot“ sequence “OpenSpace“ sequence “CampusLoop“ sequence “Curved Tunnel“ sequence Simulation Start the simulation environment: roslaunch scout_gazebo test.launch Start the simulated odometry: roslaunch rigelslam_rot run_sim.launch Test on simulation sequence: Gazebo simulation environment “SimSq1“ sequence Dataset The dataset release is currently being organized and will be available soon. Self-recorded sequences : coming soon Simulation sequences : coming soon Device Design A rough structural design of the device is shown below. The detailed SolidWorks design files are currently being organized and will be released soon. Citation If you find this project useful, please consider citing our paper: Acknowledgments Thank the authors of FAST-LIO2 and Scout Gazebo for open-sourcing their outstanding works.",
+      "fetched_ok": true,
+      "display_name": "zzywhu/R3LIO",
+      "display_description": "[ISRPS JPRS 2026] Official implementation of R³LIO, a robust and accurate mobile mapping system, targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV).",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "lidar-inertial-odometry"
+      ],
+      "primary_category": "lidar-inertial-odometry",
+      "primary_category_name": "LiDAR-Inertial State Estimation",
+      "primary_category_name_zh": "激光惯导里程计",
+      "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 29,
+      "secondary_categories": [],
+      "match_hits": [
+        "lio",
+        "readme:lidar inertial odometry",
+        "readme:lidar-inertial odometry"
+      ]
+    },
+    "KJ-Falloutlast /FIRE-LIVWO": {
+      "full_name": "KJ-Falloutlast /FIRE-LIVWO",
+      "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
+      "owner": "KJ-Falloutlast",
+      "repo": "FIRE-LIVWO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-26T02:01:31.943136+00:00",
+      "archived": false,
+      "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "FIRE-LIVWO [IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "fetched_ok": true,
+      "display_name": "KJ-Falloutlast/FIRE-LIVWO",
+      "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "radar-slam-perception"
+      ],
+      "primary_category": "radar-slam-perception",
+      "primary_category_name": "Radar SLAM & Perception",
+      "primary_category_name_zh": "雷达 SLAM 与感知",
+      "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 31,
+      "secondary_categories": [
+        "lidar-visual-inertial-odometry"
+      ],
+      "match_hits": [
+        "mmwave",
+        "radar"
+      ]
+    },
+    "ChiyunNoh /GTSAM-Legged-Estimator-ROS2": {
+      "full_name": "ChiyunNoh /GTSAM-Legged-Estimator-ROS2",
+      "url": "https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+      "owner": "ChiyunNoh",
+      "repo": "GTSAM-Legged-Estimator-ROS2",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-29T01:54:31.927716+00:00",
+      "archived": false,
+      "about": "Contribute to ChiyunNoh/GTSAM-Legged-Estimator-ROS2 development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://gtsam.org/2026/03/17/legged-state-estimation-part2.html",
+      "readme_excerpt": "GTSAM Legged Estimator ROS 2 ROS 2 implementation of four GTSAM legged-state-estimation variants from the invariant-filter hierarchy. The node consumes IMU data, foot contact states, and optionally joint states for Spot forward kinematics. It publishes odometry, path, and foot contact markers for RViz, and writes CSV/TUM trajectory outputs for later inspection. For more details on the estimator variants, see the GTSAM blog post The Manifold Kalman Filter Hierarchy, Part 2: Legged State Estimation . Dependencies This package was tested on Ubuntu 24.04 with ROS 2 Jazzy. The main external dependencies are ROS 2 and GTSAM. Required: Install GTSAM by following the official borglab repository: https://github.com/borglab/gtsam This package was tested with a source build of GTSAM from the develop branch. The tested build reports GTSAM_VERSION_STRING \"4.3a1\" and GTSAM_VERSION_NUMERIC=40300 ; this is a development build, not an official GTSAM release. Build Create a ROS 2 workspace, clone this package into its src/ directory, and build from the workspace root: mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2.git cd ~ /ros2_ws colcon build source install/setup.bash If GTSAM is installed into a standard CMake search prefix such as /usr or /usr/local , no extra path setting is usually needed. If GTSAM is installed into a custom prefix, expose it before running colcon build : export CMAKE_PREFIX_PATH=/path/to/gtsam/install: $CMAKE_PREFIX_PATH Alternatively, point CMake directly at the GTSAM package config directory: export GTSAM_DIR=/path/to/gtsam/install/lib/cmake/GTSAM Dataset The experiments use the dataset from GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry (IJRR 2026, Noh et al.). The GaRLILEO dataset contains ROS 2 bag sequences collected with a Boston Dynamics Spot robot equipped with IMU, leg kinematics, and radar sensors. Run In one terminal, replay a GaRLILEO ROS 2 bag: cd ~ /ros2_ws source install/setup.bash ros2 bag play /path/to/garlileo_sequence In another terminal, launch the estimator with RViz: cd ~ /ros2_ws source install/setup.bash ros2 launch gtsam_legged_replay_example GTSAM_legged_estimator.launch.xml Input Topics Defaults are defined in config/GTSAM_legged_estimator.yaml . /imu sensor_msgs/msg/Imu /spot/status/feet spot_msgs/msg/FootStateArray /joint_states sensor_msgs/msg/JointState When topics.read_joint_states: true , the node uses /joint_states to compute Spot foot positions with forward kinematics. If this is disabled or the joint state is too old, the node falls back to the body point contained in the foot state message when configured to do so. Output Topics Exactly one estimator variant is allowed per live run. Output topics are fixed so the same RViz configu",
+      "fetched_ok": true,
+      "display_name": "ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+      "display_description": "",
+      "manual_note": "",
+      "manual_labels": [
+        "tools-engineering-productivity"
+      ],
+      "labels": [
+        "leg",
+        "tools-engineering-productivity"
+      ],
+      "primary_category": "leg",
+      "primary_category_name": "Leg",
+      "primary_category_name_zh": "Leg",
+      "primary_category_description": "Custom user-defined category.",
+      "primary_category_kind": "custom",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "minwoo0611 /TreeLoc-plusplus": {
+      "full_name": "minwoo0611 /TreeLoc-plusplus",
+      "url": "https://github.com/minwoo0611/TreeLoc-plusplus",
+      "owner": "minwoo0611",
+      "repo": "TreeLoc-plusplus",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-29T01:57:04.524180+00:00",
+      "archived": false,
+      "about": "Repository for TreeLoc++ (TFR 2026)",
+      "topics": [],
+      "homepage": "https://drive.google.com/drive/folders/1O0d3Xg3oDdF0GC7BhcHZsiglNQmsUBNn?usp=sharing",
+      "readme_excerpt": "TreeLoc++: Robust 6-DoF LiDAR Localization in Forests Official repository for TreeLoc++ . Previous version (TreeLoc) | Dataset Recent Updates [2026/06/27] Added public dataset release details and multi-session pose graph optimization code. [2026/06/25] Initial TreeLoc++ branch with intra-session and inter-session C++ code. Contributions TreeLoc++ performs forest localization on compact Digital Forest Inventories (DFIs) , representing tree stems with geometric attributes rather than dense point-cloud maps. TreeLoc++ improves retrieval in structurally ambiguous forests by combining TDH retrieval with PDH tree-layout context, triangle verification, DBH consistency, and yaw-consistent inlier selection. TreeLoc++ estimates full 6-DoF corrections from tree geometry by jointly refining height, roll, and pitch after geometric matching. TreeLoc++ supports long-term and multi-session evaluation across repeated forest traversals using the same tree-level map interface. Data Source and Tree Extraction TreeLoc++ consumes tree-level observations extracted before evaluation. The repository includes two Wild-Places Venman sample sequences, while the full processed Oxford and Wild-Places release is distributed separately through Google Drive . Following TreeLoc, tree observations can be produced with RealtimeTrees from the corresponding forest LiDAR recordings. The bundled sample datasets correspond to: Wild_V03 and Wild_V04 : Wild-Places Venman sequences. The raw dataset is available from the Wild-Places project page and CSIRO Data Access Portal . The full public release also includes Oxford Evo, Stein am Rein, Forest of Dean, Wytham, and multi-session Evo23/Evo25 sequences. The single-session Oxford raw recordings are available from the Oxford Forest Place Recognition Dataset . The evaluator expects a processed dataset root: dataset_root/ ├── trajectory.txt ├── TreeManagerState_0.csv ├── TreeManagerState_1.csv └── ... trajectory.txt uses: timestamp x y z qx qy qz qw Each TreeManagerState_<idx>.csv must include: axis_00 ... axis_22 location_x , location_y , location_z dbh or dbh_approximation Optional columns used when available: reconstructed number_clusters score or scores Public Dataset Download The public processed TreeLoc++ dataset is available on Google Drive . It is organized as: TreeLoc++_Dataset/ ├── Oxford/ │ ├── Evo/ │ ├── Stein am Rein/ │ ├── Forest of Dean/ │ ├── Wytham/ │ ├── Evo23_00/ ... Evo23_05/ │ └── Evo25_00/ ... Evo25_08/ └── Wild-Places/ ├── V-01/ ... V-04/ └── K-01/ ... K-04/ Each sequence folder contains: PCD_downsampled_0.1.zip : downsampled LiDAR frames under downsampled_0.1/ . tree_information.zip : per-frame tree-level CSV files. Single-session sequences also provide groundtruth.txt . Multi-session Evo23/Evo25 sequences provide initial_sl",
+      "fetched_ok": true,
+      "display_name": "minwoo0611/TreeLoc-plusplus",
+      "display_description": "Repository for TreeLoc++ (TFR 2026)",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "place-recognition-loop-closure"
+      ],
+      "primary_category": "place-recognition-loop-closure",
+      "primary_category_name": "Place Recognition & Loop Closure",
+      "primary_category_name_zh": "地点识别与回环检测",
+      "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "url-kaist /se3-lio": {
+      "full_name": "url-kaist /se3-lio",
+      "url": "https://github.com/url-kaist/se3-lio",
+      "owner": "url-kaist",
+      "repo": "se3-lio",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-29T02:16:21.869406+00:00",
+      "archived": false,
+      "about": "SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)",
+      "topics": [],
+      "homepage": "https://pypi.org/project/se3-lio/",
+      "readme_excerpt": "SE(3)-LIO Smooth IMU propagation with jointly distributed poses on the SE(3) manifold for accurate and robust LiDAR-Inertial Odometry. 📂 Layout SE(3)-LIO ships as ROS1 and ROS2 nodes built on a shared ROS-agnostic C++ core: cpp/se3_lio/ — ROS-agnostic C++ core (state estimation, map management, pipeline) ros/ros1/ — ROS1 (Noetic, catkin) node, launch, config, rviz ros/ros2/ — ROS2 (Humble, ament/colcon) node, launch, config, rviz config/ — dataset configs (extrinsic + topics) for the Python CLI / benchmark docker/ros1/ , docker/ros2/ — Docker setup for building and running each 📦 Build & Run All build and run steps run inside Docker — on the host you only build the image and drop into the container. ROS 1 (Noetic) Build # host bash docker/ros1/build_docker.sh # builds se3_lio:ros1 bash docker/ros1/run_docker.sh # drops into /ws inside the container # inside the container cd /ws catkin build se3_lio # default ouster; -DLIDAR_TYPE=livox|hesai to switch source devel/setup.bash The LiDAR input type is a build option — pass --cmake-args -DLIDAR_TYPE=ouster|hesai|livox (default ouster ). No source edits needed; ouster / hesai use PointCloud2 , livox uses Livox CustomMsg . Run roslaunch se3_lio run_se3lio_ntu.launch use_sim_time:=true # NTU VIRAL roslaunch se3_lio run_se3lio_ncd.launch use_sim_time:=true # Newer College (Multi-Cam) rosbag play --clock < data.bag > use_sim_time:=true makes the node follow the bag clock ( rosbag play --clock publishes /clock ). For live sensors, omit it — the default is false . Configs live in ros/ros1/config/ntu.yaml and ros/ros1/config/ncd.yaml ; swap datasets by editing the <rosparam … file=…/> line in the launch file. The launch opens RViz automatically — it needs a display: launch via run_docker.sh and run xhost +local:root on the host. ROS 2 (Humble) Build # host bash docker/ros2/build_docker.sh # builds se3_lio:ros2 bash docker/ros2/run_docker.sh # drops into /ws inside the container # inside the container cd /ws colcon build --symlink-install --packages-select se3_lio # default livox source install/setup.bash The LiDAR input type is a build option — pass --cmake-args -DLIDAR_TYPE=ouster|livox (default livox ). No source edits needed; ouster uses PointCloud2 , livox uses Livox CustomMsg . Run ros2 launch se3_lio run.launch.py # add rviz:=true for visualization ros2 bag play < rosbag2_dir > Config lives in ros/ros2/config/params.yaml (edit imu_topic / lidar_topic / extrinsics for your sensor rig). rviz:=true opens RViz (registered cloud + trajectory). RViz needs a display: launch via run_docker.sh and run xhost +local:root on the host. Python bindings (pybind11) The core is exposed to Python via pybind11 ( python/ ). Linux x86_64 wheels are on PyPI, so most users can just: pip install se3-lio # add [viz] for the live Po",
+      "fetched_ok": true,
+      "display_name": "url-kaist/se3-lio",
+      "display_description": "SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "lidar-inertial-odometry"
+      ],
+      "primary_category": "lidar-inertial-odometry",
+      "primary_category_name": "LiDAR-Inertial State Estimation",
+      "primary_category_name_zh": "激光惯导里程计",
+      "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 53,
+      "secondary_categories": [],
+      "match_hits": [
+        "lidar inertial odometry",
+        "lidar-inertial odometry",
+        "lio"
+      ]
+    },
+    "xiaofan4122 /Elevator-LIO": {
+      "full_name": "xiaofan4122 /Elevator-LIO",
+      "url": "https://github.com/xiaofan4122/Elevator-LIO",
+      "owner": "xiaofan4122",
+      "repo": "Elevator-LIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-06-29T02:17:09.522519+00:00",
+      "archived": false,
+      "about": "Elevator-LIO Official implementation",
+      "topics": [],
+      "homepage": "https://xiaofan4122.github.io/Elevator_LIO_Page/",
+      "readme_excerpt": "Elevator-LIO 中文 | English 作者：Yifan Zhang, Yudong Huang, Yuchong Zhang, Changze Li, Haoran Liu, Ming Yang, Tong Qin* Elevator-LIO 是面向电梯非惯性运动和跨楼层定位的 LiDAR-惯性里程计。主要测试平台为 Livox MID-360，同时支持其他雷达如 Ouster、Velodyne、XT32 等，但除MID360外尚未经过大规模测试。 数据集下载与使用说明见 DATASET.md 。 关闭 YAML 中的电梯模式后，Elevator-LIO 可作为普通 LIO 使用，并保留触发式更新和自适应降采样等功能。 Warning Elevator-LIO 允许机器人在电梯内自由移动，但建议使用 Livox MID-360 这类视场较大的 LiDAR，并采用倾斜安装，以获得尽可能多方向上的几何约束。如果您的 LiDAR 水平安装，且机器人在电梯内基本不会产生上下运动，请将 yaml/runtime 中的 elevator.strong_prior_enable 设置为 true 。该选项会将 IMU 垂直方向加速度强约束解释为电梯加速度，使系统在此类安装条件下也能正常工作。 时间节点 2026-05-23 ： arXiv 预印本 公开。 2026-05-26 ： 小红书 公开宣传。 2026-06-06 ： @编程猫小渐 复现 Elevator-LIO 论文结果。 2026-06-20 ： Elevator-LIO 数据集 公开，包含 20 条序列和 79 次电梯乘坐；额外收录 @编程猫小渐 的两条数据。 2026-06-22 ：发布 rosbag 管理器视频 ，该工具随 Elevator-LIO 一同开源。 2026-06-26 ：ROS 1 源码发布。 计划中 ：ROS 2 源码发布。 计划中 ：更多数据集发布，包括更多带图像的完整序列。 计划中 ：手持采集平台软硬件源码与文档公开。 支持工作 欢迎参观课题组其他工作，Elevator-LIO 为以下工作提供了定位支持： SCAN-Planner ：面向路线引导长距离四足导航的空间碰撞感知局部规划器，可为自主探索、视觉语言导航等上层任务提供底层规划基础。 TravExplorer ：面向跨楼层具身探索的可通行性驱动 3D 规划系统，支持单楼层与跨楼层目标导航。 场景展示 方法概述 传统 LIO 假设导航坐标系为惯性系，但在运动的电梯轿厢内，IMU 会感受到电梯运动，而 LiDAR 主要观测轿厢内的相对几何，现有 LIO 方法几乎全部失效。Elevator-LIO 将机器人相对电梯的运动与电梯自身运动解耦，并通过模式相关的迭代误差状态卡尔曼滤波实现连续跨楼层定位：普通室内环境使用标准 LIO 传播，进入电梯后启用非惯性状态传播和约束更新。 系统按照时间顺序处理 IMU 和 LiDAR 数据，依次完成静态 IMU 初始化、自适应降采样、模式相关传播、IESKF LiDAR 更新、可能的退出电梯更新和增量 ikd-Tree 建图。 电梯模式管理 进入检测使用 LiDAR 距离统计量判断机器人是否由开放区域进入封闭轿厢；退出检测根据估计的电梯竖直运动状态及其方差判断电梯是否停稳。两种事件也可以通过 ROS 话题手动触发。 退出电梯更新 电梯停稳后，系统施加零速度和零加速度约束，将估计的电梯竖直位移重新锚定到机器人状态，并重置电梯相关状态，从而抑制电梯运行期间累积的高度漂移。 自适应降采样 系统在线调整体素大小，使降采样后的有效点数保持在目标值附近，在电梯轿厢内保留足够的几何信息，同时控制开放场景中的计算量。 数据采集平台 数据使用集成 Livox MID-360、工业相机和 Jetson Orin Nano 的便携式手持设备采集。 Note 后续将开源手持设备的软硬件设计与相关文档。 🔥 设计理念 Elevator-LIO 的设计遵循开箱即用的原则，集成了许多便于使用的功能，具有完善的注释方便您进行后续开发，日志与调试系统比较完善。 小巧思包括： 无 Livox_ros_driver 依赖 ：自定义消息在包内构建，在 ROS 系统上可直接编译使用 初始重力对齐 ：无论雷达以何种方向放置，世界系都会初始化为水平方向 球形/长方体包围盒滤除 ：除了指定球形滤除框，也可以指定长方体区域内点云滤除 预留额外的 body 系输出 ：可在 yaml/sensors 中配置 lidar_R_vehicle 和 lidar_t_vehicle 简单的重定位功能 ：支持加载 PCD 地图，然后在原点启动并运行重定位 协方差矩阵可视化 ：可在 yaml/logging 中打开，方便调试 高频输出 ：可在 yaml/runtime 中打开，将IMU预积分位姿也输出出来，方便下游应用 不同于主流 LIO，Elevator-LIO 没有显式打包概念，遵循“谁来谁更新”的设计理念，在框架上更适合多传感器融合；但这也带来了额外开销：状态机需要以较高频率轮询并检测是否有数据输入。 🛠️ 安装与运行 环境要求 当前代码主要在以下环境中开发和测试： Ubuntu 20.04 ROS Noetic OpenCV 目前只用于协方差矩阵和电梯状态曲线的调试窗口，默认配置中这些窗口均关闭；但源码和 CMake 仍会包含并链接 OpenCV，您可以自行修改代码取消这些依赖。 编译 将代码放入 src 目录下编译： catkin_make 运行 直接使用 roslaunch 运行： roslaunch lio start.launch 可以指定对应的 YAML 文件参数。默认配置为 root_config.yaml ，也可以创建自己的配置文件： roslaunch lio start.launch config_path:=path_to_yaml 电梯模式说明 电梯功能由统一开关控制： elevator : enable : true 自动进入电梯模式由门关闭检测控制： elevator : door_detector : enable : true 该检测基于点云距离分位数，在狭窄场景（如楼道）中可能误触发。可以关闭自动检测，改用话题手动触发。 进入电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: true \" -1 退出电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: false \" -1",
+      "fetched_ok": true,
+      "display_name": "xiaofan4122/Elevator-LIO",
+      "display_description": "Elevator-LIO Official implementation",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "lidar-inertial-odometry"
+      ],
+      "primary_category": "lidar-inertial-odometry",
+      "primary_category_name": "LiDAR-Inertial State Estimation",
+      "primary_category_name_zh": "激光惯导里程计",
+      "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
       ]
     }
   },
@@ -62811,6 +63083,43 @@
         ]
       },
       {
+        "full_name": "minwoo0611 /TreeLoc-plusplus",
+        "url": "https://github.com/minwoo0611/TreeLoc-plusplus",
+        "owner": "minwoo0611",
+        "repo": "TreeLoc-plusplus",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-29T01:57:04.524180+00:00",
+        "archived": false,
+        "about": "Repository for TreeLoc++ (TFR 2026)",
+        "topics": [],
+        "homepage": "https://drive.google.com/drive/folders/1O0d3Xg3oDdF0GC7BhcHZsiglNQmsUBNn?usp=sharing",
+        "readme_excerpt": "TreeLoc++: Robust 6-DoF LiDAR Localization in Forests Official repository for TreeLoc++ . Previous version (TreeLoc) | Dataset Recent Updates [2026/06/27] Added public dataset release details and multi-session pose graph optimization code. [2026/06/25] Initial TreeLoc++ branch with intra-session and inter-session C++ code. Contributions TreeLoc++ performs forest localization on compact Digital Forest Inventories (DFIs) , representing tree stems with geometric attributes rather than dense point-cloud maps. TreeLoc++ improves retrieval in structurally ambiguous forests by combining TDH retrieval with PDH tree-layout context, triangle verification, DBH consistency, and yaw-consistent inlier selection. TreeLoc++ estimates full 6-DoF corrections from tree geometry by jointly refining height, roll, and pitch after geometric matching. TreeLoc++ supports long-term and multi-session evaluation across repeated forest traversals using the same tree-level map interface. Data Source and Tree Extraction TreeLoc++ consumes tree-level observations extracted before evaluation. The repository includes two Wild-Places Venman sample sequences, while the full processed Oxford and Wild-Places release is distributed separately through Google Drive . Following TreeLoc, tree observations can be produced with RealtimeTrees from the corresponding forest LiDAR recordings. The bundled sample datasets correspond to: Wild_V03 and Wild_V04 : Wild-Places Venman sequences. The raw dataset is available from the Wild-Places project page and CSIRO Data Access Portal . The full public release also includes Oxford Evo, Stein am Rein, Forest of Dean, Wytham, and multi-session Evo23/Evo25 sequences. The single-session Oxford raw recordings are available from the Oxford Forest Place Recognition Dataset . The evaluator expects a processed dataset root: dataset_root/ ├── trajectory.txt ├── TreeManagerState_0.csv ├── TreeManagerState_1.csv └── ... trajectory.txt uses: timestamp x y z qx qy qz qw Each TreeManagerState_<idx>.csv must include: axis_00 ... axis_22 location_x , location_y , location_z dbh or dbh_approximation Optional columns used when available: reconstructed number_clusters score or scores Public Dataset Download The public processed TreeLoc++ dataset is available on Google Drive . It is organized as: TreeLoc++_Dataset/ ├── Oxford/ │ ├── Evo/ │ ├── Stein am Rein/ │ ├── Forest of Dean/ │ ├── Wytham/ │ ├── Evo23_00/ ... Evo23_05/ │ └── Evo25_00/ ... Evo25_08/ └── Wild-Places/ ├── V-01/ ... V-04/ └── K-01/ ... K-04/ Each sequence folder contains: PCD_downsampled_0.1.zip : downsampled LiDAR frames under downsampled_0.1/ . tree_information.zip : per-frame tree-level CSV files. Single-session sequences also provide groundtruth.txt . Multi-session Evo23/Evo25 sequences provide initial_sl",
+        "fetched_ok": true,
+        "display_name": "minwoo0611/TreeLoc-plusplus",
+        "display_description": "Repository for TreeLoc++ (TFR 2026)",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "place-recognition-loop-closure"
+        ],
+        "primary_category": "place-recognition-loop-closure",
+        "primary_category_name": "Place Recognition & Loop Closure",
+        "primary_category_name_zh": "地点识别与回环检测",
+        "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "mpkuse /cerebro",
         "url": "https://github.com/mpkuse/cerebro",
         "owner": "mpkuse ",
@@ -65946,6 +66255,46 @@
         "match_hits": [
           "list:other-tools",
           "readme:driver"
+        ]
+      },
+      {
+        "full_name": "ChiyunNoh /GTSAM-Legged-Estimator-ROS2",
+        "url": "https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+        "owner": "ChiyunNoh",
+        "repo": "GTSAM-Legged-Estimator-ROS2",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-29T01:54:31.927716+00:00",
+        "archived": false,
+        "about": "Contribute to ChiyunNoh/GTSAM-Legged-Estimator-ROS2 development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://gtsam.org/2026/03/17/legged-state-estimation-part2.html",
+        "readme_excerpt": "GTSAM Legged Estimator ROS 2 ROS 2 implementation of four GTSAM legged-state-estimation variants from the invariant-filter hierarchy. The node consumes IMU data, foot contact states, and optionally joint states for Spot forward kinematics. It publishes odometry, path, and foot contact markers for RViz, and writes CSV/TUM trajectory outputs for later inspection. For more details on the estimator variants, see the GTSAM blog post The Manifold Kalman Filter Hierarchy, Part 2: Legged State Estimation . Dependencies This package was tested on Ubuntu 24.04 with ROS 2 Jazzy. The main external dependencies are ROS 2 and GTSAM. Required: Install GTSAM by following the official borglab repository: https://github.com/borglab/gtsam This package was tested with a source build of GTSAM from the develop branch. The tested build reports GTSAM_VERSION_STRING \"4.3a1\" and GTSAM_VERSION_NUMERIC=40300 ; this is a development build, not an official GTSAM release. Build Create a ROS 2 workspace, clone this package into its src/ directory, and build from the workspace root: mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2.git cd ~ /ros2_ws colcon build source install/setup.bash If GTSAM is installed into a standard CMake search prefix such as /usr or /usr/local , no extra path setting is usually needed. If GTSAM is installed into a custom prefix, expose it before running colcon build : export CMAKE_PREFIX_PATH=/path/to/gtsam/install: $CMAKE_PREFIX_PATH Alternatively, point CMake directly at the GTSAM package config directory: export GTSAM_DIR=/path/to/gtsam/install/lib/cmake/GTSAM Dataset The experiments use the dataset from GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry (IJRR 2026, Noh et al.). The GaRLILEO dataset contains ROS 2 bag sequences collected with a Boston Dynamics Spot robot equipped with IMU, leg kinematics, and radar sensors. Run In one terminal, replay a GaRLILEO ROS 2 bag: cd ~ /ros2_ws source install/setup.bash ros2 bag play /path/to/garlileo_sequence In another terminal, launch the estimator with RViz: cd ~ /ros2_ws source install/setup.bash ros2 launch gtsam_legged_replay_example GTSAM_legged_estimator.launch.xml Input Topics Defaults are defined in config/GTSAM_legged_estimator.yaml . /imu sensor_msgs/msg/Imu /spot/status/feet spot_msgs/msg/FootStateArray /joint_states sensor_msgs/msg/JointState When topics.read_joint_states: true , the node uses /joint_states to compute Spot foot positions with forward kinematics. If this is disabled or the joint state is too old, the node falls back to the body point contained in the foot state message when configured to do so. Output Topics Exactly one estimator variant is allowed per live run. Output topics are fixed so the same RViz configu",
+        "fetched_ok": true,
+        "display_name": "ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "tools-engineering-productivity"
+        ],
+        "labels": [
+          "leg",
+          "tools-engineering-productivity"
+        ],
+        "primary_category": "leg",
+        "primary_category_name": "Leg",
+        "primary_category_name_zh": "Leg",
+        "primary_category_description": "Custom user-defined category.",
+        "primary_category_kind": "custom",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -96907,6 +97256,45 @@
         ]
       },
       {
+        "full_name": "url-kaist /se3-lio",
+        "url": "https://github.com/url-kaist/se3-lio",
+        "owner": "url-kaist",
+        "repo": "se3-lio",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-29T02:16:21.869406+00:00",
+        "archived": false,
+        "about": "SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)",
+        "topics": [],
+        "homepage": "https://pypi.org/project/se3-lio/",
+        "readme_excerpt": "SE(3)-LIO Smooth IMU propagation with jointly distributed poses on the SE(3) manifold for accurate and robust LiDAR-Inertial Odometry. 📂 Layout SE(3)-LIO ships as ROS1 and ROS2 nodes built on a shared ROS-agnostic C++ core: cpp/se3_lio/ — ROS-agnostic C++ core (state estimation, map management, pipeline) ros/ros1/ — ROS1 (Noetic, catkin) node, launch, config, rviz ros/ros2/ — ROS2 (Humble, ament/colcon) node, launch, config, rviz config/ — dataset configs (extrinsic + topics) for the Python CLI / benchmark docker/ros1/ , docker/ros2/ — Docker setup for building and running each 📦 Build & Run All build and run steps run inside Docker — on the host you only build the image and drop into the container. ROS 1 (Noetic) Build # host bash docker/ros1/build_docker.sh # builds se3_lio:ros1 bash docker/ros1/run_docker.sh # drops into /ws inside the container # inside the container cd /ws catkin build se3_lio # default ouster; -DLIDAR_TYPE=livox|hesai to switch source devel/setup.bash The LiDAR input type is a build option — pass --cmake-args -DLIDAR_TYPE=ouster|hesai|livox (default ouster ). No source edits needed; ouster / hesai use PointCloud2 , livox uses Livox CustomMsg . Run roslaunch se3_lio run_se3lio_ntu.launch use_sim_time:=true # NTU VIRAL roslaunch se3_lio run_se3lio_ncd.launch use_sim_time:=true # Newer College (Multi-Cam) rosbag play --clock < data.bag > use_sim_time:=true makes the node follow the bag clock ( rosbag play --clock publishes /clock ). For live sensors, omit it — the default is false . Configs live in ros/ros1/config/ntu.yaml and ros/ros1/config/ncd.yaml ; swap datasets by editing the <rosparam … file=…/> line in the launch file. The launch opens RViz automatically — it needs a display: launch via run_docker.sh and run xhost +local:root on the host. ROS 2 (Humble) Build # host bash docker/ros2/build_docker.sh # builds se3_lio:ros2 bash docker/ros2/run_docker.sh # drops into /ws inside the container # inside the container cd /ws colcon build --symlink-install --packages-select se3_lio # default livox source install/setup.bash The LiDAR input type is a build option — pass --cmake-args -DLIDAR_TYPE=ouster|livox (default livox ). No source edits needed; ouster uses PointCloud2 , livox uses Livox CustomMsg . Run ros2 launch se3_lio run.launch.py # add rviz:=true for visualization ros2 bag play < rosbag2_dir > Config lives in ros/ros2/config/params.yaml (edit imu_topic / lidar_topic / extrinsics for your sensor rig). rviz:=true opens RViz (registered cloud + trajectory). RViz needs a display: launch via run_docker.sh and run xhost +local:root on the host. Python bindings (pybind11) The core is exposed to Python via pybind11 ( python/ ). Linux x86_64 wheels are on PyPI, so most users can just: pip install se3-lio # add [viz] for the live Po",
+        "fetched_ok": true,
+        "display_name": "url-kaist/se3-lio",
+        "display_description": "SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "lidar-inertial-odometry"
+        ],
+        "primary_category": "lidar-inertial-odometry",
+        "primary_category_name": "LiDAR-Inertial State Estimation",
+        "primary_category_name_zh": "激光惯导里程计",
+        "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 53,
+        "secondary_categories": [],
+        "match_hits": [
+          "lidar inertial odometry",
+          "lidar-inertial odometry",
+          "lio"
+        ]
+      },
+      {
         "full_name": "v4rl-ucy /ellipselio",
         "url": "https://github.com/v4rl-ucy/ellipselio",
         "owner": "v4rl-ucy ",
@@ -97079,6 +97467,43 @@
           "lidar inertial odometry",
           "lidar-inertial odometry",
           "lio"
+        ]
+      },
+      {
+        "full_name": "xiaofan4122 /Elevator-LIO",
+        "url": "https://github.com/xiaofan4122/Elevator-LIO",
+        "owner": "xiaofan4122",
+        "repo": "Elevator-LIO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-29T02:17:09.522519+00:00",
+        "archived": false,
+        "about": "Elevator-LIO Official implementation",
+        "topics": [],
+        "homepage": "https://xiaofan4122.github.io/Elevator_LIO_Page/",
+        "readme_excerpt": "Elevator-LIO 中文 | English 作者：Yifan Zhang, Yudong Huang, Yuchong Zhang, Changze Li, Haoran Liu, Ming Yang, Tong Qin* Elevator-LIO 是面向电梯非惯性运动和跨楼层定位的 LiDAR-惯性里程计。主要测试平台为 Livox MID-360，同时支持其他雷达如 Ouster、Velodyne、XT32 等，但除MID360外尚未经过大规模测试。 数据集下载与使用说明见 DATASET.md 。 关闭 YAML 中的电梯模式后，Elevator-LIO 可作为普通 LIO 使用，并保留触发式更新和自适应降采样等功能。 Warning Elevator-LIO 允许机器人在电梯内自由移动，但建议使用 Livox MID-360 这类视场较大的 LiDAR，并采用倾斜安装，以获得尽可能多方向上的几何约束。如果您的 LiDAR 水平安装，且机器人在电梯内基本不会产生上下运动，请将 yaml/runtime 中的 elevator.strong_prior_enable 设置为 true 。该选项会将 IMU 垂直方向加速度强约束解释为电梯加速度，使系统在此类安装条件下也能正常工作。 时间节点 2026-05-23 ： arXiv 预印本 公开。 2026-05-26 ： 小红书 公开宣传。 2026-06-06 ： @编程猫小渐 复现 Elevator-LIO 论文结果。 2026-06-20 ： Elevator-LIO 数据集 公开，包含 20 条序列和 79 次电梯乘坐；额外收录 @编程猫小渐 的两条数据。 2026-06-22 ：发布 rosbag 管理器视频 ，该工具随 Elevator-LIO 一同开源。 2026-06-26 ：ROS 1 源码发布。 计划中 ：ROS 2 源码发布。 计划中 ：更多数据集发布，包括更多带图像的完整序列。 计划中 ：手持采集平台软硬件源码与文档公开。 支持工作 欢迎参观课题组其他工作，Elevator-LIO 为以下工作提供了定位支持： SCAN-Planner ：面向路线引导长距离四足导航的空间碰撞感知局部规划器，可为自主探索、视觉语言导航等上层任务提供底层规划基础。 TravExplorer ：面向跨楼层具身探索的可通行性驱动 3D 规划系统，支持单楼层与跨楼层目标导航。 场景展示 方法概述 传统 LIO 假设导航坐标系为惯性系，但在运动的电梯轿厢内，IMU 会感受到电梯运动，而 LiDAR 主要观测轿厢内的相对几何，现有 LIO 方法几乎全部失效。Elevator-LIO 将机器人相对电梯的运动与电梯自身运动解耦，并通过模式相关的迭代误差状态卡尔曼滤波实现连续跨楼层定位：普通室内环境使用标准 LIO 传播，进入电梯后启用非惯性状态传播和约束更新。 系统按照时间顺序处理 IMU 和 LiDAR 数据，依次完成静态 IMU 初始化、自适应降采样、模式相关传播、IESKF LiDAR 更新、可能的退出电梯更新和增量 ikd-Tree 建图。 电梯模式管理 进入检测使用 LiDAR 距离统计量判断机器人是否由开放区域进入封闭轿厢；退出检测根据估计的电梯竖直运动状态及其方差判断电梯是否停稳。两种事件也可以通过 ROS 话题手动触发。 退出电梯更新 电梯停稳后，系统施加零速度和零加速度约束，将估计的电梯竖直位移重新锚定到机器人状态，并重置电梯相关状态，从而抑制电梯运行期间累积的高度漂移。 自适应降采样 系统在线调整体素大小，使降采样后的有效点数保持在目标值附近，在电梯轿厢内保留足够的几何信息，同时控制开放场景中的计算量。 数据采集平台 数据使用集成 Livox MID-360、工业相机和 Jetson Orin Nano 的便携式手持设备采集。 Note 后续将开源手持设备的软硬件设计与相关文档。 🔥 设计理念 Elevator-LIO 的设计遵循开箱即用的原则，集成了许多便于使用的功能，具有完善的注释方便您进行后续开发，日志与调试系统比较完善。 小巧思包括： 无 Livox_ros_driver 依赖 ：自定义消息在包内构建，在 ROS 系统上可直接编译使用 初始重力对齐 ：无论雷达以何种方向放置，世界系都会初始化为水平方向 球形/长方体包围盒滤除 ：除了指定球形滤除框，也可以指定长方体区域内点云滤除 预留额外的 body 系输出 ：可在 yaml/sensors 中配置 lidar_R_vehicle 和 lidar_t_vehicle 简单的重定位功能 ：支持加载 PCD 地图，然后在原点启动并运行重定位 协方差矩阵可视化 ：可在 yaml/logging 中打开，方便调试 高频输出 ：可在 yaml/runtime 中打开，将IMU预积分位姿也输出出来，方便下游应用 不同于主流 LIO，Elevator-LIO 没有显式打包概念，遵循“谁来谁更新”的设计理念，在框架上更适合多传感器融合；但这也带来了额外开销：状态机需要以较高频率轮询并检测是否有数据输入。 🛠️ 安装与运行 环境要求 当前代码主要在以下环境中开发和测试： Ubuntu 20.04 ROS Noetic OpenCV 目前只用于协方差矩阵和电梯状态曲线的调试窗口，默认配置中这些窗口均关闭；但源码和 CMake 仍会包含并链接 OpenCV，您可以自行修改代码取消这些依赖。 编译 将代码放入 src 目录下编译： catkin_make 运行 直接使用 roslaunch 运行： roslaunch lio start.launch 可以指定对应的 YAML 文件参数。默认配置为 root_config.yaml ，也可以创建自己的配置文件： roslaunch lio start.launch config_path:=path_to_yaml 电梯模式说明 电梯功能由统一开关控制： elevator : enable : true 自动进入电梯模式由门关闭检测控制： elevator : door_detector : enable : true 该检测基于点云距离分位数，在狭窄场景（如楼道）中可能误触发。可以关闭自动检测，改用话题手动触发。 进入电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: true \" -1 退出电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: false \" -1",
+        "fetched_ok": true,
+        "display_name": "xiaofan4122/Elevator-LIO",
+        "display_description": "Elevator-LIO Official implementation",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "lidar-inertial-odometry"
+        ],
+        "primary_category": "lidar-inertial-odometry",
+        "primary_category_name": "LiDAR-Inertial State Estimation",
+        "primary_category_name_zh": "激光惯导里程计",
+        "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -98006,6 +98431,45 @@
         "secondary_categories": [],
         "match_hits": [
           "manual override"
+        ]
+      },
+      {
+        "full_name": "zzywhu /R3LIO",
+        "url": "https://github.com/zzywhu/R3LIO",
+        "owner": "zzywhu",
+        "repo": "R3LIO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-25T02:12:30.128784+00:00",
+        "archived": false,
+        "about": "[ISRPS JPRS 2026] Official implementation of R³LIO, a robust and accurate mobile mapping system, targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV).",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "R³LIO: Robust Reflectivity-Assisted Rotating LiDAR-Inertial Odometry for Degenerate Environments ISPRS JPRS (2026, major revision) Official implementation of R³LIO , a robust and accurate mobile mapping system built upon an iterative error-state Kalman filter (IESKF), targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV). Quick Start Real Wrold launch Launch the real-robot pipeline with: roslaunch rigelslam_rot run.launch Test on self-recorded sequences: “Building“ sequence “IndustrialPark“ sequence “ParkingLot“ sequence “OpenSpace“ sequence “CampusLoop“ sequence “Curved Tunnel“ sequence Simulation Start the simulation environment: roslaunch scout_gazebo test.launch Start the simulated odometry: roslaunch rigelslam_rot run_sim.launch Test on simulation sequence: Gazebo simulation environment “SimSq1“ sequence Dataset The dataset release is currently being organized and will be available soon. Self-recorded sequences : coming soon Simulation sequences : coming soon Device Design A rough structural design of the device is shown below. The detailed SolidWorks design files are currently being organized and will be released soon. Citation If you find this project useful, please consider citing our paper: Acknowledgments Thank the authors of FAST-LIO2 and Scout Gazebo for open-sourcing their outstanding works.",
+        "fetched_ok": true,
+        "display_name": "zzywhu/R3LIO",
+        "display_description": "[ISRPS JPRS 2026] Official implementation of R³LIO, a robust and accurate mobile mapping system, targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to continuously scan a full FoV).",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "lidar-inertial-odometry"
+        ],
+        "primary_category": "lidar-inertial-odometry",
+        "primary_category_name": "LiDAR-Inertial State Estimation",
+        "primary_category_name_zh": "激光惯导里程计",
+        "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 29,
+        "secondary_categories": [],
+        "match_hits": [
+          "lio",
+          "readme:lidar inertial odometry",
+          "readme:lidar-inertial odometry"
         ]
       }
     ],
@@ -102616,12 +103080,12 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-18T02:31:30.748876+00:00",
+        "fetched_at": "2026-06-29T02:03:11.978234+00:00",
         "archived": false,
         "about": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
         "topics": [],
-        "homepage": "https://wuyi2121.github.io/SCAN-Planner/",
-        "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation Citation information will be added once the paper is available. License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+        "homepage": "https://arxiv.org/abs/2606.19555",
+        "readme_excerpt": "SCAN-Planner Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation Han Zheng, Zhe Chen, Yiwen Fu, Ming Yang, Tong Qin * Code will be updated soon！ SCAN-Planner is a spatial collision-aware local planner, providing a robust low-level planning foundation for various upper-level tasks, such as autonomous exploration and vision-language navigation. For a VLN-related work, please refer to TravExplorer . System Overview Demonstrations More videos and interactive demonstrations are available on the project page . Citation @article { zheng2026scan , title = { SCAN-Planner: Spatial Collision-Aware Local Planning for Route-Guided Long-Range Quadruped Navigation } , author = { Zheng, Han and Chen, Zhe and Fu, Yiwen and Yang, Ming and Qin, Tong } , journal = { arXiv preprint arXiv:2606.19555 } , year = { 2026 } } License This project is licensed under the Apache License 2.0. See LICENSE for details.",
         "fetched_ok": true,
         "display_name": "wuyi2121/SCAN-Planner",
         "display_description": "SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation",
@@ -112060,6 +112524,46 @@
         ]
       },
       {
+        "full_name": "RNP-lab /viking_hill_radar_lidar_camera_dataset",
+        "url": "https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset",
+        "owner": "RNP-lab",
+        "repo": "viking_hill_radar_lidar_camera_dataset",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-25T02:08:49.737377+00:00",
+        "archived": false,
+        "about": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+        "topics": [],
+        "homepage": "https://segments.ai",
+        "readme_excerpt": "📚 Table of Contents Dataset Description Dataset Parts Data Structure and File Organization Downloads Examples and Teasers Acknowledgement Viking Hill Dataset: A Lidar-Radar-Camera Dataset for Detection and Segmentation in Forest Scenes Dataset description The recorded dataset captures a forested area that contains fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. The dataset captures a forested area that contains both fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. Clearpath Husky robot was teleoperated through the area in May and June 2024, each time driving roughly one hour while recording its onboard sensors: LiDAR, high-resolution 4D radar, GNSS, RGB camera, IMU and internal odometry. Thanks to the GNSS receiver and lidar data, reference lidar point cloud map and thus absolute positioning of the robot during the experiment are available. Moreover, to support 4D radar research in detetection and classification of obstacles in similar environments, the dataset provides labels (3D cuboids) for several classes (e.g., tree trunk, tree canopy, bush, ...) and ROS2 tools that use these cuboids to label arbitrary point clouds in the dataset (lidar, radar, accumulated versions of those, or sub-maps). Using the Segments.ai online 3D labeling solution, the reference point cloud maps from two recording runs were manually labelled. The data are provided as ROS bag files, both for ROS1 and ROS2, and the point-cloud-labeling tools are available for ROS2. Since the labelled point clouds are published as standard PointCloud2 messages, it is possible to convert the labelled clouds back to ROS1 either by ROS bridge, or by converting bag files (e.g., by Rosbags library.) A tool for point cloud accumulation is also provided. Based on the message count or distance travelled, denser point clouds are produced and optionally saved in .pcd format, allowing easy post-processing. Provided ROS tools annotate the radar or lidar pointclouds, display used cuboids in Rviz. Dataset Components Data from the recording sessions Short grass: May 2024 (4068s) Area of approx. 180x140m was captured by the Husky mobile robot in a \"search pattern\" fashion, resulting in dense coverage by all the onboard sensors. In the beginning of summer, the undergrowth is not yet fully developed, therefore the visibility conditions for the camera and lidar are good. Besides the raw data from the robot, a reference map is provided as well as raw GNSS data from a static and mobile receiver. Tall grass: June 2024 (3811s) The same area was visited again one month later in June, when the undergrowth became in some sections even higher than the robot itself. In these conditions, the comparison between camera, lidar and radar becomes interest",
+        "fetched_ok": true,
+        "display_name": "RNP-lab/viking_hill_radar_lidar_camera_dataset",
+        "display_description": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+        "manual_note": "",
+        "manual_labels": [
+          "radar-slam-perception"
+        ],
+        "labels": [
+          "datasets-benchmarks",
+          "radar-slam-perception"
+        ],
+        "primary_category": "datasets-benchmarks",
+        "primary_category_name": "Datasets & Benchmarks",
+        "primary_category_name_zh": "数据集与基准",
+        "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+        "primary_category_kind": "resource",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "robot-pesg /Standard-Data-ANM",
         "url": "https://github.com/robot-pesg/Standard-Data-ANM",
         "owner": "robot-pesg ",
@@ -115234,6 +115738,46 @@
         ]
       },
       {
+        "full_name": "KJ-Falloutlast /FIRE-LIVWO",
+        "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
+        "owner": "KJ-Falloutlast",
+        "repo": "FIRE-LIVWO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-26T02:01:31.943136+00:00",
+        "archived": false,
+        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "FIRE-LIVWO [IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "fetched_ok": true,
+        "display_name": "KJ-Falloutlast/FIRE-LIVWO",
+        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "radar-slam-perception"
+        ],
+        "primary_category": "radar-slam-perception",
+        "primary_category_name": "Radar SLAM & Perception",
+        "primary_category_name_zh": "雷达 SLAM 与感知",
+        "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 31,
+        "secondary_categories": [
+          "lidar-visual-inertial-odometry"
+        ],
+        "match_hits": [
+          "mmwave",
+          "radar"
+        ]
+      },
+      {
         "full_name": "kubelvla /mine-and-forest-radar-dataset",
         "url": "https://github.com/kubelvla/mine-and-forest-radar-dataset",
         "owner": "kubelvla ",
@@ -115349,6 +115893,46 @@
         "match_hits": [
           "list:radar",
           "radar"
+        ]
+      },
+      {
+        "full_name": "RNP-lab /viking_hill_radar_lidar_camera_dataset",
+        "url": "https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset",
+        "owner": "RNP-lab",
+        "repo": "viking_hill_radar_lidar_camera_dataset",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-25T02:08:49.737377+00:00",
+        "archived": false,
+        "about": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+        "topics": [],
+        "homepage": "https://segments.ai",
+        "readme_excerpt": "📚 Table of Contents Dataset Description Dataset Parts Data Structure and File Organization Downloads Examples and Teasers Acknowledgement Viking Hill Dataset: A Lidar-Radar-Camera Dataset for Detection and Segmentation in Forest Scenes Dataset description The recorded dataset captures a forested area that contains fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. The dataset captures a forested area that contains both fully grown and young trees, dense undergrowth, bumpy terrain and occasional rocks. Clearpath Husky robot was teleoperated through the area in May and June 2024, each time driving roughly one hour while recording its onboard sensors: LiDAR, high-resolution 4D radar, GNSS, RGB camera, IMU and internal odometry. Thanks to the GNSS receiver and lidar data, reference lidar point cloud map and thus absolute positioning of the robot during the experiment are available. Moreover, to support 4D radar research in detetection and classification of obstacles in similar environments, the dataset provides labels (3D cuboids) for several classes (e.g., tree trunk, tree canopy, bush, ...) and ROS2 tools that use these cuboids to label arbitrary point clouds in the dataset (lidar, radar, accumulated versions of those, or sub-maps). Using the Segments.ai online 3D labeling solution, the reference point cloud maps from two recording runs were manually labelled. The data are provided as ROS bag files, both for ROS1 and ROS2, and the point-cloud-labeling tools are available for ROS2. Since the labelled point clouds are published as standard PointCloud2 messages, it is possible to convert the labelled clouds back to ROS1 either by ROS bridge, or by converting bag files (e.g., by Rosbags library.) A tool for point cloud accumulation is also provided. Based on the message count or distance travelled, denser point clouds are produced and optionally saved in .pcd format, allowing easy post-processing. Provided ROS tools annotate the radar or lidar pointclouds, display used cuboids in Rviz. Dataset Components Data from the recording sessions Short grass: May 2024 (4068s) Area of approx. 180x140m was captured by the Husky mobile robot in a \"search pattern\" fashion, resulting in dense coverage by all the onboard sensors. In the beginning of summer, the undergrowth is not yet fully developed, therefore the visibility conditions for the camera and lidar are good. Besides the raw data from the robot, a reference map is provided as well as raw GNSS data from a static and mobile receiver. Tall grass: June 2024 (3811s) The same area was visited again one month later in June, when the undergrowth became in some sections even higher than the robot itself. In these conditions, the comparison between camera, lidar and radar becomes interest",
+        "fetched_ok": true,
+        "display_name": "RNP-lab/viking_hill_radar_lidar_camera_dataset",
+        "display_description": "Radar, lidar and camera dataset focusing on obstacle classification in forest environment",
+        "manual_note": "",
+        "manual_labels": [
+          "radar-slam-perception"
+        ],
+        "labels": [
+          "datasets-benchmarks",
+          "radar-slam-perception"
+        ],
+        "primary_category": "datasets-benchmarks",
+        "primary_category_name": "Datasets & Benchmarks",
+        "primary_category_name_zh": "数据集与基准",
+        "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+        "primary_category_kind": "resource",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -120001,6 +120585,46 @@
       }
     ],
     "leg": [
+      {
+        "full_name": "ChiyunNoh /GTSAM-Legged-Estimator-ROS2",
+        "url": "https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+        "owner": "ChiyunNoh",
+        "repo": "GTSAM-Legged-Estimator-ROS2",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-06-29T01:54:31.927716+00:00",
+        "archived": false,
+        "about": "Contribute to ChiyunNoh/GTSAM-Legged-Estimator-ROS2 development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://gtsam.org/2026/03/17/legged-state-estimation-part2.html",
+        "readme_excerpt": "GTSAM Legged Estimator ROS 2 ROS 2 implementation of four GTSAM legged-state-estimation variants from the invariant-filter hierarchy. The node consumes IMU data, foot contact states, and optionally joint states for Spot forward kinematics. It publishes odometry, path, and foot contact markers for RViz, and writes CSV/TUM trajectory outputs for later inspection. For more details on the estimator variants, see the GTSAM blog post The Manifold Kalman Filter Hierarchy, Part 2: Legged State Estimation . Dependencies This package was tested on Ubuntu 24.04 with ROS 2 Jazzy. The main external dependencies are ROS 2 and GTSAM. Required: Install GTSAM by following the official borglab repository: https://github.com/borglab/gtsam This package was tested with a source build of GTSAM from the develop branch. The tested build reports GTSAM_VERSION_STRING \"4.3a1\" and GTSAM_VERSION_NUMERIC=40300 ; this is a development build, not an official GTSAM release. Build Create a ROS 2 workspace, clone this package into its src/ directory, and build from the workspace root: mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2.git cd ~ /ros2_ws colcon build source install/setup.bash If GTSAM is installed into a standard CMake search prefix such as /usr or /usr/local , no extra path setting is usually needed. If GTSAM is installed into a custom prefix, expose it before running colcon build : export CMAKE_PREFIX_PATH=/path/to/gtsam/install: $CMAKE_PREFIX_PATH Alternatively, point CMake directly at the GTSAM package config directory: export GTSAM_DIR=/path/to/gtsam/install/lib/cmake/GTSAM Dataset The experiments use the dataset from GaRLILEO: Gravity-aligned Radar-Leg-Inertial Enhanced Odometry (IJRR 2026, Noh et al.). The GaRLILEO dataset contains ROS 2 bag sequences collected with a Boston Dynamics Spot robot equipped with IMU, leg kinematics, and radar sensors. Run In one terminal, replay a GaRLILEO ROS 2 bag: cd ~ /ros2_ws source install/setup.bash ros2 bag play /path/to/garlileo_sequence In another terminal, launch the estimator with RViz: cd ~ /ros2_ws source install/setup.bash ros2 launch gtsam_legged_replay_example GTSAM_legged_estimator.launch.xml Input Topics Defaults are defined in config/GTSAM_legged_estimator.yaml . /imu sensor_msgs/msg/Imu /spot/status/feet spot_msgs/msg/FootStateArray /joint_states sensor_msgs/msg/JointState When topics.read_joint_states: true , the node uses /joint_states to compute Spot foot positions with forward kinematics. If this is disabled or the joint state is too old, the node falls back to the body point contained in the foot state message when configured to do so. Output Topics Exactly one estimator variant is allowed per live run. Output topics are fixed so the same RViz configu",
+        "fetched_ok": true,
+        "display_name": "ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "tools-engineering-productivity"
+        ],
+        "labels": [
+          "leg",
+          "tools-engineering-productivity"
+        ],
+        "primary_category": "leg",
+        "primary_category_name": "Leg",
+        "primary_category_name_zh": "Leg",
+        "primary_category_description": "Custom user-defined category.",
+        "primary_category_kind": "custom",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
       {
         "full_name": "HorizonRobotics /GeoFlowSlam",
         "url": "https://github.com/HorizonRobotics/GeoFlowSlam",
