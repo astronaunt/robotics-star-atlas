@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T02:17:09.523182+00:00",
-  "total_unique_repos": 1398,
+  "generated_at": "2026-07-02T02:25:07.674524+00:00",
+  "total_unique_repos": 1402,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -30896,6 +30896,86 @@
       "topics": [],
       "homepage": "https://xiaofan4122.github.io/Elevator_LIO_Page/",
       "readme_excerpt": "Elevator-LIO 中文 | English 作者：Yifan Zhang, Yudong Huang, Yuchong Zhang, Changze Li, Haoran Liu, Ming Yang, Tong Qin* Elevator-LIO 是面向电梯非惯性运动和跨楼层定位的 LiDAR-惯性里程计。主要测试平台为 Livox MID-360，同时支持其他雷达如 Ouster、Velodyne、XT32 等，但除MID360外尚未经过大规模测试。 数据集下载与使用说明见 DATASET.md 。 关闭 YAML 中的电梯模式后，Elevator-LIO 可作为普通 LIO 使用，并保留触发式更新和自适应降采样等功能。 Warning Elevator-LIO 允许机器人在电梯内自由移动，但建议使用 Livox MID-360 这类视场较大的 LiDAR，并采用倾斜安装，以获得尽可能多方向上的几何约束。如果您的 LiDAR 水平安装，且机器人在电梯内基本不会产生上下运动，请将 yaml/runtime 中的 elevator.strong_prior_enable 设置为 true 。该选项会将 IMU 垂直方向加速度强约束解释为电梯加速度，使系统在此类安装条件下也能正常工作。 时间节点 2026-05-23 ： arXiv 预印本 公开。 2026-05-26 ： 小红书 公开宣传。 2026-06-06 ： @编程猫小渐 复现 Elevator-LIO 论文结果。 2026-06-20 ： Elevator-LIO 数据集 公开，包含 20 条序列和 79 次电梯乘坐；额外收录 @编程猫小渐 的两条数据。 2026-06-22 ：发布 rosbag 管理器视频 ，该工具随 Elevator-LIO 一同开源。 2026-06-26 ：ROS 1 源码发布。 计划中 ：ROS 2 源码发布。 计划中 ：更多数据集发布，包括更多带图像的完整序列。 计划中 ：手持采集平台软硬件源码与文档公开。 支持工作 欢迎参观课题组其他工作，Elevator-LIO 为以下工作提供了定位支持： SCAN-Planner ：面向路线引导长距离四足导航的空间碰撞感知局部规划器，可为自主探索、视觉语言导航等上层任务提供底层规划基础。 TravExplorer ：面向跨楼层具身探索的可通行性驱动 3D 规划系统，支持单楼层与跨楼层目标导航。 场景展示 方法概述 传统 LIO 假设导航坐标系为惯性系，但在运动的电梯轿厢内，IMU 会感受到电梯运动，而 LiDAR 主要观测轿厢内的相对几何，现有 LIO 方法几乎全部失效。Elevator-LIO 将机器人相对电梯的运动与电梯自身运动解耦，并通过模式相关的迭代误差状态卡尔曼滤波实现连续跨楼层定位：普通室内环境使用标准 LIO 传播，进入电梯后启用非惯性状态传播和约束更新。 系统按照时间顺序处理 IMU 和 LiDAR 数据，依次完成静态 IMU 初始化、自适应降采样、模式相关传播、IESKF LiDAR 更新、可能的退出电梯更新和增量 ikd-Tree 建图。 电梯模式管理 进入检测使用 LiDAR 距离统计量判断机器人是否由开放区域进入封闭轿厢；退出检测根据估计的电梯竖直运动状态及其方差判断电梯是否停稳。两种事件也可以通过 ROS 话题手动触发。 退出电梯更新 电梯停稳后，系统施加零速度和零加速度约束，将估计的电梯竖直位移重新锚定到机器人状态，并重置电梯相关状态，从而抑制电梯运行期间累积的高度漂移。 自适应降采样 系统在线调整体素大小，使降采样后的有效点数保持在目标值附近，在电梯轿厢内保留足够的几何信息，同时控制开放场景中的计算量。 数据采集平台 数据使用集成 Livox MID-360、工业相机和 Jetson Orin Nano 的便携式手持设备采集。 Note 后续将开源手持设备的软硬件设计与相关文档。 🔥 设计理念 Elevator-LIO 的设计遵循开箱即用的原则，集成了许多便于使用的功能，具有完善的注释方便您进行后续开发，日志与调试系统比较完善。 小巧思包括： 无 Livox_ros_driver 依赖 ：自定义消息在包内构建，在 ROS 系统上可直接编译使用 初始重力对齐 ：无论雷达以何种方向放置，世界系都会初始化为水平方向 球形/长方体包围盒滤除 ：除了指定球形滤除框，也可以指定长方体区域内点云滤除 预留额外的 body 系输出 ：可在 yaml/sensors 中配置 lidar_R_vehicle 和 lidar_t_vehicle 简单的重定位功能 ：支持加载 PCD 地图，然后在原点启动并运行重定位 协方差矩阵可视化 ：可在 yaml/logging 中打开，方便调试 高频输出 ：可在 yaml/runtime 中打开，将IMU预积分位姿也输出出来，方便下游应用 不同于主流 LIO，Elevator-LIO 没有显式打包概念，遵循“谁来谁更新”的设计理念，在框架上更适合多传感器融合；但这也带来了额外开销：状态机需要以较高频率轮询并检测是否有数据输入。 🛠️ 安装与运行 环境要求 当前代码主要在以下环境中开发和测试： Ubuntu 20.04 ROS Noetic OpenCV 目前只用于协方差矩阵和电梯状态曲线的调试窗口，默认配置中这些窗口均关闭；但源码和 CMake 仍会包含并链接 OpenCV，您可以自行修改代码取消这些依赖。 编译 将代码放入 src 目录下编译： catkin_make 运行 直接使用 roslaunch 运行： roslaunch lio start.launch 可以指定对应的 YAML 文件参数。默认配置为 root_config.yaml ，也可以创建自己的配置文件： roslaunch lio start.launch config_path:=path_to_yaml 电梯模式说明 电梯功能由统一开关控制： elevator : enable : true 自动进入电梯模式由门关闭检测控制： elevator : door_detector : enable : true 该检测基于点云距离分位数，在狭窄场景（如楼道）中可能误触发。可以关闭自动检测，改用话题手动触发。 进入电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: true \" -1 退出电梯模式（通过话题触发）： rostopic pub /LIO/set_elevator_flag std_msgs/Bool \" data: false \" -1",
+      "fetched_ok": true
+    },
+    "Taeyoung96 /mtd_map": {
+      "full_name": "Taeyoung96 /mtd_map",
+      "url": "https://github.com/Taeyoung96/mtd_map",
+      "owner": "Taeyoung96",
+      "repo": "mtd_map",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:21:36.566817+00:00",
+      "archived": false,
+      "about": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+      "topics": [],
+      "homepage": "https://taeyoung96.github.io/mtd_map/",
+      "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
+      "fetched_ok": true
+    },
+    "physical-superintelligence-lab /Humanoid-Everyday": {
+      "full_name": "physical-superintelligence-lab /Humanoid-Everyday",
+      "url": "https://github.com/physical-superintelligence-lab/Humanoid-Everyday",
+      "owner": "physical-superintelligence-lab",
+      "repo": "Humanoid-Everyday",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:24:15.806325+00:00",
+      "archived": false,
+      "about": "Humanoid dataset for learning",
+      "topics": [],
+      "homepage": "https://huggingface.co/datasets/USC-GVL/humanoid-everyday",
+      "readme_excerpt": "Humanoid Everyday Dataset The Humanoid Everyday Dataset is a diverse collection of humanoid robot (Unitree G1 and H1) demonstrations recorded at 30 Hz across everyday tasks. This dataset supports research in robot learning, imitation, and perception. Overview Total Download Size: ~500 GB (across 250 tasks), over 100,000 time-step recorded Tasks: 260 diverse scenarios (loco-manipulation, basic manipulation, tool use, deformables, articulated objects, human–robot interaction) Episodes per task: 40 Recording Frequency: 30 Hz Modalities captured Low-dimensional: Joint states (arm, leg, hand) IMU (orientation, accelerometer, gyroscope, RPY) Odometry/Kinematics (position, velocity, orientation) Hand pressure sensors (G1 only) Teleoperator hands/head actions from Apple Vision Pro Inverse kinematics data High-dimensional: Egocentric RGB images (480x640x3, PNG) Depth maps (480x640, uint16) LiDAR point clouds (~6 k points per step, PCD) Each episode is a continuous interaction sequence; use the provided dataloader for convenient access to both low‑dimensional streams and visual/lidar files. Quickstart Important!!!: It is recommended to load our the entire dataset using the lerobot format here (~1T). If you just want the states and actions from all the trajectories and don't care about the other modalities, you can use the lite datasets from here and here . If you wish to convert to lerobot yourself, you can use the script provided at scripts/he2lerobot.py , and put your downloaded unzipped trajectories in <dataset_name>/<task_category>/ , and run the script on <dataset_name> . Requirements Python: >= 3.8 Memory : >= 16GB RAM recommended Install humanoid_everyday dataloader git clone https://github.com/ausbxuse/Humanoid-Everyday cd Humanoid-Everyday pip install -e . Download dataset Please visit our task spreadsheet to download your task of interest. Example usage from humanoid_everyday import Dataloader # Load your downloaded task's dataset zip file (e.g., the \"push_a_button\" task) ds = Dataloader ( \"~/Downloads/push_a_button.zip\" ) print ( \"Episode length of dataset:\" , len ( ds )) # Displaying high dimensional data at first episode, second timestep. ds . display_image ( 0 , 1 ) ds . display_depth_point_cloud ( 0 , 1 ) ds . display_lidar_point_cloud ( 0 , 1 ) for i , episode in enumerate ( ds ): if i == 1 : # episode 1 robot_type = \"G1\" if \"robot_type\" in episode [ 0 ] else \"H1\" print ( \"Robot type:\" , robot_type ) states = np . array ( episode [ 0 ][ \"states\" ][ \"arm_state\" ] + episode [ 0 ][ \"states\" ][ \"hand_state\" ]) print ( \"States shape:\" , states . shape ) # 26 for H1 and 28 for G1 if robot_type == \"H1\" : # We recorded internal hand representation for H1 hand data, which needs post-processing left_qpos = episode [ 0 ][ \"actions\" ][ \"left_angles\" ] righ",
+      "fetched_ok": true
+    },
+    "wuyi2121 /TravExplorer": {
+      "full_name": "wuyi2121 /TravExplorer",
+      "url": "https://github.com/wuyi2121/TravExplorer",
+      "owner": "wuyi2121",
+      "repo": "TravExplorer",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:24:41.496558+00:00",
+      "archived": false,
+      "about": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning",
+      "topics": [],
+      "homepage": "https://sais.sjtu.edu.cn/faculty/yangming1.html",
+      "readme_excerpt": "TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning Han Zheng 1 , Zhe Chen 1 , Yudong Huang 1 , Haoran Liu 1 , Jinghao Wang 1 , Ming Yang 1 , Tong Qin 1 1 Shanghai Jiao Tong University Code will be released upon acceptance. TravExplorer is the first system to efficiently handle both single-floor and cross-floor object navigation via 3D traversability mapping . System Overview Robot Platform Real-World Experiments More videos and interactive demonstrations are available on the project page . Acknowledgements Our 3D local planner is based on SCAN-Planner . Citation @article { zheng2026travexplorer , title = { TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning } , author = { Zheng, Han and Chen, Zhe and Huang, Yudong and Liu, Haoran and Wang, Jinghao and Yang, Ming and Qin, Tong } , journal = { arXiv preprint arXiv:2605.19958 } , year = { 2026 } } License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+      "fetched_ok": true
+    },
+    "rpl-cmu /rimesa": {
+      "full_name": "rpl-cmu /rimesa",
+      "url": "https://github.com/rpl-cmu/rimesa",
+      "owner": "rpl-cmu",
+      "repo": "rimesa",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-02T02:25:07.673022+00:00",
+      "archived": false,
+      "about": "[TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.",
+      "topics": [
+        "c-slam",
+        "distributed-optimization",
+        "slam"
+      ],
+      "homepage": "https://rpl.ri.cmu.edu/",
+      "readme_excerpt": "Robust Incremental Manifold Edge-based Separable ADMM (riMESA) An illustration of riMESA operating on real-world data (`kth_r3_00_proradio`). riMESA estimates the state of a multi-robot team from noisy, potentially incorrect measurements using only sparse, unreliable communication. riMESA is a C-ADMM-based distributed optimization algorithm in which robots locally constrain shared state using \"biased priors\". Over time, as communication is available, riMESA tightens equality constraints with dual variables to provide consistent solutions for the team. Meanwhile, robots incorporate new measurements efficiently using the riSAM algorithm, which handles potential outlier measurements using M-Estimations and an incremental version of Graduated Non-Convexity, which efficiently updates only the relevant subproblem at each timestep. Abstract riMESA is a robust incremental distributed back-end algorithm for Collaborative Simultaneous Localization and Mapping (C-SLAM). For real-world deployments, robotic teams require algorithms to compute a consistent state estimate accurately, within online runtime constraints, with limited communication, all while operating robustly to outliers that we expect to corrupt our set of measurements. In this package we provide the original implementation of \"Robust Incremental Manifold Edge-based Separable ADMM\" (riMESA) a fully distributed C-SLAM back-end algorithm that can provide a multi-robot team with robust and accurate state estimates in real-time with only sparse pair-wise communication between robots. This algorithm and a broader use of Consensus ADMM for distributed optimization in robotics can be found in our Transactions on Robotics Paper: \"riMESA: Consensus ADMM for Real-World Collaborative SLAM\". If you use this software please cite our TRO paper as follows: @article{mcgann_rimesa_2026, title = {{riMESA}: Consensus {ADMM} for Real-World Collaborative {SLAM}}, author = {D. McGann and M. Kaess}, fullauthor = {Daniel McGann and Michael Kaess}, journal = {IEEE Transactions on Robotics}, year = 2026 volume = {}, % Volume not yet available as of June 2026 number = {}, % Number not yet available as of June 2026 pages = {}, % Pages not yet available as of June 2026 } Note: riMESA is the culmination of a line of work containing a batch optimizer MESA and a incremental (but not robust) algorithm iMESA . It is recommended that for real world applications practitioners use riMESA due to its advantages over these prior works. Example Results Extensive evaluation on real and synthetic data demonstrates that riMESA is able to provide accurate results across problem scenarios. The code used to generate all results is also made available in the companion repository COMING SOON . Below are example qualitative results from trials from",
       "fetched_ok": true
     }
   },

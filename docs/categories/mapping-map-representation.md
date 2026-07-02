@@ -2,7 +2,7 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `184`
+Repositories: `185`
 
 [Back to README](../../README.md)
 
@@ -10,8 +10,8 @@ Repositories: `184`
 | --- | ---: |
 | General Mapping | 61 |
 | 3D Gaussian Splatting | 56 |
+| General | 27 |
 | NeRF & Neural Rendering | 27 |
-| General | 26 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
 | Research Productivity | 1 |
@@ -139,6 +139,36 @@ Repositories: `184`
 - [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
 - [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
 
+## General
+
+- [ranahanocka/point2mesh](https://github.com/ranahanocka/point2mesh) - Reconstruct Watertight Meshes from Point Clouds [SIGGRAPH 2020]
+- [MIT-SPARK/Hydra](https://github.com/MIT-SPARK/Hydra) - A system for building 3D Scene Graphs from sensor data in real-time
+- [justimyhxu/GRM](https://github.com/justimyhxu/GRM) - Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation
+- [HuaiyuanXu/3D-Occupancy-Perception](https://github.com/HuaiyuanXu/3D-Occupancy-Perception) - [Information Fusion 2025] A Survey on Occupancy Perception for Autonomous Driving: The Information Fusion Perspective
+- [HengyiWang/Co-SLAM](https://github.com/HengyiWang/Co-SLAM) - [CVPR'23] Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM
+- [LiteReality/LiteReality](https://github.com/LiteReality/LiteReality) - [NeurIPS 2025] LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans
+- [StanfordVL/3DSceneGraph](https://github.com/StanfordVL/3DSceneGraph) - The data skeleton from "3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera" http://3dscenegraph.stanford.edu
+- [idiap/ESLAM](https://github.com/idiap/ESLAM) - ESLAM is an efficient SLAM system based on Neural Radiance Fields
+- [HKUST-3DV/DIM-SLAM](https://github.com/HKUST-3DV/DIM-SLAM) - This is official repo for ICLR 2023 Paper "DENSE RGB SLAM WITH NEURAL IMPLICIT MAPS"
+- [IRMVLab/SNI-SLAM](https://github.com/IRMVLab/SNI-SLAM) - [CVPR 2024 & TPAMI 2025] SNI-SLAM: Semantic Neural Implicit SLAM
+- [MKJia/BeautyMap](https://github.com/MKJia/BeautyMap) - [RA-L'24] BeautyMap: Binary-Encoded Adaptable Ground Matrix for Dynamic Points Removal in Global Maps
+- [ethz-asl/3d_vsg](https://github.com/ethz-asl/3d_vsg) - 3D Variable Scene Graphs for long-term semantic scene change prediction.
+- [StarRealMan/EINRUL](https://github.com/StarRealMan/EINRUL) - [ICRA2023] Efficient Implicit Neural Reconstruction Using LiDAR
+- [ghm0819/ERPoT](https://github.com/ghm0819/ERPoT) - ERPoT: Effective and Reliable Pose Tracking for Mobile Robots Using Lightweight Polygon Maps
+- [SenseRoboticsLab/CURL](https://github.com/SenseRoboticsLab/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
+- [changhaonan/OVSG](https://github.com/changhaonan/OVSG) - [CoRL2023] Open-Vocabulary Scene-Graph
+- [csiro-robotics/ElasticLidar-plusplus](https://github.com/csiro-robotics/ElasticLidar-plusplus) - Elasticity Meets Continuous-Time: Map-Centric Dense 3D SLAM
+- [perception-and-robotics-group/CURL](https://github.com/perception-and-robotics-group/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
+- [ShuyiZhou495/INF](https://github.com/ShuyiZhou495/INF) - INF: Implicit Neural Fusion for LiDAR and Camera (IROS2023)
+- [staymylove/3DMIT](https://github.com/staymylove/3DMIT) - Code of 3DMIT: 3D MULTI-MODAL INSTRUCTION TUNING FOR SCENE UNDERSTANDING
+- [bairuofei/CGE](https://github.com/bairuofei/CGE) - [IROS 2024]: Multi-robot active graph exploration with reduced pose-SLAM uncertainty via submodular optimization.
+- [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
+- [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
+- [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
+- [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
+- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
+- [Taeyoung96/mtd_map](https://github.com/Taeyoung96/mtd_map) - [IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution
+
 ## NeRF & Neural Rendering
 
 - [awesome-NeRF/awesome-NeRF](https://github.com/awesome-NeRF/awesome-NeRF) - A curated list of awesome neural radiance fields papers
@@ -168,35 +198,6 @@ Repositories: `184`
 - [jike5/LATITUDE](https://github.com/jike5/LATITUDE)
 - [thua919/NeRF-SLAM-Benchmark-CVPR24](https://github.com/thua919/NeRF-SLAM-Benchmark-CVPR24) - [CVPR 24'] Benchmarking Implicit Neural Representation and Geometric Rendering in Real-Time RGB-D SLAM
 - [Iris-cyy/SG-NeRF](https://github.com/Iris-cyy/SG-NeRF) - Official implementation of "SG-NeRF: Neural Surface Reconstruction with Scene Graph Optimization" (ECCV 2024)
-
-## General
-
-- [ranahanocka/point2mesh](https://github.com/ranahanocka/point2mesh) - Reconstruct Watertight Meshes from Point Clouds [SIGGRAPH 2020]
-- [MIT-SPARK/Hydra](https://github.com/MIT-SPARK/Hydra) - A system for building 3D Scene Graphs from sensor data in real-time
-- [justimyhxu/GRM](https://github.com/justimyhxu/GRM) - Large Gaussian Reconstruction Model for Efficient 3D Reconstruction and Generation
-- [HuaiyuanXu/3D-Occupancy-Perception](https://github.com/HuaiyuanXu/3D-Occupancy-Perception) - [Information Fusion 2025] A Survey on Occupancy Perception for Autonomous Driving: The Information Fusion Perspective
-- [HengyiWang/Co-SLAM](https://github.com/HengyiWang/Co-SLAM) - [CVPR'23] Co-SLAM: Joint Coordinate and Sparse Parametric Encodings for Neural Real-Time SLAM
-- [LiteReality/LiteReality](https://github.com/LiteReality/LiteReality) - [NeurIPS 2025] LiteReality: Graphics-Ready 3D Scene Reconstruction from RGB-D Scans
-- [StanfordVL/3DSceneGraph](https://github.com/StanfordVL/3DSceneGraph) - The data skeleton from "3D Scene Graph: A Structure for Unified Semantics, 3D Space, and Camera" http://3dscenegraph.stanford.edu
-- [idiap/ESLAM](https://github.com/idiap/ESLAM) - ESLAM is an efficient SLAM system based on Neural Radiance Fields
-- [HKUST-3DV/DIM-SLAM](https://github.com/HKUST-3DV/DIM-SLAM) - This is official repo for ICLR 2023 Paper "DENSE RGB SLAM WITH NEURAL IMPLICIT MAPS"
-- [IRMVLab/SNI-SLAM](https://github.com/IRMVLab/SNI-SLAM) - [CVPR 2024 & TPAMI 2025] SNI-SLAM: Semantic Neural Implicit SLAM
-- [MKJia/BeautyMap](https://github.com/MKJia/BeautyMap) - [RA-L'24] BeautyMap: Binary-Encoded Adaptable Ground Matrix for Dynamic Points Removal in Global Maps
-- [ethz-asl/3d_vsg](https://github.com/ethz-asl/3d_vsg) - 3D Variable Scene Graphs for long-term semantic scene change prediction.
-- [StarRealMan/EINRUL](https://github.com/StarRealMan/EINRUL) - [ICRA2023] Efficient Implicit Neural Reconstruction Using LiDAR
-- [ghm0819/ERPoT](https://github.com/ghm0819/ERPoT) - ERPoT: Effective and Reliable Pose Tracking for Mobile Robots Using Lightweight Polygon Maps
-- [SenseRoboticsLab/CURL](https://github.com/SenseRoboticsLab/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
-- [changhaonan/OVSG](https://github.com/changhaonan/OVSG) - [CoRL2023] Open-Vocabulary Scene-Graph
-- [csiro-robotics/ElasticLidar-plusplus](https://github.com/csiro-robotics/ElasticLidar-plusplus) - Elasticity Meets Continuous-Time: Map-Centric Dense 3D SLAM
-- [perception-and-robotics-group/CURL](https://github.com/perception-and-robotics-group/CURL) - CURL: Continuous, Ultra-compact Representation for LiDAR
-- [ShuyiZhou495/INF](https://github.com/ShuyiZhou495/INF) - INF: Implicit Neural Fusion for LiDAR and Camera (IROS2023)
-- [staymylove/3DMIT](https://github.com/staymylove/3DMIT) - Code of 3DMIT: 3D MULTI-MODAL INSTRUCTION TUNING FOR SCENE UNDERSTANDING
-- [bairuofei/CGE](https://github.com/bairuofei/CGE) - [IROS 2024]: Multi-robot active graph exploration with reduced pose-SLAM uncertainty via submodular optimization.
-- [SenseRoboticsLab/CURL-SLAM](https://github.com/SenseRoboticsLab/CURL-SLAM) - CURL-SLAM: Continuous and Compact LiDAR Mapping
-- [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
-- [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
-- [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
-- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 
 ## Voxel / TSDF / Occupancy Maps
 

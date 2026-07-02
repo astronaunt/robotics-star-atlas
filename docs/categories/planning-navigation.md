@@ -2,13 +2,13 @@
 
 Motion planning, path planning, trajectory optimization, navigation stacks, and control.
 
-Repositories: `71`
+Repositories: `72`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 70 |
+| General | 71 |
 | General Mapping | 1 |
 
 ## General
@@ -83,6 +83,7 @@ Repositories: `71`
 - [efc-robot/MR-GMMExplore](https://github.com/efc-robot/MR-GMMExplore)
 - [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
 - [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner) - SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation
+- [wuyi2121/TravExplorer](https://github.com/wuyi2121/TravExplorer) - TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning
 
 ## General Mapping
 

@@ -81,6 +81,11 @@
       "added_at": "2026-06-19T01:42:17.024627+00:00"
     },
     {
+      "full_name": "physical-superintelligence-lab/Humanoid-Everyday",
+      "url": "https://github.com/physical-superintelligence-lab/Humanoid-Everyday",
+      "added_at": "2026-07-01T02:24:13.487678+00:00"
+    },
+    {
       "full_name": "Printeger/uwb-imu-fusion",
       "url": "https://github.com/Printeger/uwb-imu-fusion",
       "added_at": "2026-06-08T02:21:41.200554+00:00"
@@ -94,6 +99,11 @@
       "full_name": "RNP-lab/viking_hill_radar_lidar_camera_dataset",
       "url": "https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset",
       "added_at": "2026-06-25T02:08:44.187426+00:00"
+    },
+    {
+      "full_name": "rpl-cmu/rimesa",
+      "url": "https://github.com/rpl-cmu/rimesa",
+      "added_at": "2026-07-02T02:25:06.401272+00:00"
     },
     {
       "full_name": "rsasaki0109/gnssplusplus-library",
@@ -116,6 +126,11 @@
       "added_at": "2026-06-18T01:59:59.511827+00:00"
     },
     {
+      "full_name": "Taeyoung96/mtd_map",
+      "url": "https://github.com/Taeyoung96/mtd_map",
+      "added_at": "2026-07-01T02:21:33.286595+00:00"
+    },
+    {
       "full_name": "url-kaist/se3-lio",
       "url": "https://github.com/url-kaist/se3-lio",
       "added_at": "2026-06-29T02:16:18.199027+00:00"
@@ -124,6 +139,11 @@
       "full_name": "wuyi2121/SCAN-Planner",
       "url": "https://github.com/wuyi2121/SCAN-Planner",
       "added_at": "2026-06-18T02:31:28.396377+00:00"
+    },
+    {
+      "full_name": "wuyi2121/TravExplorer",
+      "url": "https://github.com/wuyi2121/TravExplorer",
+      "added_at": "2026-07-01T02:24:38.986428+00:00"
     },
     {
       "full_name": "xiaofan4122/Elevator-LIO",

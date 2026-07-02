@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-29T02:17:09.523182+00:00",
-  "total_unique_repos": 1398,
+  "generated_at": "2026-07-02T02:25:07.674524+00:00",
+  "total_unique_repos": 1402,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
@@ -47,8 +47,8 @@
       "name_zh": "建图与地图表达",
       "description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "kind": "algorithm",
-      "count": 184,
-      "primary_count": 173
+      "count": 185,
+      "primary_count": 174
     },
     "point-cloud-registration": {
       "name": "Point Cloud Registration",
@@ -71,8 +71,8 @@
       "name_zh": "多机器人 SLAM 与协同感知",
       "description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
       "kind": "algorithm",
-      "count": 63,
-      "primary_count": 58
+      "count": 65,
+      "primary_count": 59
     },
     "radar-slam-perception": {
       "name": "Radar SLAM & Perception",
@@ -143,16 +143,16 @@
       "name_zh": "规划与导航",
       "description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
       "kind": "algorithm",
-      "count": 71,
-      "primary_count": 68
+      "count": 72,
+      "primary_count": 69
     },
     "datasets-benchmarks": {
       "name": "Datasets & Benchmarks",
       "name_zh": "数据集与基准",
       "description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
       "kind": "resource",
-      "count": 61,
-      "primary_count": 59
+      "count": 62,
+      "primary_count": 60
     },
     "slam-learning-handbooks": {
       "name": "SLAM Learning, Handbooks & Notes",
@@ -59366,6 +59366,162 @@
       "match_hits": [
         "manual override"
       ]
+    },
+    "Taeyoung96 /mtd_map": {
+      "full_name": "Taeyoung96 /mtd_map",
+      "url": "https://github.com/Taeyoung96/mtd_map",
+      "owner": "Taeyoung96",
+      "repo": "mtd_map",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:21:36.566817+00:00",
+      "archived": false,
+      "about": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+      "topics": [],
+      "homepage": "https://taeyoung96.github.io/mtd_map/",
+      "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
+      "fetched_ok": true,
+      "display_name": "Taeyoung96/mtd_map",
+      "display_description": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+      "manual_note": "",
+      "manual_labels": [
+        "multi-robot-slam"
+      ],
+      "labels": [
+        "mapping-map-representation",
+        "multi-robot-slam"
+      ],
+      "primary_category": "mapping-map-representation",
+      "primary_category_name": "Mapping & Map Representation",
+      "primary_category_name_zh": "建图与地图表达",
+      "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "physical-superintelligence-lab /Humanoid-Everyday": {
+      "full_name": "physical-superintelligence-lab /Humanoid-Everyday",
+      "url": "https://github.com/physical-superintelligence-lab/Humanoid-Everyday",
+      "owner": "physical-superintelligence-lab",
+      "repo": "Humanoid-Everyday",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:24:15.806325+00:00",
+      "archived": false,
+      "about": "Humanoid dataset for learning",
+      "topics": [],
+      "homepage": "https://huggingface.co/datasets/USC-GVL/humanoid-everyday",
+      "readme_excerpt": "Humanoid Everyday Dataset The Humanoid Everyday Dataset is a diverse collection of humanoid robot (Unitree G1 and H1) demonstrations recorded at 30 Hz across everyday tasks. This dataset supports research in robot learning, imitation, and perception. Overview Total Download Size: ~500 GB (across 250 tasks), over 100,000 time-step recorded Tasks: 260 diverse scenarios (loco-manipulation, basic manipulation, tool use, deformables, articulated objects, human–robot interaction) Episodes per task: 40 Recording Frequency: 30 Hz Modalities captured Low-dimensional: Joint states (arm, leg, hand) IMU (orientation, accelerometer, gyroscope, RPY) Odometry/Kinematics (position, velocity, orientation) Hand pressure sensors (G1 only) Teleoperator hands/head actions from Apple Vision Pro Inverse kinematics data High-dimensional: Egocentric RGB images (480x640x3, PNG) Depth maps (480x640, uint16) LiDAR point clouds (~6 k points per step, PCD) Each episode is a continuous interaction sequence; use the provided dataloader for convenient access to both low‑dimensional streams and visual/lidar files. Quickstart Important!!!: It is recommended to load our the entire dataset using the lerobot format here (~1T). If you just want the states and actions from all the trajectories and don't care about the other modalities, you can use the lite datasets from here and here . If you wish to convert to lerobot yourself, you can use the script provided at scripts/he2lerobot.py , and put your downloaded unzipped trajectories in <dataset_name>/<task_category>/ , and run the script on <dataset_name> . Requirements Python: >= 3.8 Memory : >= 16GB RAM recommended Install humanoid_everyday dataloader git clone https://github.com/ausbxuse/Humanoid-Everyday cd Humanoid-Everyday pip install -e . Download dataset Please visit our task spreadsheet to download your task of interest. Example usage from humanoid_everyday import Dataloader # Load your downloaded task's dataset zip file (e.g., the \"push_a_button\" task) ds = Dataloader ( \"~/Downloads/push_a_button.zip\" ) print ( \"Episode length of dataset:\" , len ( ds )) # Displaying high dimensional data at first episode, second timestep. ds . display_image ( 0 , 1 ) ds . display_depth_point_cloud ( 0 , 1 ) ds . display_lidar_point_cloud ( 0 , 1 ) for i , episode in enumerate ( ds ): if i == 1 : # episode 1 robot_type = \"G1\" if \"robot_type\" in episode [ 0 ] else \"H1\" print ( \"Robot type:\" , robot_type ) states = np . array ( episode [ 0 ][ \"states\" ][ \"arm_state\" ] + episode [ 0 ][ \"states\" ][ \"hand_state\" ]) print ( \"States shape:\" , states . shape ) # 26 for H1 and 28 for G1 if robot_type == \"H1\" : # We recorded internal hand representation for H1 hand data, which needs post-processing left_qpos = episode [ 0 ][ \"actions\" ][ \"left_angles\" ] righ",
+      "fetched_ok": true,
+      "display_name": "physical-superintelligence-lab/Humanoid-Everyday",
+      "display_description": "Humanoid dataset for learning",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "datasets-benchmarks"
+      ],
+      "primary_category": "datasets-benchmarks",
+      "primary_category_name": "Datasets & Benchmarks",
+      "primary_category_name_zh": "数据集与基准",
+      "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+      "primary_category_kind": "resource",
+      "primary_subtopic": "",
+      "primary_score": 18,
+      "secondary_categories": [],
+      "match_hits": [
+        "dataset"
+      ]
+    },
+    "wuyi2121 /TravExplorer": {
+      "full_name": "wuyi2121 /TravExplorer",
+      "url": "https://github.com/wuyi2121/TravExplorer",
+      "owner": "wuyi2121",
+      "repo": "TravExplorer",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-01T02:24:41.496558+00:00",
+      "archived": false,
+      "about": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning",
+      "topics": [],
+      "homepage": "https://sais.sjtu.edu.cn/faculty/yangming1.html",
+      "readme_excerpt": "TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning Han Zheng 1 , Zhe Chen 1 , Yudong Huang 1 , Haoran Liu 1 , Jinghao Wang 1 , Ming Yang 1 , Tong Qin 1 1 Shanghai Jiao Tong University Code will be released upon acceptance. TravExplorer is the first system to efficiently handle both single-floor and cross-floor object navigation via 3D traversability mapping . System Overview Robot Platform Real-World Experiments More videos and interactive demonstrations are available on the project page . Acknowledgements Our 3D local planner is based on SCAN-Planner . Citation @article { zheng2026travexplorer , title = { TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning } , author = { Zheng, Han and Chen, Zhe and Huang, Yudong and Liu, Haoran and Wang, Jinghao and Yang, Ming and Qin, Tong } , journal = { arXiv preprint arXiv:2605.19958 } , year = { 2026 } } License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+      "fetched_ok": true,
+      "display_name": "wuyi2121/TravExplorer",
+      "display_description": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "planning-navigation"
+      ],
+      "primary_category": "planning-navigation",
+      "primary_category_name": "Planning & Navigation",
+      "primary_category_name_zh": "规划与导航",
+      "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 14,
+      "secondary_categories": [],
+      "match_hits": [
+        "readme:navigation",
+        "readme:planner"
+      ]
+    },
+    "rpl-cmu /rimesa": {
+      "full_name": "rpl-cmu /rimesa",
+      "url": "https://github.com/rpl-cmu/rimesa",
+      "owner": "rpl-cmu",
+      "repo": "rimesa",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-02T02:25:07.673022+00:00",
+      "archived": false,
+      "about": "[TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.",
+      "topics": [
+        "c-slam",
+        "distributed-optimization",
+        "slam"
+      ],
+      "homepage": "https://rpl.ri.cmu.edu/",
+      "readme_excerpt": "Robust Incremental Manifold Edge-based Separable ADMM (riMESA) An illustration of riMESA operating on real-world data (`kth_r3_00_proradio`). riMESA estimates the state of a multi-robot team from noisy, potentially incorrect measurements using only sparse, unreliable communication. riMESA is a C-ADMM-based distributed optimization algorithm in which robots locally constrain shared state using \"biased priors\". Over time, as communication is available, riMESA tightens equality constraints with dual variables to provide consistent solutions for the team. Meanwhile, robots incorporate new measurements efficiently using the riSAM algorithm, which handles potential outlier measurements using M-Estimations and an incremental version of Graduated Non-Convexity, which efficiently updates only the relevant subproblem at each timestep. Abstract riMESA is a robust incremental distributed back-end algorithm for Collaborative Simultaneous Localization and Mapping (C-SLAM). For real-world deployments, robotic teams require algorithms to compute a consistent state estimate accurately, within online runtime constraints, with limited communication, all while operating robustly to outliers that we expect to corrupt our set of measurements. In this package we provide the original implementation of \"Robust Incremental Manifold Edge-based Separable ADMM\" (riMESA) a fully distributed C-SLAM back-end algorithm that can provide a multi-robot team with robust and accurate state estimates in real-time with only sparse pair-wise communication between robots. This algorithm and a broader use of Consensus ADMM for distributed optimization in robotics can be found in our Transactions on Robotics Paper: \"riMESA: Consensus ADMM for Real-World Collaborative SLAM\". If you use this software please cite our TRO paper as follows: @article{mcgann_rimesa_2026, title = {{riMESA}: Consensus {ADMM} for Real-World Collaborative {SLAM}}, author = {D. McGann and M. Kaess}, fullauthor = {Daniel McGann and Michael Kaess}, journal = {IEEE Transactions on Robotics}, year = 2026 volume = {}, % Volume not yet available as of June 2026 number = {}, % Number not yet available as of June 2026 pages = {}, % Pages not yet available as of June 2026 } Note: riMESA is the culmination of a line of work containing a batch optimizer MESA and a incremental (but not robust) algorithm iMESA . It is recommended that for real world applications practitioners use riMESA due to its advantages over these prior works. Example Results Extensive evaluation on real and synthetic data demonstrates that riMESA is able to provide accurate results across problem scenarios. The code used to generate all results is also made available in the companion repository COMING SOON . Below are example qualitative results from trials from",
+      "fetched_ok": true,
+      "display_name": "rpl-cmu/rimesa",
+      "display_description": "[TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "multi-robot-slam"
+      ],
+      "primary_category": "multi-robot-slam",
+      "primary_category_name": "Multi-Robot SLAM & Collaborative Perception",
+      "primary_category_name_zh": "多机器人 SLAM 与协同感知",
+      "primary_category_description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 23,
+      "secondary_categories": [],
+      "match_hits": [
+        "collaborative slam"
+      ]
     }
   },
   "grouped": {
@@ -83219,6 +83375,46 @@
         ]
       },
       {
+        "full_name": "Taeyoung96 /mtd_map",
+        "url": "https://github.com/Taeyoung96/mtd_map",
+        "owner": "Taeyoung96",
+        "repo": "mtd_map",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-07-01T02:21:36.566817+00:00",
+        "archived": false,
+        "about": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+        "topics": [],
+        "homepage": "https://taeyoung96.github.io/mtd_map/",
+        "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
+        "fetched_ok": true,
+        "display_name": "Taeyoung96/mtd_map",
+        "display_description": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "multi-robot-slam"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "tangtaogo /lidar-nerf",
         "url": "https://github.com/tangtaogo/lidar-nerf",
         "owner": "tangtaogo ",
@@ -103108,6 +103304,44 @@
         ]
       },
       {
+        "full_name": "wuyi2121 /TravExplorer",
+        "url": "https://github.com/wuyi2121/TravExplorer",
+        "owner": "wuyi2121",
+        "repo": "TravExplorer",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-07-01T02:24:41.496558+00:00",
+        "archived": false,
+        "about": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning",
+        "topics": [],
+        "homepage": "https://sais.sjtu.edu.cn/faculty/yangming1.html",
+        "readme_excerpt": "TravExplorer Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning Han Zheng 1 , Zhe Chen 1 , Yudong Huang 1 , Haoran Liu 1 , Jinghao Wang 1 , Ming Yang 1 , Tong Qin 1 1 Shanghai Jiao Tong University Code will be released upon acceptance. TravExplorer is the first system to efficiently handle both single-floor and cross-floor object navigation via 3D traversability mapping . System Overview Robot Platform Real-World Experiments More videos and interactive demonstrations are available on the project page . Acknowledgements Our 3D local planner is based on SCAN-Planner . Citation @article { zheng2026travexplorer , title = { TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3-D Planning } , author = { Zheng, Han and Chen, Zhe and Huang, Yudong and Liu, Haoran and Wang, Jinghao and Yang, Ming and Qin, Tong } , journal = { arXiv preprint arXiv:2605.19958 } , year = { 2026 } } License This project is licensed under the Apache License 2.0. See LICENSE for details.",
+        "fetched_ok": true,
+        "display_name": "wuyi2121/TravExplorer",
+        "display_description": "TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "planning-navigation"
+        ],
+        "primary_category": "planning-navigation",
+        "primary_category_name": "Planning & Navigation",
+        "primary_category_name_zh": "规划与导航",
+        "primary_category_description": "Motion planning, path planning, trajectory optimization, navigation stacks, and control.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 14,
+        "secondary_categories": [],
+        "match_hits": [
+          "readme:navigation",
+          "readme:planner"
+        ]
+      },
+      {
         "full_name": "yzhangec /Exploration-with-Global-Consistency",
         "url": "https://github.com/yzhangec/Exploration-with-Global-Consistency",
         "owner": "yzhangec ",
@@ -105286,6 +105520,47 @@
         ]
       },
       {
+        "full_name": "rpl-cmu /rimesa",
+        "url": "https://github.com/rpl-cmu/rimesa",
+        "owner": "rpl-cmu",
+        "repo": "rimesa",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-07-02T02:25:07.673022+00:00",
+        "archived": false,
+        "about": "[TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.",
+        "topics": [
+          "c-slam",
+          "distributed-optimization",
+          "slam"
+        ],
+        "homepage": "https://rpl.ri.cmu.edu/",
+        "readme_excerpt": "Robust Incremental Manifold Edge-based Separable ADMM (riMESA) An illustration of riMESA operating on real-world data (`kth_r3_00_proradio`). riMESA estimates the state of a multi-robot team from noisy, potentially incorrect measurements using only sparse, unreliable communication. riMESA is a C-ADMM-based distributed optimization algorithm in which robots locally constrain shared state using \"biased priors\". Over time, as communication is available, riMESA tightens equality constraints with dual variables to provide consistent solutions for the team. Meanwhile, robots incorporate new measurements efficiently using the riSAM algorithm, which handles potential outlier measurements using M-Estimations and an incremental version of Graduated Non-Convexity, which efficiently updates only the relevant subproblem at each timestep. Abstract riMESA is a robust incremental distributed back-end algorithm for Collaborative Simultaneous Localization and Mapping (C-SLAM). For real-world deployments, robotic teams require algorithms to compute a consistent state estimate accurately, within online runtime constraints, with limited communication, all while operating robustly to outliers that we expect to corrupt our set of measurements. In this package we provide the original implementation of \"Robust Incremental Manifold Edge-based Separable ADMM\" (riMESA) a fully distributed C-SLAM back-end algorithm that can provide a multi-robot team with robust and accurate state estimates in real-time with only sparse pair-wise communication between robots. This algorithm and a broader use of Consensus ADMM for distributed optimization in robotics can be found in our Transactions on Robotics Paper: \"riMESA: Consensus ADMM for Real-World Collaborative SLAM\". If you use this software please cite our TRO paper as follows: @article{mcgann_rimesa_2026, title = {{riMESA}: Consensus {ADMM} for Real-World Collaborative {SLAM}}, author = {D. McGann and M. Kaess}, fullauthor = {Daniel McGann and Michael Kaess}, journal = {IEEE Transactions on Robotics}, year = 2026 volume = {}, % Volume not yet available as of June 2026 number = {}, % Number not yet available as of June 2026 pages = {}, % Pages not yet available as of June 2026 } Note: riMESA is the culmination of a line of work containing a batch optimizer MESA and a incremental (but not robust) algorithm iMESA . It is recommended that for real world applications practitioners use riMESA due to its advantages over these prior works. Example Results Extensive evaluation on real and synthetic data demonstrates that riMESA is able to provide accurate results across problem scenarios. The code used to generate all results is also made available in the companion repository COMING SOON . Below are example qualitative results from trials from",
+        "fetched_ok": true,
+        "display_name": "rpl-cmu/rimesa",
+        "display_description": "[TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "multi-robot-slam"
+        ],
+        "primary_category": "multi-robot-slam",
+        "primary_category_name": "Multi-Robot SLAM & Collaborative Perception",
+        "primary_category_name_zh": "多机器人 SLAM 与协同感知",
+        "primary_category_description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 23,
+        "secondary_categories": [],
+        "match_hits": [
+          "collaborative slam"
+        ]
+      },
+      {
         "full_name": "some66 /UECP",
         "url": "https://github.com/some66/UECP",
         "owner": "some66 ",
@@ -105395,6 +105670,46 @@
         "secondary_categories": [],
         "match_hits": [
           "list:slam-multirobot"
+        ]
+      },
+      {
+        "full_name": "Taeyoung96 /mtd_map",
+        "url": "https://github.com/Taeyoung96/mtd_map",
+        "owner": "Taeyoung96",
+        "repo": "mtd_map",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-07-01T02:21:36.566817+00:00",
+        "archived": false,
+        "about": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+        "topics": [],
+        "homepage": "https://taeyoung96.github.io/mtd_map/",
+        "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
+        "fetched_ok": true,
+        "display_name": "Taeyoung96/mtd_map",
+        "display_description": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "multi-robot-slam"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -112481,6 +112796,43 @@
           "dataset",
           "list:slam-dataset",
           "readme:ground truth"
+        ]
+      },
+      {
+        "full_name": "physical-superintelligence-lab /Humanoid-Everyday",
+        "url": "https://github.com/physical-superintelligence-lab/Humanoid-Everyday",
+        "owner": "physical-superintelligence-lab",
+        "repo": "Humanoid-Everyday",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-07-01T02:24:15.806325+00:00",
+        "archived": false,
+        "about": "Humanoid dataset for learning",
+        "topics": [],
+        "homepage": "https://huggingface.co/datasets/USC-GVL/humanoid-everyday",
+        "readme_excerpt": "Humanoid Everyday Dataset The Humanoid Everyday Dataset is a diverse collection of humanoid robot (Unitree G1 and H1) demonstrations recorded at 30 Hz across everyday tasks. This dataset supports research in robot learning, imitation, and perception. Overview Total Download Size: ~500 GB (across 250 tasks), over 100,000 time-step recorded Tasks: 260 diverse scenarios (loco-manipulation, basic manipulation, tool use, deformables, articulated objects, human–robot interaction) Episodes per task: 40 Recording Frequency: 30 Hz Modalities captured Low-dimensional: Joint states (arm, leg, hand) IMU (orientation, accelerometer, gyroscope, RPY) Odometry/Kinematics (position, velocity, orientation) Hand pressure sensors (G1 only) Teleoperator hands/head actions from Apple Vision Pro Inverse kinematics data High-dimensional: Egocentric RGB images (480x640x3, PNG) Depth maps (480x640, uint16) LiDAR point clouds (~6 k points per step, PCD) Each episode is a continuous interaction sequence; use the provided dataloader for convenient access to both low‑dimensional streams and visual/lidar files. Quickstart Important!!!: It is recommended to load our the entire dataset using the lerobot format here (~1T). If you just want the states and actions from all the trajectories and don't care about the other modalities, you can use the lite datasets from here and here . If you wish to convert to lerobot yourself, you can use the script provided at scripts/he2lerobot.py , and put your downloaded unzipped trajectories in <dataset_name>/<task_category>/ , and run the script on <dataset_name> . Requirements Python: >= 3.8 Memory : >= 16GB RAM recommended Install humanoid_everyday dataloader git clone https://github.com/ausbxuse/Humanoid-Everyday cd Humanoid-Everyday pip install -e . Download dataset Please visit our task spreadsheet to download your task of interest. Example usage from humanoid_everyday import Dataloader # Load your downloaded task's dataset zip file (e.g., the \"push_a_button\" task) ds = Dataloader ( \"~/Downloads/push_a_button.zip\" ) print ( \"Episode length of dataset:\" , len ( ds )) # Displaying high dimensional data at first episode, second timestep. ds . display_image ( 0 , 1 ) ds . display_depth_point_cloud ( 0 , 1 ) ds . display_lidar_point_cloud ( 0 , 1 ) for i , episode in enumerate ( ds ): if i == 1 : # episode 1 robot_type = \"G1\" if \"robot_type\" in episode [ 0 ] else \"H1\" print ( \"Robot type:\" , robot_type ) states = np . array ( episode [ 0 ][ \"states\" ][ \"arm_state\" ] + episode [ 0 ][ \"states\" ][ \"hand_state\" ]) print ( \"States shape:\" , states . shape ) # 26 for H1 and 28 for G1 if robot_type == \"H1\" : # We recorded internal hand representation for H1 hand data, which needs post-processing left_qpos = episode [ 0 ][ \"actions\" ][ \"left_angles\" ] righ",
+        "fetched_ok": true,
+        "display_name": "physical-superintelligence-lab/Humanoid-Everyday",
+        "display_description": "Humanoid dataset for learning",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "datasets-benchmarks"
+        ],
+        "primary_category": "datasets-benchmarks",
+        "primary_category_name": "Datasets & Benchmarks",
+        "primary_category_name_zh": "数据集与基准",
+        "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+        "primary_category_kind": "resource",
+        "primary_subtopic": "",
+        "primary_score": 18,
+        "secondary_categories": [],
+        "match_hits": [
+          "dataset"
         ]
       },
       {
