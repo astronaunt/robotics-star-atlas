@@ -2,7 +2,7 @@
 
 SLAM handbooks, tutorials, courses, annotated code, code-reading notes, and learning resources.
 
-Repositories: `51`
+Repositories: `52`
 
 [Back to README](../../README.md)
 
@@ -57,3 +57,4 @@ Repositories: `51`
 - [shaozu/slam](https://github.com/shaozu/slam) - learning SLAM,curse,paper and others
 - [Jurio0304/Codex_Automated_Paper_Reader](https://github.com/Jurio0304/Codex_Automated_Paper_Reader) - Codex-assisted daily academic paper reader and recommendation workflow
 - [bit-ivrc/cmake_tutorial](https://github.com/bit-ivrc/cmake_tutorial)
+- [Ycsyyds/fastlivo2-tech-docs](https://github.com/Ycsyyds/fastlivo2-tech-docs)

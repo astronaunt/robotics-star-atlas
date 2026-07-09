@@ -2,13 +2,13 @@
 
 Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.
 
-Repositories: `71`
+Repositories: `72`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 69 |
+| General | 70 |
 | 3D Gaussian Splatting | 2 |
 
 ## General
@@ -82,6 +82,7 @@ Repositories: `71`
 - [U-AMC/rpg_vikit_rational_polynomial](https://github.com/U-AMC/rpg_vikit_rational_polynomial)
 - [PANshuyi/MR-Voxel-SVIO](https://github.com/PANshuyi/MR-Voxel-SVIO)
 - [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
+- [Ycsyyds/fastlivo2-tech-docs](https://github.com/Ycsyyds/fastlivo2-tech-docs)
 
 ## 3D Gaussian Splatting
 

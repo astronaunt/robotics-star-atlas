@@ -2,7 +2,7 @@
 
 LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
 
-Repositories: `153`
+Repositories: `154`
 
 [Back to README](../../README.md)
 
@@ -155,6 +155,7 @@ Repositories: `153`
 - [wolf943134497/FAST-LIO-Multi-Sensor-Fusion](https://github.com/wolf943134497/FAST-LIO-Multi-Sensor-Fusion) - Fusing GNSS and wheel measurements based on FAST-LIO and IKFOM
 - [changh95/LIO-SAM-nvidia-docker](https://github.com/changh95/LIO-SAM-nvidia-docker) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
 - [comrob/liorf-crl](https://github.com/comrob/liorf-crl) - CRL modification of the ROS1 liorf SLAM
+- [ethz-asl/BIEVR-LIO](https://github.com/ethz-asl/BIEVR-LIO) - [RSS 2026] 🦫 BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps
 - [ouguangjun/kilo-map](https://github.com/ouguangjun/kilo-map) - kilo-map: Robust Lidar-based Odometry and Mapping
 - [url-kaist/se3-lio](https://github.com/url-kaist/se3-lio) - SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)
 - [xiaofan4122/Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO) - Elevator-LIO Official implementation

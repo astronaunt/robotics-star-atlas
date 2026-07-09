@@ -2,7 +2,7 @@
 
 Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.
 
-Repositories: `19`
+Repositories: `20`
 
 [Back to README](../../README.md)
 
@@ -23,5 +23,6 @@ Repositories: `19`
 - [CookieAnt/DG-KILO](https://github.com/CookieAnt/DG-KILO) - We propose DG-KILO, a novel kinematic-inertial-LiDAR odometry framework integrating degradation optimization and ground constraints.
 - [JokerJohn/lda](https://github.com/JokerJohn/lda) - LiDAR Degenercy Analysis
 - [leggedrobotics/compslam_subt](https://github.com/leggedrobotics/compslam_subt) - The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.
+- [ethz-asl/BIEVR-LIO](https://github.com/ethz-asl/BIEVR-LIO) - [RSS 2026] 🦫 BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps
 - [G-SEI-Lab/Leap-SLAM](https://github.com/G-SEI-Lab/Leap-SLAM) - Home page
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...

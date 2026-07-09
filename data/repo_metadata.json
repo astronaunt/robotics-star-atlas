@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-02T02:25:07.674524+00:00",
-  "total_unique_repos": 1402,
+  "generated_at": "2026-07-09T02:35:48.761622+00:00",
+  "total_unique_repos": 1405,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -30909,12 +30909,12 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-07-01T02:21:36.566817+00:00",
+      "fetched_at": "2026-07-07T01:54:45.982677+00:00",
       "archived": false,
       "about": "[IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution",
       "topics": [],
       "homepage": "https://taeyoung96.github.io/mtd_map/",
-      "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
+      "readme_excerpt": "MTD-Map Project Page Official project page for the paper: \"MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution\" TaeYoung Kim, Gilhwan Kang, Tae Ihn Kim, Seungwon Song, Hun Keon Ko Robotics Lab, Advanced Vehicle Platform Division, Hyundai Motor Company Accepted to IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Project Page https://taeyoung96.github.io/mtd_map/ Paper arXiv: https://arxiv.org/abs/2606.29469 Overview MTD-Map is a single-stage LiDAR map maintenance framework that unifies dynamic object removal and change detection via Mixture Transition Distribution (MTD) modeling. Built With This project page is built with Astro Academic Project Page Template . License This project page template is licensed under Creative Commons Attribution-ShareAlike 4.0 International License .",
       "fetched_ok": true
     },
     "physical-superintelligence-lab /Humanoid-Everyday": {
@@ -30976,6 +30976,63 @@
       ],
       "homepage": "https://rpl.ri.cmu.edu/",
       "readme_excerpt": "Robust Incremental Manifold Edge-based Separable ADMM (riMESA) An illustration of riMESA operating on real-world data (`kth_r3_00_proradio`). riMESA estimates the state of a multi-robot team from noisy, potentially incorrect measurements using only sparse, unreliable communication. riMESA is a C-ADMM-based distributed optimization algorithm in which robots locally constrain shared state using \"biased priors\". Over time, as communication is available, riMESA tightens equality constraints with dual variables to provide consistent solutions for the team. Meanwhile, robots incorporate new measurements efficiently using the riSAM algorithm, which handles potential outlier measurements using M-Estimations and an incremental version of Graduated Non-Convexity, which efficiently updates only the relevant subproblem at each timestep. Abstract riMESA is a robust incremental distributed back-end algorithm for Collaborative Simultaneous Localization and Mapping (C-SLAM). For real-world deployments, robotic teams require algorithms to compute a consistent state estimate accurately, within online runtime constraints, with limited communication, all while operating robustly to outliers that we expect to corrupt our set of measurements. In this package we provide the original implementation of \"Robust Incremental Manifold Edge-based Separable ADMM\" (riMESA) a fully distributed C-SLAM back-end algorithm that can provide a multi-robot team with robust and accurate state estimates in real-time with only sparse pair-wise communication between robots. This algorithm and a broader use of Consensus ADMM for distributed optimization in robotics can be found in our Transactions on Robotics Paper: \"riMESA: Consensus ADMM for Real-World Collaborative SLAM\". If you use this software please cite our TRO paper as follows: @article{mcgann_rimesa_2026, title = {{riMESA}: Consensus {ADMM} for Real-World Collaborative {SLAM}}, author = {D. McGann and M. Kaess}, fullauthor = {Daniel McGann and Michael Kaess}, journal = {IEEE Transactions on Robotics}, year = 2026 volume = {}, % Volume not yet available as of June 2026 number = {}, % Number not yet available as of June 2026 pages = {}, % Pages not yet available as of June 2026 } Note: riMESA is the culmination of a line of work containing a batch optimizer MESA and a incremental (but not robust) algorithm iMESA . It is recommended that for real world applications practitioners use riMESA due to its advantages over these prior works. Example Results Extensive evaluation on real and synthetic data demonstrates that riMESA is able to provide accurate results across problem scenarios. The code used to generate all results is also made available in the companion repository COMING SOON . Below are example qualitative results from trials from",
+      "fetched_ok": true
+    },
+    "Ycsyyds /fastlivo2-tech-docs": {
+      "full_name": "Ycsyyds /fastlivo2-tech-docs",
+      "url": "https://github.com/Ycsyyds/fastlivo2-tech-docs",
+      "owner": "Ycsyyds",
+      "repo": "fastlivo2-tech-docs",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-03T03:03:12.814726+00:00",
+      "archived": false,
+      "about": "FASTLIVO2 技术文档 - 多传感器融合里程计系统详细文档",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "FASTLIVO2 技术文档 本项目包含 FAST-LIVO2（Fast LiDAR-Inertial-Visual Odometry）系统的详细技术文档和教程材料。FAST-LIVO2 是一个高效的多传感器融合里程计系统，结合了激光雷达、IMU 和视觉传感器。 文档目录 核心技术文档 00-快速导航指南.md - 文档结构和使用导航 00-文档审查清单.md - 文档质量检查清单 02-FASTLIVO2系统概述.md - 系统架构和核心概念 04-IMU离散状态转移模型直观解释.md - IMU 状态传播模型 05-激光雷达点扫描重组的原因和方法.md - 点云去畸变处理 06-序贯更新流程.md - 状态估计更新机制 07-局部地图结构和几何构建与更新.md - 体素地图管理 08-视觉地图点概念、生成与更新.md - 视觉地图点管理 09-参考图像块更新方法及效果.md - 视觉 patch 更新 10-法向量优化的背景和仿射变换概念.md - 几何优化基础 11-仿射变换求解及最小化光度误差.md - 光度误差优化 12-法向量优化问题推导.md - 法向量估计 13-激光雷达测量模型.md - LiDAR 观测模型 14-视觉测量模型--视觉地图点的选择.md - 视觉观测模型 99-系统可视化图表集合.md - 系统架构图表 专题分析 体素地图数据结构详解.md - 体素地图实现细节 重匹配机制rematch_num详解.md - 点云重匹配策略 VIO更新流程关键问题解答.md - 视觉里程计常见问题 教学材料 【课件】机器人定位建图最强开源FAST-LIVO2理论与实践 第一部分.pdf 【课件】机器人定位建图最强开源FAST-LIVO2理论与实践 第二部分（上）.pdf 【课件】机器人定位建图最强开源FAST-LIVO2理论与实践 第二部分（中）.pdf 图表资源 图表/ - 系统架构和数据流程图 快速开始 本地阅读 克隆仓库： git clone https://github.com/yourusername/fastlivo2-tech-docs.git cd fastlivo2-tech-docs 使用 Markdown 阅读器查看文档，或直接在 GitHub 上浏览 推荐阅读顺序 如果您是第一次接触 FAST-LIVO2，建议按以下顺序阅读： 02-FASTLIVO2系统概述.md 04-IMU离散状态转移模型直观解释.md 06-序贯更新流程.md 07-局部地图结构和几何构建与更新.md 08-视觉地图点概念、生成与更新.md 技术栈 传感器 : LiDAR, IMU, Camera 算法 : ESIKF, Voxel Map, Photometric Optimization 语言 : C++ 平台 : ROS/ROS2 文件结构 . ├── README.md # 本文件 ├── 00-快速导航指南.md ├── 00-文档审查清单.md ├── 02-FASTLIVO2系统概述.md ├── 04-IMU离散状态转移模型直观解释.md ├── 05-激光雷达点扫描重组的原因和方法.md ├── 06-序贯更新流程.md ├── 07-局部地图结构和几何构建与更新.md ├── 08-视觉地图点概念、生成与更新.md ├── 09-参考图像块更新方法及效果.md ├── 10-法向量优化的背景和仿射变换概念.md ├── 11-仿射变换求解及最小化光度误差.md ├── 12-法向量优化问题推导.md ├── 13-激光雷达测量模型.md ├── 14-视觉测量模型--视觉地图点的选择.md ├── 99-系统可视化图表集合.md ├── 体素地图数据结构详解.md ├── 重匹配机制rematch_num详解.md ├── VIO更新流程关键问题解答.md ├── 【课件】*.pdf # 教学课件 └── 图表/ # 系统图表 贡献 欢迎提交 Issue 和 Pull Request 来改进文档。 许可证 本项目文档仅供学习和研究使用。 相关链接 FAST-LIVO2 原始仓库: GitHub 论文: FAST-LIVO2: Fast, Direct LiDAR-Inertial-Visual Odometry 最后更新 : 2026-02-05",
+      "fetched_ok": true
+    },
+    "ethz-asl /BIEVR-LIO": {
+      "full_name": "ethz-asl /BIEVR-LIO",
+      "url": "https://github.com/ethz-asl/BIEVR-LIO",
+      "owner": "ethz-asl",
+      "repo": "BIEVR-LIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-09T02:35:48.760427+00:00",
+      "archived": false,
+      "about": "[RSS 2026] 🦫 BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps",
+      "topics": [],
+      "homepage": "https://patripfr.github.io/bievr-lio/",
+      "readme_excerpt": "BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps BIEVR-LIO is a robust LiDAR-Inertial Odometry framework that uses a high-resolution, voxel-wise oriented height image map to exploit subtle geometric variations in challenging, information-sparse environments. Abstract Reliable odometry is essential for mobile robots as they increasingly enter more challenging environments, which often contain little information to constrain point cloud registration, resulting in degraded LiDAR–Inertial Odometry (LIO) accuracy or even divergence. To address this, we present BIEVR-LIO, a novel approach designed specifically to exploit subtle variations in the available geometry for improved robustness. We propose a high-resolution map representation that stores surfaces as voxel-wise oriented height images. This representation can directly be used for registration without the calculation of intermediate geometric primitives while still supporting efficient updates. Since informative geometry is often sparsely distributed in the environment, we further propose a map-informed point sampling strategy to focus registration on geometrically informative regions, improving robustness in uninformative environments while reducing computational cost compared to global high-resolution sampling. Experiments across multiple sensors, platforms, and environments demonstrate state-of-the-art performance in well-constrained scenes and substantial improvements in challenging scenarios where baseline methods diverge. Additionally, we demonstrate that the fine-grained geometry captured by BIEVR-LIO can be used for downstream tasks such as elevation mapping for robot locomotion. Setup The core estimator ( bievr_lio ) is a self-contained, ROS-independent library. On top of it we provide both a ROS1 interface ( bievr_lio_ros ) and a ROS2 interface ( bievr_lio_ros2 ), which live side by side under interfaces/ . Installation Dependencies BIEVR-LIO is intentionally light on dependencies: the core estimator only needs Eigen and Ceres . Build instructions for both ROS versions are below. Each also offers an optional Docker image for quickly trying out the system without setting up dependencies. ROS1 For quick testing: Docker If you just want to try the system out without setting up dependencies, build the image and drop into a shell inside it: cd docker/ ./run_docker_ros1.sh -b The -b flag builds the image. On subsequent runs you can omit it to reuse the existing image. Your ~/data folder is mounted to /home/bievr/data inside the container so you can keep datasets outside the image. To open another terminal inside the running container (e.g. to launch a node and play a bag): docker exec -it BIEVR-LIO-ROS1 /bin/bash Build Requires ROS Noetic and python3-catkin-tools ",
+      "fetched_ok": true
+    },
+    "UMich-SSI-Lab /CORD": {
+      "full_name": "UMich-SSI-Lab /CORD",
+      "url": "https://github.com/UMich-SSI-Lab/CORD",
+      "owner": "UMich-SSI-Lab",
+      "repo": "CORD",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-07T01:55:57.499081+00:00",
+      "archived": false,
+      "about": "[RSS'26] Official Repository for Distributed Pose Graph Optimization via Continuous Riemannian Dynamics",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2605.11210",
+      "readme_excerpt": "CORD (RSS'26) This repository contains the code for CORD, an official implementation for the paper Distributed Pose Graph Optimization via Continuous Riemannian Dynamics , which is accepted to RSS 2026. [arXiv] [BibTex] News 26.07.02 We released an inital version of CORD! 1. Dependencies The code was tested on the following dependencies: Ubuntu 20.04 or later Python 3.8+ PyTorch NumPy SciPy Optional: CUDA-enabled PyTorch, if running experiments on GPU 2. Install Clone the repository and install the Python dependencies: git clone < repo-url > cd CORD python3 -m venv .venv source .venv/bin/activate pip install --upgrade pip pip install torch numpy scipy If you use CUDA, install the PyTorch wheel matching your CUDA version first, then install the remaining packages: pip install numpy scipy Flags The main experiment scripts use two flags: --default true | false --dataset DATASET_NAME --default true : use the fixed default CORD parameters. --default false : use the dataset specific parameters. --dataset : selects the .pt file from data/ . The asynchronous benchmark also supports: --delay-step DELAY For custom datasets, --delay-step 0 runs synchronous communication and any positive value runs asynchronous delayed communication. Synchronous Chordal Distance (Benchmark) Runs Block Jacobi baseline and CORD with the chordal metric. For example, python3 scripts/test_multi_robot_pgo_sync_chordal.py --default true --dataset smallGrid3D Optionally, append --visualize to enable visualization of optimized trajectories. Default CORD parameters: d=2, m=0.8, dt=1 Synchronous Geodesic Distance (Benchmark) Runs Block Jacobi baseline and CORD with the geodesic metric. For example, python3 scripts/test_multi_robot_pgo_sync_geodesic.py --default true --dataset rim Default CORD parameters: d=4, m=0.7, dt=0.7 Asynchronous Chordal Distance (Benchmark) Runs async Block Jacobi baseline and async CORD with delayed communication. The default delay is delay_step=10 . python3 scripts/test_multi_robot_pgo_async_benchmark.py --default true --dataset smallGrid3D --delay-step 7 Default CORD parameters: d=4, m=0.7, dt=0.1 Custom G2O Dataset To run your own dataset, initial .g2o datasets should first be converted to the .pt format used by the experiment scripts. Convert one .g2o file: python3 simulator/g2o_to_pt.py --g2o /path/to/custom.g2o --out data/custom.pt If the .g2o file does not encode robot IDs in GTSAM symbol keys, the converter tries to infer robot partitions from odometry-chain connectivity. You can force a robot count with: python3 simulator/g2o_to_pt.py --g2o /path/to/custom.g2o --out data/custom.pt --num-robots 4 Then, run the converted custom dataset with following scripts: Synchronous communication python3 scripts/run_custom_dataset.py --pt data/custom.pt --delay-step 0 A",
       "fetched_ok": true
     }
   },

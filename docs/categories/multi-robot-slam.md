@@ -2,13 +2,13 @@
 
 Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.
 
-Repositories: `65`
+Repositories: `66`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 64 |
+| General | 65 |
 | General Mapping | 1 |
 
 ## General
@@ -77,6 +77,7 @@ Repositories: `65`
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
 - [rpl-cmu/rimesa](https://github.com/rpl-cmu/rimesa) - [TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.
 - [Taeyoung96/mtd_map](https://github.com/Taeyoung96/mtd_map) - [IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution
+- [UMich-SSI-Lab/CORD](https://github.com/UMich-SSI-Lab/CORD) - [RSS'26] Official Repository for Distributed Pose Graph Optimization via Continuous Riemannian Dynamics
 
 ## General Mapping
 
