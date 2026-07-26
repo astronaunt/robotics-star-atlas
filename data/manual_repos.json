@@ -1,6 +1,11 @@
 {
   "repos": [
     {
+      "full_name": "93won/lightweight_vio",
+      "url": "https://github.com/93won/lightweight_vio",
+      "added_at": "2026-07-21T02:40:45.316338+00:00"
+    },
+    {
       "full_name": "ASIG-X/SFUISE",
       "url": "https://github.com/ASIG-X/SFUISE",
       "added_at": "2026-06-08T03:51:20.343631+00:00"
@@ -11,9 +16,19 @@
       "added_at": "2026-06-29T01:51:02.102769+00:00"
     },
     {
+      "full_name": "cvg/OpenFrontier",
+      "url": "https://github.com/cvg/OpenFrontier",
+      "added_at": "2026-07-14T01:17:02.961099+00:00"
+    },
+    {
       "full_name": "dongjae0107/LAPS",
       "url": "https://github.com/dongjae0107/LAPS",
       "added_at": "2026-06-18T02:18:37.561453+00:00"
+    },
+    {
+      "full_name": "dtc111111/awesome-representation-for-robotics",
+      "url": "https://github.com/dtc111111/awesome-representation-for-robotics",
+      "added_at": "2026-07-24T03:55:32.402194+00:00"
     },
     {
       "full_name": "efc-robot/MR-COGraphs",
@@ -26,6 +41,11 @@
       "added_at": "2026-07-07T01:52:02.550532+00:00"
     },
     {
+      "full_name": "Functionhx/Batch-LIO",
+      "url": "https://github.com/Functionhx/Batch-LIO",
+      "added_at": "2026-07-21T02:42:58.456058+00:00"
+    },
+    {
       "full_name": "G-SEI-Lab/Leap-SLAM",
       "url": "https://github.com/G-SEI-Lab/Leap-SLAM",
       "added_at": "2026-06-12T02:14:36.876630+00:00"
@@ -36,6 +56,11 @@
       "added_at": "2026-06-18T01:52:21.828118+00:00"
     },
     {
+      "full_name": "HorizonRobotics/HoloAgent",
+      "url": "https://github.com/HorizonRobotics/HoloAgent",
+      "added_at": "2026-07-14T01:18:56.247054+00:00"
+    },
+    {
       "full_name": "jashshah999/vggt-factor-refinement",
       "url": "https://github.com/jashshah999/vggt-factor-refinement",
       "added_at": "2026-06-09T02:36:21.035411+00:00"
@@ -44,6 +69,11 @@
       "full_name": "KJ-Falloutlast/FIRE-LIVWO",
       "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
       "added_at": "2026-06-26T02:01:23.751818+00:00"
+    },
+    {
+      "full_name": "LTU-RAI/InLiER",
+      "url": "https://github.com/LTU-RAI/InLiER",
+      "added_at": "2026-07-24T03:58:07.015775+00:00"
     },
     {
       "full_name": "minwoo0611/TreeLoc-plusplus",
@@ -64,6 +94,11 @@
       "full_name": "NeBula-Autonomy/nebula-odometry-dataset",
       "url": "https://github.com/NeBula-Autonomy/nebula-odometry-dataset",
       "added_at": "2026-06-09T09:02:31.004506+00:00"
+    },
+    {
+      "full_name": "OmerMersin/FAST_LIO_GPU",
+      "url": "https://github.com/OmerMersin/FAST_LIO_GPU",
+      "added_at": "2026-07-24T03:55:11.953120+00:00"
     },
     {
       "full_name": "ori-drs/pronto",
@@ -131,9 +166,24 @@
       "added_at": "2026-06-18T01:59:59.511827+00:00"
     },
     {
+      "full_name": "sparolab/Commerge",
+      "url": "https://github.com/sparolab/Commerge",
+      "added_at": "2026-07-20T01:43:21.460379+00:00"
+    },
+    {
+      "full_name": "superxslam/SuperMap",
+      "url": "https://github.com/superxslam/SuperMap",
+      "added_at": "2026-07-16T02:25:18.018107+00:00"
+    },
+    {
       "full_name": "Taeyoung96/mtd_map",
       "url": "https://github.com/Taeyoung96/mtd_map",
       "added_at": "2026-07-01T02:21:33.286595+00:00"
+    },
+    {
+      "full_name": "TongxingJin/TXTLCD",
+      "url": "https://github.com/TongxingJin/TXTLCD",
+      "added_at": "2026-07-20T01:45:51.160966+00:00"
     },
     {
       "full_name": "UMich-SSI-Lab/CORD",

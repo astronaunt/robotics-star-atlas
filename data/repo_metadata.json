@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-09T02:35:48.761622+00:00",
-  "total_unique_repos": 1405,
+  "generated_at": "2026-07-24T03:58:09.471654+00:00",
+  "total_unique_repos": 1414,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -11157,15 +11157,15 @@
     "TongxingJin /TXTLCD": {
       "full_name": "TongxingJin /TXTLCD",
       "url": "https://github.com/TongxingJin/TXTLCD",
-      "owner": "TongxingJin ",
+      "owner": "TongxingJin",
       "repo": "TXTLCD",
-      "list_description": "This repository is for \"Robust Loop Closure by Textual Cues in Challenging Environments\".",
-      "list_stars_label": "76",
-      "list_language": "C++",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "place-recognition"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T14:57:25.529095+00:00",
+      "fetched_at": "2026-07-20T01:45:53.413792+00:00",
       "archived": false,
       "about": "This repository is for \"Robust Loop Closure by Textual Cues in Challenging Environments\".",
       "topics": [],
@@ -31033,6 +31033,187 @@
       "topics": [],
       "homepage": "https://arxiv.org/abs/2605.11210",
       "readme_excerpt": "CORD (RSS'26) This repository contains the code for CORD, an official implementation for the paper Distributed Pose Graph Optimization via Continuous Riemannian Dynamics , which is accepted to RSS 2026. [arXiv] [BibTex] News 26.07.02 We released an inital version of CORD! 1. Dependencies The code was tested on the following dependencies: Ubuntu 20.04 or later Python 3.8+ PyTorch NumPy SciPy Optional: CUDA-enabled PyTorch, if running experiments on GPU 2. Install Clone the repository and install the Python dependencies: git clone < repo-url > cd CORD python3 -m venv .venv source .venv/bin/activate pip install --upgrade pip pip install torch numpy scipy If you use CUDA, install the PyTorch wheel matching your CUDA version first, then install the remaining packages: pip install numpy scipy Flags The main experiment scripts use two flags: --default true | false --dataset DATASET_NAME --default true : use the fixed default CORD parameters. --default false : use the dataset specific parameters. --dataset : selects the .pt file from data/ . The asynchronous benchmark also supports: --delay-step DELAY For custom datasets, --delay-step 0 runs synchronous communication and any positive value runs asynchronous delayed communication. Synchronous Chordal Distance (Benchmark) Runs Block Jacobi baseline and CORD with the chordal metric. For example, python3 scripts/test_multi_robot_pgo_sync_chordal.py --default true --dataset smallGrid3D Optionally, append --visualize to enable visualization of optimized trajectories. Default CORD parameters: d=2, m=0.8, dt=1 Synchronous Geodesic Distance (Benchmark) Runs Block Jacobi baseline and CORD with the geodesic metric. For example, python3 scripts/test_multi_robot_pgo_sync_geodesic.py --default true --dataset rim Default CORD parameters: d=4, m=0.7, dt=0.7 Asynchronous Chordal Distance (Benchmark) Runs async Block Jacobi baseline and async CORD with delayed communication. The default delay is delay_step=10 . python3 scripts/test_multi_robot_pgo_async_benchmark.py --default true --dataset smallGrid3D --delay-step 7 Default CORD parameters: d=4, m=0.7, dt=0.1 Custom G2O Dataset To run your own dataset, initial .g2o datasets should first be converted to the .pt format used by the experiment scripts. Convert one .g2o file: python3 simulator/g2o_to_pt.py --g2o /path/to/custom.g2o --out data/custom.pt If the .g2o file does not encode robot IDs in GTSAM symbol keys, the converter tries to infer robot partitions from odometry-chain connectivity. You can force a robot count with: python3 simulator/g2o_to_pt.py --g2o /path/to/custom.g2o --out data/custom.pt --num-robots 4 Then, run the converted custom dataset with following scripts: Synchronous communication python3 scripts/run_custom_dataset.py --pt data/custom.pt --delay-step 0 A",
+      "fetched_ok": true
+    },
+    "cvg /OpenFrontier": {
+      "full_name": "cvg /OpenFrontier",
+      "url": "https://github.com/cvg/OpenFrontier",
+      "owner": "cvg",
+      "repo": "OpenFrontier",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-14T01:17:05.577629+00:00",
+      "archived": false,
+      "about": "[RSS 2026] OpenFrontier: General Navigation with Visual-Language Grounded Frontiers",
+      "topics": [],
+      "homepage": "https://esteb37.github.io",
+      "readme_excerpt": "OpenFrontier: General Navigation with Visual-Language Grounded Frontiers Esteban Padilla-Cerdio * · Boyang Sun * · Marc Pollefeys · Hermann Blum * equal contribution RSS 2026 ArXiv | Webpage | Video Open-world navigation requires robots to pursue flexible goals in complex environments without task-specific training. OpenFrontier achieves this zero-shot by using visual frontiers as semantic anchors: sparse navigation targets detected in RGB, scored by an off-the-shelf VLM against the language goal, and maintained in 3D for global planning. Quick Start Setup - Choose the Open3D demo or Habitat benchmarking pipeline. Navigation Demos - Run Open3D navigation demos. Habitat Benchmarking - Evaluate HM3D, MP3D, and OVON. Pipeline Configuration - Tune mapping, planning, and VLM settings. Setup Clone the repository recursively so third-party modules are available: git clone --recursive git@github.com:cvg/OpenFrontier.git openfrontier cd openfrontier SAM3 If you did not clone recursively, initialize SAM3: git submodule update --init --recursive third_party/sam3 SAM3 is included under third_party/sam3 . Follow the upstream facebookresearch/sam3 installation instructions for SAM3-specific environment and checkpoint requirements. Installation cd third_party/sam3 conda create -n sam3 python=3.12 -y conda activate sam3 python -m pip install --force-reinstall \" setuptools<82 \" pip install -e . pip install -e \" .[notebooks] \" pip install flask cd ../.. If starting the server fails with RuntimeError: The NVIDIA driver on your system is too old , the default PyTorch wheel was built for a newer CUDA than your driver supports. Install a build matching your driver's CUDA version (shown by nvidia-smi ), e.g. for CUDA 12.8: pip install --force-reinstall torch torchvision --index-url https://download.pytorch.org/whl/cu128 Run server in second window From the repository root: conda activate sam3 python sam3_server.py SAM3 checkpoints are downloaded from Hugging Face on first use; request access to the facebook/sam3 checkpoint repository and authenticate before starting sam3_server.py : hf auth login OpenFrontier Environments OpenFrontier has two installation paths: Open3D demo pipeline : lightweight local demos with Python 3.11 and no Habitat dependency. Habitat benchmarking pipeline : HM3D, MP3D, and OVON evaluation using the Habitat-Lab/Habitat-Sim conda environment. Open3D Demo Pipeline Use this pipeline for demo_navigation.py , demo_exploration.py , and single-image debugging. It does not install Habitat. Create and activate the Python 3.11 environment: conda create -n openfrontier python=3.11 -y conda activate openfrontier Install the Open3D demo dependencies and download model weights: export CMAKE_POLICY_VERSION_MINIMUM=3.5 pip install -r requirements.txt bash scripts/",
+      "fetched_ok": true
+    },
+    "HorizonRobotics /HoloAgent": {
+      "full_name": "HorizonRobotics /HoloAgent",
+      "url": "https://github.com/HorizonRobotics/HoloAgent",
+      "owner": "HorizonRobotics",
+      "repo": "HoloAgent",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-14T01:18:58.599826+00:00",
+      "archived": false,
+      "about": "A unified, agentic system for general-purpose robots, enabling multi-modal perception, mapping and localization, and autonomous mobility and manipulation, with intelligent interaction with users.",
+      "topics": [
+        "embodied-agent",
+        "robotic"
+      ],
+      "homepage": "https://horizonrobotics.github.io/robot_lab/holoagent/",
+      "readme_excerpt": "HoloAgent is a unified embodied-agent framework for general-purpose robots, integrating closed-loop execution, 3D spatial memory, and robot skills for real-world tasks. 🔥 News [2026.06] HoloAgent-0 is released. Code is under preparation and will be released soon. [2025.09] FSR-VLN is released for fast-and-slow vision-language navigation. ✅ Release Status HoloAgent-0 code update HoloAgent-0 project page & paper FSR-VLN code 🧩 Components Embodied AgentOS: Coordinates high-level task planning, runtime feedback, and closed-loop robot execution. 3D Spatial Memory: Grounds robot reasoning in physical-world spatial representations for long-horizon tasks. Embodied Skills: Connects agent decisions to executable robot navigation and manipulation skills. FSR-VLN: Provides fast-and-slow vision-language navigation with a hierarchical multi-modal scene graph. 🧠 Framework for Closed-Loop Robot Execution AgentOS turns language instructions into monitored skill graphs and closes the loop across spatial retrieval, execution, memory updates, and recovery. 🤖 Real-Robot Demonstrations Compressed previews from real-hardware deployments. Full-resolution videos are available on the project page. Navigation and Dance Coordination Long-Horizon Mobile Manipulation Coordinate navigation and humanoid motion across robots. Decompose long-horizon manipulation into navigation, grasping, placement, and recovery. Active Exploration in a New Environment Interactive Humanoid Command Execution Explore new spaces and update 3D memory online. Follow open-ended commands with navigation and embodied actions. A Day with a Robot Companion A Day in the Life of a Robot Guide Combine language, 3D reasoning, navigation, interaction, and action. Guide users through workspaces with spatial-memory-aware routes. 🤖 FSR-VLN FSR-VLN is the HoloAgent navigation component, combining a Hierarchical Multi-modal Scene Graph with Fast-to-Slow Navigation Reasoning for efficient long-range spatial reasoning. 🏗 Getting Started The current repository includes FSR-VLN and navigation-agent setup. HoloAgent-0 code will be added in a future release. 1. Semantic Mapping and Retrieval Pipeline Task: Implement the semantic mapping and retrieval system based on the instructions in fsr_vln/README.md . Steps: Download the necessary pre-trained model checkpoints. Download and configure the required datasets. Set up the environment and dependencies as specified. Run the complete pipeline to verify its functionality for semantic mapping and visual place retrieval. 2. Navigation Agent Setup and Execution Task: Set up and test the navigation agent according to nav_agent/README.md . Steps: Install all required dependencies for the navigation environment. Configure the necessary parameters and environment settings. Execute the na",
+      "fetched_ok": true
+    },
+    "superxslam /SuperMap": {
+      "full_name": "superxslam /SuperMap",
+      "url": "https://github.com/superxslam/SuperMap",
+      "owner": "superxslam",
+      "repo": "SuperMap",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-16T02:25:20.482387+00:00",
+      "archived": false,
+      "about": "SuperMap is a living spatial memory for embodied AI — it perceives the world, remembers its evolution, and supports reasoning and action.",
+      "topics": [],
+      "homepage": "https://superodometry.com/supermap",
+      "readme_excerpt": "SuperMap: A Spatio-Temporal SLAM System for Visual-Language Navigation RSS 2026 AirLab, Carnegie Mellon University Announcement: The code will be released after RSS. News 2026-07-15: Project website and teaser video are now live. 2026-07-15: Initial README and project overview published. SuperMap is a living spatial memory for embodied AI . It perceives the world, remembers its evolution, and supports reasoning and action. It is a training-free spatio-temporal SLAM system that builds a persistent semantic world model. It fuses high-frequency geometric SLAM with asynchronous open-vocabulary perception, producing a 4D scene graph: a queryable map carrying spatial and temporal information for every object, enabling visual-language navigation and long-horizon reasoning on real robots. Highlights 👀 Perceive — Stable identities across occlusions and scene changes via 3D-aware instance association. 🧠 Remember — persistent object identities capture long-term scene evolution. 💡 Reason — a queryable 4D scene graph supports spatial and tempora reasoning. 🤖 Act — spatial memory naturally grounds VLN, VLA, and future embodied AI systems. 🔌 Model-agnostic — works with Grounding DINO, YOLOE, boxer pre-baked detections. ⚡ Fully online — real-time on robot hardware; runs offline on datasets or live via ROS2 from one codebase. 🏫 Field-proven — continuous 2-hour deployment across the CMU campus ( interactive demo ). Requirements Ubuntu 22.04 / 24.04, NVIDIA GPU with ≥ 16 GB VRAM, Python ≥ 3.10 ROS2 Jazzy workspace for live mode Setup git clone https://github.com/superxslam/SuperMap.git cd SuperMap conda create -n supermap python=3.11 && conda activate supermap pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu124 conda install cuda -c nvidia/label/cuda-12.4.0 export CUDA_HOME= $( dirname $( dirname $( which nvcc ) ) ) pip install -r requirements.txt python -m spacy download en_core_web_sm Run (offline) python examples/prepare_example_dataset.py # download example dataset (one-time) python examples/example.py # run the mapping pipeline Options: --detector yoloe|offline , --data_dir <path> , --config <yaml> , --live (rerun window). Run (live ROS2) # Clone into your workspace src/ as `semantic_mapping`, then: colcon build --packages-select semantic_mapping && source install/setup.bash ros2 launch semantic_mapping semantic_mapping.launch.py In live mode, the system subscribes to RGB, CameraInfo, PointCloud2, and Odometry topics and publishes per-object voxels ( /obj_points ), labeled boxes ( /obj_boxes ), and annotated images. Topic, extrinsic, and detector settings are configured in config/semantic_mapping.yaml , and the detection vocabulary is defined in config/prompts.yaml . Both offline and live modes emit the",
+      "fetched_ok": true
+    },
+    "sparolab /Commerge": {
+      "full_name": "sparolab /Commerge",
+      "url": "https://github.com/sparolab/Commerge",
+      "owner": "sparolab",
+      "repo": "Commerge",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-20T01:43:23.993206+00:00",
+      "archived": false,
+      "about": "SOTA communication-efficient, fast, and robust map merging using 3D point cloud (accepted in IJRR)",
+      "topics": [
+        "communication",
+        "lidar",
+        "map-merging",
+        "multi-agent",
+        "multi-robot",
+        "pointcloud"
+      ],
+      "homepage": "https://arxiv.org/abs/2606.25386",
+      "readme_excerpt": "Commerge commerge.mp4 Important [26.07.15] Code will be released! [26.06.03] Commerge accepted in IJRR 2026!",
+      "fetched_ok": true
+    },
+    "93won /lightweight_vio": {
+      "full_name": "93won /lightweight_vio",
+      "url": "https://github.com/93won/lightweight_vio",
+      "owner": "93won",
+      "repo": "lightweight_vio",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-21T02:40:47.558751+00:00",
+      "archived": false,
+      "about": "Statistical Uncertainty Learning for Robust Visual-Inertial State Estimation",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2510.01648",
+      "readme_excerpt": "Lightweight Stereo VIO This is a lightweight stereo visual-inertial odometry (VIO) project designed for real-time performance. It utilizes feature tracking, IMU pre-integration, sliding window optimization with Ceres Solver, and Pangolin for visualization. This project implements the statistical uncertainty learning method proposed in: Statistical Uncertainty Learning for Robust Visual-Inertial State Estimation Seungwon Choi, Donggyu Park, Seo-Yeon Hwang, Tae-Wan Kim arXiv:2510.01648 If you use this work in your research, please cite: @misc { choi2025statistical , title = { Statistical Uncertainty Learning for Robust Visual-Inertial State Estimation } , author = { Seungwon Choi and Donggyu Park and Seo-Yeon Hwang and Tae-Wan Kim } , year = { 2025 } , eprint = { 2510.01648 } , archivePrefix = { arXiv } , primaryClass = { cs.RO } , url = { https://arxiv.org/abs/2510.01648 } } License This project is licensed under the 🚀MIT License🚀 - see the LICENSE file for details. Demo ROS2 Wrapper https://github.com/93won/vio_ros_wrapper Installation 📋 Installation Guide - Complete installation instructions for both Docker and native builds Dataset Download 📁 Dataset Download Guide - Dataset download and preparation Supported Datasets EuRoC MAV Dataset - Stereo + IMU (Visual-Inertial Odometry) TUM-VI Dataset - Stereo + IMU (Visual-Inertial Odometry) Intel RealSense D435/D435i - RGBD (Visual Odometry only) Supports custom RGBD datasets with color/ and depth/ folders Example configuration: config/d435.yaml ⚠️ Note: RGBD + IMU fusion (VIO mode) is under development Running the Application 🚀 Running Examples - Usage examples Performance Analysis and Evaluation 📊 Performance Analysis Guide - Comprehensive performance evaluation and benchmarking Project Structure The source code is organized into the following directories: app/ : Main application entry points src/ : database/ : Data structures for Frame (including IMU data), MapPoint , and Feature processing/ : Core VIO modules, including Estimator , FeatureTracker , IMUHandler , and Optimizer optimization/ : Ceres Solver cost functions for visual reprojection errors and IMU pre-integration constraints viewer/ : Pangolin-based visualization util/ : Utility functions for configuration and data loading thirdparty/ : External libraries (Ceres, Pangolin, Sophus, spdlog) config/ : Configuration files for VO and VIO modes docs/ : Detailed documentation guides Contributing Contributions are welcome! Please feel free to submit issues and pull requests. References This project's IMU pre-integration implementation is based on the following paper: @article { forster2016manifold , author = { Forster, Christian and Carlone, Luca and Dellaert, Frank and Scaramuzza, Davide } , year = { 2016 } , month = { 08 } , title = { On-Manifold Pr",
+      "fetched_ok": true
+    },
+    "Functionhx /Batch-LIO": {
+      "full_name": "Functionhx /Batch-LIO",
+      "url": "https://github.com/Functionhx/Batch-LIO",
+      "owner": "Functionhx",
+      "repo": "Batch-LIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-24T03:56:11.587244+00:00",
+      "archived": false,
+      "about": "Batch-wise extension of Point-LIO: per-~1ms batch EKF update + in-batch de-skew for high-bandwidth, lower-compute LiDAR-inertial odometry (reproduction of Point-LIWO innovation #1). - Functionhx/Batch-LIO",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "Batch‑LIO A batch‑wise extension of Point‑LIO : per‑~1 ms batch EKF update with in‑batch motion de‑skew — higher‑bandwidth, lower‑compute LiDAR‑inertial odometry. 🌐 English · 中文 Batch‑LIO reproduces innovation #1 of the USTC undergraduate thesis 《高带宽轮式激光惯性里程计》(Point‑LIWO — Batch‑based Direct Point LiDAR‑IMU‑Wheeled‑speed Odometry) by 张昊鹏. It is built directly on HKU‑MARS Point‑LIO and kept A/B‑comparable with it (CPU‑only; wheel‑speed / innovation #2 is out of scope). Table of contents Section 1 What it changes vs Point‑LIO 2 Results 3 Build & Run (ROS 2 Humble) 4 Test 5 Repository layout 6 Legacy: ROS 1 Noetic 7 Attribution & license What it changes vs Point‑LIO Point‑LIO updates the EKF point‑wise (one update per distinct point timestamp) and already row‑stacks the measurement Jacobian over a group of same‑timestamp points. Batch‑LIO changes two things and adds OpenMP: 1 ms time‑window grouping — points are grouped into fixed ~1 ms windows instead of by identical timestamp ( time_compressing_batch , include/common_lib.h ). In‑batch de‑skew — because a window now spans many timestamps, each point is motion‑compensated to the window's reference (last‑point) time using the EKF state's angular/linear velocity, then all valid residuals are row‑stacked into a single EKF update per window ( src/deskew.h , applied in src/laserMapping.cpp ). This implements thesis eq. 3.44–3.47: OpenMP on the per‑point KNN + plane‑fit loop ( src/Estimator.cpp ). OpenMP only pays off after batching enlarges the groups — on Point‑LIO's tiny per‑timestamp groups it is slower. Δtⱼ = tⱼ − t_last (≤ 0 within a window) Rⱼ = Exp(ω · Δtⱼ) (ω = state body angular velocity) Tⱼ = R_Iᵀ · v · Δtⱼ (v = state world linear velocity; R_I = state rotation) p'ⱼ = Rⱼ · pⱼ + Tⱼ All changes are gated by ROS params (defaults make it equivalent to Point‑LIO when batch_dt ≤ 0 ). param default meaning batch_dt 0.001 batch window length in seconds ( ≤ 0 ⇒ point‑wise = Point‑LIO) batch_omp false OpenMP on the KNN+plane‑fit loop batch_deskew true in‑window de‑skew on/off (ablation toggle) Results A/B vs pristine Point‑LIO, same bag and parameters, CPU‑only on a 32‑core x86_64 machine. Full numbers in docs/RESULTS.md (ROS 1) and docs/RESULTS_ROS2.md (re‑run on the ROS 2 port). No ground truth is used. \"Accuracy\" below means agreement with the Point‑LIO baseline (mean |Δpos|) plus loop‑closure drift on return‑loop bags — not error vs a true trajectory. The only comparison object is Point‑LIO. Per‑frame compute: 2.3–4.7× faster bag point‑wise (ms) batch 1 ms (ms) speedup quick‑shack (ROS 2) 12.42 3.51 3.5× outdoor_run (ROS 2) 2.56 0.54 4.7× Batch‑LIO matches the baseline trajectory closely and closes the outdoor_run loop better than baseline (0.020 m vs 0.073 m). OpenMP only helps after batching (\"batch en",
+      "fetched_ok": true
+    },
+    "OmerMersin /FAST_LIO_GPU": {
+      "full_name": "OmerMersin /FAST_LIO_GPU",
+      "url": "https://github.com/OmerMersin/FAST_LIO_GPU",
+      "owner": "OmerMersin",
+      "repo": "FAST_LIO_GPU",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-24T03:55:14.156975+00:00",
+      "archived": false,
+      "about": "GPU-accelerated FAST-LIO for ROS2 with Ouster support and Jetson Orin optimization. - OmerMersin/FAST_LIO_GPU",
+      "topics": [],
+      "homepage": "https://www.youtube.com/watch?v=wikgrQbE6Cs",
+      "readme_excerpt": "ROS2 Fork repo maintainer: Ericsiii Related Works and Extended Application SLAM: ikd-Tree : A state-of-art dynamic KD-Tree for 3D kNN search. R2LIVE : A high-precision LiDAR-inertial-Vision fusion work using FAST-LIO as LiDAR-inertial front-end. LI_Init : A robust, real-time LiDAR-IMU extrinsic initialization and synchronization package.. FAST-LIO-LOCALIZATION : The integration of FAST-LIO with Re-localization function module. Control and Plan: IKFOM : A Toolbox for fast and high-precision on-manifold Kalman filter. UAV Avoiding Dynamic Obstacles : One of the implementation of FAST-LIO in robot's planning. UGV Demo : Model Predictive Control for Trajectory Tracking on Differentiable Manifolds. Bubble Planner : Planning High-speed Smooth Quadrotor Trajectories using Receding Corridors. FAST-LIO FAST-LIO (Fast LiDAR-Inertial Odometry) is a computationally efficient and robust LiDAR-inertial odometry package. It fuses LiDAR feature points with IMU data using a tightly-coupled iterated extended Kalman filter to allow robust navigation in fast-motion, noisy or cluttered environments where degeneration occurs. Our package address many key issues: Fast iterated Kalman filter for odometry optimization; Automaticaly initialized at most steady environments; Parallel KD-Tree Search to decrease the computation; FAST-LIO 2.0 (2021-07-05 Update) Related video: FAST-LIO2 , FAST-LIO1 Pipeline: New Features: Incremental mapping using ikd-Tree , achieve faster speed and over 100Hz LiDAR rate. Direct odometry (scan to map) on Raw LiDAR points (feature extraction can be disabled), achieving better accuracy. Since no requirements for feature extraction, FAST-LIO2 can support many types of LiDAR including spinning (Velodyne, Ouster) and solid-state (Livox Avia, Horizon, MID-70) LiDARs, and can be easily extended to support more LiDARs. Support external IMU. Support ARM-based platforms including Khadas VIM3, Nivida TX2, Raspberry Pi 4B(8G RAM). Related papers : FAST-LIO2: Fast Direct LiDAR-inertial Odometry FAST-LIO: A Fast, Robust LiDAR-inertial Odometry Package by Tightly-Coupled Iterated Kalman Filter Contributors Wei Xu 徐威 ， Yixi Cai 蔡逸熙 ， Dongjiao He 贺东娇 ， Fangcheng Zhu 朱方程 ， Jiarong Lin 林家荣 ， Zheng Liu 刘政 , Borong Yuan 1. Prerequisites 1.1 Ubuntu and ROS Ubuntu >= 20.04 The default from apt PCL and Eigen is enough for FAST-LIO to work normally. ROS >= Foxy (Recommend to use ROS-Humble). ROS Installation 1.2. PCL && Eigen PCL >= 1.8, Follow PCL Installation . Eigen >= 3.3.4, Follow Eigen Installation . 1.3. livox_ros_driver2 (optional) Install livox_ros_driver2 only if you plan to run a Livox LiDAR . You can also use the modified fork livox_ros_driver2 . Remarks: FAST-LIO will now build and run without livox_ros_driver2 . When the driver is not present, Livox-specific",
+      "fetched_ok": true
+    },
+    "dtc111111 /awesome-representation-for-robotics": {
+      "full_name": "dtc111111 /awesome-representation-for-robotics",
+      "url": "https://github.com/dtc111111/awesome-representation-for-robotics",
+      "owner": "dtc111111",
+      "repo": "awesome-representation-for-robotics",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-24T03:55:35.162544+00:00",
+      "archived": false,
+      "about": "Contribute to dtc111111/awesome-representation-for-robotics development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2512.03422",
+      "readme_excerpt": "Awesome 3D Scene Representation for Robotics This repo contains a curative list of 3D Scene Representation papers relating to the Robotics domain . Please feel free to send me pull requests or email to add papers! If you find this repository useful, please consider citing and STARing this list. Feel free to share this list with others! Overview Survey General Model Photorealistic Sparse View Accelerate & Compression Geometry & Physics 1.Perception 1.1 Point Cloud 1.2 Voxel Grid 1.3 Signed Distance Field (SDF) 1.4 Mesh 1.5 Scene Graph 1.6 Neural Radiance Fields (NeRF) 1.7 3D Gaussian Splatting (3DGS) 1.8 Foundation Model 2.Mapping 2.1 Point Cloud 2.2 Voxel Grid 2.3 Signed Distance Field (SDF) 2.4 Mesh 2.5 Scene Graph 2.6 Neural Radiance Fields (NeRF) 2.7 3D Gaussian Splatting (3DGS) 2.8 Foundation Model 3.Localization 3.1 Point Cloud 3.2 Voxel Grid 3.3 Signed Distance Field (SDF) 3.4 Mesh 3.5 Scene Graph 3.6 Neural Radiance Fields (NeRF) 3.7 3D Gaussian Splatting (3DGS) 3.8 Foundation Model 4.Navigation 4.1 Geometric Representations 4.2 NeRF-based Representations 4.3 3DGS-based Representations 4.4 Foundation Model 5.Manipulation 5.1 Point Cloud 5.2 Voxel Grid 5.3 Signed Distance Field (SDF) 5.4 Mesh 5.5 Scene Graph 5.6 Neural Radiance Fields (NeRF) 5.7 3D Gaussian Splatting (3DGS) 5.8 Foundation Model 6.Simulation Citation Survey [S0] What Is The Best 3D Scene Representation for Robotics? From Geometric to Foundation Models 🧑‍🔬 Author ：Tianchen Deng, Yue Pan, Shenghai Yuan, Dong Li, et al. 🏫 Institute ：Shanghai Jiao Tong University, University of Boon, Nanyang Technological University 🔗 Link ：[ arXiv:2512.03422 ] [S1] Foundation Models in Robotics: Applications, Challenges, and the Future 🧑‍🔬 Author ：Roya Firoozi, Johnathan Tucker, et al. 🏫 Institute ：Stanford University, Princeton University 🔗 Link ：[ IJRR ] [S2] Toward General-Purpose Robots via Foundation Models: A Survey and Meta-Analysis 🧑‍🔬 Author ：Yafei Hu, Quanting Xie, et al. 🏫 Institute ：CMU, Bosch Center for AI, MIT 🔗 Link ：[ arXiv:2312.08782 ] [S3] Advances in Feed-Forward 3D Reconstruction and View Synthesis: A Survey 🧑‍🔬 Author ：Jiahui Zhang, Yuelei Li, et al. 🏫 Institute ：NTU, Caltech 🔗 Link ：[ arXiv:2507.14501 ] [S4] A Survey on 3D Gaussian Splatting 🧑‍🔬 Author ：Guikun Chen, Wenguan Wang 🏫 Institute ：Zhejiang University 🔗 Link ：[ arXiv:2401.03890 ] [S5] 3D Gaussian as a New Vision Era: A Survey 🧑‍🔬 Author ：Ben Fei, Jingyi Xu, Rui Zhang, Qingyuan Zhou, Weidong Yang, Ying He 🏫 Institute ：Fudan University ⟐ Nanyang Technological University 🔗 Link ：[ IEEE Transactions on Visualization and Computer Graphics 2024 ] General Model 3D Gaussian Splatting for Real-Time Radiance Field Rendering, SIGGRAPH, 2023 . [ Paper ] [ Website ] Photorealistic Mip-splatting Alias-free 3d gaussian splatting, C",
+      "fetched_ok": true
+    },
+    "LTU-RAI /InLiER": {
+      "full_name": "LTU-RAI /InLiER",
+      "url": "https://github.com/LTU-RAI/InLiER",
+      "owner": "LTU-RAI",
+      "repo": "InLiER",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-24T03:58:09.470696+00:00",
+      "archived": false,
+      "about": "Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization, accepted @ RA-L'26 - LTU-RAI/InLiER",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2607.16862",
+      "readme_excerpt": "InLiER Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization Nikolaos Stathoulopoulos · George Nikolakopoulos 💡 Introduction InLiER ( In termediate Li DAR E ncoding for R etrieval) is a learning-free place recognition pipeline for heterogeneous LiDAR sensors — spinning, solid-state, and FMCW units with different fields of view, resolutions, and scanning patterns. Instead of encoding a scan directly into a descriptor, InLiER inserts an intermediate representation : height-sliced structural keypoints are each mapped to a compact mixed-radix token that encodes height, radial distance, local shape, and azimuth. The same vocabulary is then re-organized on the fly across three retrieval stages, yielding fast rotation-invariant retrieval, yaw estimation and reranking, and full 6-DoF pose verification from a single sub-2KB representation. The pipeline re-organizes one token vocabulary across three stages: 🌿 MINT (Minimum-ceiling INTersection) — height-ceiling histogram intersection for fast, rotation-invariant shortlisting. 💥 BEAM (Binary Elevation-Azimuth Matching) — bitmask alignment for yaw estimation and reranking. ✔️ Verify — token-guided geometric verification for 6-DoF pose estimation. 📋 Table of Contents 💡 Introduction 🚀 Setup — Prerequisites • Installation • Environment Setup 🕹️ Run the Example — Dataset Setup • Building Overlap GT • Validating Overlaps • Configuration • Evaluation • Visualization 🗃️ Test Your Own Data — Dataset Layout • Overlap Ground Truth • Evaluation 🔜 Coming Soon — C++ Implementation • ROS2 Support 🙏 Acknowledgements 📝 Citation 📬 Contact 🚀 Setup Prerequisites Python ≥ 3.10 The core library depends on NumPy and small_gicp (used for the GICP-based 6-DoF pose refinement). The evaluation and visualization tools additionally use open3d , scipy , pyyaml , tqdm , matplotlib , and pandas (installed via extras below). Installation git clone https://github.com/LTU-RAI/InLiER.git cd InLiER Environment Setup Using Conda (Recommended) conda create -n inlier python=3.10 conda activate inlier pip install -e \" .[eval] \" Using pip with venv python -m venv inlier-env source inlier-env/bin/activate pip install -e \" .[eval] \" The [eval] extra installs everything the evaluation workflow needs — overlap-GT building, the HeLiPR evaluation, and the playback visualization. Install just the core library (no evaluation scripts) with pip install -e . 🕹️ Run the Example This walks through reproducing our HeLiPR results on the Roundabout01 (Ouster OS2-128, database) ← Roundabout03 (Aeva Aeries II, query) pair — a heterogeneous, spinning-vs-solid-state setup. The full pipeline runs in three steps: build the overlap ground truth, run the evaluation, then (optionally) replay the results. We provide th",
       "fetched_ok": true
     }
   },

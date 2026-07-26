@@ -2,14 +2,14 @@
 
 Motion planning, path planning, trajectory optimization, navigation stacks, and control.
 
-Repositories: `72`
+Repositories: `74`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 71 |
-| General Mapping | 1 |
+| General | 72 |
+| General Mapping | 2 |
 
 ## General
 
@@ -81,6 +81,7 @@ Repositories: `72`
 - [maozihaoo/Multi-UAV-Cooperative-Motion-Planning](https://github.com/maozihaoo/Multi-UAV-Cooperative-Motion-Planning) - Multi-UAV Cooperative Motion Planning Under Global Spatio-Temporal Path Inspiration in Constraint-Rich Dynamic Environments
 - [RENyunfan/Fast-Planner-Ubuntu20](https://github.com/RENyunfan/Fast-Planner-Ubuntu20) - Base line test with: A Robust and Efficient Trajectory Planner for Quadrotors
 - [efc-robot/MR-GMMExplore](https://github.com/efc-robot/MR-GMMExplore)
+- [cvg/OpenFrontier](https://github.com/cvg/OpenFrontier) - [RSS 2026] OpenFrontier: General Navigation with Visual-Language Grounded Frontiers
 - [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
 - [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner) - SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation
 - [wuyi2121/TravExplorer](https://github.com/wuyi2121/TravExplorer) - TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning
@@ -88,3 +89,4 @@ Repositories: `72`
 ## General Mapping
 
 - [BohemianRhapsodyz/semantic_exploration](https://github.com/BohemianRhapsodyz/semantic_exploration) - Active Semantic Mapping and Pose Graph Spectral Analysis for Robot Exploration
+- [HorizonRobotics/HoloAgent](https://github.com/HorizonRobotics/HoloAgent) - A unified, agentic system for general-purpose robots, enabling multi-modal perception, mapping and localization, and autonomous mobility and manipulation, with intelligent interaction wit...

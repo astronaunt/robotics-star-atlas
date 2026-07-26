@@ -2,7 +2,7 @@
 
 Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
 
-Repositories: `106`
+Repositories: `107`
 
 [Back to README](../../README.md)
 
@@ -50,7 +50,6 @@ Repositories: `106`
 - [yzhangec/Exploration-with-Global-Consistency](https://github.com/yzhangec/Exploration-with-Global-Consistency) - [ICRA 2022] Exploration with Global Consistency Using Real-Time Re-integration and Active Loop Closure
 - [Yan-Xia/Text2Loc](https://github.com/Yan-Xia/Text2Loc) - The codes for CVPR2024 paper 'Text2Loc: 3D Point Cloud Localization from Natural Language'
 - [YungeCui/LinK3D](https://github.com/YungeCui/LinK3D) - [RA-L] LinK3D: Linear Keypoint Representation for 3D LiDAR Point Cloud
-- [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".
 - [SCNU-RISLAB/OverlapMamba](https://github.com/SCNU-RISLAB/OverlapMamba) - OverlapMamba: Novel Shift State Space Model for LiDAR-based Place Recognition
 - [wangyizhao/PRIOR-SLAM](https://github.com/wangyizhao/PRIOR-SLAM) - PRIOR-SLAM: Enabling Visual SLAM for Loop Closure under Large Viewpoint Variations
 - [gmberton/MeshVPR](https://github.com/gmberton/MeshVPR) - Visual Place Recognition using 3D Meshes
@@ -111,4 +110,6 @@ Repositories: `106`
 - [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
 - [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
 - [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019
+- [LTU-RAI/InLiER](https://github.com/LTU-RAI/InLiER) - Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization, accepted @ RA-L'26 - LTU-RAI/InLiER
 - [minwoo0611/TreeLoc-plusplus](https://github.com/minwoo0611/TreeLoc-plusplus) - Repository for TreeLoc++ (TFR 2026)
+- [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".

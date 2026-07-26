@@ -2,14 +2,14 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `185`
+Repositories: `188`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General Mapping | 61 |
-| 3D Gaussian Splatting | 56 |
+| General Mapping | 63 |
+| 3D Gaussian Splatting | 57 |
 | General | 27 |
 | NeRF & Neural Rendering | 27 |
 | Voxel / TSDF / Occupancy Maps | 12 |
@@ -78,7 +78,9 @@ Repositories: `185`
 - [uniericuni/MultiRobotSAM](https://github.com/uniericuni/MultiRobotSAM) - An implementation of the 2010 paper "Multiple Relative Pose Graphs for Robust Cooperative Mapping" by Been et. al.
 - [dongjae0107/LAPS](https://github.com/dongjae0107/LAPS) - [RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields
 - [efc-robot/MR-COGraphs](https://github.com/efc-robot/MR-COGraphs) - [RA-L25] MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs
+- [HorizonRobotics/HoloAgent](https://github.com/HorizonRobotics/HoloAgent) - A unified, agentic system for general-purpose robots, enabling multi-modal perception, mapping and localization, and autonomous mobility and manipulation, with intelligent interaction wit...
 - [ori-drs/ScaRF-SLAM](https://github.com/ori-drs/ScaRF-SLAM) - ScaRF-SLAM: A Framework for Globally Consistent Online Visual Dense Reconstruction
+- [superxslam/SuperMap](https://github.com/superxslam/SuperMap) - SuperMap is a living spatial memory for embodied AI — it perceives the world, remembers its evolution, and supports reasoning and action.
 
 ## 3D Gaussian Splatting
 
@@ -136,6 +138,7 @@ Repositories: `185`
 - [Liouvi/IG-SLAM](https://github.com/Liouvi/IG-SLAM) - Official Implementation of IG-SLAM
 - [WHU-USI3DV/GAGS](https://github.com/WHU-USI3DV/GAGS) - [AAAI-26] GAGS: Granularity-Aware 3D Feature Distillation for Gaussian Splatting
 - [KwanWaiPang/Gaussian-SLAM_comment](https://github.com/KwanWaiPang/Gaussian-SLAM_comment)
+- [dtc111111/awesome-representation-for-robotics](https://github.com/dtc111111/awesome-representation-for-robotics)
 - [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
 - [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
 
