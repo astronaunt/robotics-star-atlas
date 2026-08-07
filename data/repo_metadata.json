@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-07-24T03:58:09.471654+00:00",
-  "total_unique_repos": 1414,
+  "generated_at": "2026-08-07T02:25:36.705135+00:00",
+  "total_unique_repos": 1417,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -23535,17 +23535,17 @@
     "ntnu-arl /reasoning_hydra": {
       "full_name": "ntnu-arl /reasoning_hydra",
       "url": "https://github.com/ntnu-arl/reasoning_hydra",
-      "owner": "ntnu-arl ",
+      "owner": "ntnu-arl",
       "repo": "reasoning_hydra",
-      "list_description": "Relationship-aware hierarchical 3D scene graph for task reasoning",
-      "list_stars_label": "21",
-      "list_language": "C++",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "slam-map"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T15:00:31.990038+00:00",
+      "fetched_at": "2026-08-07T02:25:36.703299+00:00",
       "archived": false,
-      "about": "Relationship-aware hierarchical 3D scene graph for task reasoning",
+      "about": "Relationship-aware hierarchical 3D scene graph for task reasoning - ntnu-arl/reasoning_hydra",
       "topics": [],
       "homepage": "https://ntnu-arl.github.io/reasoning_graph/",
       "readme_excerpt": "Relationship-Aware Hierarchical 3D Scene Graph This package implements an enhanced hierarchical 3D scene graph based on Hydra , integrating open-vocabulary features for rooms and objects, and supporting object-relational reasoning. We leverage a Vision-Language Model (VLM) to infer semantic relationships. Additionally, we introduce a task reasoning module that combines Large Language Models (LLM) and a VLM to interpret the scene graph’s semantic and relational information, enabling agents to reason about tasks and interact with their environment intelligently. Table of Contents Setup General Requirements Building Python Environment for Semantics and Reasoning Usage Scene Graph Construction Uhumans2 Dataset Replica Dataset Habitat-Matterport 3D Semantics Dataset Robot Deployment Task Reasoning Citation License Acknowledgements Contact Setup General Requirements These instructions assume that ros-noetic-desktop-full is installed on Ubuntu 20.04 . Install general dependencies: sudo apt install python3-rosdep python3-catkin-tools python3-vcstool Building Build the repository in Release mode : mkdir -p catkin_ws/src cd catkin_ws catkin init catkin config -DCMAKE_BUILD_TYPE=Release cd src git clone git@github.com:ntnu-arl/reasoning_hydra.git vcs import . < reasoning_hydra/install/packages.repos rosdep install --from-paths . --ignore-src -r -y cd .. catkin build Python Environment for Semantics and Reasoning Follow the instructions in semantic_inference_ros to set up the Python environment required to run the semantic and reasoning models. Usage Scene Graph Construction The system supports multiple datasets and online deployment on robots with GPU capabilities (e.g., Nvidia Jetson Orin AGX ). Uhumans2 Download rosbags from Uhumans2 dataset . Start the scene graph: roslaunch hydra_ros uhumans2.launch In a separate terminal, play the rosbag: rosbag play path/to/rosbag Replica Follow NICE-SLAM instructions to download posed RGB-D data from Replica scenes. Run the scene graph: roslaunch hydra_ros replica.launch Publish the data: roslaunch hydra_ros publish_replica.launch dataset_path:= < Path to your replica dataset > scene_name:= < Scene name > Habitat-Matterport 3D Semantics Dataset Follow HOV-SG instructions (Step 2 can be skipped) to download posed RGB-D data from several scenes. Run the scene graph: roslaunch hydra_ros hm3dsem.launch roslaunch hydra_ros publish_hm3dsem.launch dataset_path:= < Path to hm3d_trajectories > scene_name:= < Scene name > Robot Deployment To run the scene graph on your robot: Robot must provide posed RGB-D data as sensor_msgs/Image Pose must be provided via TFs Update robot.launch with the correct TFs and camera topic names, then run: roslaunch hydra_ros robot.launch We provide recorded data from experiments with an ANYMal robot. ",
@@ -31214,6 +31214,63 @@
       "topics": [],
       "homepage": "https://arxiv.org/abs/2607.16862",
       "readme_excerpt": "InLiER Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization Nikolaos Stathoulopoulos · George Nikolakopoulos 💡 Introduction InLiER ( In termediate Li DAR E ncoding for R etrieval) is a learning-free place recognition pipeline for heterogeneous LiDAR sensors — spinning, solid-state, and FMCW units with different fields of view, resolutions, and scanning patterns. Instead of encoding a scan directly into a descriptor, InLiER inserts an intermediate representation : height-sliced structural keypoints are each mapped to a compact mixed-radix token that encodes height, radial distance, local shape, and azimuth. The same vocabulary is then re-organized on the fly across three retrieval stages, yielding fast rotation-invariant retrieval, yaw estimation and reranking, and full 6-DoF pose verification from a single sub-2KB representation. The pipeline re-organizes one token vocabulary across three stages: 🌿 MINT (Minimum-ceiling INTersection) — height-ceiling histogram intersection for fast, rotation-invariant shortlisting. 💥 BEAM (Binary Elevation-Azimuth Matching) — bitmask alignment for yaw estimation and reranking. ✔️ Verify — token-guided geometric verification for 6-DoF pose estimation. 📋 Table of Contents 💡 Introduction 🚀 Setup — Prerequisites • Installation • Environment Setup 🕹️ Run the Example — Dataset Setup • Building Overlap GT • Validating Overlaps • Configuration • Evaluation • Visualization 🗃️ Test Your Own Data — Dataset Layout • Overlap Ground Truth • Evaluation 🔜 Coming Soon — C++ Implementation • ROS2 Support 🙏 Acknowledgements 📝 Citation 📬 Contact 🚀 Setup Prerequisites Python ≥ 3.10 The core library depends on NumPy and small_gicp (used for the GICP-based 6-DoF pose refinement). The evaluation and visualization tools additionally use open3d , scipy , pyyaml , tqdm , matplotlib , and pandas (installed via extras below). Installation git clone https://github.com/LTU-RAI/InLiER.git cd InLiER Environment Setup Using Conda (Recommended) conda create -n inlier python=3.10 conda activate inlier pip install -e \" .[eval] \" Using pip with venv python -m venv inlier-env source inlier-env/bin/activate pip install -e \" .[eval] \" The [eval] extra installs everything the evaluation workflow needs — overlap-GT building, the HeLiPR evaluation, and the playback visualization. Install just the core library (no evaluation scripts) with pip install -e . 🕹️ Run the Example This walks through reproducing our HeLiPR results on the Roundabout01 (Ouster OS2-128, database) ← Roundabout03 (Aeva Aeries II, query) pair — a heterogeneous, spinning-vs-solid-state setup. The full pipeline runs in three steps: build the overlap ground truth, run the evaluation, then (optionally) replay the results. We provide th",
+      "fetched_ok": true
+    },
+    "superxslam /TartanIMU": {
+      "full_name": "superxslam /TartanIMU",
+      "url": "https://github.com/superxslam/TartanIMU",
+      "owner": "superxslam",
+      "repo": "TartanIMU",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-07-31T02:35:36.533385+00:00",
+      "archived": false,
+      "about": "First Attempt on IMU \"Foundation Model\". Contribute to superxslam/TartanIMU development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://openaccess.thecvf.com/content/CVPR2025/papers/Zhao_Tartan_IMU_A_Light_Foundation_Model_for_Inertial_Positioning_in_CVPR_2025_paper.pdf",
+      "readme_excerpt": "TartanIMU A Light Foundation Model for Inertial Positioning in Robotics CVPR 2025 Overview TartanIMU learns a shared inertial representation across ground vehicles, quadrupeds, drones, and humans. Given 6-axis accelerometer and gyroscope measurements, it predicts 3D body-frame velocity for inertial positioning. Pretrain → Generalize → Adapt → Deploy 100+ hours 4 platforms 36% 200 FPS Multi-platform training data Car, quadruped, drone, human Reported ATE improvement Reported online adaptation speed The released implementation provides a ResNet-LSTM multi-head foundation model, pretrained inference, configurable training and evaluation, and an IROS 2026 challenge starter kit. Note This public release includes the LSTM-based Foundation_Model . The Transformer registration is retained for compatibility, but its core is not included. Selecting model_name: Transformer raises NotImplementedError . Quick Start Requirements: Python 3.10+ and PyTorch 2.0+. Install git clone https://github.com/superxslam/TartanIMU.git cd TartanIMU # Library and inference dependencies pip install -e . # Add experiment tracking for the training CLI pip install -e \" .[logging] \" # Add linting and tests for development pip install -e \" .[logging,dev] \" Confirm that the released model is available: python -c \" from tartan_imu.model.registry import available; print(available()) \" # ['Foundation_Model', 'Transformer'] Run Pretrained Inference Download the released configuration and weights from the TartanIMU model repository : pip install huggingface_hub huggingface-cli download Tartan-IMU/TartanIMU \\ --local-dir ./tartanimu_weights Run inference on one trajectory: python example/inference_example.py \\ --config ./tartanimu_weights/config/unified.yaml \\ --model ./tartanimu_weights/checkpoints/unified.pt \\ --npz < path/to/trajectory.npz > \\ --motion_type human See example/minimal_example.py for a complete fine-tuning and evaluation example. Train and Evaluate main_net.py is the entry point for both training and evaluation. Experiment behavior is defined by a YAML configuration. Run the small end-to-end smoke experiment: WANDB_MODE=disabled CUDA_VISIBLE_DEVICES=0 \\ python main_net.py \\ --config ./config/datasets/tartanimu/tartan_imu_multihead_smoke.yaml Train on one or more GPUs: # Single GPU CUDA_VISIBLE_DEVICES=0 \\ python main_net.py --config < path/to/config.yaml > # Multi-GPU: also set train.use_multi_gpu: True in the YAML CUDA_VISIBLE_DEVICES=0,1,2,3 \\ python main_net.py --config < path/to/config.yaml > Evaluate a checkpoint: CUDA_VISIBLE_DEVICES=0 \\ python main_net.py \\ --config < path/to/config.yaml > \\ --checkpoint < path/to/checkpoints/best_model.pt > Command-Line Options Option Purpose --config , --yaml Experiment YAML path --checkpoint Load weights for evaluation or warm start",
+      "fetched_ok": true
+    },
+    "HKUST-Aerial-Robotics /HKUST-ELEC5660-Introduction-to-Aerial-Robotics": {
+      "full_name": "HKUST-Aerial-Robotics /HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "url": "https://github.com/HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "owner": "HKUST-Aerial-Robotics",
+      "repo": "HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-07T02:20:55.365094+00:00",
+      "archived": false,
+      "about": "Repo for HKUST ELEC5660 Course Notes & Lab Tutorial & Project Docker - HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "topics": [],
+      "homepage": "https://ece.hkust.edu.hk/eeshaojie",
+      "readme_excerpt": "HKUST ELEC5660: Introduction to Aerial Robotics ELEC5660 is an HKUST PG course which gives a comprehensive introduction to aerial robots. The goal of this course is to expose students to relevant mathematical foundations and algorithms and train them to develop real-time software modules for aerial robotic systems. Topics to be covered include rigid-body dynamics, system modeling, control, trajectory planning, sensor fusion, and vision-based state estimation. Students will complete a series of projects that combine into an aerial robot that is capable of vision-based autonomous indoor navigation. Instructor: Shaojie SHEN TAs: Yang Xu ( yxuew@connect.ust.hk ), Pusen Gao ( pgaoak@connect.ust.hk ) Lab: HKUST Aerial Robotics Group File structure course_node: notes assignments: assignment code lab: lab notes workspace_template: Terraform template for setting up cloud workspace Brief description for assignments and labs Name Description Demo proj1phase1 Implement a basic controller for quadrotor trajectory tracking proj1phase2 Implement trajectory generation with minimum jerk/snap optimization proj1phase3 Implement A* path planning and intergrate with trajectory generation and control lab1 Assemble and fly a drone in manual mode and prepare hardware & software environment for later labs proj1phase4_lab2 Fly the drone in autonomous control mode with OptiTrack motion capture system and analyze flight data proj2phase1 Implement Perspective-n-Point (PnP) algorithm for vision-based state estimation proj2phase2 Implement stereo visual odometry for 6-DOF pose estimation proj3phase1 Implement an Extended Kalman Filter (EKF) for sensor fusion of IMU and visual odometry proj3phase2 Implement an augmented EKF for sensor fusion of IMU, visual odometry, and tag-based pose estimation proj3phase3_lab3 Integrate the whole system onboard for tracking trajectory or autonomous flight without OptTrack motion capture system Simulator (Optional) In order to facilitate development and testing of algorithms, we provide a simulator based on NVIDIA Isaac Sim. The simulator supports realistic physics simulation, sensor simulation (IMU, stereo camera), and ROS interface for easy integration with your code. You can find the simulator code and instructions in the lab/simulator directory. Contact For questions and suggestions, please contact TAs",
+      "fetched_ok": true
+    },
+    "cvg /vidmap": {
+      "full_name": "cvg /vidmap",
+      "url": "https://github.com/cvg/vidmap",
+      "owner": "cvg",
+      "repo": "vidmap",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-07T02:24:42.777015+00:00",
+      "archived": false,
+      "about": "VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion (ECCV 2026) - cvg/vidmap",
+      "topics": [],
+      "homepage": "https://www.linkedin.com/in/zador-pataki-a297b5196/",
+      "readme_excerpt": "VidMap Exploiting Temporal Structure for Video-Based Structure-from-Motion Zador Pataki · Paul-Edouard Sarlin · Marc Pollefeys ECCV 2026 Paper VidMap is an offline Structure-from-Motion system for video. It combines temporal tracks, loop closures, metric depth, and global optimization to estimate camera poses, camera intrinsics, and a sparse 3D map. Setup We provide the Python package vidmap . From a clean Python environment, clone VidMap and its pinned model dependencies: git clone --recursive https://github.com/cvg/vidmap.git && cd vidmap Build and install COLMAP 4.1 and its PyCOLMAP bindings from source . Then install PyTorch , xFormers , and VidMap: pip install -e . VidMap was last tested on Linux x86-64 with Python 3.10, COLMAP and PyCOLMAP 4.1, PyTorch 2.7.1, TorchVision 0.22.1, and xFormers 0.0.31 on NVIDIA GPUs. The first frontend run automatically downloads approximately 9 GB of model checkpoints. Optional visualization setup. Install Rerun : pip install rerun-sdk Execution The repository includes a silent example video. Run the frontend to build its mapper inputs, then run mapping: INPUT_DATA=./assets/example_video.mp4 OUTPUT_DIR=./example_output/ MAPPER_INPUTS= \" $OUTPUT_DIR /mapper_inputs \" python -m vidmap.frontend \" $INPUT_DATA \" \\ --output \" $OUTPUT_DIR \" python -m vidmap.map \\ --mapper-inputs \" $MAPPER_INPUTS \" \\ --output \" $OUTPUT_DIR \" Alternatively, run frontend and mapping together: python -m vidmap.run \\ --input_data \" $INPUT_DATA \" \\ --output \" $OUTPUT_DIR \" Alternatively, --input_data may point to a directory of extracted frames. Both mapping commands write the final COLMAP model under $OUTPUT_DIR/rec . Resolved frontend_config.yaml and mapping_config.yaml are written directly under $OUTPUT_DIR . Visualization Repeat the reconstruction with visualization artifacts enabled: python -m vidmap.map \\ --mapper-inputs \" $MAPPER_INPUTS \" \\ --output \" $OUTPUT_DIR \" \\ --save-playback-trace \\ --save-3d-html --save-playback-trace records optimization states for Rerun playback. --save-3d-html independently writes an interactive reconstruction HTML file; it does not require playback tracing. Both outputs are stored under $OUTPUT_DIR . [Regenerate HTML visualization after reconstruction - click to expand] python -m vidmap.visualization.html \\ --rec \" $OUTPUT_DIR /rec \" \\ --ground-truth-rec /path/to/gt-reconstruction \\ --images /path/to/images \\ --database \" $MAPPER_INPUTS /database_complete.db \" \\ --point-covariance-percentile 90 Omitting --ground-truth-rec renders the reconstruction without a ground-truth trajectory. Including --images enables image RGB point colors. Including --database adds two-view edges. --point-covariance-percentile retains the lowest-covariance points, removing noisy low-parallax points. The output defaults to $OUTPUT_",
       "fetched_ok": true
     }
   },

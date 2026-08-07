@@ -2,7 +2,7 @@
 
 Custom user-defined category.
 
-Repositories: `7`
+Repositories: `8`
 
 [Back to README](../../README.md)
 
@@ -13,3 +13,4 @@ Repositories: `7`
 - [RoyinaJayanth/NIO_Lie_Events](https://github.com/RoyinaJayanth/NIO_Lie_Events) - This is the source code for our RSS 2025 work Neural Inertial Odometry from Lie Events
 - [yogurt-ybn/TartanIMU_model_intefer](https://github.com/yogurt-ybn/TartanIMU_model_intefer)
 - [SJTU-ViSYS-team/AI-IO](https://github.com/SJTU-ViSYS-team/AI-IO) - AI-IO: An Aerodynamics-Inspired Real-Time Inertial Odometry for Quadrotors (ICRA 2026)
+- [superxslam/TartanIMU](https://github.com/superxslam/TartanIMU)

@@ -2,13 +2,13 @@
 
 Motion planning, path planning, trajectory optimization, navigation stacks, and control.
 
-Repositories: `74`
+Repositories: `75`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 72 |
+| General | 73 |
 | General Mapping | 2 |
 
 ## General
@@ -82,6 +82,7 @@ Repositories: `74`
 - [RENyunfan/Fast-Planner-Ubuntu20](https://github.com/RENyunfan/Fast-Planner-Ubuntu20) - Base line test with: A Robust and Efficient Trajectory Planner for Quadrotors
 - [efc-robot/MR-GMMExplore](https://github.com/efc-robot/MR-GMMExplore)
 - [cvg/OpenFrontier](https://github.com/cvg/OpenFrontier) - [RSS 2026] OpenFrontier: General Navigation with Visual-Language Grounded Frontiers
+- [cvg/vidmap](https://github.com/cvg/vidmap) - VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion (ECCV 2026) - cvg/vidmap
 - [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
 - [wuyi2121/SCAN-Planner](https://github.com/wuyi2121/SCAN-Planner) - SCAN-Planner: Spatial Collision-Aware Local planning for Route-Guided Long-Range Quadruped Navigation
 - [wuyi2121/TravExplorer](https://github.com/wuyi2121/TravExplorer) - TravExplorer: Cross-Floor Embodied Exploration via Traversability-Aware 3D Planning

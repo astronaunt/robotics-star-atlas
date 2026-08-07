@@ -2,7 +2,7 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `188`
+Repositories: `189`
 
 [Back to README](../../README.md)
 
@@ -10,7 +10,7 @@ Repositories: `188`
 | --- | ---: |
 | General Mapping | 63 |
 | 3D Gaussian Splatting | 57 |
-| General | 27 |
+| General | 28 |
 | NeRF & Neural Rendering | 27 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
@@ -169,6 +169,7 @@ Repositories: `188`
 - [Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph](https://github.com/Lee-JaeWon/2025-Arxiv-Paper-List-Scene-Graph) - 📚 2025 Scene Graph ArXiv Paper List — Updated Daily
 - [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
 - [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
+- [ntnu-arl/reasoning_hydra](https://github.com/ntnu-arl/reasoning_hydra) - Relationship-aware hierarchical 3D scene graph for task reasoning - ntnu-arl/reasoning_hydra
 - [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
 - [Taeyoung96/mtd_map](https://github.com/Taeyoung96/mtd_map) - [IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution
 

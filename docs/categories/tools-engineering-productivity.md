@@ -2,13 +2,13 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `206`
+Repositories: `205`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 82 |
+| ROS / Robotics Tools | 81 |
 | C++ / Development | 34 |
 | Research Productivity | 34 |
 | LLM / AI Tools | 27 |
@@ -90,7 +90,6 @@ Repositories: `206`
 - [rsasaki0109/localization_zoo](https://github.com/rsasaki0109/localization_zoo) - C++ implementations, derived variants, and compact baselines for localization papers with ROS 2, tests, and benchmarks.
 - [shengqihailuo1/Time_Synchronization](https://github.com/shengqihailuo1/Time_Synchronization)
 - [JzHuai0108/cascaded_pgo](https://github.com/JzHuai0108/cascaded_pgo) - Rotation only PGO + translation only PGO + 6DOF PGO by ceres
-- [ntnu-arl/reasoning_hydra](https://github.com/ntnu-arl/reasoning_hydra) - Relationship-aware hierarchical 3D scene graph for task reasoning
 - [thisparticle/rosbag_extractor](https://github.com/thisparticle/rosbag_extractor) - Package created to extract data from rosbags using rosbag API
 - [AndreasAZiegler/leica_streaming_app](https://github.com/AndreasAZiegler/leica_streaming_app) - A ROS node and nodelet to interface with the LeicaCaptivate TPS SurveyStreaming app
 - [SeanSun6814/rosbag-utils](https://github.com/SeanSun6814/rosbag-utils)

@@ -21,6 +21,11 @@
       "added_at": "2026-07-14T01:17:02.961099+00:00"
     },
     {
+      "full_name": "cvg/vidmap",
+      "url": "https://github.com/cvg/vidmap",
+      "added_at": "2026-08-07T02:24:39.973234+00:00"
+    },
+    {
       "full_name": "dongjae0107/LAPS",
       "url": "https://github.com/dongjae0107/LAPS",
       "added_at": "2026-06-18T02:18:37.561453+00:00"
@@ -54,6 +59,11 @@
       "full_name": "Garfield-cn/GLINS",
       "url": "https://github.com/Garfield-cn/GLINS",
       "added_at": "2026-06-18T01:52:21.828118+00:00"
+    },
+    {
+      "full_name": "HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "url": "https://github.com/HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
+      "added_at": "2026-08-07T02:20:51.952106+00:00"
     },
     {
       "full_name": "HorizonRobotics/HoloAgent",
@@ -94,6 +104,11 @@
       "full_name": "NeBula-Autonomy/nebula-odometry-dataset",
       "url": "https://github.com/NeBula-Autonomy/nebula-odometry-dataset",
       "added_at": "2026-06-09T09:02:31.004506+00:00"
+    },
+    {
+      "full_name": "ntnu-arl/reasoning_hydra",
+      "url": "https://github.com/ntnu-arl/reasoning_hydra",
+      "added_at": "2026-08-07T02:25:33.876267+00:00"
     },
     {
       "full_name": "OmerMersin/FAST_LIO_GPU",
@@ -174,6 +189,11 @@
       "full_name": "superxslam/SuperMap",
       "url": "https://github.com/superxslam/SuperMap",
       "added_at": "2026-07-16T02:25:18.018107+00:00"
+    },
+    {
+      "full_name": "superxslam/TartanIMU",
+      "url": "https://github.com/superxslam/TartanIMU",
+      "added_at": "2026-07-31T02:35:31.990746+00:00"
     },
     {
       "full_name": "Taeyoung96/mtd_map",
