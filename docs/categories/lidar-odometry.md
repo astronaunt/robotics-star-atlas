@@ -2,13 +2,13 @@
 
 LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.
 
-Repositories: `75`
+Repositories: `76`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 74 |
+| General | 75 |
 | Research Productivity | 1 |
 
 ## General
@@ -87,6 +87,7 @@ Repositories: `75`
 - [DanMcGann/loam](https://github.com/DanMcGann/loam) - Pure Library implementation of LiDAR Odometry and Mapping [LOAM]
 - [wenglihong/loam_pandar](https://github.com/wenglihong/loam_pandar)
 - [petrapa6/kiss-icp](https://github.com/petrapa6/kiss-icp) - A LiDAR odometry pipeline that just works
+- [ChiyunNoh/TRaIL-Odom](https://github.com/ChiyunNoh/TRaIL-Odom) - [RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom
 
 ## Research Productivity
 

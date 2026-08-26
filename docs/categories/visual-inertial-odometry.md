@@ -2,13 +2,13 @@
 
 Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.
 
-Repositories: `74`
+Repositories: `75`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 72 |
+| General | 73 |
 | 3D Gaussian Splatting | 2 |
 
 ## General
@@ -83,7 +83,8 @@ Repositories: `74`
 - [93won/lightweight_vio](https://github.com/93won/lightweight_vio) - Statistical Uncertainty Learning for Robust Visual-Inertial State Estimation
 - [cvg/vidmap](https://github.com/cvg/vidmap) - VidMap: Exploiting Temporal Structure for Video-Based Structure-from-Motion (ECCV 2026) - cvg/vidmap
 - [PANshuyi/MR-Voxel-SVIO](https://github.com/PANshuyi/MR-Voxel-SVIO)
-- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
+- [pypose/bae](https://github.com/pypose/bae)
+- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - [RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver
 - [Ycsyyds/fastlivo2-tech-docs](https://github.com/Ycsyyds/fastlivo2-tech-docs)
 
 ## 3D Gaussian Splatting

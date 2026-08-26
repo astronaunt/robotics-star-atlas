@@ -2,13 +2,13 @@
 
 Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.
 
-Repositories: `67`
+Repositories: `68`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 66 |
+| General | 67 |
 | General Mapping | 1 |
 
 ## General
@@ -79,6 +79,7 @@ Repositories: `67`
 - [sparolab/Commerge](https://github.com/sparolab/Commerge) - SOTA communication-efficient, fast, and robust map merging using 3D point cloud (accepted in IJRR)
 - [Taeyoung96/mtd_map](https://github.com/Taeyoung96/mtd_map) - [IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution
 - [UMich-SSI-Lab/CORD](https://github.com/UMich-SSI-Lab/CORD) - [RSS'26] Official Repository for Distributed Pose Graph Optimization via Continuous Riemannian Dynamics
+- [url-kaist/multi-mapcher](https://github.com/url-kaist/multi-mapcher) - Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher
 
 ## General Mapping
 

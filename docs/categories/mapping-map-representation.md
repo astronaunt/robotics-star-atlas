@@ -2,15 +2,15 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `189`
+Repositories: `191`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
 | General Mapping | 63 |
-| 3D Gaussian Splatting | 57 |
-| General | 28 |
+| 3D Gaussian Splatting | 58 |
+| General | 29 |
 | NeRF & Neural Rendering | 27 |
 | Voxel / TSDF / Occupancy Maps | 12 |
 | 3D Detection | 1 |
@@ -140,6 +140,7 @@ Repositories: `189`
 - [KwanWaiPang/Gaussian-SLAM_comment](https://github.com/KwanWaiPang/Gaussian-SLAM_comment)
 - [dtc111111/awesome-representation-for-robotics](https://github.com/dtc111111/awesome-representation-for-robotics)
 - [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
+- [leggedrobotics/DiskChunGS](https://github.com/leggedrobotics/DiskChunGS) - [RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS
 - [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
 
 ## General
@@ -170,7 +171,8 @@ Repositories: `189`
 - [Jonnyffeler/OutdoorSceneGraph](https://github.com/Jonnyffeler/OutdoorSceneGraph)
 - [nasa-jpl/nebula2-wildos](https://github.com/nasa-jpl/nebula2-wildos) - WildOS: Open-Vocabulary Object Search in the Wild
 - [ntnu-arl/reasoning_hydra](https://github.com/ntnu-arl/reasoning_hydra) - Relationship-aware hierarchical 3D scene graph for task reasoning - ntnu-arl/reasoning_hydra
-- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM
+- [pypose/bae](https://github.com/pypose/bae)
+- [rvp-group/gsolver](https://github.com/rvp-group/gsolver) - [RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver
 - [Taeyoung96/mtd_map](https://github.com/Taeyoung96/mtd_map) - [IROS 2026] MTD-Map: Single-Stage Long-Term LiDAR Map Maintenance Framework via Mixture Transition Distribution
 
 ## NeRF & Neural Rendering

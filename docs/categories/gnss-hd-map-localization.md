@@ -22,7 +22,6 @@ Repositories: `34`
 - [rpng/MINS](https://github.com/rpng/MINS) - An efficient and robust multisensor-aided inertial navigation system with online calibration that is capable of fusing IMU, camera, LiDAR, GPS/GNSS, and wheel sensors. Use cases: VINS/VIO...
 - [chichengcn/gici-open](https://github.com/chichengcn/gici-open) - GNSS/INS/Camera Integrated Navigation Library
 - [weisongwen/GraphGNSSLib](https://github.com/weisongwen/GraphGNSSLib) - An Open-source Package for GNSS Positioning and Real-time Kinematic Using Factor Graph Optimization
-- [barbeau/awesome-gnss](https://github.com/barbeau/awesome-gnss) - Community list of open-source GNSS software and resources 📡
 - [SJTU-ViSYS/Ground-Fusion](https://github.com/SJTU-ViSYS/Ground-Fusion) - Ground-Fusion: A Low-cost Ground SLAM System Robust to Corner Cases (ICRA2024)
 - [ethz-mrl/OKVIS2-X](https://github.com/ethz-mrl/OKVIS2-X) - OKVIS2-X: Open Keyframe-based Visual-Inertial SLAM Configurable with Dense Depth or LiDAR, and GNSS
 - [leggedrobotics/graph_msf](https://github.com/leggedrobotics/graph_msf) - A graph-based multi-sensor fusion framework. It can be used to fuse various relative or absolute measurments with IMU readings in real-time.
@@ -45,6 +44,7 @@ Repositories: `34`
 - [rayguan97/AGL-Net](https://github.com/rayguan97/AGL-Net) - AGL-NET: Aerial-Ground Cross-Modal Global Localization with Varying Scales
 - [lab-sun/SkyLoc](https://github.com/lab-sun/SkyLoc) - [TITS 2025] SkyLoc: Cross-Modal Global Localization With a Sky-Looking Fish-Eye Camera and OpenStreetMap
 - [RISC-NYUAD/tomographic-map-matching](https://github.com/RISC-NYUAD/tomographic-map-matching) - A lightweight algorithm for large-scale 3D map matching
+- [barbeau/awesome-gnss](https://github.com/barbeau/awesome-gnss) - Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss
 - [Garfield-cn/GLINS](https://github.com/Garfield-cn/GLINS) - GNSS-LiDAR-INS Integrated Navigation System
 
 ## ROS / Robotics Tools

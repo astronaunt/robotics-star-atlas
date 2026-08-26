@@ -2,7 +2,7 @@
 
 Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
 
-Repositories: `107`
+Repositories: `109`
 
 [Back to README](../../README.md)
 
@@ -110,6 +110,8 @@ Repositories: `107`
 - [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
 - [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
 - [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019
+- [liw95/LightLoc-PlusPlus](https://github.com/liw95/LightLoc-PlusPlus) - Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus
 - [LTU-RAI/InLiER](https://github.com/LTU-RAI/InLiER) - Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization, accepted @ RA-L'26 - LTU-RAI/InLiER
 - [minwoo0611/TreeLoc-plusplus](https://github.com/minwoo0611/TreeLoc-plusplus) - Repository for TreeLoc++ (TFR 2026)
 - [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".
+- [url-kaist/multi-mapcher](https://github.com/url-kaist/multi-mapcher) - Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher

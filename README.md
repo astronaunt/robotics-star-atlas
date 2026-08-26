@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1417-1f6f5b">
+  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1425-1f6f5b">
   <img alt="Categories" src="https://img.shields.io/badge/categories-27-2f4858">
-  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1414-4f7f52">
+  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1422-4f7f52">
 </p>
 
 Robotics Star Atlas turns my GitHub stars into a searchable, manually curated research map. It is designed as a personal navigation system first, and as a public reference for researchers and engineers who work around robotics, 3D vision, and autonomous systems.
@@ -32,11 +32,11 @@ The generated README and category pages can be browsed directly on GitHub. The l
 <table>
   <tr>
     <td><strong>GitHub user</strong><br><code>@astronaunt</code></td>
-    <td><strong>Indexed repositories</strong><br><code>1417</code></td>
+    <td><strong>Indexed repositories</strong><br><code>1425</code></td>
     <td><strong>Categories</strong><br><code>27</code></td>
   </tr>
   <tr>
-    <td><strong>Fetched successfully</strong><br><code>1414</code></td>
+    <td><strong>Fetched successfully</strong><br><code>1422</code></td>
     <td><strong>Focus</strong><br><code>Robotics & 3D Vision</code></td>
     <td><strong>Maintenance</strong><br><code>Manual + Generated</code></td>
   </tr>
@@ -51,17 +51,17 @@ This index is semi-automatic. Repository metadata, GitHub Lists, README snippets
 | Category | Repos | Description |
 | --- | ---: | --- |
 | [LiDAR-Inertial State Estimation](docs/categories/lidar-inertial-odometry.md) | 157 | LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems. |
-| [LiDAR State Estimation](docs/categories/lidar-odometry.md) | 75 | LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems. |
-| [Visual / Visual-Inertial State Estimation](docs/categories/visual-inertial-odometry.md) | 74 | Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems. |
+| [LiDAR State Estimation](docs/categories/lidar-odometry.md) | 76 | LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems. |
+| [Visual / Visual-Inertial State Estimation](docs/categories/visual-inertial-odometry.md) | 75 | Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems. |
 | [LiDAR-Visual-Inertial State Estimation](docs/categories/lidar-visual-inertial-odometry.md) | 34 | LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems. |
-| [Place Recognition & Loop Closure](docs/categories/place-recognition-loop-closure.md) | 107 | Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers. |
-| [Mapping & Map Representation](docs/categories/mapping-map-representation.md) | 189 | Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting. |
+| [Place Recognition & Loop Closure](docs/categories/place-recognition-loop-closure.md) | 109 | Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers. |
+| [Mapping & Map Representation](docs/categories/mapping-map-representation.md) | 191 | Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting. |
 | [Point Cloud Registration](docs/categories/point-cloud-registration.md) | 41 | Point cloud registration, ICP/GICP/NDT, scan matching, feature matching, and correspondence-based alignment. |
 | [Point Cloud Perception](docs/categories/point-cloud-perception.md) | 61 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
-| [Multi-Robot SLAM & Collaborative Perception](docs/categories/multi-robot-slam.md) | 67 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
-| [Radar SLAM & Perception](docs/categories/radar-slam-perception.md) | 39 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
-| [Calibration & Time Synchronization](docs/categories/calibration-synchronization.md) | 30 | Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization. |
-| [Degeneracy, Robustness & Failure Analysis](docs/categories/degeneracy-robustness.md) | 20 | Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM. |
+| [Multi-Robot SLAM & Collaborative Perception](docs/categories/multi-robot-slam.md) | 68 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
+| [Radar SLAM & Perception](docs/categories/radar-slam-perception.md) | 40 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
+| [Calibration & Time Synchronization](docs/categories/calibration-synchronization.md) | 31 | Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization. |
+| [Degeneracy, Robustness & Failure Analysis](docs/categories/degeneracy-robustness.md) | 22 | Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM. |
 | [UAV & Aerial Robotics](docs/categories/uav-aerial-robotics.md) | 25 | UAV autonomy, aerial robotics, quadrotor navigation, flight systems, and aerial mapping. |
 | [Evaluation & Metrics](docs/categories/evaluation-metrics.md) | 11 | Trajectory evaluation, benchmark metrics, result analysis, and evaluation tools. |
 | [Event Camera Vision](docs/categories/event-camera.md) | 15 | Event-camera perception, event-based SLAM, asynchronous vision, and event-based state estimation. |
@@ -70,13 +70,13 @@ This index is semi-automatic. Repository metadata, GitHub Lists, README snippets
 | [Planning & Navigation](docs/categories/planning-navigation.md) | 75 | Motion planning, path planning, trajectory optimization, navigation stacks, and control. |
 | [Datasets & Benchmarks](docs/categories/datasets-benchmarks.md) | 62 | Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols. |
 | [SLAM Learning, Handbooks & Notes](docs/categories/slam-learning-handbooks.md) | 53 | SLAM handbooks, tutorials, courses, annotated code, code-reading notes, and learning resources. |
-| [Tools, Engineering & Productivity](docs/categories/tools-engineering-productivity.md) | 205 | ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities. |
+| [Tools, Engineering & Productivity](docs/categories/tools-engineering-productivity.md) | 207 | ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities. |
 | [Paper Lists, Surveys & Awesome Collections](docs/categories/paper-survey-awesome.md) | 63 | Curated paper lists, surveys, awesome lists, and literature collections. |
 | [Deep IMU](docs/categories/deep-imu.md) | 8 | Custom user-defined category. |
 | [FMCW SLAM](docs/categories/fmcw-slam.md) | 4 | Custom user-defined category. |
 | [Leg](docs/categories/leg.md) | 10 | Custom user-defined category. |
-| [uwb](docs/categories/uwb.md) | 3 | Custom user-defined category. |
-| [Wheel](docs/categories/wheel.md) | 1 | Custom user-defined category. |
+| [uwb](docs/categories/uwb.md) | 4 | Custom user-defined category. |
+| [Wheel](docs/categories/wheel.md) | 2 | Custom user-defined category. |
 
 ## How To Update
 

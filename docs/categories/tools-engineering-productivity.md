@@ -2,15 +2,15 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `205`
+Repositories: `207`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
 | ROS / Robotics Tools | 81 |
+| Research Productivity | 36 |
 | C++ / Development | 34 |
-| Research Productivity | 34 |
 | LLM / AI Tools | 27 |
 | Docker / Reproducibility | 13 |
 | General | 9 |
@@ -100,6 +100,45 @@ Repositories: `205`
 - [wwtinwhu/ros_tools](https://github.com/wwtinwhu/ros_tools)
 - [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++ GNSS/RTK/PPP/CLAS toolkit.
 
+## Research Productivity
+
+- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
+- [datalab-to/marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy
+- [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
+- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
+- [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
+- [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
+- [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots) - Matplotlib styles for scientific plotting
+- [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
+- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Everything about note management. All in Zotero.
+- [dyweb/awesome-resume-for-chinese](https://github.com/dyweb/awesome-resume-for-chinese)
+- [facebookresearch/sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) - SAM 3D Objects
+- [TideDra/zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily) - Recommend new arxiv papers of your interest daily according to your Zotero libarary.
+- [HugoBlox/hugo-theme-academic-cv](https://github.com/HugoBlox/hugo-theme-academic-cv)
+- [secdr/research-method](https://github.com/secdr/research-method)
+- [RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io) - AcadHomepage: A Modern and Responsive Academic Personal Homepage
+- [Cpp-Club/Cxx_HOPL4_zh](https://github.com/Cpp-Club/Cxx_HOPL4_zh) - Chinese translation of Bjarne Stroustrup's HOPL4 paper
+- [potamides/DeTikZify](https://github.com/potamides/DeTikZify) - Synthesizing Graphics Programs for Scientific Figures and Sketches with TikZ.
+- [yzhao062/cs-paper-checklist](https://github.com/yzhao062/cs-paper-checklist) - A final sanity checklist to help your CS paper get accepted, not desk rejected.
+- [LetheSec/HuggingFace-Download-Accelerator](https://github.com/LetheSec/HuggingFace-Download-Accelerator)
+- [MLNLP-World/Paper-Picture-Writing-Code](https://github.com/MLNLP-World/Paper-Picture-Writing-Code) - MLNLP: Paper Picture Writing Code
+- [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) - Curated academic CV templates and guidelines for PhD students, researchers, and faculty job applicants.
+- [Ruzim/NSFC-application-template-latex](https://github.com/Ruzim/NSFC-application-template-latex)
+- [jrin771/Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) - The world's largest GitHub Repository for LLMs + Robotics
+- [018/zotcard](https://github.com/018/zotcard) - ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, yo...
+- [ethz-asl/dynablox](https://github.com/ethz-asl/dynablox) - Real-time detection of diverse dynamic objects in complex environments.
+- [YimianDai/iNSFC](https://github.com/YimianDai/iNSFC) - An awesome LaTeX template for NSFC proposal.
+- [shinyypig/latex-vscode-config](https://github.com/shinyypig/latex-vscode-config) - Use LaTeX in VSCode.
+- [Trae1ounG/paper-plot-skills](https://github.com/Trae1ounG/paper-plot-skills)
+- [zhangyuejoslin/VLN-Survey-with-Foundation-Models](https://github.com/zhangyuejoslin/VLN-Survey-with-Foundation-Models) - [TMLR 2024] repository for VLN with foundation models
+- [LC-Robotics/FreeDOM](https://github.com/LC-Robotics/FreeDOM) - FreeDOM: Online Dynamic Object Removal Framework for Static Map Construction Based on Conservative Free Space Estimation [RA-L 25]
+- [zjwzcx/GLEAM](https://github.com/zjwzcx/GLEAM) - [ICCV 2025] GLEAM: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scene
+- [Shiaoming/ALIKE-cpp](https://github.com/Shiaoming/ALIKE-cpp) - CPP implementation of paper "ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction".
+- [EmilioOlivastri/IPC](https://github.com/EmilioOlivastri/IPC) - IPC: Incremental Probabilistic Consensus-based Consistent Set Maximization for SLAM Backends
+- [url-kaist/HeLiMOS-visualizer](https://github.com/url-kaist/HeLiMOS-visualizer) - A LiDAR visualization tool for HeLiMOS dataset
+- [12DDDCCC/word-latex-word](https://github.com/12DDDCCC/word-latex-word)
+- [ndpvt-web/latex-document-skill](https://github.com/ndpvt-web/latex-document-skill) - Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill
+
 ## C++ / Development
 
 - [labuladong/fucking-algorithm](https://github.com/labuladong/fucking-algorithm) - Crack LeetCode, not only how, but also why.
@@ -137,43 +176,6 @@ Repositories: `205`
 - [Taeyoung96/GTSAM-example-supplementary](https://github.com/Taeyoung96/GTSAM-example-supplementary) - A personal study material for the IMU Factor example in Korean
 - [wangx1996/Semantic-Kitti-Label-Read](https://github.com/wangx1996/Semantic-Kitti-Label-Read) - A c++ version code to read semantic kitti label.
 
-## Research Productivity
-
-- [jackfrued/Python-100-Days](https://github.com/jackfrued/Python-100-Days)
-- [datalab-to/marker](https://github.com/datalab-to/marker) - Convert PDF to markdown + JSON quickly with high accuracy
-- [PDFMathTranslate/PDFMathTranslate](https://github.com/PDFMathTranslate/PDFMathTranslate)
-- [hehonghui/awesome-english-ebooks](https://github.com/hehonghui/awesome-english-ebooks)
-- [aiming-lab/AutoResearchClaw](https://github.com/aiming-lab/AutoResearchClaw) - Fully autonomous & self-evolving research from idea to paper. Chat an Idea. Get a Paper. 🦞
-- [windingwind/zotero-pdf-translate](https://github.com/windingwind/zotero-pdf-translate) - Translate PDF, EPub, webpage, metadata, annotations, notes to the target language. Support 20+ translate services.
-- [garrettj403/SciencePlots](https://github.com/garrettj403/SciencePlots) - Matplotlib styles for scientific plotting
-- [BlueMatthew/WechatExporter](https://github.com/BlueMatthew/WechatExporter)
-- [windingwind/zotero-better-notes](https://github.com/windingwind/zotero-better-notes) - Everything about note management. All in Zotero.
-- [dyweb/awesome-resume-for-chinese](https://github.com/dyweb/awesome-resume-for-chinese)
-- [facebookresearch/sam-3d-objects](https://github.com/facebookresearch/sam-3d-objects) - SAM 3D Objects
-- [TideDra/zotero-arxiv-daily](https://github.com/TideDra/zotero-arxiv-daily) - Recommend new arxiv papers of your interest daily according to your Zotero libarary.
-- [HugoBlox/hugo-theme-academic-cv](https://github.com/HugoBlox/hugo-theme-academic-cv)
-- [secdr/research-method](https://github.com/secdr/research-method)
-- [RayeRen/acad-homepage.github.io](https://github.com/RayeRen/acad-homepage.github.io) - AcadHomepage: A Modern and Responsive Academic Personal Homepage
-- [Cpp-Club/Cxx_HOPL4_zh](https://github.com/Cpp-Club/Cxx_HOPL4_zh) - Chinese translation of Bjarne Stroustrup's HOPL4 paper
-- [potamides/DeTikZify](https://github.com/potamides/DeTikZify) - Synthesizing Graphics Programs for Scientific Figures and Sketches with TikZ.
-- [yzhao062/cs-paper-checklist](https://github.com/yzhao062/cs-paper-checklist) - A final sanity checklist to help your CS paper get accepted, not desk rejected.
-- [LetheSec/HuggingFace-Download-Accelerator](https://github.com/LetheSec/HuggingFace-Download-Accelerator)
-- [MLNLP-World/Paper-Picture-Writing-Code](https://github.com/MLNLP-World/Paper-Picture-Writing-Code) - MLNLP: Paper Picture Writing Code
-- [LimHyungTae/Awesome-PhD-CV](https://github.com/LimHyungTae/Awesome-PhD-CV) - Curated academic CV templates and guidelines for PhD students, researchers, and faculty job applicants.
-- [Ruzim/NSFC-application-template-latex](https://github.com/Ruzim/NSFC-application-template-latex)
-- [jrin771/Everything-LLMs-And-Robotics](https://github.com/jrin771/Everything-LLMs-And-Robotics) - The world's largest GitHub Repository for LLMs + Robotics
-- [018/zotcard](https://github.com/018/zotcard) - ZotCard is a plug-in for Zotero, which is a card note-taking enhancement tool. It provides card templates (such as concept card, character card, golden sentence card, etc., by default, yo...
-- [ethz-asl/dynablox](https://github.com/ethz-asl/dynablox) - Real-time detection of diverse dynamic objects in complex environments.
-- [YimianDai/iNSFC](https://github.com/YimianDai/iNSFC) - An awesome LaTeX template for NSFC proposal.
-- [shinyypig/latex-vscode-config](https://github.com/shinyypig/latex-vscode-config) - Use LaTeX in VSCode.
-- [Trae1ounG/paper-plot-skills](https://github.com/Trae1ounG/paper-plot-skills)
-- [zhangyuejoslin/VLN-Survey-with-Foundation-Models](https://github.com/zhangyuejoslin/VLN-Survey-with-Foundation-Models) - [TMLR 2024] repository for VLN with foundation models
-- [LC-Robotics/FreeDOM](https://github.com/LC-Robotics/FreeDOM) - FreeDOM: Online Dynamic Object Removal Framework for Static Map Construction Based on Conservative Free Space Estimation [RA-L 25]
-- [zjwzcx/GLEAM](https://github.com/zjwzcx/GLEAM) - [ICCV 2025] GLEAM: Learning Generalizable Exploration Policy for Active Mapping in Complex 3D Indoor Scene
-- [Shiaoming/ALIKE-cpp](https://github.com/Shiaoming/ALIKE-cpp) - CPP implementation of paper "ALIKE: Accurate and Lightweight Keypoint Detection and Descriptor Extraction".
-- [EmilioOlivastri/IPC](https://github.com/EmilioOlivastri/IPC) - IPC: Incremental Probabilistic Consensus-based Consistent Set Maximization for SLAM Backends
-- [url-kaist/HeLiMOS-visualizer](https://github.com/url-kaist/HeLiMOS-visualizer) - A LiDAR visualization tool for HeLiMOS dataset
-
 ## LLM / AI Tools
 
 - [f/prompts.chat](https://github.com/f/prompts.chat) - f.k.a. Awesome ChatGPT Prompts. Share, discover, and collect prompts from the community. Free and open source — self-host for your organization with complete privacy.
@@ -202,7 +204,7 @@ Repositories: `205`
 - [CHAOZHAO-1/The-Ph.D.-journey-scenery](https://github.com/CHAOZHAO-1/The-Ph.D.-journey-scenery)
 - [nzantout/SORT3D](https://github.com/nzantout/SORT3D) - SORT3D, an LLM-based object-centric grounding and indoor navigation system employing a spatial reasoning toolbox and state of the art 2D VLMs for perception.
 - [szx-0633/DeepSeek-R1-learning-note](https://github.com/szx-0633/DeepSeek-R1-learning-note) - My learning note about DeepSeek-R1 reasoning LLM
-- [pypose/bae](https://github.com/pypose/bae) - [T-RO 2026] Bundle Adjustment in the Eager Mode
+- [Imbad0202/academic-research-skills](https://github.com/Imbad0202/academic-research-skills) - Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills
 
 ## Docker / Reproducibility
 

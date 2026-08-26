@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-07T02:25:36.705135+00:00",
-  "total_unique_repos": 1417,
+  "generated_at": "2026-08-26T09:22:14.399346+00:00",
+  "total_unique_repos": 1425,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
@@ -15,16 +15,16 @@
       "name_zh": "纯激光里程计",
       "description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
       "kind": "algorithm",
-      "count": 75,
-      "primary_count": 68
+      "count": 76,
+      "primary_count": 69
     },
     "visual-inertial-odometry": {
       "name": "Visual / Visual-Inertial State Estimation",
       "name_zh": "视觉里程计与视觉惯导",
       "description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
       "kind": "algorithm",
-      "count": 74,
-      "primary_count": 71
+      "count": 75,
+      "primary_count": 72
     },
     "lidar-visual-inertial-odometry": {
       "name": "LiDAR-Visual-Inertial State Estimation",
@@ -39,16 +39,16 @@
       "name_zh": "地点识别与回环检测",
       "description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
       "kind": "algorithm",
-      "count": 107,
-      "primary_count": 102
+      "count": 109,
+      "primary_count": 104
     },
     "mapping-map-representation": {
       "name": "Mapping & Map Representation",
       "name_zh": "建图与地图表达",
       "description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "kind": "algorithm",
-      "count": 189,
-      "primary_count": 178
+      "count": 191,
+      "primary_count": 179
     },
     "point-cloud-registration": {
       "name": "Point Cloud Registration",
@@ -71,7 +71,7 @@
       "name_zh": "多机器人 SLAM 与协同感知",
       "description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
       "kind": "algorithm",
-      "count": 67,
+      "count": 68,
       "primary_count": 61
     },
     "radar-slam-perception": {
@@ -79,7 +79,7 @@
       "name_zh": "雷达 SLAM 与感知",
       "description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
       "kind": "algorithm",
-      "count": 39,
+      "count": 40,
       "primary_count": 38
     },
     "calibration-synchronization": {
@@ -87,15 +87,15 @@
       "name_zh": "标定与时间同步",
       "description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
       "kind": "algorithm",
-      "count": 30,
-      "primary_count": 30
+      "count": 31,
+      "primary_count": 31
     },
     "degeneracy-robustness": {
       "name": "Degeneracy, Robustness & Failure Analysis",
       "name_zh": "退化、鲁棒性与失效分析",
       "description": "Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM.",
       "kind": "algorithm",
-      "count": 20,
+      "count": 22,
       "primary_count": 18
     },
     "uav-aerial-robotics": {
@@ -167,8 +167,8 @@
       "name_zh": "工具、工程与科研效率",
       "description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
       "kind": "tool",
-      "count": 205,
-      "primary_count": 199
+      "count": 207,
+      "primary_count": 201
     },
     "paper-survey-awesome": {
       "name": "Paper Lists, Surveys & Awesome Collections",
@@ -207,7 +207,7 @@
       "name_zh": "uwb",
       "description": "Custom user-defined category.",
       "kind": "custom",
-      "count": 3,
+      "count": 4,
       "primary_count": 3
     },
     "wheel": {
@@ -215,7 +215,7 @@
       "name_zh": "Wheel",
       "description": "Custom user-defined category.",
       "kind": "custom",
-      "count": 1,
+      "count": 2,
       "primary_count": 0
     }
   },
@@ -27521,32 +27521,23 @@
     "barbeau /awesome-gnss": {
       "full_name": "barbeau /awesome-gnss",
       "url": "https://github.com/barbeau/awesome-gnss",
-      "owner": "barbeau ",
+      "owner": "barbeau",
       "repo": "awesome-gnss",
-      "list_description": "Community list of open-source GNSS software and resources 📡",
-      "list_stars_label": "566",
+      "list_description": "",
+      "list_stars_label": "",
       "list_language": "",
       "source_lists": [
-        "gnss"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T14:58:04.646959+00:00",
+      "fetched_at": "2026-08-26T08:15:55.066862+00:00",
       "archived": false,
-      "about": "Community list of open-source GNSS software and resources 📡",
-      "topics": [
-        "awesome",
-        "awesome-list",
-        "galileo",
-        "gnss",
-        "gps",
-        "gpstest",
-        "raw-measurements",
-        "satellite"
-      ],
+      "about": "Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss",
+      "topics": [],
       "homepage": "https://awesome.re",
       "readme_excerpt": "awesome-gnss Community list of open-source Global Navigation Satellite System (GNSS) software and resources 📡 Have something to add or change? Open a pull request or issue . This is a community resource for informational use only - listing of a project/product does not imply endorsement. Contents Android apps (open-source) iOS apps (open-source) Desktop tools (open-source) Desktop tools (proprietary) Web tools (proprietary) Libraries and interfaces Data Social media Blogs Wikis Videos Articles Peer-reviewed publications Books Lists Android apps (open-source) GPSTest ( Google Play , F-Droid , Source code ) - Supports dual-frequency GNSS for GPS, GLONASS, QZSS, BeiDou/COMPASS, Galileo, IRNSS, as well as various SBAS systems. Supports measuring accuracy using a ground truth location and file logging for NMEA, raw measurements, navigation messages, and location data. Logs are compatible with Google's GPS Measurement Tools suite to visualize data . GNSSLogger ( Source code ) - Log raw measurements for visualization in Google's GPS Measurement Tools suite. No longer maintained by Google. A proprietary Google fork of the project can be downloaded from Google Play here . GNSS Compare ( Google Play , Documentation , Source code ) - Supporting calculating positions from raw measurements for GPS and Galileo. Beta support for dual-frequency. react-native-gnss-status-checker - A React Native module to check GNSS status and satellite information on Android, including NavIC and dual-frequency GPS support. RTKGPS+ ( Google Play ) - Android frontend of RTKLIB. Sat Stat ( F-Droid , Source code ) - Android Location, Sensor and Radio Network Status. BasicAirData GPS Logger ( Google Play , Source code ) - A GPS logger for Android mobile devices. iOS apps (open-source) Open GPX Tracker ( App Store , Source code ) - Open source GPX tracker app written in Swift. Overland-iOS ( App Store , Source code ) - An experiment at gathering data from an iPhone to test the Core Location API and its various settings. Desktop tools (open-source) Android GNSS Logger to RINEX converter ( Source code ) - A Python script that converts raw measurements in the CSV format supported by GnssLogger and GPSTest to the RINEX format. Anubis ( Download ) - Quality checks for GNSS data in RINEX2/3 format. Basic version is free and open-source, Pro and Real-time features available at a cost. BKG Ntrip Client (BNC) ( Download ) - BNC is an open-source multi-stream client designed for a variety of real-time GNSS applications. It was primarily designed for receiving data streams from any Ntrip supporting Broadcaster. It can compute a real-time Precise Point Positioning (PPP) solution from RTCM streams or RINEX files. See related open-source tools for Ntrip on this page . BUAA-RINEX-Convertor ( Source code",
       "fetched_ok": true,
       "display_name": "barbeau/awesome-gnss",
-      "display_description": "Community list of open-source GNSS software and resources 📡",
+      "display_description": "Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss",
       "manual_note": "",
       "manual_labels": [],
       "labels": [
@@ -27558,12 +27549,11 @@
       "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "",
-      "primary_score": 44,
+      "primary_score": 22,
       "secondary_categories": [],
       "match_hits": [
         "gnss",
-        "gps",
-        "list:gnss"
+        "readme:gps"
       ]
     },
     "bit-lsj /HPHS": {
@@ -41163,23 +41153,23 @@
     "leggedrobotics /compslam_subt": {
       "full_name": "leggedrobotics /compslam_subt",
       "url": "https://github.com/leggedrobotics/compslam_subt",
-      "owner": "leggedrobotics ",
+      "owner": "leggedrobotics",
       "repo": "compslam_subt",
-      "list_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
-      "list_stars_label": "9",
-      "list_language": "C++",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "slam-degenerate"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T15:00:01.310954+00:00",
+      "fetched_at": "2026-08-26T08:11:34.130229+00:00",
       "archived": false,
-      "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+      "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
       "topics": [],
       "homepage": "https://www.linkedin.com/in/shehryar-khattak/",
       "readme_excerpt": "CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments Authors: Shehryar Khattak , Timon Homberger , Lukas Bernreiter , Julian Nubert , Olov Andersson , Roland Siegwart , Kostas Alexis , Marco Hutter Paper | Dataset | GT Approximation | GT Generation Code This repository contains the complementary SLAM code. It consists of the following packages: compslam : Meta package that builds the entire codestack and can be used to launch the contained components. compslam_lio : LiDAR Odometry package based on LOAM with improved robustness for field missions and the incorporation of IMU. compslam_vtio : Visual-thermal odometry that builds on top of ROVIO. It also includes the possibility to use LiDAR for scale estimation as well as thermal camera support. CompSLAM has been heavily used during the DARPA SubT challenge as the main SLAM solution for team Cerberus. Moreover, over the past years, it has been used as a major SLAM solution during research projects conducted at the Robotic Systems Lab at ETH Zurich. Disclaimer: The framework is still under development and will be updated, extended, and more generalized in the future. Instructions Workspace Setup Create a catkin workspace: mkdir compslam_ws cd compslam_ws mkdir src catkin init catkin config -DCMAKE_BUILD_TYPE=Release cd src Then pull the required repositories: git clone https://github.com/leggedrobotics/compslam_subt.git vcs import < compslam_subt/repos.vcs cd compslam_subt && git submodule update --init Installation To install Compslam, simply execute: catkin build compslam source devel/setup.bash Dataset Pull the dataset from the DARPA SubT finals as described in the main paper from here . The approximate GT used for the evaluation, generated by this repository , can be downloaded here . Run Full Example To run the complete example, in Terminal 1 simply run the code: roslaunch compslam compslam.launch Then, in a separate terminal, execute the corresponding rosbag file downloaded above: rosbag play subt_finals_loop_dataset.bag --clock If you want to run the same without VTIO , disable the flag run_compslam_vtio inside ./compslam/launch/compslam.launch . The expected output should roughly look like this: Paper If you find this code useful or use it in your work, please consider citing: @inproceedings{khattak2025compslam, title={CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments}, author={Shehryar Khattak, Timon Homberger, Lukas Bernreiter, Julian Nubert, Olov Andersson, Roland Siegwart, Kostas Alexis, Marco Hutter}, booktitle={IEEE ICRA Workshop Robots in the Wild}, year={2025}, organization={IEEE} } Acknowledgments The authors thank the authors of LOAM, the authors of ",
       "fetched_ok": true,
       "display_name": "leggedrobotics/compslam_subt",
-      "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+      "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
       "manual_note": "",
       "manual_labels": [
         "lidar-visual-inertial-odometry"
@@ -58569,15 +58559,15 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-09T02:33:37.681706+00:00",
+      "fetched_at": "2026-08-26T08:16:39.822671+00:00",
       "archived": false,
-      "about": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+      "about": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
       "topics": [],
-      "homepage": "https://rerun.io/",
-      "readme_excerpt": "gsolver G-solver: Gaussian Belief Propagation (GBP) with Gaussian Processes (GP) for Distributed and Continuous-Time SLAM A C++/Python library implementing Gaussian Belief Propagation (GBP) for Simultaneous Localization and Mapping (SLAM) with continuous-time Gaussian Process (GP) motion priors. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Accepted to IEEE Robotics and Automation Letters (RA-L) on May 24, 2026. Repository: https://github.com/rvp-group/gsolver (SSH: git@github.com :rvp-group/gsolver.git) If you use this code in your research, please cite our paper. 🎯 Features Gaussian Belief Propagation Solver : Efficient message-passing inference on factor graphs Continuous-Time GP Motion Priors : Smooth trajectory estimation with learnable hyperparameters SE(3) Pose Optimization : Full 6-DoF pose estimation with velocity states Bundle Adjustment : Joint optimization of poses and landmarks Incremental SLAM : Online operation with new measurements Real-time Visualization : Integration with Rerun for 3D visualization Python Bindings : Full Python API via nanobind 📁 Project Structure gsolver/ ├── gsolver/ # Core C++ library │ ├── include/gsolver/ # Public headers │ │ ├── core/ # GBP solver, messages │ │ ├── graph/ # Factor graph, nodes │ │ └── maths/ # Geometry, lie algebra │ └── src/ # Implementation ├── python/ # Python bindings (nanobind) ├── examples/ │ ├── cpp/ # C++ experiments │ │ ├── apps/ # Experiment executables │ │ └── common/ # Shared utilities │ ├── python/ # Python experiments │ │ ├── apps/ # Experiment scripts │ │ └── common/ # Shared utilities │ ├── config/ # Experiment parameters │ └── data/ # Datasets and generators └── cmake/ # CMake configuration 🛠️ Building Prerequisites C++17 compatible compiler (GCC 9+, Clang 10+) CMake 3.16+ OpenMP (for parallel GBP) yaml-cpp (for configuration files) Python 3.8+ (for Python bindings) On Ubuntu/Debian: sudo apt-get install build-essential cmake libomp-dev libyaml-cpp-dev python3-dev C++ Library # Clone the repository git clone git@github.com:rvp-group/gsolver.git cd gsolver # Create build directory mkdir build && cd build # Configure with examples and Python bindings cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON # Build make -j $( nproc ) CMake Options: Option Default Description GSOLVER_BUILD_EXAMPLES OFF Build C++ example executables GSOLVER_BUILD_PYTHON OFF Build Python bindings GSOLVER_BUILD_TESTS OFF Build unit tests (not yet provided) Python Package Option 1: Install from source (recommended for development) pip install -e . Option 2: Build wheel pip install build python -m build pip install dist/gsolver- * .whl Dependencies for examples: pip install numpy pyyaml rerun-sdk 📊 Generating Synthetic Datasets The library includes a d",
+      "homepage": "https://arxiv.org/abs/2606.06250",
+      "readme_excerpt": "gsolver Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM gsolver is a fully Gaussian, distributed framework for continuous-time SLAM that pairs Gaussian Belief Propagation (GBP) with Gaussian Process (GP) motion priors. The GP model gives a probabilistic trajectory with consistent interpolation and data-driven hyperparameters; GBP provides a scalable, decentralized message-passing solver that extends naturally to multi-robot and rolling-shutter settings, at runtimes comparable to existing continuous-time methods. The repository ships a C++17 core library with full Python bindings. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Davide Ceriola*, Simone Ferrari*, Luca Di Giammarino, Leonardo Brizi, Giorgio Grisetti IEEE Robotics and Automation Letters (RA-L), 2026. — arXiv:2606.06250 If you use this code in your research, please cite our paper: @article { ceriola2026breaking , title = { Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM } , author = { Ceriola, Davide and Ferrari, Simone and Di Giammarino, Luca and Brizi, Leonardo and Grisetti, Giorgio } , journal = { IEEE Robotics and Automation Letters (RA-L) } , year = { 2026 } , note = { To appear. arXiv:2606.06250 } } ✨ Features Gaussian Belief Propagation solver — efficient message-passing inference on factor graphs Continuous-time GP motion priors — smooth trajectory estimation with learnable hyperparameters SE(3) pose optimization — full 6-DoF estimation with velocity states Bundle adjustment and incremental SLAM — joint pose/landmark and online operation Distributed & multi-camera — decentralized message passing, no special synchronization Real-time visualization via Rerun , and a full Python API through nanobind 🚀 Quick Start The fastest path is Docker, which handles every dependency and sets up X11 forwarding for visualization: git clone git@github.com:rvp-group/gsolver.git cd gsolver ./docker-run.sh # builds the image (first run) and drops you in the container Inside the container, build the library and examples: mkdir build && cd build cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON make -j $( nproc ) Then run a bundle-adjustment experiment on the bundled ChArUco dataset, with live 3D visualization: ./build/examples/cpp/charuco_experiment_ba \\ examples/data/datasets/charuco/printing_room_0.g2o \\ ./tmp/ba_result.tum 0.0 -visualize The synthetic pose-graph and prior experiments need datasets generated first (see below). Native (non-Docker) builds, dataset generation, all experiments, configuration, and the full C++/Python API are documented in docs/USAGE.md . 📦 Minimal Example import numpy as np from gsolver import ( FactorGraph , GbpSolver , SolverScheduleType , SE3Pose",
       "fetched_ok": true,
       "display_name": "rvp-group/gsolver",
-      "display_description": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+      "display_description": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
       "manual_note": "",
       "manual_labels": [
         "mapping-map-representation"
@@ -59064,30 +59054,33 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-22T01:47:38.139128+00:00",
+      "fetched_at": "2026-08-25T02:59:16.129088+00:00",
       "archived": false,
-      "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode",
+      "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode. Contribute to pypose/bae development by creating an account on GitHub.",
       "topics": [],
       "homepage": "https://www.linkedin.com/in/huan-xu-999700169/?locale=en_US",
-      "readme_excerpt": "Accepted to IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Add Apple Silicon GPU support, PyTorch PR WIP Reduce runtime overhead using CUDA graph Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization An new backend for distributed solver Schur complement (added in PR #35 ) Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m pip install --no-build-isolation -v -e . # following https://github.com/pytorch/pytorch Agent Skills This repo includes skills in .agent/skills : bae-compute-graph : guidance for defining BAL/PGO and more complex compute graphs Example Usage Bundle Adjustment Bundle Adjustment optimizes camera poses and 3D point positions to minimiz",
+      "readme_excerpt": "IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Reduce runtime overhead using CUDA graph; compile fwd & backward with torch.compile() reducing latency from 10ms to 2.2ms (added in PR #41 ) Reduce kernel launching cost in PCG solver by kernel fusion Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization (WIP in distributed_dt ) Schur complement (added in PR #35 ) Add Apple Silicon GPU support, PyTorch PR WIP Community-requested features: Need support for a new framework, hardware backend, or more efficient memory allocation? Open an issue and tell us about your use case; we’d love to hear what you need. Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m ",
       "fetched_ok": true,
       "display_name": "pypose/bae",
-      "display_description": "[T-RO 2026] Bundle Adjustment in the Eager Mode",
+      "display_description": "",
       "manual_note": "",
-      "manual_labels": [],
-      "labels": [
-        "tools-engineering-productivity"
+      "manual_labels": [
+        "mapping-map-representation"
       ],
-      "primary_category": "tools-engineering-productivity",
-      "primary_category_name": "Tools, Engineering & Productivity",
-      "primary_category_name_zh": "工具、工程与科研效率",
-      "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
-      "primary_category_kind": "tool",
-      "primary_subtopic": "LLM / AI Tools",
-      "primary_score": 2,
+      "labels": [
+        "visual-inertial-odometry",
+        "mapping-map-representation"
+      ],
+      "primary_category": "visual-inertial-odometry",
+      "primary_category_name": "Visual / Visual-Inertial State Estimation",
+      "primary_category_name_zh": "视觉里程计与视觉惯导",
+      "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
       "secondary_categories": [],
       "match_hits": [
-        "readme:agent"
+        "manual override"
       ]
     },
     "RNP-lab /viking_hill_radar_lidar_camera_dataset": {
@@ -59180,19 +59173,26 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-26T02:01:31.943136+00:00",
+      "fetched_at": "2026-08-26T08:09:36.833798+00:00",
       "archived": false,
-      "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
       "topics": [],
-      "homepage": "",
-      "readme_excerpt": "FIRE-LIVWO [IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "homepage": "https://orcid.org/0000-0002-2395-9543",
+      "readme_excerpt": "FIRE-LIVWO Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Kun Hu 1 · Menggang Li 1,† · Kaidi Wu 1 · Zhiwen Jin 1 · Yingjie Zhao 1 · Chaoquan Tang 1 · Eryi Hu 2 · Gongbo Zhou 1 1 China University of Mining and Technology, Xuzhou, China 2 Information Institute, Ministry of Emergency Management, China † Corresponding author Project Page · Paper · Video · Figures · Citation FIRE-LIVWO completes the smoke-filled and geometrically degenerate tunnel sequence while the evaluated baselines drift or fail. Click the image to visit the project page. At a glance FIRE-LIVWO is a tightly coupled LiDAR–inertial–visual–wheel odometry system enhanced by 4D mmWave radar for large-scale underground coal mines. It addresses two distinct but frequently coupled failures: smoke-induced visual degradation and geometric underconstraint in long, repetitive corridors. Radar, LiDAR, vision, wheel odometry, and IMU measurements are fused in an iterated error-state Kalman filter (IESKF), while online observability analysis selects the appropriate fusion mode. Smoke robustness Corridor robustness Online detection Estimator Radar geometry + Doppler velocity Wheel odometry + NHC Visual + geometric observability Tightly coupled IESKF Note This release contains the accepted paper, one-minute supplementary video, and publication figures. The implementation and dataset are not included in the current repository snapshot. News 2026-08-23 — Paper, supplementary video, figures, and project page released. 2026-06 — FIRE-LIVWO accepted to IROS 2026 . 🎉 Method System overview. Radar, LiDAR, visual, wheel, and inertial constraints are scheduled by online degradation detection and fused within one IESKF pipeline. FIRE-LIVWO contributes four tightly connected components: Unified radar–LiDAR–visual map. LiDAR and radar point-to-plane residuals share an adaptive VoxelMap with sparse direct visual photometric residuals. Failure-immune radar enhancement. Radar geometric observations and pointwise Doppler-velocity residuals preserve motion information when smoke suppresses image contrast and corrupts LiDAR returns. Wheel-aided geometric robustness. Wheel odometry, nonholonomic constraints (NHC), and online lever-arm compensation reduce drift along underconstrained tunnel directions. Observability-aware adaptive fusion. Visual and geometric scores identify degradation online and switch among LIV, LIVR, LIVW, and LIVRW modes. Adaptive fusion. Radar constraints are activated for visual degradation, wheel constraints for geometric degradation, and both for simultaneous failures. Condition Detector state Fusion mode Active complementary constraint Nominal Dᵥ = 0 , Dɢ = 0 LIV LiDAR + IMU ",
       "fetched_ok": true,
       "display_name": "KJ-Falloutlast/FIRE-LIVWO",
-      "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+      "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
       "manual_note": "",
-      "manual_labels": [],
+      "manual_labels": [
+        "degeneracy-robustness",
+        "uwb",
+        "wheel"
+      ],
       "labels": [
-        "radar-slam-perception"
+        "radar-slam-perception",
+        "degeneracy-robustness",
+        "uwb",
+        "wheel"
       ],
       "primary_category": "radar-slam-perception",
       "primary_category_name": "Radar SLAM & Perception",
@@ -59200,13 +59200,10 @@
       "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "",
-      "primary_score": 31,
-      "secondary_categories": [
-        "lidar-visual-inertial-odometry"
-      ],
+      "primary_score": 999,
+      "secondary_categories": [],
       "match_hits": [
-        "mmwave",
-        "radar"
+        "manual override"
       ]
     },
     "ChiyunNoh /GTSAM-Legged-Estimator-ROS2": {
@@ -60111,6 +60108,315 @@
       "match_hits": [
         "manual override"
       ]
+    },
+    "ndpvt-web /latex-document-skill": {
+      "full_name": "ndpvt-web /latex-document-skill",
+      "url": "https://github.com/ndpvt-web/latex-document-skill",
+      "owner": "ndpvt-web",
+      "repo": "latex-document-skill",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-10T08:42:26.400935+00:00",
+      "archived": false,
+      "about": "Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill",
+      "topics": [],
+      "homepage": "https://happycapy.ai/?via=gh",
+      "readme_excerpt": "LaTeX Document Skill The capybara sat down at the typewriter. When it stood up, there was a thesis. Turn handwritten notes, scanned textbooks, and raw data into publication-ready LaTeX -- without knowing a single LaTeX command. 27 templates · 27 automation scripts · 26 reference guides · 4 OCR profiles · 217 tests · 0 LaTeX commands required The 10-Second Pitch You describe a document in plain English. This skill produces a compiled PDF. An 80-page handwritten math PDF becomes color-coded lecture notes with proper equations and TikZ diagrams. A 162-page textbook becomes a 2-page cheat sheet. A CSV becomes nine chart types. A one-line prompt becomes a thesis, a resume, a conference poster, or a 37-page book with drop caps. No LaTeX knowledge required. The capybara handles the semicolons. What Can It Actually Do? (Spoiler: more than most humans with a PhD in LaTeX.) You say... What happens under the hood \"Create my resume\" Selects from 5 ATS-optimized templates, compiles with pdflatex , generates PDF + PNG preview \"Convert my 80-page handwritten math notes into beautiful LaTeX\" pdf_to_images.sh renders at 200 DPI -> batch-7 parallel OCR agents -> math-notes.md profile generates colored tcolorbox theorems (blue), definitions (green), examples (orange) -> compile_latex.sh runs multi-pass pdflatex -> polished PDF with proper equations, proofs, and TikZ diagrams \"Turn this 162-page scan into a 2-page cheat sheet\" pdf_to_images.sh splits PDF -> vision OCR per page -> extracts key content -> symbol substitution -> telegram-style compression -> fits into cheatsheet.tex with 3-column landscape 7pt layout \"Build a quarterly report with charts\" generate_chart.py creates bar/line/pie charts from JSON/CSV -> csv_to_latex.py converts data into booktabs tables -> Mermaid/TikZ flowcharts compiled inline -> all embedded in report.tex with TOC \"Generate 9 charts from my sales CSV\" generate_chart.py reads CSV -> outputs bar, line, scatter, pie, heatmap, box, histogram, area, radar charts -> multi-series, legends, colorblind-safe Tol palette \"Convert my old PDF to LaTeX\" Pages split at 200 DPI -> parallel OCR agents -> clean .tex with profile-tuned formatting -> 0 errors per 7-page batch (validated on 115-page PDF) \"Send personalized letters to 500 candidates\" mail_merge.py loads template + CSV -> Jinja2 rendering -> 4 parallel pdflatex workers -> qpdf --pages merge into single PDF \"What changed between v1 and v2 of my thesis?\" latex_diff.sh runs latexdiff -> highlighted change-tracked PDF with additions in blue, deletions in red \"Make a NeurIPS poster\" Interactive: asks orientation -> layout -> color scheme -> generates A0 tikzposter with correct dimensions and QR codes \"Create a calculus final exam with answer key\" exam class with \\printanswers toggle, grading table, 6",
+      "fetched_ok": true,
+      "display_name": "ndpvt-web/latex-document-skill",
+      "display_description": "Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "tools-engineering-productivity"
+      ],
+      "primary_category": "tools-engineering-productivity",
+      "primary_category_name": "Tools, Engineering & Productivity",
+      "primary_category_name_zh": "工具、工程与科研效率",
+      "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+      "primary_category_kind": "tool",
+      "primary_subtopic": "Research Productivity",
+      "primary_score": 18,
+      "secondary_categories": [],
+      "match_hits": [
+        "claude",
+        "latex"
+      ]
+    },
+    "12DDDCCC /word-latex-word": {
+      "full_name": "12DDDCCC /word-latex-word",
+      "url": "https://github.com/12DDDCCC/word-latex-word",
+      "owner": "12DDDCCC",
+      "repo": "word-latex-word",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-10T11:20:23.745675+00:00",
+      "archived": false,
+      "about": "将word进行latex模板编译再输出编译好的PDF格式以及编译好的word文件用于再次后续更改以及后续的输入，实现word格式的自动排版 - 12DDDCCC/word-latex-word",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "Academic Paper Format Converter (Word ↔ LaTeX) Word ↔ LaTeX 双向无损转换工具，支持学术论文的完整格式还原。工具会从 Word 提取正文、公式、图片、表格和引用，适配目标期刊 LaTeX 模板，编译 PDF，并可再转换为可编辑 Word 文档。 前置要求（必读） Word 输入文档要求 参考文献标注方式 （二选一）： 红色数字标注 ：引用位置用红色数字标记，例如 (1) 、 [1] 。 超链接引用 ：已使用 Word 插入 → 交叉引用/超链接功能链接到参考文献列表。 两种方式均支持自动提取并还原为 LaTeX \\cite{} / \\citep{} / \\citet{} 命令。 图例/表例格式 ： 图例（Figure caption）和表例（Table caption）的 字号必须比正文小 。 系统通过字号差异自动识别 caption，例如正文 12pt，caption 9-10pt。 无需手动标记，系统自动检测。 BibTeX 文件 （必须）： 需要自行提供 .bib 格式的参考文献数据库。 文件中的 key 需要与 Word 中引用的作者-年份或引用识别结果对应。 例： @article{zhang2020, author={Zhang, ...}, ...} 。 高清论文图片 （可选）： 如提供原始高清图片目录，系统会自动匹配并替换 Word 中压缩的图片。 支持 JPEG/PNG 格式。 如不提供，将使用 Word 文档内嵌的图片。 Word 文档结构建议 ： 使用 Word 标题样式（标题1/2/3）标记章节层级。 表格使用标准 Word 表格，合并单元格、跨行跨列均支持。 公式使用 Word 公式编辑器（OMML）输入。 期刊模板目录 需要提供期刊的 LaTeX 模板文件，目录中应包含： .cls 文件（文档类，如 copernicus.cls 、 elsarticle.cls 、 nsr.cls ） .cfg / .sty 文件（配置文件或模板宏包） .bst 文件（参考文献样式，如 copernicus.bst ） template.tex 或期刊示例 .tex （用于提取格式规范） 模板配置模式 ：部分期刊模板（如 Copernicus）在 .cls 中定义了多种排版配置，系统会自动从模板中提取所有可用模式。 模式 说明 适用场景 manuscript （默认） 经典稿件格式，通常单栏、宽边距 投稿、审稿 final 出版终稿格式，通常双栏、窄边距 校对、最终版 discussions 讨论版格式 预印本、同行讨论 默认使用 manuscript 。 --config-mode 映射到 LaTeX 的 \\documentclass[mode]{journal} 选项： manuscript → \\documentclass[manuscript]{copernicus} final → \\documentclass[final]{copernicus} discussions → \\documentclass[discussions]{copernicus} python orchestrator.py input.docx template/ references.bib copernicus output/ --config-mode final 系统会根据所选模式自动提取对应的页面尺寸、字体大小、边距、分栏等参数，无需手动配置。 软件环境 核心依赖 依赖 版本要求 用途 Python ≥ 3.10 运行环境 Pandoc ≥ 3.0 LaTeX → Word 基础转换 TeX Live full 2022+ 编译 PDF（ 强烈推荐 ，包含所有宏包） 或 MiKTeX 最新版 备选（自动补装缺失宏包） TinyTeX ❌ 不推荐 R 用户精简版（< 100MB），按需安装，缺关键宏包 BibTeX 随 TeX 发行版 生成 .bbl 参考文献 Python 包 包 版本要求 用途 python-docx ≥ 0.8 Word 文件读写 lxml ≥ 4.9 XML 解析 Pillow 推荐安装 图片处理 PyMuPDF 推荐安装 PDF 位置辅助分析 pytest 仅开发 跑测试套件（用户不需安装） 系统字体 字体 用途 安装 Times New Roman 英文正文字体 Windows/macOS 预装，Linux 需 apt install ttf-mscorefonts-installer SimSun（宋体） 中文正文字体 Windows 预装，macOS/Linux 需自行安装 ⚠️ TinyTeX 不兼容 ：TinyTeX 是 R 语言用户的精简 LaTeX 发行版（< 100MB），按需安装宏包。但期刊模板（如 copernicus、elsarticle）常需要 20+ 宏包，TinyTeX 经常缺少 fontawesome5 等关键宏包，导致 LaTeX 编译失败但只生成 .tex 中间产物（没有 PDF、Word）。 生产环境请使用 TeX Live 完整方案或 MiKTeX 。 安装 Python 依赖： pip install python-docx lxml pillow pymupdf pytest 仅开发时需要（运行测试套件），用户不安装也可。 如果 Pandoc 由 WinGet 安装且 Python 无法调用，可额外安装普通版 Pandoc，或设置环境变量 PANDOC_EXE 指向 pandoc.exe 。 必备 LaTeX 宏包 不同期刊模板依赖不同的宏包。 建议预装以下核心宏包 以避免中途失败： 宏包 用途 安装命令（TeX Live） fontawesome5 期刊图标（copernicus/elsarticle 必需） tlmgr install fontawesome5 lineno 行号（manuscript 模式默认开启） tlmgr install lineno mathtime / hvmath 数学字体 tlmgr install mathtime hvmath algorithmic / algorithm 算法环境 tlmgr install algorithmic algorithm listings 代码列表 tlmgr install listings multirow / booktabs / tabularx 表格增强 tlmgr install multirow booktabs tabularx subfigure / subfig 子图 tl",
+      "fetched_ok": true,
+      "display_name": "12DDDCCC/word-latex-word",
+      "display_description": "将word进行latex模板编译再输出编译好的PDF格式以及编译好的word文件用于再次后续更改以及后续的输入，实现word格式的自动排版 - 12DDDCCC/word-latex-word",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "tools-engineering-productivity"
+      ],
+      "primary_category": "tools-engineering-productivity",
+      "primary_category_name": "Tools, Engineering & Productivity",
+      "primary_category_name_zh": "工具、工程与科研效率",
+      "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+      "primary_category_kind": "tool",
+      "primary_subtopic": "Research Productivity",
+      "primary_score": 8,
+      "secondary_categories": [],
+      "match_hits": [
+        "latex"
+      ]
+    },
+    "Imbad0202 /academic-research-skills": {
+      "full_name": "Imbad0202 /academic-research-skills",
+      "url": "https://github.com/Imbad0202/academic-research-skills",
+      "owner": "Imbad0202",
+      "repo": "academic-research-skills",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T03:49:17.234032+00:00",
+      "archived": false,
+      "about": "Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills",
+      "topics": [],
+      "homepage": "https://doi.org/10.5281/zenodo.20696614",
+      "readme_excerpt": "Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 | 한국어 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research to publication. Install in 30 seconds (Claude Code CLI / VS Code / JetBrains, v3.7.0+): /plugin marketplace add Imbad0202/academic-research-skills /plugin install academic-research-skills Then try /ars-plan to walk through your paper structure via Socratic dialogue, or jump to Quick install for prerequisites and the traditional symlink flow. AI is your copilot, not the pilot. This tool won't write your paper for you. It handles the grunt work — hunting down references, formatting citations, verifying data, checking logical consistency — so you can focus on the parts that actually require your brain: defining the question, choosing the method, interpreting what the data means, and writing the sentence after \"I argue that.\" Unlike a humanizer, this tool doesn't help you hide the fact that you used AI. It helps you write better. Style Calibration learns your voice from past work. Writing Quality Check catches the patterns that make prose feel machine-generated. The goal is quality, not cheating. Why human-in-the-loop, not full automation? Lu et al. (2026, Nature 651:914-919) built The AI Scientist — the first fully autonomous AI research system to publish a paper through blind peer review at a top-tier ML venue (ICLR 2025 workshop, score 6.33/10 vs workshop average 4.87). Their Limitations section enumerates the failure modes that any fully-autonomous AI research pipeline inherits: implementation bugs, hallucinated results, shortcut reliance, bug-as-insight reframing, methodology fabrication, frame-lock, citation hallucinations. ARS is built on the premise that a human researcher augmented by AI avoids these failure modes better than either alone . Stage 2.5 and Stage 4.5 integrity gates run a 7-mode blocking checklist (see academic-pipeline/references/ai_research_failure_modes.md ); the reviewer offers an opt-in calibration mode that measures its own FNR/FPR against a user-supplied gold set. Zhao et al. (2026-05) audited 111M references across 2.5M papers on arXiv, bioRxiv, SSRN, and PMC. Their conservative estimate is 146,932 hallucinated citations for 2025 alone, with an observed mid-2024 inflection; for the bioRxiv-to-PMC pairing they report 85.3% preprint-to-published persistence. The paper describes \"real citations deployed to support claims the cited references do not actually make\" as an open challenge. ARS v3.7.1 added trust-chain frontmatter for source provenance; v3.7.3 added locator infrastructure (three-layer citation anchors) for future claim-level audits and surfaces advisory risk signals at cite time (ARS labels the claim-faithfulness gap internally as \"L3\"; this i",
+      "fetched_ok": true,
+      "display_name": "Imbad0202/academic-research-skills",
+      "display_description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "tools-engineering-productivity"
+      ],
+      "primary_category": "tools-engineering-productivity",
+      "primary_category_name": "Tools, Engineering & Productivity",
+      "primary_category_name_zh": "工具、工程与科研效率",
+      "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+      "primary_category_kind": "tool",
+      "primary_subtopic": "LLM / AI Tools",
+      "primary_score": 12,
+      "secondary_categories": [],
+      "match_hits": [
+        "claude",
+        "readme:citation"
+      ]
+    },
+    "ARVCUMH /fisheye_lidar_calibration": {
+      "full_name": "ARVCUMH /fisheye_lidar_calibration",
+      "url": "https://github.com/ARVCUMH/fisheye_lidar_calibration",
+      "owner": "ARVCUMH",
+      "repo": "fisheye_lidar_calibration",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T03:53:50.963585+00:00",
+      "archived": false,
+      "about": "A method to calibrate the coordinate transformation between a fisheye camera and a LIDAR - ARVCUMH/fisheye_lidar_calibration",
+      "topics": [],
+      "homepage": "https://pytorch.org/get-started/previous-versions/",
+      "readme_excerpt": "fisheye_lidar_calibration fisheye_lidar_calibration is an open source implementation of a target-based method for LiDAR and fisheye camera calibration. It finds the rotation and translation between fisheye camera and LiDAR and use them to project LiDAR data onto the corresponding fisheye image. Installation Git clone the repository: git clone https://github.com/ARVCUMH/fisheye_lidar_calibration Install requirements: cd fisheye_lidar_calibration/ pip install -r requirements.txt The code requires python>=3.8 , as well as pytorch>=1.7 and torchvision>=0.8 . Install Pytorch version from the Pytorch website and follow the instructions. Segment Anything To detect plane corners from image data, this callibration tool uses Segment Anything . Git clone the Segment Anything inside your project folder , then copy the folder segment_anything inside the project folder and remove the rest. git clone https://github.com/facebookresearch/segment-anything.git cd segment-anything/ cp -r segment_anything/ .. cd .. rm -r segment-anything/ SAM Model Segment Anything model is needed to perform a plane segmentation. You can download the checkpoint for the corresponding model type from these links: default or vit_h : ViT-H SAM model. vit_l : ViT-L SAM model. vit_b : ViT-B SAM model. Make sure the downloaded model is inside your project folder (fisheye_lidar_calibration). Configuration Calibration file For using this calibration method, the existence of a calibration file is completely crucial. This calibration file contains the fisheye camera parameters needed for the lidar point projection. The format of this .txt file must be as follows: #polynomial coefficients for the DIRECT mapping function (ocam_model.ss in MATLAB). These are used by cam2world 5 -7.121702e+02 0.000000e+00 4.812818e-04 -1.435090e-07 1.699419e-10 #polynomial coefficients for the inverse mapping function (ocam_model.invpol in MATLAB). These are used by world2cam 12 1147.898677 733.075584 11.510652 77.773746 70.045334 -1.172804 7.788372 31.755008 7.286971 -11.630820 -7.017475 -1.154235 #center: \"row\" and \"column\", starting from 0 (C convention) 1073.715833 1285.434616 #affine parameters \"c\", \"d\", \"e\" 0.999946 -0.001141 -0.001446 #image size: \"height\" and \"width\" 2160 2600 This file is generated by the Davide Scaramuzza's toolbox , implemented in MATLAB. Follow the instructions to generate the calibration file. Configuration Parameters A config.yaml file is used to adjust the parameters to the experiment data. Experiment paths # Experiment data images_path: \"demo/images_frontal\" #\"demo/images\" spherical: False # True if you are using spherical images, False if you are using fisheye images pointclouds_path: \"demo/pointclouds_frontal\" #\"demo/pointclouds\" # Calibration data calibration_file: \"demo/calib_result",
+      "fetched_ok": true,
+      "display_name": "ARVCUMH/fisheye_lidar_calibration",
+      "display_description": "A method to calibrate the coordinate transformation between a fisheye camera and a LIDAR - ARVCUMH/fisheye_lidar_calibration",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "calibration-synchronization"
+      ],
+      "primary_category": "calibration-synchronization",
+      "primary_category_name": "Calibration & Time Synchronization",
+      "primary_category_name_zh": "标定与时间同步",
+      "primary_category_description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 23,
+      "secondary_categories": [],
+      "match_hits": [
+        "calibration"
+      ]
+    },
+    "liw95 /LightLoc-PlusPlus": {
+      "full_name": "liw95 /LightLoc-PlusPlus",
+      "url": "https://github.com/liw95/LightLoc-PlusPlus",
+      "owner": "liw95",
+      "repo": "LightLoc-PlusPlus",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T08:05:41.587121+00:00",
+      "archived": false,
+      "about": "Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2608.15317",
+      "readme_excerpt": "LightLoc-PlusPlus LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization . Overview LightLoc++ is a sensor-robust and efficient outdoor LiDAR localization framework. It improves the cross-sensor generalization ability of pretrained LiDAR representations while preserving efficient scene-specific training. SULID Dataset We introduce SULID , a synchronized urban multi-LiDAR dataset with 24 trajectories covering approximately 219 km across 4 urban scenes . The dataset is collected using representative 32-, 64-, and 128-beam LiDAR sensors and provides aligned cross-sensor observations for sensor-robust LiDAR representation learning. Code and Dataset The source code, pretrained models, and SULID dataset will be released upon acceptance. Paper arXiv Paper Citation Citation information will be provided upon publication.",
+      "fetched_ok": true,
+      "display_name": "liw95/LightLoc-PlusPlus",
+      "display_description": "Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "place-recognition-loop-closure"
+      ],
+      "primary_category": "place-recognition-loop-closure",
+      "primary_category_name": "Place Recognition & Loop Closure",
+      "primary_category_name_zh": "地点识别与回环检测",
+      "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "leggedrobotics /DiskChunGS": {
+      "full_name": "leggedrobotics /DiskChunGS",
+      "url": "https://github.com/leggedrobotics/DiskChunGS",
+      "owner": "leggedrobotics",
+      "repo": "DiskChunGS",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T08:57:19.803286+00:00",
+      "archived": false,
+      "about": "[RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS",
+      "topics": [],
+      "homepage": "https://scholar.google.com/citations?user=WNqWurwAAAAJ&amp;hl=en&amp;oi=ao",
+      "readme_excerpt": "DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management Casimir Feldmann 1 , Max Wilder-Smith 1 , Vaishakh Patil 1 , Michael Niemeyer 2 , Michael Oechsle 2 , Keisuke Tateno 2 , and Marco Hutter 1 ETH Zurich 1 , Google 2 [ Paper ] [ Project ] [ Video ] Overview Recent advances in 3D Gaussian Splatting (3DGS) have demonstrated impressive results for novel view synthesis with real-time rendering capabilities. However, integrating 3DGS with SLAM systems faces a fundamental scalability limitation: methods are constrained by GPU memory capacity, restricting reconstruction to small-scale environments. We present DiskChunGS, a scalable 3DGS SLAM system that overcomes this bottleneck through an out-of-core approach that partitions scenes into spatial chunks and maintains only active regions in GPU memory while storing inactive areas on disk. Our architecture integrates seamlessly with existing SLAM frameworks for pose estimation and loop closure, enabling globally consistent reconstruction at scale. We validate DiskChunGS on indoor scenes (Replica, TUM-RGBD), urban driving scenarios (KITTI), and resource-constrained Nvidia Jetson platforms. Our method uniquely completes all 11 KITTI sequences without memory failures while achieving superior visual quality, demonstrating that algorithmic innovation can overcome the memory constraints that have limited previous 3DGS SLAM methods. Table of Contents Overview Installation Getting Started Evaluation ROS Usage Acknowledgements Citation Installation # Clone this repo git clone --recursive git@github.com:leggedrobotics/DiskChunGS.git cd DiskChunGS # Build the development container (for Jetson use docker-compose_jetson.yml) docker compose -f docker/docker-compose.yml build dev # Start the development container (for Jetson use docker-compose_jetson.yml) docker compose -f docker/docker-compose.yml run --rm dev # Inside the container, build the application ./scripts/build.sh Getting Started Preparing Datasets The benchmark datasets mentioned in our paper: Replica (NICE-SLAM Version) TUM RGB-D KITTI Create a dataset folder to bind into the container. Edit the dev section of docker-compose.yml to set the path: - /path/to/your/datasets:/data Download the desired dataset: scripts/download_replica.sh scripts/download_tum.sh For KITTI: Download odometry data set (color, 65 GB) Download odometry ground truth poses (4 MB) Download odometry data set (calibration files, 1 MB) Then combine these to create the following file structure: kitti ├── data_odometry_color └── dataset |── sequences | |── 00 | | |── calib.txt | | |── image_2 | | |── image_3 | | |── times.txt | |── 01 | ... └── poses |── 00.txt |── 01.txt ... Running the System Allow the container to connect to your display: xhost +local:root Run xhost -",
+      "fetched_ok": true,
+      "display_name": "leggedrobotics/DiskChunGS",
+      "display_description": "[RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "mapping-map-representation"
+      ],
+      "primary_category": "mapping-map-representation",
+      "primary_category_name": "Mapping & Map Representation",
+      "primary_category_name_zh": "建图与地图表达",
+      "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "3D Gaussian Splatting",
+      "primary_score": 27,
+      "secondary_categories": [],
+      "match_hits": [
+        "readme:3d gaussian splatting",
+        "readme:3dgs",
+        "readme:gaussian splatting",
+        "readme:splatting"
+      ]
+    },
+    "ChiyunNoh /TRaIL-Odom": {
+      "full_name": "ChiyunNoh /TRaIL-Odom",
+      "url": "https://github.com/ChiyunNoh/TRaIL-Odom",
+      "owner": "ChiyunNoh",
+      "repo": "TRaIL-Odom",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T09:18:15.226192+00:00",
+      "archived": false,
+      "about": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "TRaIL-Odom [RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting",
+      "fetched_ok": true,
+      "display_name": "ChiyunNoh/TRaIL-Odom",
+      "display_description": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+      "manual_note": "",
+      "manual_labels": [
+        "radar-slam-perception",
+        "degeneracy-robustness"
+      ],
+      "labels": [
+        "lidar-odometry",
+        "radar-slam-perception",
+        "degeneracy-robustness"
+      ],
+      "primary_category": "lidar-odometry",
+      "primary_category_name": "LiDAR State Estimation",
+      "primary_category_name_zh": "纯激光里程计",
+      "primary_category_description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "url-kaist /multi-mapcher": {
+      "full_name": "url-kaist /multi-mapcher",
+      "url": "https://github.com/url-kaist/multi-mapcher",
+      "owner": "url-kaist",
+      "repo": "multi-mapcher",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-26T09:22:14.398289+00:00",
+      "archived": false,
+      "about": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2511.00635",
+      "readme_excerpt": "Multi-Mapcher Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Build and usage Prerequisites Interface Tested environment ROS 1 Ubuntu 20.04, ROS Noetic ROS 2 Ubuntu 22.04, ROS Humble The shared core requires C++17, CMake 3.16+, Eigen3, GTSAM, PCL, and yaml-cpp. Docker users can skip the native dependency installation. sudo apt update sudo apt install software-properties-common sudo add-apt-repository -y ppa:borglab/gtsam-release-4.2 sudo apt update sudo apt install git build-essential cmake libeigen3-dev libgtsam-dev \\ libpcl-dev libtbb-dev libyaml-cpp-dev Clone the Multi-Mapcher: git clone --recurse-submodules https://github.com/url-kaist/multi-mapcher.git ROS 1 Noetic Place the repository at <catkin_ws>/src/multi-mapcher . From the catkin workspace root with ROS Noetic sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y catkin_make -DCMAKE_BUILD_TYPE=Release source devel/setup.bash roslaunch multi_mapcher run.launch \\ dataset_yaml:=/absolute/path/to/dataset.yaml ROS 2 Humble Place the repository at <colcon_ws>/src/multi-mapcher . From the colcon workspace root with ROS Humble sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y colcon build --packages-select multi_mapcher \\ --cmake-args -DCMAKE_BUILD_TYPE=Release source install/setup.bash ros2 launch multi_mapcher run.launch.py \\ dataset_yaml:=/absolute/path/to/dataset.yaml The dataset YAML selects mode: single_session or mode: multi_session . Both ROS versions use the same YAML files and C++ core. Workflow and guides Install AutoDataloader with python3 -m pip install autodataloader , convert MulRan or HeLiPR, and provide an estimated SLAM trajectory for every LiDAR session. Run single_session and inspect each generated after/ result. Use those verified after/ directories as the multi_session inputs. Enable iSAE in the multi-session YAML when ground truth is available. Start with config/parameters/s2sub.yaml . sub2sub.yaml is an optional, slower preset that uses larger source and target submaps. Default values and adjustment ranges are documented directly in both YAML files. See the usage guide for MulRan/HeLiPR conversion, dataset YAML, single-to-multi execution, outputs, and iSAE. Use docker/ros1/run_docker.sh or docker/ros2/run_docker.sh for container execution; see Docker . Warning Multi-session optimization requires the intra-session loop constraints saved in each after/pose_graph.g2o . The program rejects a pose-only trajectory because its odometry-only graph can deform or collapse during optimization. Citation If this repository supports your research, please cite our Multi-Mapcher paper: @article { lim2026tiv , title = { {Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust R",
+      "fetched_ok": true,
+      "display_name": "url-kaist/multi-mapcher",
+      "display_description": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+      "manual_note": "",
+      "manual_labels": [
+        "multi-robot-slam"
+      ],
+      "labels": [
+        "place-recognition-loop-closure",
+        "multi-robot-slam"
+      ],
+      "primary_category": "place-recognition-loop-closure",
+      "primary_category_name": "Place Recognition & Loop Closure",
+      "primary_category_name_zh": "地点识别与回环检测",
+      "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
     }
   },
   "grouped": {
@@ -60807,23 +61113,23 @@
       {
         "full_name": "leggedrobotics /compslam_subt",
         "url": "https://github.com/leggedrobotics/compslam_subt",
-        "owner": "leggedrobotics ",
+        "owner": "leggedrobotics",
         "repo": "compslam_subt",
-        "list_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
-        "list_stars_label": "9",
-        "list_language": "C++",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
         "source_lists": [
-          "slam-degenerate"
+          "manual"
         ],
-        "fetched_at": "2026-06-06T15:00:01.310954+00:00",
+        "fetched_at": "2026-08-26T08:11:34.130229+00:00",
         "archived": false,
-        "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+        "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
         "topics": [],
         "homepage": "https://www.linkedin.com/in/shehryar-khattak/",
         "readme_excerpt": "CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments Authors: Shehryar Khattak , Timon Homberger , Lukas Bernreiter , Julian Nubert , Olov Andersson , Roland Siegwart , Kostas Alexis , Marco Hutter Paper | Dataset | GT Approximation | GT Generation Code This repository contains the complementary SLAM code. It consists of the following packages: compslam : Meta package that builds the entire codestack and can be used to launch the contained components. compslam_lio : LiDAR Odometry package based on LOAM with improved robustness for field missions and the incorporation of IMU. compslam_vtio : Visual-thermal odometry that builds on top of ROVIO. It also includes the possibility to use LiDAR for scale estimation as well as thermal camera support. CompSLAM has been heavily used during the DARPA SubT challenge as the main SLAM solution for team Cerberus. Moreover, over the past years, it has been used as a major SLAM solution during research projects conducted at the Robotic Systems Lab at ETH Zurich. Disclaimer: The framework is still under development and will be updated, extended, and more generalized in the future. Instructions Workspace Setup Create a catkin workspace: mkdir compslam_ws cd compslam_ws mkdir src catkin init catkin config -DCMAKE_BUILD_TYPE=Release cd src Then pull the required repositories: git clone https://github.com/leggedrobotics/compslam_subt.git vcs import < compslam_subt/repos.vcs cd compslam_subt && git submodule update --init Installation To install Compslam, simply execute: catkin build compslam source devel/setup.bash Dataset Pull the dataset from the DARPA SubT finals as described in the main paper from here . The approximate GT used for the evaluation, generated by this repository , can be downloaded here . Run Full Example To run the complete example, in Terminal 1 simply run the code: roslaunch compslam compslam.launch Then, in a separate terminal, execute the corresponding rosbag file downloaded above: rosbag play subt_finals_loop_dataset.bag --clock If you want to run the same without VTIO , disable the flag run_compslam_vtio inside ./compslam/launch/compslam.launch . The expected output should roughly look like this: Paper If you find this code useful or use it in your work, please consider citing: @inproceedings{khattak2025compslam, title={CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments}, author={Shehryar Khattak, Timon Homberger, Lukas Bernreiter, Julian Nubert, Olov Andersson, Roland Siegwart, Kostas Alexis, Marco Hutter}, booktitle={IEEE ICRA Workshop Robots in the Wild}, year={2025}, organization={IEEE} } Acknowledgments The authors thank the authors of LOAM, the authors of ",
         "fetched_ok": true,
         "display_name": "leggedrobotics/compslam_subt",
-        "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+        "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
         "manual_note": "",
         "manual_labels": [
           "lidar-visual-inertial-odometry"
@@ -63401,6 +63707,43 @@
         ]
       },
       {
+        "full_name": "liw95 /LightLoc-PlusPlus",
+        "url": "https://github.com/liw95/LightLoc-PlusPlus",
+        "owner": "liw95",
+        "repo": "LightLoc-PlusPlus",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T08:05:41.587121+00:00",
+        "archived": false,
+        "about": "Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2608.15317",
+        "readme_excerpt": "LightLoc-PlusPlus LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization . Overview LightLoc++ is a sensor-robust and efficient outdoor LiDAR localization framework. It improves the cross-sensor generalization ability of pretrained LiDAR representations while preserving efficient scene-specific training. SULID Dataset We introduce SULID , a synchronized urban multi-LiDAR dataset with 24 trajectories covering approximately 219 km across 4 urban scenes . The dataset is collected using representative 32-, 64-, and 128-beam LiDAR sensors and provides aligned cross-sensor observations for sensor-robust LiDAR representation learning. Code and Dataset The source code, pretrained models, and SULID dataset will be released upon acceptance. Paper arXiv Paper Citation Citation information will be provided upon publication.",
+        "fetched_ok": true,
+        "display_name": "liw95/LightLoc-PlusPlus",
+        "display_description": "Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "place-recognition-loop-closure"
+        ],
+        "primary_category": "place-recognition-loop-closure",
+        "primary_category_name": "Place Recognition & Loop Closure",
+        "primary_category_name_zh": "地点识别与回环检测",
+        "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "LTU-RAI /InLiER",
         "url": "https://github.com/LTU-RAI/InLiER",
         "owner": "LTU-RAI",
@@ -65254,6 +65597,46 @@
         ]
       },
       {
+        "full_name": "url-kaist /multi-mapcher",
+        "url": "https://github.com/url-kaist/multi-mapcher",
+        "owner": "url-kaist",
+        "repo": "multi-mapcher",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T09:22:14.398289+00:00",
+        "archived": false,
+        "about": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2511.00635",
+        "readme_excerpt": "Multi-Mapcher Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Build and usage Prerequisites Interface Tested environment ROS 1 Ubuntu 20.04, ROS Noetic ROS 2 Ubuntu 22.04, ROS Humble The shared core requires C++17, CMake 3.16+, Eigen3, GTSAM, PCL, and yaml-cpp. Docker users can skip the native dependency installation. sudo apt update sudo apt install software-properties-common sudo add-apt-repository -y ppa:borglab/gtsam-release-4.2 sudo apt update sudo apt install git build-essential cmake libeigen3-dev libgtsam-dev \\ libpcl-dev libtbb-dev libyaml-cpp-dev Clone the Multi-Mapcher: git clone --recurse-submodules https://github.com/url-kaist/multi-mapcher.git ROS 1 Noetic Place the repository at <catkin_ws>/src/multi-mapcher . From the catkin workspace root with ROS Noetic sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y catkin_make -DCMAKE_BUILD_TYPE=Release source devel/setup.bash roslaunch multi_mapcher run.launch \\ dataset_yaml:=/absolute/path/to/dataset.yaml ROS 2 Humble Place the repository at <colcon_ws>/src/multi-mapcher . From the colcon workspace root with ROS Humble sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y colcon build --packages-select multi_mapcher \\ --cmake-args -DCMAKE_BUILD_TYPE=Release source install/setup.bash ros2 launch multi_mapcher run.launch.py \\ dataset_yaml:=/absolute/path/to/dataset.yaml The dataset YAML selects mode: single_session or mode: multi_session . Both ROS versions use the same YAML files and C++ core. Workflow and guides Install AutoDataloader with python3 -m pip install autodataloader , convert MulRan or HeLiPR, and provide an estimated SLAM trajectory for every LiDAR session. Run single_session and inspect each generated after/ result. Use those verified after/ directories as the multi_session inputs. Enable iSAE in the multi-session YAML when ground truth is available. Start with config/parameters/s2sub.yaml . sub2sub.yaml is an optional, slower preset that uses larger source and target submaps. Default values and adjustment ranges are documented directly in both YAML files. See the usage guide for MulRan/HeLiPR conversion, dataset YAML, single-to-multi execution, outputs, and iSAE. Use docker/ros1/run_docker.sh or docker/ros2/run_docker.sh for container execution; see Docker . Warning Multi-session optimization requires the intra-session loop constraints saved in each after/pose_graph.g2o . The program rejects a pose-only trajectory because its odometry-only graph can deform or collapse during optimization. Citation If this repository supports your research, please cite our Multi-Mapcher paper: @article { lim2026tiv , title = { {Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust R",
+        "fetched_ok": true,
+        "display_name": "url-kaist/multi-mapcher",
+        "display_description": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "place-recognition-loop-closure",
+          "multi-robot-slam"
+        ],
+        "primary_category": "place-recognition-loop-closure",
+        "primary_category_name": "Place Recognition & Loop Closure",
+        "primary_category_name_zh": "地点识别与回环检测",
+        "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "url-kaist /Quatro-LeGO-LOAM",
         "url": "https://github.com/url-kaist/Quatro-LeGO-LOAM",
         "owner": "url-kaist ",
@@ -65970,6 +66353,43 @@
           "list:other-tools",
           "readme:download",
           "zotero"
+        ]
+      },
+      {
+        "full_name": "12DDDCCC /word-latex-word",
+        "url": "https://github.com/12DDDCCC/word-latex-word",
+        "owner": "12DDDCCC",
+        "repo": "word-latex-word",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-10T11:20:23.745675+00:00",
+        "archived": false,
+        "about": "将word进行latex模板编译再输出编译好的PDF格式以及编译好的word文件用于再次后续更改以及后续的输入，实现word格式的自动排版 - 12DDDCCC/word-latex-word",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "Academic Paper Format Converter (Word ↔ LaTeX) Word ↔ LaTeX 双向无损转换工具，支持学术论文的完整格式还原。工具会从 Word 提取正文、公式、图片、表格和引用，适配目标期刊 LaTeX 模板，编译 PDF，并可再转换为可编辑 Word 文档。 前置要求（必读） Word 输入文档要求 参考文献标注方式 （二选一）： 红色数字标注 ：引用位置用红色数字标记，例如 (1) 、 [1] 。 超链接引用 ：已使用 Word 插入 → 交叉引用/超链接功能链接到参考文献列表。 两种方式均支持自动提取并还原为 LaTeX \\cite{} / \\citep{} / \\citet{} 命令。 图例/表例格式 ： 图例（Figure caption）和表例（Table caption）的 字号必须比正文小 。 系统通过字号差异自动识别 caption，例如正文 12pt，caption 9-10pt。 无需手动标记，系统自动检测。 BibTeX 文件 （必须）： 需要自行提供 .bib 格式的参考文献数据库。 文件中的 key 需要与 Word 中引用的作者-年份或引用识别结果对应。 例： @article{zhang2020, author={Zhang, ...}, ...} 。 高清论文图片 （可选）： 如提供原始高清图片目录，系统会自动匹配并替换 Word 中压缩的图片。 支持 JPEG/PNG 格式。 如不提供，将使用 Word 文档内嵌的图片。 Word 文档结构建议 ： 使用 Word 标题样式（标题1/2/3）标记章节层级。 表格使用标准 Word 表格，合并单元格、跨行跨列均支持。 公式使用 Word 公式编辑器（OMML）输入。 期刊模板目录 需要提供期刊的 LaTeX 模板文件，目录中应包含： .cls 文件（文档类，如 copernicus.cls 、 elsarticle.cls 、 nsr.cls ） .cfg / .sty 文件（配置文件或模板宏包） .bst 文件（参考文献样式，如 copernicus.bst ） template.tex 或期刊示例 .tex （用于提取格式规范） 模板配置模式 ：部分期刊模板（如 Copernicus）在 .cls 中定义了多种排版配置，系统会自动从模板中提取所有可用模式。 模式 说明 适用场景 manuscript （默认） 经典稿件格式，通常单栏、宽边距 投稿、审稿 final 出版终稿格式，通常双栏、窄边距 校对、最终版 discussions 讨论版格式 预印本、同行讨论 默认使用 manuscript 。 --config-mode 映射到 LaTeX 的 \\documentclass[mode]{journal} 选项： manuscript → \\documentclass[manuscript]{copernicus} final → \\documentclass[final]{copernicus} discussions → \\documentclass[discussions]{copernicus} python orchestrator.py input.docx template/ references.bib copernicus output/ --config-mode final 系统会根据所选模式自动提取对应的页面尺寸、字体大小、边距、分栏等参数，无需手动配置。 软件环境 核心依赖 依赖 版本要求 用途 Python ≥ 3.10 运行环境 Pandoc ≥ 3.0 LaTeX → Word 基础转换 TeX Live full 2022+ 编译 PDF（ 强烈推荐 ，包含所有宏包） 或 MiKTeX 最新版 备选（自动补装缺失宏包） TinyTeX ❌ 不推荐 R 用户精简版（< 100MB），按需安装，缺关键宏包 BibTeX 随 TeX 发行版 生成 .bbl 参考文献 Python 包 包 版本要求 用途 python-docx ≥ 0.8 Word 文件读写 lxml ≥ 4.9 XML 解析 Pillow 推荐安装 图片处理 PyMuPDF 推荐安装 PDF 位置辅助分析 pytest 仅开发 跑测试套件（用户不需安装） 系统字体 字体 用途 安装 Times New Roman 英文正文字体 Windows/macOS 预装，Linux 需 apt install ttf-mscorefonts-installer SimSun（宋体） 中文正文字体 Windows 预装，macOS/Linux 需自行安装 ⚠️ TinyTeX 不兼容 ：TinyTeX 是 R 语言用户的精简 LaTeX 发行版（< 100MB），按需安装宏包。但期刊模板（如 copernicus、elsarticle）常需要 20+ 宏包，TinyTeX 经常缺少 fontawesome5 等关键宏包，导致 LaTeX 编译失败但只生成 .tex 中间产物（没有 PDF、Word）。 生产环境请使用 TeX Live 完整方案或 MiKTeX 。 安装 Python 依赖： pip install python-docx lxml pillow pymupdf pytest 仅开发时需要（运行测试套件），用户不安装也可。 如果 Pandoc 由 WinGet 安装且 Python 无法调用，可额外安装普通版 Pandoc，或设置环境变量 PANDOC_EXE 指向 pandoc.exe 。 必备 LaTeX 宏包 不同期刊模板依赖不同的宏包。 建议预装以下核心宏包 以避免中途失败： 宏包 用途 安装命令（TeX Live） fontawesome5 期刊图标（copernicus/elsarticle 必需） tlmgr install fontawesome5 lineno 行号（manuscript 模式默认开启） tlmgr install lineno mathtime / hvmath 数学字体 tlmgr install mathtime hvmath algorithmic / algorithm 算法环境 tlmgr install algorithmic algorithm listings 代码列表 tlmgr install listings multirow / booktabs / tabularx 表格增强 tlmgr install multirow booktabs tabularx subfigure / subfig 子图 tl",
+        "fetched_ok": true,
+        "display_name": "12DDDCCC/word-latex-word",
+        "display_description": "将word进行latex模板编译再输出编译好的PDF格式以及编译好的word文件用于再次后续更改以及后续的输入，实现word格式的自动排版 - 12DDDCCC/word-latex-word",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "tools-engineering-productivity"
+        ],
+        "primary_category": "tools-engineering-productivity",
+        "primary_category_name": "Tools, Engineering & Productivity",
+        "primary_category_name_zh": "工具、工程与科研效率",
+        "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+        "primary_category_kind": "tool",
+        "primary_subtopic": "Research Productivity",
+        "primary_score": 8,
+        "secondary_categories": [],
+        "match_hits": [
+          "latex"
         ]
       },
       {
@@ -68902,6 +69322,44 @@
         ]
       },
       {
+        "full_name": "Imbad0202 /academic-research-skills",
+        "url": "https://github.com/Imbad0202/academic-research-skills",
+        "owner": "Imbad0202",
+        "repo": "academic-research-skills",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T03:49:17.234032+00:00",
+        "archived": false,
+        "about": "Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills",
+        "topics": [],
+        "homepage": "https://doi.org/10.5281/zenodo.20696614",
+        "readme_excerpt": "Academic Research Skills for Claude Code 简体中文版 | 繁體中文版 | 日本語版 | 한국어 A comprehensive suite of Claude Code skills for academic research, covering the full pipeline from research to publication. Install in 30 seconds (Claude Code CLI / VS Code / JetBrains, v3.7.0+): /plugin marketplace add Imbad0202/academic-research-skills /plugin install academic-research-skills Then try /ars-plan to walk through your paper structure via Socratic dialogue, or jump to Quick install for prerequisites and the traditional symlink flow. AI is your copilot, not the pilot. This tool won't write your paper for you. It handles the grunt work — hunting down references, formatting citations, verifying data, checking logical consistency — so you can focus on the parts that actually require your brain: defining the question, choosing the method, interpreting what the data means, and writing the sentence after \"I argue that.\" Unlike a humanizer, this tool doesn't help you hide the fact that you used AI. It helps you write better. Style Calibration learns your voice from past work. Writing Quality Check catches the patterns that make prose feel machine-generated. The goal is quality, not cheating. Why human-in-the-loop, not full automation? Lu et al. (2026, Nature 651:914-919) built The AI Scientist — the first fully autonomous AI research system to publish a paper through blind peer review at a top-tier ML venue (ICLR 2025 workshop, score 6.33/10 vs workshop average 4.87). Their Limitations section enumerates the failure modes that any fully-autonomous AI research pipeline inherits: implementation bugs, hallucinated results, shortcut reliance, bug-as-insight reframing, methodology fabrication, frame-lock, citation hallucinations. ARS is built on the premise that a human researcher augmented by AI avoids these failure modes better than either alone . Stage 2.5 and Stage 4.5 integrity gates run a 7-mode blocking checklist (see academic-pipeline/references/ai_research_failure_modes.md ); the reviewer offers an opt-in calibration mode that measures its own FNR/FPR against a user-supplied gold set. Zhao et al. (2026-05) audited 111M references across 2.5M papers on arXiv, bioRxiv, SSRN, and PMC. Their conservative estimate is 146,932 hallucinated citations for 2025 alone, with an observed mid-2024 inflection; for the bioRxiv-to-PMC pairing they report 85.3% preprint-to-published persistence. The paper describes \"real citations deployed to support claims the cited references do not actually make\" as an open challenge. ARS v3.7.1 added trust-chain frontmatter for source provenance; v3.7.3 added locator infrastructure (three-layer citation anchors) for future claim-level audits and surfaces advisory risk signals at cite time (ARS labels the claim-faithfulness gap internally as \"L3\"; this i",
+        "fetched_ok": true,
+        "display_name": "Imbad0202/academic-research-skills",
+        "display_description": "Academic Research Skills for Claude Code: research → write → review → revise → finalize - Imbad0202/academic-research-skills",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "tools-engineering-productivity"
+        ],
+        "primary_category": "tools-engineering-productivity",
+        "primary_category_name": "Tools, Engineering & Productivity",
+        "primary_category_name_zh": "工具、工程与科研效率",
+        "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+        "primary_category_kind": "tool",
+        "primary_subtopic": "LLM / AI Tools",
+        "primary_score": 12,
+        "secondary_categories": [],
+        "match_hits": [
+          "claude",
+          "readme:citation"
+        ]
+      },
+      {
         "full_name": "inealey /points2pano",
         "url": "https://github.com/inealey/points2pano",
         "owner": "inealey ",
@@ -71536,6 +71994,44 @@
         ]
       },
       {
+        "full_name": "ndpvt-web /latex-document-skill",
+        "url": "https://github.com/ndpvt-web/latex-document-skill",
+        "owner": "ndpvt-web",
+        "repo": "latex-document-skill",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-10T08:42:26.400935+00:00",
+        "archived": false,
+        "about": "Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill",
+        "topics": [],
+        "homepage": "https://happycapy.ai/?via=gh",
+        "readme_excerpt": "LaTeX Document Skill The capybara sat down at the typewriter. When it stood up, there was a thesis. Turn handwritten notes, scanned textbooks, and raw data into publication-ready LaTeX -- without knowing a single LaTeX command. 27 templates · 27 automation scripts · 26 reference guides · 4 OCR profiles · 217 tests · 0 LaTeX commands required The 10-Second Pitch You describe a document in plain English. This skill produces a compiled PDF. An 80-page handwritten math PDF becomes color-coded lecture notes with proper equations and TikZ diagrams. A 162-page textbook becomes a 2-page cheat sheet. A CSV becomes nine chart types. A one-line prompt becomes a thesis, a resume, a conference poster, or a 37-page book with drop caps. No LaTeX knowledge required. The capybara handles the semicolons. What Can It Actually Do? (Spoiler: more than most humans with a PhD in LaTeX.) You say... What happens under the hood \"Create my resume\" Selects from 5 ATS-optimized templates, compiles with pdflatex , generates PDF + PNG preview \"Convert my 80-page handwritten math notes into beautiful LaTeX\" pdf_to_images.sh renders at 200 DPI -> batch-7 parallel OCR agents -> math-notes.md profile generates colored tcolorbox theorems (blue), definitions (green), examples (orange) -> compile_latex.sh runs multi-pass pdflatex -> polished PDF with proper equations, proofs, and TikZ diagrams \"Turn this 162-page scan into a 2-page cheat sheet\" pdf_to_images.sh splits PDF -> vision OCR per page -> extracts key content -> symbol substitution -> telegram-style compression -> fits into cheatsheet.tex with 3-column landscape 7pt layout \"Build a quarterly report with charts\" generate_chart.py creates bar/line/pie charts from JSON/CSV -> csv_to_latex.py converts data into booktabs tables -> Mermaid/TikZ flowcharts compiled inline -> all embedded in report.tex with TOC \"Generate 9 charts from my sales CSV\" generate_chart.py reads CSV -> outputs bar, line, scatter, pie, heatmap, box, histogram, area, radar charts -> multi-series, legends, colorblind-safe Tol palette \"Convert my old PDF to LaTeX\" Pages split at 200 DPI -> parallel OCR agents -> clean .tex with profile-tuned formatting -> 0 errors per 7-page batch (validated on 115-page PDF) \"Send personalized letters to 500 candidates\" mail_merge.py loads template + CSV -> Jinja2 rendering -> 4 parallel pdflatex workers -> qpdf --pages merge into single PDF \"What changed between v1 and v2 of my thesis?\" latex_diff.sh runs latexdiff -> highlighted change-tracked PDF with additions in blue, deletions in red \"Make a NeurIPS poster\" Interactive: asks orientation -> layout -> color scheme -> generates A0 tikzposter with correct dimensions and QR codes \"Create a calculus final exam with answer key\" exam class with \\printanswers toggle, grading table, 6",
+        "fetched_ok": true,
+        "display_name": "ndpvt-web/latex-document-skill",
+        "display_description": "Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "tools-engineering-productivity"
+        ],
+        "primary_category": "tools-engineering-productivity",
+        "primary_category_name": "Tools, Engineering & Productivity",
+        "primary_category_name_zh": "工具、工程与科研效率",
+        "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
+        "primary_category_kind": "tool",
+        "primary_subtopic": "Research Productivity",
+        "primary_score": 18,
+        "secondary_categories": [],
+        "match_hits": [
+          "claude",
+          "latex"
+        ]
+      },
+      {
         "full_name": "nobleo /rviz_satellite",
         "url": "https://github.com/nobleo/rviz_satellite",
         "owner": "nobleo ",
@@ -72057,43 +72553,6 @@
           "readme:container",
           "readme:driver",
           "readme:ros"
-        ]
-      },
-      {
-        "full_name": "pypose /bae",
-        "url": "https://github.com/pypose/bae",
-        "owner": "pypose",
-        "repo": "bae",
-        "list_description": "",
-        "list_stars_label": "",
-        "list_language": "",
-        "source_lists": [
-          "manual"
-        ],
-        "fetched_at": "2026-06-22T01:47:38.139128+00:00",
-        "archived": false,
-        "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode",
-        "topics": [],
-        "homepage": "https://www.linkedin.com/in/huan-xu-999700169/?locale=en_US",
-        "readme_excerpt": "Accepted to IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Add Apple Silicon GPU support, PyTorch PR WIP Reduce runtime overhead using CUDA graph Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization An new backend for distributed solver Schur complement (added in PR #35 ) Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m pip install --no-build-isolation -v -e . # following https://github.com/pytorch/pytorch Agent Skills This repo includes skills in .agent/skills : bae-compute-graph : guidance for defining BAL/PGO and more complex compute graphs Example Usage Bundle Adjustment Bundle Adjustment optimizes camera poses and 3D point positions to minimiz",
-        "fetched_ok": true,
-        "display_name": "pypose/bae",
-        "display_description": "[T-RO 2026] Bundle Adjustment in the Eager Mode",
-        "manual_note": "",
-        "manual_labels": [],
-        "labels": [
-          "tools-engineering-productivity"
-        ],
-        "primary_category": "tools-engineering-productivity",
-        "primary_category_name": "Tools, Engineering & Productivity",
-        "primary_category_name_zh": "工具、工程与科研效率",
-        "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
-        "primary_category_kind": "tool",
-        "primary_subtopic": "LLM / AI Tools",
-        "primary_score": 2,
-        "secondary_categories": [],
-        "match_hits": [
-          "readme:agent"
         ]
       },
       {
@@ -76925,6 +77384,46 @@
         ]
       },
       {
+        "full_name": "pypose /bae",
+        "url": "https://github.com/pypose/bae",
+        "owner": "pypose",
+        "repo": "bae",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-25T02:59:16.129088+00:00",
+        "archived": false,
+        "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode. Contribute to pypose/bae development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://www.linkedin.com/in/huan-xu-999700169/?locale=en_US",
+        "readme_excerpt": "IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Reduce runtime overhead using CUDA graph; compile fwd & backward with torch.compile() reducing latency from 10ms to 2.2ms (added in PR #41 ) Reduce kernel launching cost in PCG solver by kernel fusion Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization (WIP in distributed_dt ) Schur complement (added in PR #35 ) Add Apple Silicon GPU support, PyTorch PR WIP Community-requested features: Need support for a new framework, hardware backend, or more efficient memory allocation? Open an issue and tell us about your use case; we’d love to hear what you need. Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m ",
+        "fetched_ok": true,
+        "display_name": "pypose/bae",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "mapping-map-representation"
+        ],
+        "labels": [
+          "visual-inertial-odometry",
+          "mapping-map-representation"
+        ],
+        "primary_category": "visual-inertial-odometry",
+        "primary_category_name": "Visual / Visual-Inertial State Estimation",
+        "primary_category_name_zh": "视觉里程计与视觉惯导",
+        "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "robot-learning-freiburg /CL-SLAM",
         "url": "https://github.com/robot-learning-freiburg/CL-SLAM",
         "owner": "robot-learning-freiburg ",
@@ -76979,15 +77478,15 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-09T02:33:37.681706+00:00",
+        "fetched_at": "2026-08-26T08:16:39.822671+00:00",
         "archived": false,
-        "about": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+        "about": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
         "topics": [],
-        "homepage": "https://rerun.io/",
-        "readme_excerpt": "gsolver G-solver: Gaussian Belief Propagation (GBP) with Gaussian Processes (GP) for Distributed and Continuous-Time SLAM A C++/Python library implementing Gaussian Belief Propagation (GBP) for Simultaneous Localization and Mapping (SLAM) with continuous-time Gaussian Process (GP) motion priors. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Accepted to IEEE Robotics and Automation Letters (RA-L) on May 24, 2026. Repository: https://github.com/rvp-group/gsolver (SSH: git@github.com :rvp-group/gsolver.git) If you use this code in your research, please cite our paper. 🎯 Features Gaussian Belief Propagation Solver : Efficient message-passing inference on factor graphs Continuous-Time GP Motion Priors : Smooth trajectory estimation with learnable hyperparameters SE(3) Pose Optimization : Full 6-DoF pose estimation with velocity states Bundle Adjustment : Joint optimization of poses and landmarks Incremental SLAM : Online operation with new measurements Real-time Visualization : Integration with Rerun for 3D visualization Python Bindings : Full Python API via nanobind 📁 Project Structure gsolver/ ├── gsolver/ # Core C++ library │ ├── include/gsolver/ # Public headers │ │ ├── core/ # GBP solver, messages │ │ ├── graph/ # Factor graph, nodes │ │ └── maths/ # Geometry, lie algebra │ └── src/ # Implementation ├── python/ # Python bindings (nanobind) ├── examples/ │ ├── cpp/ # C++ experiments │ │ ├── apps/ # Experiment executables │ │ └── common/ # Shared utilities │ ├── python/ # Python experiments │ │ ├── apps/ # Experiment scripts │ │ └── common/ # Shared utilities │ ├── config/ # Experiment parameters │ └── data/ # Datasets and generators └── cmake/ # CMake configuration 🛠️ Building Prerequisites C++17 compatible compiler (GCC 9+, Clang 10+) CMake 3.16+ OpenMP (for parallel GBP) yaml-cpp (for configuration files) Python 3.8+ (for Python bindings) On Ubuntu/Debian: sudo apt-get install build-essential cmake libomp-dev libyaml-cpp-dev python3-dev C++ Library # Clone the repository git clone git@github.com:rvp-group/gsolver.git cd gsolver # Create build directory mkdir build && cd build # Configure with examples and Python bindings cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON # Build make -j $( nproc ) CMake Options: Option Default Description GSOLVER_BUILD_EXAMPLES OFF Build C++ example executables GSOLVER_BUILD_PYTHON OFF Build Python bindings GSOLVER_BUILD_TESTS OFF Build unit tests (not yet provided) Python Package Option 1: Install from source (recommended for development) pip install -e . Option 2: Build wheel pip install build python -m build pip install dist/gsolver- * .whl Dependencies for examples: pip install numpy pyyaml rerun-sdk 📊 Generating Synthetic Datasets The library includes a d",
+        "homepage": "https://arxiv.org/abs/2606.06250",
+        "readme_excerpt": "gsolver Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM gsolver is a fully Gaussian, distributed framework for continuous-time SLAM that pairs Gaussian Belief Propagation (GBP) with Gaussian Process (GP) motion priors. The GP model gives a probabilistic trajectory with consistent interpolation and data-driven hyperparameters; GBP provides a scalable, decentralized message-passing solver that extends naturally to multi-robot and rolling-shutter settings, at runtimes comparable to existing continuous-time methods. The repository ships a C++17 core library with full Python bindings. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Davide Ceriola*, Simone Ferrari*, Luca Di Giammarino, Leonardo Brizi, Giorgio Grisetti IEEE Robotics and Automation Letters (RA-L), 2026. — arXiv:2606.06250 If you use this code in your research, please cite our paper: @article { ceriola2026breaking , title = { Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM } , author = { Ceriola, Davide and Ferrari, Simone and Di Giammarino, Luca and Brizi, Leonardo and Grisetti, Giorgio } , journal = { IEEE Robotics and Automation Letters (RA-L) } , year = { 2026 } , note = { To appear. arXiv:2606.06250 } } ✨ Features Gaussian Belief Propagation solver — efficient message-passing inference on factor graphs Continuous-time GP motion priors — smooth trajectory estimation with learnable hyperparameters SE(3) pose optimization — full 6-DoF estimation with velocity states Bundle adjustment and incremental SLAM — joint pose/landmark and online operation Distributed & multi-camera — decentralized message passing, no special synchronization Real-time visualization via Rerun , and a full Python API through nanobind 🚀 Quick Start The fastest path is Docker, which handles every dependency and sets up X11 forwarding for visualization: git clone git@github.com:rvp-group/gsolver.git cd gsolver ./docker-run.sh # builds the image (first run) and drops you in the container Inside the container, build the library and examples: mkdir build && cd build cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON make -j $( nproc ) Then run a bundle-adjustment experiment on the bundled ChArUco dataset, with live 3D visualization: ./build/examples/cpp/charuco_experiment_ba \\ examples/data/datasets/charuco/printing_room_0.g2o \\ ./tmp/ba_result.tum 0.0 -visualize The synthetic pose-graph and prior experiments need datasets generated first (see below). Native (non-Docker) builds, dataset generation, all experiments, configuration, and the full C++/Python API are documented in docs/USAGE.md . 📦 Minimal Example import numpy as np from gsolver import ( FactorGraph , GbpSolver , SolverScheduleType , SE3Pose",
         "fetched_ok": true,
         "display_name": "rvp-group/gsolver",
-        "display_description": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+        "display_description": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
         "manual_note": "",
         "manual_labels": [
           "mapping-map-representation"
@@ -81768,6 +82267,46 @@
         ]
       },
       {
+        "full_name": "leggedrobotics /DiskChunGS",
+        "url": "https://github.com/leggedrobotics/DiskChunGS",
+        "owner": "leggedrobotics",
+        "repo": "DiskChunGS",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T08:57:19.803286+00:00",
+        "archived": false,
+        "about": "[RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS",
+        "topics": [],
+        "homepage": "https://scholar.google.com/citations?user=WNqWurwAAAAJ&amp;hl=en&amp;oi=ao",
+        "readme_excerpt": "DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management Casimir Feldmann 1 , Max Wilder-Smith 1 , Vaishakh Patil 1 , Michael Niemeyer 2 , Michael Oechsle 2 , Keisuke Tateno 2 , and Marco Hutter 1 ETH Zurich 1 , Google 2 [ Paper ] [ Project ] [ Video ] Overview Recent advances in 3D Gaussian Splatting (3DGS) have demonstrated impressive results for novel view synthesis with real-time rendering capabilities. However, integrating 3DGS with SLAM systems faces a fundamental scalability limitation: methods are constrained by GPU memory capacity, restricting reconstruction to small-scale environments. We present DiskChunGS, a scalable 3DGS SLAM system that overcomes this bottleneck through an out-of-core approach that partitions scenes into spatial chunks and maintains only active regions in GPU memory while storing inactive areas on disk. Our architecture integrates seamlessly with existing SLAM frameworks for pose estimation and loop closure, enabling globally consistent reconstruction at scale. We validate DiskChunGS on indoor scenes (Replica, TUM-RGBD), urban driving scenarios (KITTI), and resource-constrained Nvidia Jetson platforms. Our method uniquely completes all 11 KITTI sequences without memory failures while achieving superior visual quality, demonstrating that algorithmic innovation can overcome the memory constraints that have limited previous 3DGS SLAM methods. Table of Contents Overview Installation Getting Started Evaluation ROS Usage Acknowledgements Citation Installation # Clone this repo git clone --recursive git@github.com:leggedrobotics/DiskChunGS.git cd DiskChunGS # Build the development container (for Jetson use docker-compose_jetson.yml) docker compose -f docker/docker-compose.yml build dev # Start the development container (for Jetson use docker-compose_jetson.yml) docker compose -f docker/docker-compose.yml run --rm dev # Inside the container, build the application ./scripts/build.sh Getting Started Preparing Datasets The benchmark datasets mentioned in our paper: Replica (NICE-SLAM Version) TUM RGB-D KITTI Create a dataset folder to bind into the container. Edit the dev section of docker-compose.yml to set the path: - /path/to/your/datasets:/data Download the desired dataset: scripts/download_replica.sh scripts/download_tum.sh For KITTI: Download odometry data set (color, 65 GB) Download odometry ground truth poses (4 MB) Download odometry data set (calibration files, 1 MB) Then combine these to create the following file structure: kitti ├── data_odometry_color └── dataset |── sequences | |── 00 | | |── calib.txt | | |── image_2 | | |── image_3 | | |── times.txt | |── 01 | ... └── poses |── 00.txt |── 01.txt ... Running the System Allow the container to connect to your display: xhost +local:root Run xhost -",
+        "fetched_ok": true,
+        "display_name": "leggedrobotics/DiskChunGS",
+        "display_description": "[RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "mapping-map-representation"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "3D Gaussian Splatting",
+        "primary_score": 27,
+        "secondary_categories": [],
+        "match_hits": [
+          "readme:3d gaussian splatting",
+          "readme:3dgs",
+          "readme:gaussian splatting",
+          "readme:splatting"
+        ]
+      },
+      {
         "full_name": "lif314 /awesome-NeRF-papers",
         "url": "https://github.com/lif314/awesome-NeRF-papers",
         "owner": "lif314 ",
@@ -83201,6 +83740,46 @@
         ]
       },
       {
+        "full_name": "pypose /bae",
+        "url": "https://github.com/pypose/bae",
+        "owner": "pypose",
+        "repo": "bae",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-25T02:59:16.129088+00:00",
+        "archived": false,
+        "about": "[T-RO 2026] Bundle Adjustment in the Eager Mode. Contribute to pypose/bae development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://www.linkedin.com/in/huan-xu-999700169/?locale=en_US",
+        "readme_excerpt": "IEEE Transactions on Robotics (T-RO) , 2026 Zitong Zhan , Huan Xu , Zihang Fang, Xinpeng Wei , Yaoyu Hu , and Chen Wang 🌐 Project Page | 📄 PDF ⚠️ User Notice : bae has been supported by LM in PyPose as a sparse backend and is available from v0.9.5 or higher. Please refer to this example and docs of psjac , a shared API for both libraries. bae is a PyTorch-based library supporting exact 2nd-order optimization techniques. The library provides efficient implementations for sparse optimization problems in robotics, particularly Bundle Adjustment (BA) and Pose Graph Optimization (PGO). Bundle Adjustment Indoor Bonsai Kitchen bae powering BA and global positioning in downstream system, InstantSfM . Pose Graph Optimization Sphere Big Noise Grid3D Sphere (g2o) News 2026-03-22: Added skills for coding agents to write custom compute graphs. 2025-12-12: Added a VGGT integration example. Features Sparse Block Matrix Operations : Optimized implementations of sparse matrix operations for large-scale optimization CUDA Acceleration : Custom CUDA kernels for high-performance sparse linear algebra PyTorch Integration : Seamlessly integrates with PyTorch's automatic differentiation framework Levenberg-Marquardt Optimizer : The vanilla LM algorithm for non-linear least squares problems Schur Complement Optimizer : Solve a Schur-reduce linear system for optimized memory consumption Future Plan Reduce runtime overhead using CUDA graph; compile fwd & backward with torch.compile() reducing latency from 10ms to 2.2ms (added in PR #41 ) Reduce kernel launching cost in PCG solver by kernel fusion Distributed Tensor (DTensor) and FSDP support for multi-GPU and distributed optimization (WIP in distributed_dt ) Schur complement (added in PR #35 ) Add Apple Silicon GPU support, PyTorch PR WIP Community-requested features: Need support for a new framework, hardware backend, or more efficient memory allocation? Open an issue and tell us about your use case; we’d love to hear what you need. Installation Prerequisites CUDA toolkit (tested with CUDA 12.x) PyTorch (2.0+) (Optional) CUDSS (CUDA Sparse Solver library) User Setup Instructions python -m pip install git+https://github.com/pypose/bae.git Developer Setup Instructions (Optional) Install CUDSS with pip package manager. For CUDA 12.x, install nvidia-cudss-cu12 . We verified nvidia-cudss-cu12==0.6.0.5 and nvidia-cudss-cu12==0.7.1.6 work with bae : pip install \" nvidia-cudss-cu12<=0.7.1.6 \" For CUDA 13.x, install nvidia-cudss-cu13<=0.7.1.6 : pip install \" nvidia-cudss-cu13<=0.7.1.6 \" Install PyPose: pip install git+https://github.com/pypose/pypose.git Clone this repository: git clone https://github.com/zitongzhan/bae.git cd bae Install dependencies: pip install -r requirements.txt Install the package in development mode: python -m ",
+        "fetched_ok": true,
+        "display_name": "pypose/bae",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "mapping-map-representation"
+        ],
+        "labels": [
+          "visual-inertial-odometry",
+          "mapping-map-representation"
+        ],
+        "primary_category": "visual-inertial-odometry",
+        "primary_category_name": "Visual / Visual-Inertial State Estimation",
+        "primary_category_name_zh": "视觉里程计与视觉惯导",
+        "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "ranahanocka /point2mesh",
         "url": "https://github.com/ranahanocka/point2mesh",
         "owner": "ranahanocka ",
@@ -83458,15 +84037,15 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-09T02:33:37.681706+00:00",
+        "fetched_at": "2026-08-26T08:16:39.822671+00:00",
         "archived": false,
-        "about": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+        "about": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
         "topics": [],
-        "homepage": "https://rerun.io/",
-        "readme_excerpt": "gsolver G-solver: Gaussian Belief Propagation (GBP) with Gaussian Processes (GP) for Distributed and Continuous-Time SLAM A C++/Python library implementing Gaussian Belief Propagation (GBP) for Simultaneous Localization and Mapping (SLAM) with continuous-time Gaussian Process (GP) motion priors. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Accepted to IEEE Robotics and Automation Letters (RA-L) on May 24, 2026. Repository: https://github.com/rvp-group/gsolver (SSH: git@github.com :rvp-group/gsolver.git) If you use this code in your research, please cite our paper. 🎯 Features Gaussian Belief Propagation Solver : Efficient message-passing inference on factor graphs Continuous-Time GP Motion Priors : Smooth trajectory estimation with learnable hyperparameters SE(3) Pose Optimization : Full 6-DoF pose estimation with velocity states Bundle Adjustment : Joint optimization of poses and landmarks Incremental SLAM : Online operation with new measurements Real-time Visualization : Integration with Rerun for 3D visualization Python Bindings : Full Python API via nanobind 📁 Project Structure gsolver/ ├── gsolver/ # Core C++ library │ ├── include/gsolver/ # Public headers │ │ ├── core/ # GBP solver, messages │ │ ├── graph/ # Factor graph, nodes │ │ └── maths/ # Geometry, lie algebra │ └── src/ # Implementation ├── python/ # Python bindings (nanobind) ├── examples/ │ ├── cpp/ # C++ experiments │ │ ├── apps/ # Experiment executables │ │ └── common/ # Shared utilities │ ├── python/ # Python experiments │ │ ├── apps/ # Experiment scripts │ │ └── common/ # Shared utilities │ ├── config/ # Experiment parameters │ └── data/ # Datasets and generators └── cmake/ # CMake configuration 🛠️ Building Prerequisites C++17 compatible compiler (GCC 9+, Clang 10+) CMake 3.16+ OpenMP (for parallel GBP) yaml-cpp (for configuration files) Python 3.8+ (for Python bindings) On Ubuntu/Debian: sudo apt-get install build-essential cmake libomp-dev libyaml-cpp-dev python3-dev C++ Library # Clone the repository git clone git@github.com:rvp-group/gsolver.git cd gsolver # Create build directory mkdir build && cd build # Configure with examples and Python bindings cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON # Build make -j $( nproc ) CMake Options: Option Default Description GSOLVER_BUILD_EXAMPLES OFF Build C++ example executables GSOLVER_BUILD_PYTHON OFF Build Python bindings GSOLVER_BUILD_TESTS OFF Build unit tests (not yet provided) Python Package Option 1: Install from source (recommended for development) pip install -e . Option 2: Build wheel pip install build python -m build pip install dist/gsolver- * .whl Dependencies for examples: pip install numpy pyyaml rerun-sdk 📊 Generating Synthetic Datasets The library includes a d",
+        "homepage": "https://arxiv.org/abs/2606.06250",
+        "readme_excerpt": "gsolver Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM gsolver is a fully Gaussian, distributed framework for continuous-time SLAM that pairs Gaussian Belief Propagation (GBP) with Gaussian Process (GP) motion priors. The GP model gives a probabilistic trajectory with consistent interpolation and data-driven hyperparameters; GBP provides a scalable, decentralized message-passing solver that extends naturally to multi-robot and rolling-shutter settings, at runtimes comparable to existing continuous-time methods. The repository ships a C++17 core library with full Python bindings. 📄 Paper Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM Davide Ceriola*, Simone Ferrari*, Luca Di Giammarino, Leonardo Brizi, Giorgio Grisetti IEEE Robotics and Automation Letters (RA-L), 2026. — arXiv:2606.06250 If you use this code in your research, please cite our paper: @article { ceriola2026breaking , title = { Breaking Time: A Fully Gaussian Framework for Distributed and Continuous-Time SLAM } , author = { Ceriola, Davide and Ferrari, Simone and Di Giammarino, Luca and Brizi, Leonardo and Grisetti, Giorgio } , journal = { IEEE Robotics and Automation Letters (RA-L) } , year = { 2026 } , note = { To appear. arXiv:2606.06250 } } ✨ Features Gaussian Belief Propagation solver — efficient message-passing inference on factor graphs Continuous-time GP motion priors — smooth trajectory estimation with learnable hyperparameters SE(3) pose optimization — full 6-DoF estimation with velocity states Bundle adjustment and incremental SLAM — joint pose/landmark and online operation Distributed & multi-camera — decentralized message passing, no special synchronization Real-time visualization via Rerun , and a full Python API through nanobind 🚀 Quick Start The fastest path is Docker, which handles every dependency and sets up X11 forwarding for visualization: git clone git@github.com:rvp-group/gsolver.git cd gsolver ./docker-run.sh # builds the image (first run) and drops you in the container Inside the container, build the library and examples: mkdir build && cd build cmake .. -DGSOLVER_BUILD_EXAMPLES=ON -DGSOLVER_BUILD_PYTHON=ON make -j $( nproc ) Then run a bundle-adjustment experiment on the bundled ChArUco dataset, with live 3D visualization: ./build/examples/cpp/charuco_experiment_ba \\ examples/data/datasets/charuco/printing_room_0.g2o \\ ./tmp/ba_result.tum 0.0 -visualize The synthetic pose-graph and prior experiments need datasets generated first (see below). Native (non-Docker) builds, dataset generation, all experiments, configuration, and the full C++/Python API are documented in docs/USAGE.md . 📦 Minimal Example import numpy as np from gsolver import ( FactorGraph , GbpSolver , SolverScheduleType , SE3Pose",
         "fetched_ok": true,
         "display_name": "rvp-group/gsolver",
-        "display_description": "G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM",
+        "display_description": "[RAL 2026] G-solver: Gaussian Belief Propagation (GBP) solver with Gaussian Processes (GP) for continuous-time SLAM - rvp-group/gsolver",
         "manual_note": "",
         "manual_labels": [
           "mapping-map-representation"
@@ -90362,6 +90941,48 @@
         ],
         "match_hits": [
           "lidar odometry"
+        ]
+      },
+      {
+        "full_name": "ChiyunNoh /TRaIL-Odom",
+        "url": "https://github.com/ChiyunNoh/TRaIL-Odom",
+        "owner": "ChiyunNoh",
+        "repo": "TRaIL-Odom",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T09:18:15.226192+00:00",
+        "archived": false,
+        "about": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "TRaIL-Odom [RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting",
+        "fetched_ok": true,
+        "display_name": "ChiyunNoh/TRaIL-Odom",
+        "display_description": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "manual_note": "",
+        "manual_labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "labels": [
+          "lidar-odometry",
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "primary_category": "lidar-odometry",
+        "primary_category_name": "LiDAR State Estimation",
+        "primary_category_name_zh": "纯激光里程计",
+        "primary_category_description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -99772,6 +100393,43 @@
         ]
       },
       {
+        "full_name": "ARVCUMH /fisheye_lidar_calibration",
+        "url": "https://github.com/ARVCUMH/fisheye_lidar_calibration",
+        "owner": "ARVCUMH",
+        "repo": "fisheye_lidar_calibration",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T03:53:50.963585+00:00",
+        "archived": false,
+        "about": "A method to calibrate the coordinate transformation between a fisheye camera and a LIDAR - ARVCUMH/fisheye_lidar_calibration",
+        "topics": [],
+        "homepage": "https://pytorch.org/get-started/previous-versions/",
+        "readme_excerpt": "fisheye_lidar_calibration fisheye_lidar_calibration is an open source implementation of a target-based method for LiDAR and fisheye camera calibration. It finds the rotation and translation between fisheye camera and LiDAR and use them to project LiDAR data onto the corresponding fisheye image. Installation Git clone the repository: git clone https://github.com/ARVCUMH/fisheye_lidar_calibration Install requirements: cd fisheye_lidar_calibration/ pip install -r requirements.txt The code requires python>=3.8 , as well as pytorch>=1.7 and torchvision>=0.8 . Install Pytorch version from the Pytorch website and follow the instructions. Segment Anything To detect plane corners from image data, this callibration tool uses Segment Anything . Git clone the Segment Anything inside your project folder , then copy the folder segment_anything inside the project folder and remove the rest. git clone https://github.com/facebookresearch/segment-anything.git cd segment-anything/ cp -r segment_anything/ .. cd .. rm -r segment-anything/ SAM Model Segment Anything model is needed to perform a plane segmentation. You can download the checkpoint for the corresponding model type from these links: default or vit_h : ViT-H SAM model. vit_l : ViT-L SAM model. vit_b : ViT-B SAM model. Make sure the downloaded model is inside your project folder (fisheye_lidar_calibration). Configuration Calibration file For using this calibration method, the existence of a calibration file is completely crucial. This calibration file contains the fisheye camera parameters needed for the lidar point projection. The format of this .txt file must be as follows: #polynomial coefficients for the DIRECT mapping function (ocam_model.ss in MATLAB). These are used by cam2world 5 -7.121702e+02 0.000000e+00 4.812818e-04 -1.435090e-07 1.699419e-10 #polynomial coefficients for the inverse mapping function (ocam_model.invpol in MATLAB). These are used by world2cam 12 1147.898677 733.075584 11.510652 77.773746 70.045334 -1.172804 7.788372 31.755008 7.286971 -11.630820 -7.017475 -1.154235 #center: \"row\" and \"column\", starting from 0 (C convention) 1073.715833 1285.434616 #affine parameters \"c\", \"d\", \"e\" 0.999946 -0.001141 -0.001446 #image size: \"height\" and \"width\" 2160 2600 This file is generated by the Davide Scaramuzza's toolbox , implemented in MATLAB. Follow the instructions to generate the calibration file. Configuration Parameters A config.yaml file is used to adjust the parameters to the experiment data. Experiment paths # Experiment data images_path: \"demo/images_frontal\" #\"demo/images\" spherical: False # True if you are using spherical images, False if you are using fisheye images pointclouds_path: \"demo/pointclouds_frontal\" #\"demo/pointclouds\" # Calibration data calibration_file: \"demo/calib_result",
+        "fetched_ok": true,
+        "display_name": "ARVCUMH/fisheye_lidar_calibration",
+        "display_description": "A method to calibrate the coordinate transformation between a fisheye camera and a LIDAR - ARVCUMH/fisheye_lidar_calibration",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "calibration-synchronization"
+        ],
+        "primary_category": "calibration-synchronization",
+        "primary_category_name": "Calibration & Time Synchronization",
+        "primary_category_name_zh": "标定与时间同步",
+        "primary_category_description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 23,
+        "secondary_categories": [],
+        "match_hits": [
+          "calibration"
+        ]
+      },
+      {
         "full_name": "Clothooo /lvt2calib",
         "url": "https://github.com/Clothooo/lvt2calib",
         "owner": "Clothooo ",
@@ -107048,6 +107706,46 @@
         "primary_category_name": "Multi-Robot SLAM & Collaborative Perception",
         "primary_category_name_zh": "多机器人 SLAM 与协同感知",
         "primary_category_description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
+        "full_name": "url-kaist /multi-mapcher",
+        "url": "https://github.com/url-kaist/multi-mapcher",
+        "owner": "url-kaist",
+        "repo": "multi-mapcher",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T09:22:14.398289+00:00",
+        "archived": false,
+        "about": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2511.00635",
+        "readme_excerpt": "Multi-Mapcher Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Build and usage Prerequisites Interface Tested environment ROS 1 Ubuntu 20.04, ROS Noetic ROS 2 Ubuntu 22.04, ROS Humble The shared core requires C++17, CMake 3.16+, Eigen3, GTSAM, PCL, and yaml-cpp. Docker users can skip the native dependency installation. sudo apt update sudo apt install software-properties-common sudo add-apt-repository -y ppa:borglab/gtsam-release-4.2 sudo apt update sudo apt install git build-essential cmake libeigen3-dev libgtsam-dev \\ libpcl-dev libtbb-dev libyaml-cpp-dev Clone the Multi-Mapcher: git clone --recurse-submodules https://github.com/url-kaist/multi-mapcher.git ROS 1 Noetic Place the repository at <catkin_ws>/src/multi-mapcher . From the catkin workspace root with ROS Noetic sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y catkin_make -DCMAKE_BUILD_TYPE=Release source devel/setup.bash roslaunch multi_mapcher run.launch \\ dataset_yaml:=/absolute/path/to/dataset.yaml ROS 2 Humble Place the repository at <colcon_ws>/src/multi-mapcher . From the colcon workspace root with ROS Humble sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y colcon build --packages-select multi_mapcher \\ --cmake-args -DCMAKE_BUILD_TYPE=Release source install/setup.bash ros2 launch multi_mapcher run.launch.py \\ dataset_yaml:=/absolute/path/to/dataset.yaml The dataset YAML selects mode: single_session or mode: multi_session . Both ROS versions use the same YAML files and C++ core. Workflow and guides Install AutoDataloader with python3 -m pip install autodataloader , convert MulRan or HeLiPR, and provide an estimated SLAM trajectory for every LiDAR session. Run single_session and inspect each generated after/ result. Use those verified after/ directories as the multi_session inputs. Enable iSAE in the multi-session YAML when ground truth is available. Start with config/parameters/s2sub.yaml . sub2sub.yaml is an optional, slower preset that uses larger source and target submaps. Default values and adjustment ranges are documented directly in both YAML files. See the usage guide for MulRan/HeLiPR conversion, dataset YAML, single-to-multi execution, outputs, and iSAE. Use docker/ros1/run_docker.sh or docker/ros2/run_docker.sh for container execution; see Docker . Warning Multi-session optimization requires the intra-session loop constraints saved in each after/pose_graph.g2o . The program rejects a pose-only trajectory because its odometry-only graph can deform or collapse during optimization. Citation If this repository supports your research, please cite our Multi-Mapcher paper: @article { lim2026tiv , title = { {Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust R",
+        "fetched_ok": true,
+        "display_name": "url-kaist/multi-mapcher",
+        "display_description": "Multi-Mapcher: Loop closure detection-free heterogeneous LiDAR multi-session SLAM leveraging outlier-robust registration for autonomous vehicles (T-IV) - url-kaist/multi-mapcher",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "place-recognition-loop-closure",
+          "multi-robot-slam"
+        ],
+        "primary_category": "place-recognition-loop-closure",
+        "primary_category_name": "Place Recognition & Loop Closure",
+        "primary_category_name_zh": "地点识别与回环检测",
+        "primary_category_description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "",
         "primary_score": 999,
@@ -115263,32 +115961,23 @@
       {
         "full_name": "barbeau /awesome-gnss",
         "url": "https://github.com/barbeau/awesome-gnss",
-        "owner": "barbeau ",
+        "owner": "barbeau",
         "repo": "awesome-gnss",
-        "list_description": "Community list of open-source GNSS software and resources 📡",
-        "list_stars_label": "566",
+        "list_description": "",
+        "list_stars_label": "",
         "list_language": "",
         "source_lists": [
-          "gnss"
+          "manual"
         ],
-        "fetched_at": "2026-06-06T14:58:04.646959+00:00",
+        "fetched_at": "2026-08-26T08:15:55.066862+00:00",
         "archived": false,
-        "about": "Community list of open-source GNSS software and resources 📡",
-        "topics": [
-          "awesome",
-          "awesome-list",
-          "galileo",
-          "gnss",
-          "gps",
-          "gpstest",
-          "raw-measurements",
-          "satellite"
-        ],
+        "about": "Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss",
+        "topics": [],
         "homepage": "https://awesome.re",
         "readme_excerpt": "awesome-gnss Community list of open-source Global Navigation Satellite System (GNSS) software and resources 📡 Have something to add or change? Open a pull request or issue . This is a community resource for informational use only - listing of a project/product does not imply endorsement. Contents Android apps (open-source) iOS apps (open-source) Desktop tools (open-source) Desktop tools (proprietary) Web tools (proprietary) Libraries and interfaces Data Social media Blogs Wikis Videos Articles Peer-reviewed publications Books Lists Android apps (open-source) GPSTest ( Google Play , F-Droid , Source code ) - Supports dual-frequency GNSS for GPS, GLONASS, QZSS, BeiDou/COMPASS, Galileo, IRNSS, as well as various SBAS systems. Supports measuring accuracy using a ground truth location and file logging for NMEA, raw measurements, navigation messages, and location data. Logs are compatible with Google's GPS Measurement Tools suite to visualize data . GNSSLogger ( Source code ) - Log raw measurements for visualization in Google's GPS Measurement Tools suite. No longer maintained by Google. A proprietary Google fork of the project can be downloaded from Google Play here . GNSS Compare ( Google Play , Documentation , Source code ) - Supporting calculating positions from raw measurements for GPS and Galileo. Beta support for dual-frequency. react-native-gnss-status-checker - A React Native module to check GNSS status and satellite information on Android, including NavIC and dual-frequency GPS support. RTKGPS+ ( Google Play ) - Android frontend of RTKLIB. Sat Stat ( F-Droid , Source code ) - Android Location, Sensor and Radio Network Status. BasicAirData GPS Logger ( Google Play , Source code ) - A GPS logger for Android mobile devices. iOS apps (open-source) Open GPX Tracker ( App Store , Source code ) - Open source GPX tracker app written in Swift. Overland-iOS ( App Store , Source code ) - An experiment at gathering data from an iPhone to test the Core Location API and its various settings. Desktop tools (open-source) Android GNSS Logger to RINEX converter ( Source code ) - A Python script that converts raw measurements in the CSV format supported by GnssLogger and GPSTest to the RINEX format. Anubis ( Download ) - Quality checks for GNSS data in RINEX2/3 format. Basic version is free and open-source, Pro and Real-time features available at a cost. BKG Ntrip Client (BNC) ( Download ) - BNC is an open-source multi-stream client designed for a variety of real-time GNSS applications. It was primarily designed for receiving data streams from any Ntrip supporting Broadcaster. It can compute a real-time Precise Point Positioning (PPP) solution from RTCM streams or RINEX files. See related open-source tools for Ntrip on this page . BUAA-RINEX-Convertor ( Source code",
         "fetched_ok": true,
         "display_name": "barbeau/awesome-gnss",
-        "display_description": "Community list of open-source GNSS software and resources 📡",
+        "display_description": "Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss",
         "manual_note": "",
         "manual_labels": [],
         "labels": [
@@ -115300,12 +115989,11 @@
         "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "",
-        "primary_score": 44,
+        "primary_score": 22,
         "secondary_categories": [],
         "match_hits": [
           "gnss",
-          "gps",
-          "list:gnss"
+          "readme:gps"
         ]
       },
       {
@@ -116950,6 +117638,48 @@
         ]
       },
       {
+        "full_name": "ChiyunNoh /TRaIL-Odom",
+        "url": "https://github.com/ChiyunNoh/TRaIL-Odom",
+        "owner": "ChiyunNoh",
+        "repo": "TRaIL-Odom",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T09:18:15.226192+00:00",
+        "archived": false,
+        "about": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "TRaIL-Odom [RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting",
+        "fetched_ok": true,
+        "display_name": "ChiyunNoh/TRaIL-Odom",
+        "display_description": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "manual_note": "",
+        "manual_labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "labels": [
+          "lidar-odometry",
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "primary_category": "lidar-odometry",
+        "primary_category_name": "LiDAR State Estimation",
+        "primary_category_name_zh": "纯激光里程计",
+        "primary_category_description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "christopherdoer /reve",
         "url": "https://github.com/christopherdoer/reve",
         "owner": "christopherdoer ",
@@ -117441,19 +118171,26 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-26T02:01:31.943136+00:00",
+        "fetched_at": "2026-08-26T08:09:36.833798+00:00",
         "archived": false,
-        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
         "topics": [],
-        "homepage": "",
-        "readme_excerpt": "FIRE-LIVWO [IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "homepage": "https://orcid.org/0000-0002-2395-9543",
+        "readme_excerpt": "FIRE-LIVWO Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Kun Hu 1 · Menggang Li 1,† · Kaidi Wu 1 · Zhiwen Jin 1 · Yingjie Zhao 1 · Chaoquan Tang 1 · Eryi Hu 2 · Gongbo Zhou 1 1 China University of Mining and Technology, Xuzhou, China 2 Information Institute, Ministry of Emergency Management, China † Corresponding author Project Page · Paper · Video · Figures · Citation FIRE-LIVWO completes the smoke-filled and geometrically degenerate tunnel sequence while the evaluated baselines drift or fail. Click the image to visit the project page. At a glance FIRE-LIVWO is a tightly coupled LiDAR–inertial–visual–wheel odometry system enhanced by 4D mmWave radar for large-scale underground coal mines. It addresses two distinct but frequently coupled failures: smoke-induced visual degradation and geometric underconstraint in long, repetitive corridors. Radar, LiDAR, vision, wheel odometry, and IMU measurements are fused in an iterated error-state Kalman filter (IESKF), while online observability analysis selects the appropriate fusion mode. Smoke robustness Corridor robustness Online detection Estimator Radar geometry + Doppler velocity Wheel odometry + NHC Visual + geometric observability Tightly coupled IESKF Note This release contains the accepted paper, one-minute supplementary video, and publication figures. The implementation and dataset are not included in the current repository snapshot. News 2026-08-23 — Paper, supplementary video, figures, and project page released. 2026-06 — FIRE-LIVWO accepted to IROS 2026 . 🎉 Method System overview. Radar, LiDAR, visual, wheel, and inertial constraints are scheduled by online degradation detection and fused within one IESKF pipeline. FIRE-LIVWO contributes four tightly connected components: Unified radar–LiDAR–visual map. LiDAR and radar point-to-plane residuals share an adaptive VoxelMap with sparse direct visual photometric residuals. Failure-immune radar enhancement. Radar geometric observations and pointwise Doppler-velocity residuals preserve motion information when smoke suppresses image contrast and corrupts LiDAR returns. Wheel-aided geometric robustness. Wheel odometry, nonholonomic constraints (NHC), and online lever-arm compensation reduce drift along underconstrained tunnel directions. Observability-aware adaptive fusion. Visual and geometric scores identify degradation online and switch among LIV, LIVR, LIVW, and LIVRW modes. Adaptive fusion. Radar constraints are activated for visual degradation, wheel constraints for geometric degradation, and both for simultaneous failures. Condition Detector state Fusion mode Active complementary constraint Nominal Dᵥ = 0 , Dɢ = 0 LIV LiDAR + IMU ",
         "fetched_ok": true,
         "display_name": "KJ-Falloutlast/FIRE-LIVWO",
-        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement",
+        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
         "manual_note": "",
-        "manual_labels": [],
+        "manual_labels": [
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
         "labels": [
-          "radar-slam-perception"
+          "radar-slam-perception",
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
         ],
         "primary_category": "radar-slam-perception",
         "primary_category_name": "Radar SLAM & Perception",
@@ -117461,13 +118198,10 @@
         "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "",
-        "primary_score": 31,
-        "secondary_categories": [
-          "lidar-visual-inertial-odometry"
-        ],
+        "primary_score": 999,
+        "secondary_categories": [],
         "match_hits": [
-          "mmwave",
-          "radar"
+          "manual override"
         ]
       },
       {
@@ -118284,6 +119018,48 @@
     ],
     "degeneracy-robustness": [
       {
+        "full_name": "ChiyunNoh /TRaIL-Odom",
+        "url": "https://github.com/ChiyunNoh/TRaIL-Odom",
+        "owner": "ChiyunNoh",
+        "repo": "TRaIL-Odom",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T09:18:15.226192+00:00",
+        "archived": false,
+        "about": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "topics": [],
+        "homepage": "",
+        "readme_excerpt": "TRaIL-Odom [RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting",
+        "fetched_ok": true,
+        "display_name": "ChiyunNoh/TRaIL-Odom",
+        "display_description": "[RA-L 2026] TRaIL-Odom: Tightly Coupled Continuous Time Radar-IMU-LiDAR Odometry with Adaptive Doppler Weighting - ChiyunNoh/TRaIL-Odom",
+        "manual_note": "",
+        "manual_labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "labels": [
+          "lidar-odometry",
+          "radar-slam-perception",
+          "degeneracy-robustness"
+        ],
+        "primary_category": "lidar-odometry",
+        "primary_category_name": "LiDAR State Estimation",
+        "primary_category_name_zh": "纯激光里程计",
+        "primary_category_description": "LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "cocel-postech /genz-icp",
         "url": "https://github.com/cocel-postech/genz-icp",
         "owner": "cocel-postech ",
@@ -118763,25 +119539,69 @@
         ]
       },
       {
+        "full_name": "KJ-Falloutlast /FIRE-LIVWO",
+        "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
+        "owner": "KJ-Falloutlast",
+        "repo": "FIRE-LIVWO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T08:09:36.833798+00:00",
+        "archived": false,
+        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "topics": [],
+        "homepage": "https://orcid.org/0000-0002-2395-9543",
+        "readme_excerpt": "FIRE-LIVWO Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Kun Hu 1 · Menggang Li 1,† · Kaidi Wu 1 · Zhiwen Jin 1 · Yingjie Zhao 1 · Chaoquan Tang 1 · Eryi Hu 2 · Gongbo Zhou 1 1 China University of Mining and Technology, Xuzhou, China 2 Information Institute, Ministry of Emergency Management, China † Corresponding author Project Page · Paper · Video · Figures · Citation FIRE-LIVWO completes the smoke-filled and geometrically degenerate tunnel sequence while the evaluated baselines drift or fail. Click the image to visit the project page. At a glance FIRE-LIVWO is a tightly coupled LiDAR–inertial–visual–wheel odometry system enhanced by 4D mmWave radar for large-scale underground coal mines. It addresses two distinct but frequently coupled failures: smoke-induced visual degradation and geometric underconstraint in long, repetitive corridors. Radar, LiDAR, vision, wheel odometry, and IMU measurements are fused in an iterated error-state Kalman filter (IESKF), while online observability analysis selects the appropriate fusion mode. Smoke robustness Corridor robustness Online detection Estimator Radar geometry + Doppler velocity Wheel odometry + NHC Visual + geometric observability Tightly coupled IESKF Note This release contains the accepted paper, one-minute supplementary video, and publication figures. The implementation and dataset are not included in the current repository snapshot. News 2026-08-23 — Paper, supplementary video, figures, and project page released. 2026-06 — FIRE-LIVWO accepted to IROS 2026 . 🎉 Method System overview. Radar, LiDAR, visual, wheel, and inertial constraints are scheduled by online degradation detection and fused within one IESKF pipeline. FIRE-LIVWO contributes four tightly connected components: Unified radar–LiDAR–visual map. LiDAR and radar point-to-plane residuals share an adaptive VoxelMap with sparse direct visual photometric residuals. Failure-immune radar enhancement. Radar geometric observations and pointwise Doppler-velocity residuals preserve motion information when smoke suppresses image contrast and corrupts LiDAR returns. Wheel-aided geometric robustness. Wheel odometry, nonholonomic constraints (NHC), and online lever-arm compensation reduce drift along underconstrained tunnel directions. Observability-aware adaptive fusion. Visual and geometric scores identify degradation online and switch among LIV, LIVR, LIVW, and LIVRW modes. Adaptive fusion. Radar constraints are activated for visual degradation, wheel constraints for geometric degradation, and both for simultaneous failures. Condition Detector state Fusion mode Active complementary constraint Nominal Dᵥ = 0 , Dɢ = 0 LIV LiDAR + IMU ",
+        "fetched_ok": true,
+        "display_name": "KJ-Falloutlast/FIRE-LIVWO",
+        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "manual_note": "",
+        "manual_labels": [
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "primary_category": "radar-slam-perception",
+        "primary_category_name": "Radar SLAM & Perception",
+        "primary_category_name_zh": "雷达 SLAM 与感知",
+        "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "leggedrobotics /compslam_subt",
         "url": "https://github.com/leggedrobotics/compslam_subt",
-        "owner": "leggedrobotics ",
+        "owner": "leggedrobotics",
         "repo": "compslam_subt",
-        "list_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
-        "list_stars_label": "9",
-        "list_language": "C++",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
         "source_lists": [
-          "slam-degenerate"
+          "manual"
         ],
-        "fetched_at": "2026-06-06T15:00:01.310954+00:00",
+        "fetched_at": "2026-08-26T08:11:34.130229+00:00",
         "archived": false,
-        "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+        "about": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
         "topics": [],
         "homepage": "https://www.linkedin.com/in/shehryar-khattak/",
         "readme_excerpt": "CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments Authors: Shehryar Khattak , Timon Homberger , Lukas Bernreiter , Julian Nubert , Olov Andersson , Roland Siegwart , Kostas Alexis , Marco Hutter Paper | Dataset | GT Approximation | GT Generation Code This repository contains the complementary SLAM code. It consists of the following packages: compslam : Meta package that builds the entire codestack and can be used to launch the contained components. compslam_lio : LiDAR Odometry package based on LOAM with improved robustness for field missions and the incorporation of IMU. compslam_vtio : Visual-thermal odometry that builds on top of ROVIO. It also includes the possibility to use LiDAR for scale estimation as well as thermal camera support. CompSLAM has been heavily used during the DARPA SubT challenge as the main SLAM solution for team Cerberus. Moreover, over the past years, it has been used as a major SLAM solution during research projects conducted at the Robotic Systems Lab at ETH Zurich. Disclaimer: The framework is still under development and will be updated, extended, and more generalized in the future. Instructions Workspace Setup Create a catkin workspace: mkdir compslam_ws cd compslam_ws mkdir src catkin init catkin config -DCMAKE_BUILD_TYPE=Release cd src Then pull the required repositories: git clone https://github.com/leggedrobotics/compslam_subt.git vcs import < compslam_subt/repos.vcs cd compslam_subt && git submodule update --init Installation To install Compslam, simply execute: catkin build compslam source devel/setup.bash Dataset Pull the dataset from the DARPA SubT finals as described in the main paper from here . The approximate GT used for the evaluation, generated by this repository , can be downloaded here . Run Full Example To run the complete example, in Terminal 1 simply run the code: roslaunch compslam compslam.launch Then, in a separate terminal, execute the corresponding rosbag file downloaded above: rosbag play subt_finals_loop_dataset.bag --clock If you want to run the same without VTIO , disable the flag run_compslam_vtio inside ./compslam/launch/compslam.launch . The expected output should roughly look like this: Paper If you find this code useful or use it in your work, please consider citing: @inproceedings{khattak2025compslam, title={CompSLAM: Complementary Hierarchical Multi-Modal Localization and Mapping for Robot Autonomy in Underground Environments}, author={Shehryar Khattak, Timon Homberger, Lukas Bernreiter, Julian Nubert, Olov Andersson, Roland Siegwart, Kostas Alexis, Marco Hutter}, booktitle={IEEE ICRA Workshop Robots in the Wild}, year={2025}, organization={IEEE} } Acknowledgments The authors thank the authors of LOAM, the authors of ",
         "fetched_ok": true,
         "display_name": "leggedrobotics/compslam_subt",
-        "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution.",
+        "display_description": "The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt",
         "manual_note": "",
         "manual_labels": [
           "lidar-visual-inertial-odometry"
@@ -123436,6 +124256,50 @@
         ]
       },
       {
+        "full_name": "KJ-Falloutlast /FIRE-LIVWO",
+        "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
+        "owner": "KJ-Falloutlast",
+        "repo": "FIRE-LIVWO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T08:09:36.833798+00:00",
+        "archived": false,
+        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "topics": [],
+        "homepage": "https://orcid.org/0000-0002-2395-9543",
+        "readme_excerpt": "FIRE-LIVWO Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Kun Hu 1 · Menggang Li 1,† · Kaidi Wu 1 · Zhiwen Jin 1 · Yingjie Zhao 1 · Chaoquan Tang 1 · Eryi Hu 2 · Gongbo Zhou 1 1 China University of Mining and Technology, Xuzhou, China 2 Information Institute, Ministry of Emergency Management, China † Corresponding author Project Page · Paper · Video · Figures · Citation FIRE-LIVWO completes the smoke-filled and geometrically degenerate tunnel sequence while the evaluated baselines drift or fail. Click the image to visit the project page. At a glance FIRE-LIVWO is a tightly coupled LiDAR–inertial–visual–wheel odometry system enhanced by 4D mmWave radar for large-scale underground coal mines. It addresses two distinct but frequently coupled failures: smoke-induced visual degradation and geometric underconstraint in long, repetitive corridors. Radar, LiDAR, vision, wheel odometry, and IMU measurements are fused in an iterated error-state Kalman filter (IESKF), while online observability analysis selects the appropriate fusion mode. Smoke robustness Corridor robustness Online detection Estimator Radar geometry + Doppler velocity Wheel odometry + NHC Visual + geometric observability Tightly coupled IESKF Note This release contains the accepted paper, one-minute supplementary video, and publication figures. The implementation and dataset are not included in the current repository snapshot. News 2026-08-23 — Paper, supplementary video, figures, and project page released. 2026-06 — FIRE-LIVWO accepted to IROS 2026 . 🎉 Method System overview. Radar, LiDAR, visual, wheel, and inertial constraints are scheduled by online degradation detection and fused within one IESKF pipeline. FIRE-LIVWO contributes four tightly connected components: Unified radar–LiDAR–visual map. LiDAR and radar point-to-plane residuals share an adaptive VoxelMap with sparse direct visual photometric residuals. Failure-immune radar enhancement. Radar geometric observations and pointwise Doppler-velocity residuals preserve motion information when smoke suppresses image contrast and corrupts LiDAR returns. Wheel-aided geometric robustness. Wheel odometry, nonholonomic constraints (NHC), and online lever-arm compensation reduce drift along underconstrained tunnel directions. Observability-aware adaptive fusion. Visual and geometric scores identify degradation online and switch among LIV, LIVR, LIVW, and LIVRW modes. Adaptive fusion. Radar constraints are activated for visual degradation, wheel constraints for geometric degradation, and both for simultaneous failures. Condition Detector state Fusion mode Active complementary constraint Nominal Dᵥ = 0 , Dɢ = 0 LIV LiDAR + IMU ",
+        "fetched_ok": true,
+        "display_name": "KJ-Falloutlast/FIRE-LIVWO",
+        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "manual_note": "",
+        "manual_labels": [
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "primary_category": "radar-slam-perception",
+        "primary_category_name": "Radar SLAM & Perception",
+        "primary_category_name_zh": "雷达 SLAM 与感知",
+        "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "PolyU-TASLAB /LIUO",
         "url": "https://github.com/PolyU-TASLAB/LIUO",
         "owner": "PolyU-TASLAB ",
@@ -123514,6 +124378,50 @@
       }
     ],
     "wheel": [
+      {
+        "full_name": "KJ-Falloutlast /FIRE-LIVWO",
+        "url": "https://github.com/KJ-Falloutlast/FIRE-LIVWO",
+        "owner": "KJ-Falloutlast",
+        "repo": "FIRE-LIVWO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-08-26T08:09:36.833798+00:00",
+        "archived": false,
+        "about": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "topics": [],
+        "homepage": "https://orcid.org/0000-0002-2395-9543",
+        "readme_excerpt": "FIRE-LIVWO Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS 2026) Kun Hu 1 · Menggang Li 1,† · Kaidi Wu 1 · Zhiwen Jin 1 · Yingjie Zhao 1 · Chaoquan Tang 1 · Eryi Hu 2 · Gongbo Zhou 1 1 China University of Mining and Technology, Xuzhou, China 2 Information Institute, Ministry of Emergency Management, China † Corresponding author Project Page · Paper · Video · Figures · Citation FIRE-LIVWO completes the smoke-filled and geometrically degenerate tunnel sequence while the evaluated baselines drift or fail. Click the image to visit the project page. At a glance FIRE-LIVWO is a tightly coupled LiDAR–inertial–visual–wheel odometry system enhanced by 4D mmWave radar for large-scale underground coal mines. It addresses two distinct but frequently coupled failures: smoke-induced visual degradation and geometric underconstraint in long, repetitive corridors. Radar, LiDAR, vision, wheel odometry, and IMU measurements are fused in an iterated error-state Kalman filter (IESKF), while online observability analysis selects the appropriate fusion mode. Smoke robustness Corridor robustness Online detection Estimator Radar geometry + Doppler velocity Wheel odometry + NHC Visual + geometric observability Tightly coupled IESKF Note This release contains the accepted paper, one-minute supplementary video, and publication figures. The implementation and dataset are not included in the current repository snapshot. News 2026-08-23 — Paper, supplementary video, figures, and project page released. 2026-06 — FIRE-LIVWO accepted to IROS 2026 . 🎉 Method System overview. Radar, LiDAR, visual, wheel, and inertial constraints are scheduled by online degradation detection and fused within one IESKF pipeline. FIRE-LIVWO contributes four tightly connected components: Unified radar–LiDAR–visual map. LiDAR and radar point-to-plane residuals share an adaptive VoxelMap with sparse direct visual photometric residuals. Failure-immune radar enhancement. Radar geometric observations and pointwise Doppler-velocity residuals preserve motion information when smoke suppresses image contrast and corrupts LiDAR returns. Wheel-aided geometric robustness. Wheel odometry, nonholonomic constraints (NHC), and online lever-arm compensation reduce drift along underconstrained tunnel directions. Observability-aware adaptive fusion. Visual and geometric scores identify degradation online and switch among LIV, LIVR, LIVW, and LIVRW modes. Adaptive fusion. Radar constraints are activated for visual degradation, wheel constraints for geometric degradation, and both for simultaneous failures. Condition Detector state Fusion mode Active complementary constraint Nominal Dᵥ = 0 , Dɢ = 0 LIV LiDAR + IMU ",
+        "fetched_ok": true,
+        "display_name": "KJ-Falloutlast/FIRE-LIVWO",
+        "display_description": "[IROS 2026] FIRE-LIVWO: Robust LiDAR-Inertial-Visual-Wheel Odometry via Failure-Immune mmWave Radar Enhancement - KJ-Falloutlast/FIRE-LIVWO",
+        "manual_note": "",
+        "manual_labels": [
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "labels": [
+          "radar-slam-perception",
+          "degeneracy-robustness",
+          "uwb",
+          "wheel"
+        ],
+        "primary_category": "radar-slam-perception",
+        "primary_category_name": "Radar SLAM & Perception",
+        "primary_category_name_zh": "雷达 SLAM 与感知",
+        "primary_category_description": "Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
       {
         "full_name": "TakuOkawara /full_linear_wheel_odometry_factor",
         "url": "https://github.com/TakuOkawara/full_linear_wheel_odometry_factor",
