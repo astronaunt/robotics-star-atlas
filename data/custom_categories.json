@@ -10,6 +10,15 @@
       "lists": {}
     },
     {
+      "id": "english-learning",
+      "name": "English-learning",
+      "name_zh": "英语学习",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
       "id": "fmcw-slam",
       "name": "FMCW SLAM",
       "name_zh": "FMCW SLAM",

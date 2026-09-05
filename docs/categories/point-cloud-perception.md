@@ -9,8 +9,8 @@ Repositories: `61`
 | Topic | Repos |
 | --- | ---: |
 | Segmentation | 26 |
-| Processing Libraries | 17 |
-| General | 13 |
+| Processing Libraries | 16 |
+| General | 14 |
 | 3D Detection | 3 |
 | Representation Learning | 2 |
 
@@ -50,7 +50,6 @@ Repositories: `61`
 - [hku-mars/M-detector](https://github.com/hku-mars/M-detector)
 - [hku-mars/HBA](https://github.com/hku-mars/HBA) - [RAL 2023] A globally consistent LiDAR map optimization module
 - [RuanJY/SLAMesh](https://github.com/RuanJY/SLAMesh) - ICRA2023, A real-time LiDAR simultaneous localization and meshing method.
-- [SS47816/lidar_obstacle_detector](https://github.com/SS47816/lidar_obstacle_detector) - 3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm
 - [EPVelasco/lidar-camera-fusion](https://github.com/EPVelasco/lidar-camera-fusion) - The code implemented in ROS projects a point cloud obtained by a Velodyne VLP16 3D-Lidar sensor on an image from an RGB camera.
 - [hku-mars/M2Mapping](https://github.com/hku-mars/M2Mapping) - [ICRA 2025] Neural Surface Reconstruction and Rendering for LiDAR-Visual Systems
 - [SiyuanHuang95/Livox-Localization](https://github.com/SiyuanHuang95/Livox-Localization) - A simple localization framework that can re-localize in one point-cloud map.
@@ -78,6 +77,7 @@ Repositories: `61`
 - [rsasaki0109/dynamic-3d-object-removal](https://github.com/rsasaki0109/dynamic-3d-object-removal) - Numpy-only dynamic object removal for LiDAR point clouds — 3D box crop + temporal filtering. No GPU, no deep learning.
 - [IIT-PAVIS/SC3K](https://github.com/IIT-PAVIS/SC3K) - Repository of the ICCV23 paper "SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data"
 - [NTNU-Math-Chern/FracGM](https://github.com/NTNU-Math-Chern/FracGM) - A Fast Fractional Programming Technique for Geman-McClure Robust Estimator (RA-L 2024)
+- [francois141/upal](https://github.com/francois141/upal)
 
 ## 3D Detection
 

@@ -2,13 +2,13 @@
 
 LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.
 
-Repositories: `34`
+Repositories: `35`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 32 |
+| General | 33 |
 | General Mapping | 1 |
 | ROS / Robotics Tools | 1 |
 
@@ -44,6 +44,7 @@ Repositories: `34`
 - [yj-dlut/TCK-VILO](https://github.com/yj-dlut/TCK-VILO) - A Tightly-Coupled and Keyframe-Based Visual-Inertial-Lidar Odometry System for mobile robots With Adaptive Sensor Reliability Evaluation
 - [asdleng/LiDAR-Visual-Inertial-Localization](https://github.com/asdleng/LiDAR-Visual-Inertial-Localization) - Localization in a pre-built LiDAR map
 - [Cc19245/r2live-CC_Comments](https://github.com/Cc19245/r2live-CC_Comments)
+- [Huashuijingying/SA-LIVO-Reimpl](https://github.com/Huashuijingying/SA-LIVO-Reimpl) - An open reproduction of SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling (arXiv:2606.25699), an independent reimplementation derived from the FAST...
 - [leggedrobotics/compslam_subt](https://github.com/leggedrobotics/compslam_subt) - The official implementation of the DARPA SubT winning LiDAR mapping and odometry solution. - leggedrobotics/compslam_subt
 - [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation
 

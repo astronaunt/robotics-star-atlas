@@ -4,16 +4,16 @@ Direct small-category index generated from repository metadata and the original 
 
 | Category | Repos | Description |
 | --- | ---: | --- |
-| [LiDAR-Inertial State Estimation](categories/lidar-inertial-odometry.md) | 157 | LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems. |
+| [LiDAR-Inertial State Estimation](categories/lidar-inertial-odometry.md) | 158 | LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems. |
 | [LiDAR State Estimation](categories/lidar-odometry.md) | 76 | LiDAR-only state estimation and LiDAR SLAM front-ends, including LOAM, ICP/NDT, and scan-to-map systems. |
-| [Visual / Visual-Inertial State Estimation](categories/visual-inertial-odometry.md) | 75 | Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems. |
-| [LiDAR-Visual-Inertial State Estimation](categories/lidar-visual-inertial-odometry.md) | 34 | LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems. |
+| [Visual / Visual-Inertial State Estimation](categories/visual-inertial-odometry.md) | 76 | Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems. |
+| [LiDAR-Visual-Inertial State Estimation](categories/lidar-visual-inertial-odometry.md) | 35 | LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems. |
 | [Place Recognition & Loop Closure](categories/place-recognition-loop-closure.md) | 109 | Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers. |
 | [Mapping & Map Representation](categories/mapping-map-representation.md) | 191 | Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting. |
 | [Point Cloud Registration](categories/point-cloud-registration.md) | 41 | Point cloud registration, ICP/GICP/NDT, scan matching, feature matching, and correspondence-based alignment. |
 | [Point Cloud Perception](categories/point-cloud-perception.md) | 61 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
 | [Multi-Robot SLAM & Collaborative Perception](categories/multi-robot-slam.md) | 68 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
-| [Radar SLAM & Perception](categories/radar-slam-perception.md) | 40 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
+| [Radar SLAM & Perception](categories/radar-slam-perception.md) | 41 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
 | [Calibration & Time Synchronization](categories/calibration-synchronization.md) | 31 | Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization. |
 | [Degeneracy, Robustness & Failure Analysis](categories/degeneracy-robustness.md) | 22 | Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM. |
 | [UAV & Aerial Robotics](categories/uav-aerial-robotics.md) | 25 | UAV autonomy, aerial robotics, quadrotor navigation, flight systems, and aerial mapping. |
@@ -24,9 +24,10 @@ Direct small-category index generated from repository metadata and the original 
 | [Planning & Navigation](categories/planning-navigation.md) | 75 | Motion planning, path planning, trajectory optimization, navigation stacks, and control. |
 | [Datasets & Benchmarks](categories/datasets-benchmarks.md) | 62 | Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols. |
 | [SLAM Learning, Handbooks & Notes](categories/slam-learning-handbooks.md) | 53 | SLAM handbooks, tutorials, courses, annotated code, code-reading notes, and learning resources. |
-| [Tools, Engineering & Productivity](categories/tools-engineering-productivity.md) | 207 | ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities. |
+| [Tools, Engineering & Productivity](categories/tools-engineering-productivity.md) | 209 | ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities. |
 | [Paper Lists, Surveys & Awesome Collections](categories/paper-survey-awesome.md) | 63 | Curated paper lists, surveys, awesome lists, and literature collections. |
 | [Deep IMU](categories/deep-imu.md) | 8 | Custom user-defined category. |
+| [English-learning](categories/english-learning.md) | 1 | Custom user-defined category. |
 | [FMCW SLAM](categories/fmcw-slam.md) | 4 | Custom user-defined category. |
 | [Leg](categories/leg.md) | 10 | Custom user-defined category. |
 | [uwb](categories/uwb.md) | 4 | Custom user-defined category. |

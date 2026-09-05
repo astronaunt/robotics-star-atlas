@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-08-26T09:22:14.399346+00:00",
-  "total_unique_repos": 1425,
+  "generated_at": "2026-09-05T03:44:25.278144+00:00",
+  "total_unique_repos": 1430,
   "repos": {
     "1391741823 /FAST-LIVO2-SE-CN": {
       "full_name": "1391741823 /FAST-LIVO2-SE-CN",
@@ -9788,31 +9788,18 @@
     "SS47816 /lidar_obstacle_detector": {
       "full_name": "SS47816 /lidar_obstacle_detector",
       "url": "https://github.com/SS47816/lidar_obstacle_detector",
-      "owner": "SS47816 ",
+      "owner": "SS47816",
       "repo": "lidar_obstacle_detector",
-      "list_description": "3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm",
-      "list_stars_label": "397",
-      "list_language": "C++",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "point-cloud-detect"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T14:56:53.876935+00:00",
+      "fetched_at": "2026-09-05T03:09:41.792826+00:00",
       "archived": false,
-      "about": "3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm",
-      "topics": [
-        "3d-lidar",
-        "autonomous-vehicles",
-        "euclidean-clustering",
-        "hungarian-algorithm",
-        "object-detection",
-        "object-tracking",
-        "obstacle-detection",
-        "obstacle-tracking",
-        "pcl-library",
-        "ransac-algorithm",
-        "robotics",
-        "ros"
-      ],
+      "about": "3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm - SS47816/lidar_obstacle_detector",
+      "topics": [],
       "homepage": "https://www.codefactor.io/repository/github/ss47816/lidar_obstacle_detector",
       "readme_excerpt": "lidar_obstacle_detector 3D LiDAR Object Detection & Tracking using Euclidean Clustering & Hungarian algorithm Features Segmentation of ground plane and obstacle point clouds Customizable Region of Interest (ROI) for obstacle detection Customizable region for removing ego vehicle points from the point cloud Tracking of obstacles between frames using IOU gauge and Hungarian algorithm In order to help you tune the parameters to suit your own applications better, all the key parameters of the algorithm are controllable in live action using the ros param dynamic reconfigure feature TODOs LiDAR pointcloud motion undistortion Drive Space/Kurb Segmentation Refine PCA Bounding Boxes by L-Shape fitting Add trackers such as UKF Known Issues PCA Bounding Boxes might not be accurate in certain situations Dependencies autoware-msgs jsk-recognition-msgs Installation # clone the repo cd catkin_ws/src git clone https://github.com/SS47816/lidar_obstacle_detector.git # install dependencies & build cd .. rosdep install --from-paths src --ignore-src -r -y catkin_make # or catkin_make -DPYTHON_EXECUTABLE=/usr/bin/python3 source devel/setup.bash Usage 1. (Easy) Use this pkg with ROS Bags ( mai_city dataset as an example here) Step 1 : Download the mai_city dataset from their Official Website Step 2 : Launch the nodes using the mai_city.launch launch file # this will launch the obstacle_detector node, rviz, and rqt_reconfigure GUI together roslaunch lidar_obstacle_detector mai_city.launch Step 3 : Run any of the bags from the dataset # go to the folder where the dataset is located cd mai_city/bags # play the rosbag rosbag play 00.bag 2. Use this pkg with LGSVL Simulator (with the help of the lgsvl_utils pkg) Step 1 : Launch the LGSVL simulator and lgsvl_utils nodes Please refer this step to the README Usage Section of the lgsvl_utils pkg Step 2 : Launch the nodes using the launch/lgsvl.launch launch file # launch node roslaunch lidar_obstacle_detector lgsvl.launch Contribution You are welcome contributing to the package by opening a pull-request We are following: Google C++ Style Guide , C++ Core Guidelines , and ROS C++ Style Guide License MIT License",
       "fetched_ok": true
@@ -30369,12 +30356,12 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-08T02:21:44.921583+00:00",
+      "fetched_at": "2026-09-05T03:44:25.276139+00:00",
       "archived": false,
-      "about": "uwb-imu-fusion",
+      "about": "uwb-imu-fusion. Contribute to Printeger/uwb-imu-fusion development by creating an account on GitHub.",
       "topics": [],
       "homepage": "",
-      "readme_excerpt": "uwb-imu-fusion uwb-imu-fusion",
+      "readme_excerpt": "uwb-imu-fusion — UWB-IMU Tightly-Coupled FGO SLAM 基于 GTSAM 的批量因子图优化（batch FGO）UWB-IMU 紧耦合定位系统。追求离线后处理的最高精度，非实时在线 SLAM。 1. 算法概述 组件 方案 优化框架 GTSAM 4.x batch Levenberg-Marquardt （非 iSAM2） 状态变量 15D keyframe: [Pose3, Vector3(vel), ConstantBias] IMU 因子 CombinedImuFactor — 中点预积分 + 偏置一阶修正 + 协方差传播 UWB 因子 自定义 ExpressionFactor<double> : $r = |A - (R \\cdot t_{UI} + p)| + \\beta - z$ 鲁棒策略 IRLS 迭代加权 + $\\chi^2$ 硬剔除回环 在线标定 杆臂 $t_{UI}$ 、锚点偏移 $\\delta A_m$ 、每锚点测距偏置 $\\beta_m$ （多趟渐进打开） 噪声模型 时间自适应 $\\sigma^2 = \\sigma_r^2 + (v_{\\max} \\cdot \\Delta t / 3)^2$ NLOS 过滤 RSSI 差值法: rx_rssi - fp_rssi > 6 dB → 丢弃 2. 项目结构 src/uwb-imu-fusion/ ├── CMakeLists.txt # catkin + GTSAM + yaml-cpp + GTest ├── package.xml # ROS Noetic ├── README.md ├── msg/ # UWB 消息定义（兼容 LinkTrack 协议） │ ├── LinktrackNode2.msg │ ├── LinktrackNodeframe3.msg │ ├── McdLinktrackNodeframe3.msg │ └── LinktrackTagframe0.msg ├── config/ │ └── vicon_test.yaml # VICON 数据集测试配置 ├── launch/ │ ├── offline.launch # 离线批处理 roslaunch 入口 │ └── offline_with_viz.launch # 离线批处理 + RViz 同步可视化 ├── include/uifgo/ # 公开头文件 │ ├── types.h # ImuSample, UwbRange, UwbFrame, NavState │ ├── config.h # Config 结构体 + ConfigLoader │ ├── data_loader.h # RosbagDataLoader (IMU + UWB + VICON GT) │ ├── outlier_filter.h # NLOS / 量程 / 距离一致性过滤 │ ├── initializer.h # 静止检测 + 三角定位 + 重力对齐 │ ├── imu_preint.h # ImuPreintegrator + IMU 同步插值 │ ├── uwb_factor.h # MakeUwbFactor (Expression 自动微分) │ ├── graph_builder.h # 关键帧化 + 因子图组装 │ ├── optimizer.h # LM + χ² 剔除 + Marginals │ ├── trajectory_io.h # TUM 格式输出 + ATE/RPE 评估 │ └── visualizer.h # RViz 可视化发布器 (9 类 marker) ├── src/ # 12 个源文件 │ ├── config.cpp, data_loader.cpp, outlier_filter.cpp │ ├── initializer.cpp, imu_preint.cpp, imu_sync.cpp │ ├── uwb_factor.cpp, graph_builder.cpp, optimizer.cpp │ ├── chi2.cpp, trajectory_io.cpp, visualizer.cpp ├── tools/ │ ├── run_offline.cpp # 离线批处理主入口 │ └── analyze_log.py # 日志解析 + 可视化脚本 ├── config/ │ ├── slam.yaml # 默认配置 (VICON 数据集) │ └── uwb_fgo_viz.rviz # RViz 预配置文件 ├── logs/ │ ├── latest → <timestamp>_<bag>/ # 符号链接 → 最新日志 │ └── <timestamp>_<bag>/ # 每次运行的完整日志 │ ├── config.yaml # 配置快照 │ ├── summary.json # 结构化汇总 │ ├── trajectory.txt # 融合轨迹 (TUM) │ ├── groundtruth.txt # 真值轨迹 (TUM) │ ├── calibration.txt # 标定结果 │ ├── optimization.csv # 每趟优化指标 │ ├── state_trace.csv # 每关键帧状态 │ ├── residuals.csv # 每锚点残差 │ ├── covariance_diag.csv # 协方差对角 │ ├── gt_comparison.csv # GT 对比 │ ├── *.png # 可视化图表 │ └── report.md # Markdown 综合报告 ├── test/ # GoogleTest 单元测试 (36 tests) └── doc/ # 调研文档 + 设计文档 ├── 00-overview.md # 三算法对比总览 ├── 01-awesome-uwb-localization.md ├── 02-SFUISE.md ├── 03-uwb-imu-positioning.md └── dev.tex # LaTeX 设计文档 3. 依赖 依赖 版本 用途 ROS Noetic catkin 构建 + rosbag 读取 GTSAM ≥ 4.0 因子图优化 (LM, Expression, CombinedImuFactor) Eigen3 ≥ 3.3 线性代数 yaml-cpp ≥ 0.6 配置文件解析 Boost ≥ 1.65 filesystem 等 GoogleTest ≥ 1.11 单",
       "fetched_ok": true
     },
     "efc-robot /MR-COGraphs": {
@@ -31414,6 +31401,101 @@
       "topics": [],
       "homepage": "https://arxiv.org/abs/2511.00635",
       "readme_excerpt": "Multi-Mapcher Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Build and usage Prerequisites Interface Tested environment ROS 1 Ubuntu 20.04, ROS Noetic ROS 2 Ubuntu 22.04, ROS Humble The shared core requires C++17, CMake 3.16+, Eigen3, GTSAM, PCL, and yaml-cpp. Docker users can skip the native dependency installation. sudo apt update sudo apt install software-properties-common sudo add-apt-repository -y ppa:borglab/gtsam-release-4.2 sudo apt update sudo apt install git build-essential cmake libeigen3-dev libgtsam-dev \\ libpcl-dev libtbb-dev libyaml-cpp-dev Clone the Multi-Mapcher: git clone --recurse-submodules https://github.com/url-kaist/multi-mapcher.git ROS 1 Noetic Place the repository at <catkin_ws>/src/multi-mapcher . From the catkin workspace root with ROS Noetic sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y catkin_make -DCMAKE_BUILD_TYPE=Release source devel/setup.bash roslaunch multi_mapcher run.launch \\ dataset_yaml:=/absolute/path/to/dataset.yaml ROS 2 Humble Place the repository at <colcon_ws>/src/multi-mapcher . From the colcon workspace root with ROS Humble sourced: rosdep install --from-paths src/multi-mapcher --ignore-src -r -y colcon build --packages-select multi_mapcher \\ --cmake-args -DCMAKE_BUILD_TYPE=Release source install/setup.bash ros2 launch multi_mapcher run.launch.py \\ dataset_yaml:=/absolute/path/to/dataset.yaml The dataset YAML selects mode: single_session or mode: multi_session . Both ROS versions use the same YAML files and C++ core. Workflow and guides Install AutoDataloader with python3 -m pip install autodataloader , convert MulRan or HeLiPR, and provide an estimated SLAM trajectory for every LiDAR session. Run single_session and inspect each generated after/ result. Use those verified after/ directories as the multi_session inputs. Enable iSAE in the multi-session YAML when ground truth is available. Start with config/parameters/s2sub.yaml . sub2sub.yaml is an optional, slower preset that uses larger source and target submaps. Default values and adjustment ranges are documented directly in both YAML files. See the usage guide for MulRan/HeLiPR conversion, dataset YAML, single-to-multi execution, outputs, and iSAE. Use docker/ros1/run_docker.sh or docker/ros2/run_docker.sh for container execution; see Docker . Warning Multi-session optimization requires the intra-session loop constraints saved in each after/pose_graph.g2o . The program rejects a pose-only trajectory because its odometry-only graph can deform or collapse during optimization. Citation If this repository supports your research, please cite our Multi-Mapcher paper: @article { lim2026tiv , title = { {Multi-Mapcher: Loop Closure Detection-Free Heterogeneous LiDAR Multi-Session SLAM Leveraging Outlier-Robust R",
+      "fetched_ok": true
+    },
+    "Huashuijingying /SA-LIVO-Reimpl": {
+      "full_name": "Huashuijingying /SA-LIVO-Reimpl",
+      "url": "https://github.com/Huashuijingying/SA-LIVO-Reimpl",
+      "owner": "Huashuijingying",
+      "repo": "SA-LIVO-Reimpl",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-08-27T02:41:09.009570+00:00",
+      "archived": false,
+      "about": "An open reproduction of SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling (arXiv:2606.25699), an independent reimplementation derived from the FAST-LIVO2 ROS2 framework. - Huashuijingying/SA-LIVO-Reimpl",
+      "topics": [],
+      "homepage": "",
+      "readme_excerpt": "SA-LIVO (ROS2) — Independent Reproduction and Engineering Extension 中文版 An independent, paper-guided reproduction and engineering extension of SA-LIVO: Efficient LiDAR-Inertial-Visual Odometry with Subspace-Aware Degeneracy Handling (public preprint: arXiv:2606.25699v2, 6 August 2026), built on the FAST-LIVO2 ROS2 code base. The repository implements the paper's main Sect. IV–VII architecture and evaluates it on the 29 benchmark sequences (HILTI'22 ×15, Newer College Dataset ×7, Oxford Spires ×7) using the stated evaluation protocols. Publication status: this repository cites the public arXiv preprint and does not claim acceptance or publication in IEEE Transactions on Robotics. Results All 29 sequences run to completion. Per-sequence absolute translational RMSE vs. the paper's Table II \"Ours\" column: Coverage 29/29 At or near paper (≤ ~1.5×) 24/29 At or better than the paper's FAST-LIVO2 baseline 20/29 HILTI'22 13/15 Newer College Dataset 6/7 Oxford Spires 5/7 See sa_livo/RESULTS.md for the full table and the evaluation protocol. The five remaining sequences are documented with their root causes (photometric-residual model, SA multi-scale aggregation, and information-scale assembly) — all accessible parameters and mechanisms have been explored and recorded. Non-official notice : this is an independent re-implementation based on the paper and the FAST-LIVO2 code base — not the authors' official code and not a claim of source-level equivalence to either paper version. Paper-version alignment The public v1 and v2 preprints differ materially in the LiDAR map and visual front end. This repository currently contains a hybrid of paper-guided and repository-specific behavior: Area Current alignment State, IMU propagation, SAIF, joint InEKF Paper-guided implementation of the core shared by v1 and v2 LiDAR map and plane association Mixed: v1-style dual kappa /absolute-eigenvalue checks and full plane covariance remain alongside v2-style flat-grid sufficient statistics, query-time multi-scale support, and first-planar-scale acceptance Visual front end Shared v1/v2 sliding-window information form; some v2 additions, including Huber weighting and image-grid selection, exist as optional paths but are not enabled in every benchmark configuration NCD Stairs Repository extension: frontier region growing, adaptive SAIF thresholding, and a degeneracy guard are not described in v1 or v2 Benchmark results Independent runs compared with v2 Table II; several rows use per-sequence best configurations rather than the paper's single global configuration Accordingly, results in this repository are reproduction measurements and engineering experiments, not a strict v1 or strict v2 reproduction. See sa_livo/EVALUATION_TARGETS.md for the target values, protocol, and known diverg",
+      "fetched_ok": true
+    },
+    "francois141 /upal": {
+      "full_name": "francois141 /upal",
+      "url": "https://github.com/francois141/upal",
+      "owner": "francois141",
+      "repo": "upal",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-09-01T02:43:49.160474+00:00",
+      "archived": false,
+      "about": "Unified point and line detector. Contribute to francois141/upal development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://arxiv.org/pdf/2608.19894",
+      "readme_excerpt": "UPAL: Unified and Efficient Point-Line Local Features - ECCV 2026 François Costa * · Raphael Kreft * · Eckhard Goedeke · Felix Möller · Hardik Shah · Ramanathan Rajaraman · Shaohui Liu · Rémi Pautrat · Marc Pollefeys Paper Red dots are learned keypoints, green segments are line detections supported by the learned distance field, and colored links are mutual-nearest descriptor matches. * denotes equal contribution Upal Standalone PyTorch inference for UPAL , an ECCV 2026–accepted joint point-line detector. The repository contains the network architecture, trained weights, and runnable inference, point-matching, and line-matching examples on the classic boat1 / boat2 images. For every input image, UPAL predicts: sub-pixel keypoints and their confidence scores; 128-dimensional, L2-normalized local descriptors; a dense keypoint/junction heatmap; a dense line distance field. The inference network uses an ALIKED-style multi-scale encoder, deformable convolutions in its deeper stages, a sparse deformable descriptor head, a point/junction scoring head, and a line-distance-field decoder. The demo uses the bundled points_lsd detector, seeded from UPAL's learned keypoints, and filters its proposals with the learned distance field. Installation Python 3.10 or newer is recommended. Create an environment and install the package: python3 -m venv .venv source .venv/bin/activate python3 -m pip install --upgrade pip python3 -m pip install -e . git submodule update --init --recursive DEBUG=0 python3 -m pip install ./third_party/points_lsd For a CUDA installation, install the matching PyTorch build from pytorch.org before running the last command. Run the demos From the repository root, run inference on one image and save its feature overlay: python demo_inference.py Match learned point descriptors across an image pair: python demo_match_points.py Match field-supported line segments across the same pair: python demo_match_lines.py The scripts write outputs/inference.png , outputs/point_matches.png , and outputs/line_matches.png , respectively. CPU inference is supported; CUDA is selected automatically when available. The line matcher extracts descriptors at the two endpoints of each detected segment, scores both endpoint orientations, and solves a one-to-one line assignment. Useful options: python demo_match_points.py \\ --image0 path/to/first.jpg \\ --image1 path/to/second.jpg \\ --device cuda \\ --max-size 800 \\ --max-keypoints 1500 \\ --output outputs/my_pair.png Python API import cv2 import torch from upal import load_model device = \"cuda\" if torch . cuda . is_available () else \"cpu\" model = load_model ( \"weights/upal.tar\" , device = device , max_num_keypoints = 1024 , ) image = cv2 . cvtColor ( cv2 . imread ( \"assets/boat1.png\" ), cv2 . COLOR_BGR2RGB ) image = torch . f",
+      "fetched_ok": true
+    },
+    "wukaipeng-dev /IELTS": {
+      "full_name": "wukaipeng-dev /IELTS",
+      "url": "https://github.com/wukaipeng-dev/IELTS",
+      "owner": "wukaipeng-dev",
+      "repo": "IELTS",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-09-03T03:25:22.846421+00:00",
+      "archived": false,
+      "about": "🎇 雅思讲解、资料、备考. Contribute to wukaipeng-dev/IELTS development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://ielts.neea.cn/",
+      "readme_excerpt": "雅思备考 雅思考试介绍 介绍 分类 考试科目 报名网站 报名流程 考试当天 考试有效期 评分制 分数段解读 题型介绍 听力 阅读 写作 口语 目标指导 自学备考攻略 听力 阅读 写作 口语 雅思资料 关于是否要报班 其他资源 参考资料 雅思备考 雅思考试介绍 简单介绍雅思整体考试，分别它的介绍、分类、考试科目、考试形式、考试流程、题型等几方面介绍。 介绍 雅思（International English Language Testing System，简称 IELTS /aɪˈɛlts/），本质就是一门 评价英语水平 的考试，一般出国留学、出海打工、移民都比较认可雅思考试，比较权威。 分类 从大类上来说，分为三种雅思考试： 雅思考试，通用的； 用于英国移民及签证的雅思考试，专门用于英国地区的； 雅思考试生活技能类。 第三种生活技能类比较简单，考试形式也不复杂，本文略过。 主要介绍第一和第二类，这两种雅思考试从细分上都一样，都分为： 学术类 （A 类，Academic）：出国留学，读本科、研究生用到 培训类 （G 类，General Training）：移民，出海打工 考试科目 考试形式无非 听说读写 这四样。 但是雅思考试几点不太一样，首先，听力、阅读、写作这三样，跟口语是分开单独考试的。 其次，听力、阅读、写作的考试形式分为笔考和机考，笔考就跟高考四六级一样，正常的纸质试卷考试，机考就是电脑考试。 口语是单独考试的，就是有一个老外面对面跟你聊 10 多分钟。 报完雅思考试后，系统会提醒在小程序「雅思考试」上 单独约口语考试时间 ， 比如早上考听力阅读写作三科，那一般可以约在下午考口语。 我第一次考雅思是报名早上段的，然后口语约的是下午 1 点钟的，图方便，早上考完 11.40 左右，等一个小时就把口语考了。 报名网站 https://ielts.neea.cn/ https://ielts.neea.edu.cn/ 报名流程 graph TD A[注册用户] --> B[预付考试费] B --> C[预定座位] C --> D[填写报名表] D --> E[确认付费] E --> F[报名成功] F --> G[预定口语考试日期] G --> H[官方备考课程] H --> I[打印准考证] Loading 考试当天 参考地址： https://www.chinaielts.org/ielts_test_day/test_day_procedure.shtml 考试有效期 通常 2 年内 有效。 评分制 9 分评分制，听说读写四门各自的分数除以 4 就得的总成绩： 总分除以 $4$ 后，平均分不一定是整数，所以雅思采取了类似于四舍五入的方式： 假设你的平均分是 $8.875$ 或者 $8.75$ ，那么会总分会变为 $9$ 分，但如果平均分是 $8.625$ ，总会只会是 $8.5$ 分 总结下就是小数部分： 大于或等于 $0.25$ / $0.75$ 分，那么就入为 $0.5/ 1.0$ 分 小于 $0.25$ / $0.75$ 分，舍掉为 $0.0$ / $0.5$ 分 听力、阅读、口语、写作成绩描述见： https://www.chinaielts.org/9point.shtml 分数段解读 写作成绩描述 口语成绩描述 听力成绩描述 阅读成绩描述 题型介绍 听力 30 分钟。 有 4 段对话和独白，一共有 40 道题。 每段听力材料只放 1 遍。 材料中有 不同口音 ，英式、美式、澳洲式、新西兰式、印度式。 听力材料内容： 部分 话题范围 材料内容 主要的考察重点 题目数量 1 社会生活 双向交流的谈话（如关于旅行安排的对话） 理解和记录特定的事实性信息 10 2 社会生活 具有交流目的的独白 (如介绍博物馆开放时间) 理解和记录特定的事实性信息 10 3 教育和培训 2-4人在学术环境下的讨论 (如辅导或讨论会；老师和学生关于作业的讨论) 理解涉及语义猜测的对话。理解特定的信息、态度和发言者的看法。 10 4 教育和培训 在学术环境下的独白 (如一般性学术话题的讲课内容) 理解学术论证。理解特定的信息、态度和发言者的看法。 10 题型 题型 内容 题型一 完成填表/记笔记/流程图/总结 题型二 选择题 题型三 填空题 题型四 完成句子 题型五 为图表、计划或地图进行标记 题型六 分类 题型七 配对 阅读 60 分钟 3 篇文章，一共 40 道题 文章都来自于 真实的材料 ，杂志、期刊、书籍和报纸等 题型 题型 学术类 培训类 题型一 选择 选择 题型二 填空 填空 题型三 完成句子 完成句子 题型四 完成笔记、总结、表格或流程图 完成笔记、总结、表格或流程图 题型五 对图表进行标记 多项配对 题型六 为段落或文章的部分选择相对应的小标题 为段落或文章的部分选择相对应的小标题 题型七 寻找信息 寻找信息 题型八 寻找作者观点、论点或文章中的具体信息 寻找作者观点、论点或文章中的具体信息 题型九 分类 分类 题型十 配对 配对 题型十一 / 完成总结 写作 60 分钟 小作文 ：一篇 150 字的文章，需要考生进行分析、描述或说明一张表格，曲线图，柱状图或示意图 大作文 ：一篇 250 字的议论性文章 口语 部分 时间长度 互动的内容 考察能力 Part 1 4-5分钟 简介以及问答： 考官会向考生进行自我简介，并核对考生的身份。之后，考官会就考生熟悉的话题(如朋友、兴趣习惯或者食物) 进行询问。为保证题目的一致性，这些问题都是从一个事先拟定的范围内抽取的。 考生就日常性的观点和信息、常见的生活经历或情形以回答问题的形式进行交流的能力。 Part 2 3-4分钟 个人陈述： 考官会交给考生一个答题任务卡、铅笔和草稿纸做笔记。答题任务卡上会给出一个话题和需要在个人陈述中包含的要点，并在最后提示考生解释这个话题的某一个方面。考生有一分钟的准备时间(如笔记)，然后需就此话题进行1到2分钟的陈述。考官会在2分钟后打断考生，并在最后提问一两个问题作为结束语。 考生(在没有任何其它提示的情况下)就一个特定的话题进行较长时间的陈述的能力，考察考生是否能恰当地运用语言、是否能连贯地组织自己的观点。考生有可能需要联系自己的经历来完成这部分内容。 Part 3 4-5分钟 双向讨论： 考官将与考生就第二部分中出现的话题较为抽象的部分进行双向讨论。 考生表达和论述看法、分析、讨论以及深入思考问题的力。 目标指导 以终为始 ，我们考雅思的目标就是获取高分，分数来自于听说读写四科，得分有几种情况： 某一科特别强，其他很拉胯：(9+5.5+5.5+5.5) ÷ 4 ≈ 6.375 ，四舍五入最终分却 是 6 分 。",
+      "fetched_ok": true
+    },
+    "Tim-HW /glass-lio": {
+      "full_name": "Tim-HW /glass-lio",
+      "url": "https://github.com/Tim-HW/glass-lio",
+      "owner": "Tim-HW",
+      "repo": "glass-lio",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-09-03T03:32:00.171922+00:00",
+      "archived": false,
+      "about": "A transparent LiDAR-inertial odometry for Livox. written to be read :D - Tim-HW/glass-lio",
+      "topics": [],
+      "homepage": "https://aalok.uk/projects/lietheory/",
+      "readme_excerpt": "glass-LIO A transparent LiDAR-inertial odometry for Livox — written to be read. Scan-to-map odometry on the test bag: each ~100 ms Livox sweep is deskewed with the gyro, registered against the accumulated voxel-plane map, and folded back into it. The pose you see is /glasslio_node/odom — no ground truth, no loop closure. Most SLAM code is written to run . This one is written to be understood . It is a working scan-to-map LiDAR-inertial odometry — deskew, voxel-plane mapping, point-to-plane ICP solved by Gauss-Newton on SE(3) — and every non-obvious decision in it is written down and justified, including the ones that turned out to be wrong. The real subject is Lie algebra and least squares on a manifold , taught through a system where getting them subtly wrong still produces plausible output. New to the Lie theory side? Start with this primer on Lie algebra . The thing that makes this domain hard Every serious bug in this project produced plausible output. Not one of them crashed. A sign-flipped Jacobian still converges. A Jacobian that has silently lost its first-order term still runs. A plane fitted perpendicular to the actual wall still gives ICP something to chew on. There is no stack trace, no NaN, no red text — just a trajectory that is quietly, confidently wrong. That single fact dictates the architecture, the tests, and the docs. See doc/testing.md . What it does flowchart LR imu([\"/livox/imu\"]) --> sync lidar([\"/livox/lidar\"]) --> sync init[\"1 · IMU init<br/><i>gate: nothing runs until done</i>\"] -.-> sync imu --> init sync[\"2 · sync\"] --> deskew[\"3 · deskew\"] --> down[\"4 · downsample\"] --> reg[\"5 · register\"] reg --> odom([\"/odom + TF\"]) reg --> insert[\"6 · insert into map\"] insert --> map[(\"local map<br/>voxel hash + planes\")] map -- target --> reg Loading A Livox scan is a ~100 ms sweep, not a snapshot . We integrate the gyro on SO(3) to undistort it ( deskew ), voxel-downsample it, register it against a voxel-hash local map to get a pose, then insert the aligned scan back into that map. The loop closes on itself — which is both the reason it works and its central hazard. Status: it holds real time (10 Hz) on the test bag — zero scans dropped, zero diverged, rmse steady at ~0.13 m. Why glasslio Every stage has a write-up, in execution order — six stage docs plus the solver, each one explaining the trap that stage sets, not just the code it runs ( docs ). The bugs are documented, not hidden — including a tight-coupling divergence whose documented diagnosis was itself wrong : traced to two miscalibrated numbers, fixed to parity with loose , and the whole arc — misdiagnosis included — written down. No Ceres, no GTSAM, no g2o — the manifold least-squares solver is under 200 lines of Eigen and you are meant to read it ( gauss_newton.hpp ). The",
+      "fetched_ok": true
+    },
+    "ntnu-arl /rig": {
+      "full_name": "ntnu-arl /rig",
+      "url": "https://github.com/ntnu-arl/rig",
+      "owner": "ntnu-arl",
+      "repo": "rig",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-09-05T03:10:54.212595+00:00",
+      "archived": false,
+      "about": "A factor graph-based odometry fusing IMU, radar, and barometric pressure measurements using an incremental fixed-lag smoother. - ntnu-arl/rig",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2605.01773",
+      "readme_excerpt": "rig: Radar-Inertial Factor Graph Estimator This repository contains the implementation of the work On the Characterization and Limits of 4D Radar for Aided Inertial Navigation published in IEEE Transactions on Field Robotics ( doi ). The method consists of a factor graph-based radar-inertial odometry fusing radar Doppler, radar range, and barometric pressure measurements using the incremental fixed-lag smoother from GTSAM . Build Dependencies: Assuming you have a ros-noetic-desktop-full installation, install additional dependencies by # apt sudo apt install libeigen3-dev libpcl-dev libspdlog-dev libyaml-cpp-dev libgoogle-glog-dev \\ ros-noetic-pcl-conversions ros-noetic-eigen-conversions # gtsam git clone https://github.com/borglab/gtsam.git -b release/4.2 cd gtsam && mkdir build && cd build cmake -DCMAKE_BUILD_TYPE=Release -DGTSAM_POSE3_EXPMAP=ON -DGTSAM_ROT3_EXPMAP=ON -DGTSAM_USE_QUATERNIONS=ON -DGTSAM_USE_SYSTEM_EIGEN=ON -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF -DGTSAM_WITH_TBB=OFF -DGTSAM_BUILD_PYTHON=OFF .. make -j $( nproc ) && sudo make install # from source mkdir -p ~ /catkin_ws/src && cd ~ /catkin_ws/src git clone https://github.com/MIT-SPARK/config_utilities.git && cd config_utilities && git checkout f569658 && cd .. git clone https://github.com/ntnu-arl/rig.git and build by cd ~ /catkin_ws catkin init catkin config --cmake-args -DCMAKE_BUILD_TYPE=Release catkin build rig Use Online: roslaunch rig rig_node.launch Offline: roslaunch rig rig_rosbag.launch bag_name:=/path/to/bag.bag Sensor specific and more general method parameters are set in rig_ros/config/radar.yaml and rig_ros/config/rig.yaml . Data The datasets used in the paper are available on huggingface , along with additional information regarding the physical setup and sensor data. Reference If you use any of this implementation or accompanying data in your research, please cite: @ARTICLE { nissov2026radar , author = { Nissov, Morten and Alexis, Kostas } , journal = { IEEE Transactions on Field Robotics } , title = { On the Characterization and Limits of 4-D Radar for Aided Inertial Navigation } , year = { 2026 } , volume = { 3 } , pages = { 694--723 } , doi = { 10.1109/TFR.2026.3690584 } }",
       "fetched_ok": true
     }
   },

@@ -2,18 +2,18 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `207`
+Repositories: `209`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 81 |
+| ROS / Robotics Tools | 82 |
 | Research Productivity | 36 |
 | C++ / Development | 34 |
 | LLM / AI Tools | 27 |
 | Docker / Reproducibility | 13 |
-| General | 9 |
+| General | 10 |
 | Visualization / Annotation | 7 |
 
 ## ROS / Robotics Tools
@@ -99,6 +99,7 @@ Repositories: `207`
 - [gogojjh/hkustgz_segnet](https://github.com/gogojjh/hkustgz_segnet)
 - [wwtinwhu/ros_tools](https://github.com/wwtinwhu/ros_tools)
 - [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++ GNSS/RTK/PPP/CLAS toolkit.
+- [SS47816/lidar_obstacle_detector](https://github.com/SS47816/lidar_obstacle_detector) - 3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm - SS47816/lidar_obstacle_detector
 
 ## Research Productivity
 
@@ -232,6 +233,7 @@ Repositories: `207`
 - [jizhang-cmu/360_camera](https://github.com/jizhang-cmu/360_camera) - Ricoh Theta Z1 camera driver and lidar-to-camera extrinsic/latency calibration for Mecanum wheel platform
 - [homtimon/gt_traj_icp_registration](https://github.com/homtimon/gt_traj_icp_registration) - Tool to register point clouds to generate ground truth trajectories
 - [ChiyunNoh/GTSAM-Legged-Estimator-ROS2](https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2)
+- [francois141/upal](https://github.com/francois141/upal)
 - [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation
 
 ## Visualization / Annotation

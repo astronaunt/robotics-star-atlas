@@ -2,7 +2,7 @@
 
 LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
 
-Repositories: `157`
+Repositories: `158`
 
 [Back to README](../../README.md)
 
@@ -159,6 +159,7 @@ Repositories: `157`
 - [Functionhx/Batch-LIO](https://github.com/Functionhx/Batch-LIO) - Batch-wise extension of Point-LIO: per-~1ms batch EKF update + in-batch de-skew for high-bandwidth, lower-compute LiDAR-inertial odometry (reproduction of Point-LIWO innovation #1). - Fun...
 - [OmerMersin/FAST_LIO_GPU](https://github.com/OmerMersin/FAST_LIO_GPU) - GPU-accelerated FAST-LIO for ROS2 with Ouster support and Jetson Orin optimization. - OmerMersin/FAST_LIO_GPU
 - [ouguangjun/kilo-map](https://github.com/ouguangjun/kilo-map) - kilo-map: Robust Lidar-based Odometry and Mapping
+- [Tim-HW/glass-lio](https://github.com/Tim-HW/glass-lio) - A transparent LiDAR-inertial odometry for Livox. written to be read :D - Tim-HW/glass-lio
 - [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".
 - [url-kaist/se3-lio](https://github.com/url-kaist/se3-lio) - SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)
 - [xiaofan4122/Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO) - Elevator-LIO Official implementation
