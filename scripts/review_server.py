@@ -21,7 +21,7 @@ CUSTOM_CATEGORIES_PATH = ROOT / "data" / "custom_categories.json"
 MANUAL_REPOS_PATH = ROOT / "data" / "manual_repos.json"
 
 HOST = "127.0.0.1"
-PORT = 8765
+PORT = 8766
 
 
 HTML = r"""<!doctype html>

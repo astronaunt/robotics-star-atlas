@@ -2,7 +2,7 @@
 
 Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.
 
-Repositories: `62`
+Repositories: `63`
 
 [Back to README](../../README.md)
 
@@ -68,3 +68,4 @@ Repositories: `62`
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
 - [physical-superintelligence-lab/Humanoid-Everyday](https://github.com/physical-superintelligence-lab/Humanoid-Everyday) - Humanoid dataset for learning
 - [RNP-lab/viking_hill_radar_lidar_camera_dataset](https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset) - Radar, lidar and camera dataset focusing on obstacle classification in forest environment
+- [svendbot/smfeval](https://github.com/svendbot/smfeval)

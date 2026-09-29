@@ -2,7 +2,7 @@
 
 Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.
 
-Repositories: `61`
+Repositories: `60`
 
 [Back to README](../../README.md)
 
@@ -10,7 +10,7 @@ Repositories: `61`
 | --- | ---: |
 | Segmentation | 26 |
 | Processing Libraries | 16 |
-| General | 14 |
+| General | 13 |
 | 3D Detection | 3 |
 | Representation Learning | 2 |
 
@@ -65,7 +65,6 @@ Repositories: `61`
 ## General
 
 - [nv-tlabs/NKSR](https://github.com/nv-tlabs/NKSR) - [CVPR 2023 Highlight] Neural Kernel Surface Reconstruction
-- [MOLAorg/mola](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mApping (MOLA)
 - [xiaohulugo/3DLineDetection](https://github.com/xiaohulugo/3DLineDetection) - A simple and efficient 3D line detection algorithm for large scale unorganized point cloud
 - [LimHyungTae/ERASOR](https://github.com/LimHyungTae/ERASOR) - Official page of ERASOR (Egocentric Ratio of pSeudo Occupancy-based Dynamic Object Removal), which is accepted @ RA-L'21 with ICRA'21
 - [PJLab-ADG/PCSim](https://github.com/PJLab-ADG/PCSim) - PCSim: LiDAR Point Cloud Simulation and Sensor Placement! Code of [ICRA 2023] "Analyzing Infrastructure LiDAR Placement with Realistic LiDAR Simulation Library" and [ICCV 2023] "Optimizin...

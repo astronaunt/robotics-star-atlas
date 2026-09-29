@@ -2,7 +2,7 @@
 
 LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
 
-Repositories: `158`
+Repositories: `162`
 
 [Back to README](../../README.md)
 
@@ -98,6 +98,7 @@ Repositories: `158`
 - [hr2894235132/faster-livo](https://github.com/hr2894235132/faster-livo)
 - [Ji1Xingyu/lio_gvm](https://github.com/Ji1Xingyu/lio_gvm)
 - [ntnu-arl/mimosa](https://github.com/ntnu-arl/mimosa) - Multi-modal SLAM
+- [MOLAorg/mola_lidar_odometry](https://github.com/MOLAorg/mola_lidar_odometry) - MOLA LiDAR odometry and localization
 - [chengwei0427/hm-lio](https://github.com/chengwei0427/hm-lio) - A Hash-map based Lidar-Inertial Odometry (A simple reproduction of fastlio 1.0 with Hash-map).
 - [iDonghq/FAST_LIO_LOCALIZATION_PLUS](https://github.com/iDonghq/FAST_LIO_LOCALIZATION_PLUS) - The repo is pure localization for fastlio with given initial pose from rviz
 - [kekeliu-whu/Wildcat-SLAM](https://github.com/kekeliu-whu/Wildcat-SLAM) - An unofficial open source implentation of CSIRO's Wildcat SLAM.
@@ -157,10 +158,13 @@ Repositories: `158`
 - [comrob/liorf-crl](https://github.com/comrob/liorf-crl) - CRL modification of the ROS1 liorf SLAM
 - [ethz-asl/BIEVR-LIO](https://github.com/ethz-asl/BIEVR-LIO) - [RSS 2026] 🦫 BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps
 - [Functionhx/Batch-LIO](https://github.com/Functionhx/Batch-LIO) - Batch-wise extension of Point-LIO: per-~1ms batch EKF update + in-batch de-skew for high-bandwidth, lower-compute LiDAR-inertial odometry (reproduction of Point-LIWO innovation #1). - Fun...
+- [MOLAorg/mola](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mApping (MOLA) - MOLAorg/mola
 - [OmerMersin/FAST_LIO_GPU](https://github.com/OmerMersin/FAST_LIO_GPU) - GPU-accelerated FAST-LIO for ROS2 with Ouster support and Jetson Orin optimization. - OmerMersin/FAST_LIO_GPU
 - [ouguangjun/kilo-map](https://github.com/ouguangjun/kilo-map) - kilo-map: Robust Lidar-based Odometry and Mapping
+- [PRBonn/rko_slam](https://github.com/PRBonn/rko_slam) - ROS2 LiDAR-inertial SLAM and multi-session alignment - PRBonn/rko_slam
 - [Tim-HW/glass-lio](https://github.com/Tim-HW/glass-lio) - A transparent LiDAR-inertial odometry for Livox. written to be read :D - Tim-HW/glass-lio
 - [TongxingJin/TXTLCD](https://github.com/TongxingJin/TXTLCD) - This repository is for "Robust Loop Closure by Textual Cues in Challenging Environments".
+- [TUMFTM/FAR-LIO](https://github.com/TUMFTM/FAR-LIO) - A highly efficient, CUDA-accelerated framework for Fast, Accurate, and Robust LiDAR-Inertial Odometry. - TUMFTM/FAR-LIO
 - [url-kaist/se3-lio](https://github.com/url-kaist/se3-lio) - SE(3)-LIO: Smooth IMU Propagation With Jointly Distributed Poses on SE(3) Manifold for Accurate and Robust LiDAR-Inertial Odometry (ICRA 2026)
 - [xiaofan4122/Elevator-LIO](https://github.com/xiaofan4122/Elevator-LIO) - Elevator-LIO Official implementation
 - [zzywhu/R3LIO](https://github.com/zzywhu/R3LIO) - [ISRPS JPRS 2026] Official implementation of R³LIO, a robust and accurate mobile mapping system, targeting a low-cost rotating LiDAR setup (a 16-channel LiDAR actuated by a motor to conti...

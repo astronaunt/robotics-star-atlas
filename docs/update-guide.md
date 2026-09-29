@@ -10,7 +10,7 @@ Use the local review UI for normal updates:
 python scripts\review_server.py
 ```
 
-Open `http://127.0.0.1:8765` and use these actions:
+Open `http://127.0.0.1:8766` and use these actions:
 
 - `Add Repo URL`: paste a GitHub repository URL when you only want to add one new star immediately.
 - `Add Category`: create a new category without editing JSON or CSV by hand.

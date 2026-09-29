@@ -2,18 +2,18 @@
 
 ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.
 
-Repositories: `209`
+Repositories: `210`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 82 |
-| Research Productivity | 36 |
+| ROS / Robotics Tools | 81 |
+| Research Productivity | 37 |
 | C++ / Development | 34 |
 | LLM / AI Tools | 27 |
 | Docker / Reproducibility | 13 |
-| General | 10 |
+| General | 11 |
 | Visualization / Annotation | 7 |
 
 ## ROS / Robotics Tools
@@ -64,7 +64,6 @@ Repositories: `209`
 - [AbnerCSZ/lidar2rosbag_KITTI](https://github.com/AbnerCSZ/lidar2rosbag_KITTI) - A simple way to convert KITTI LiDAR data to rosbag.
 - [JokerJohn/SLAMTools](https://github.com/JokerJohn/SLAMTools) - A script toolkit for SLAM research, including but not limited to various plotting functions, ROS bag processing, and more.
 - [kahowang/Livox_Color_View_And_Mpping](https://github.com/kahowang/Livox_Color_View_And_Mpping) - A module to color the Livox Frame and FASTLIO2's map, inorder to checkout our extrinsicT ~
-- [MOLAorg/mola_lidar_odometry](https://github.com/MOLAorg/mola_lidar_odometry) - MOLA LiDAR odometry and localization
 - [PaulKemppi/gtsam_fusion](https://github.com/PaulKemppi/gtsam_fusion) - Estimates pose, velocity, and accelerometer / gyroscope biases by fusing GPS position and/or 6DOF pose with IMU data. The fusion is done using GTSAM's sparse nonlinear incremental optimiz...
 - [Geekgineer/ros2_bag_exporter](https://github.com/Geekgineer/ros2_bag_exporter) - ROS2 Bag Exporter is a versatile ROS 2 c++ package designed to export ROS 2 bag files (rosbag2) into various formats, including images, point cloud data (PCD) files, IMU data, and GPS dat...
 - [jizhang-cmu/autonomy_stack_diablo_setup](https://github.com/jizhang-cmu/autonomy_stack_diablo_setup) - Full Autonomy Stack for Diablo Setup
@@ -139,6 +138,7 @@ Repositories: `209`
 - [url-kaist/HeLiMOS-visualizer](https://github.com/url-kaist/HeLiMOS-visualizer) - A LiDAR visualization tool for HeLiMOS dataset
 - [12DDDCCC/word-latex-word](https://github.com/12DDDCCC/word-latex-word)
 - [ndpvt-web/latex-document-skill](https://github.com/ndpvt-web/latex-document-skill) - Universal LaTeX document skill for Claude Code: 27 templates, 27 scripts, 26 reference guides. Made with Claude Code on ✦ HappyCapy AI ✦ platform - ndpvt-web/latex-document-skill
+- [YibinWu/DogLegs](https://github.com/YibinWu/DogLegs) - [IROS 2025] DogLegs: Robust Proprioceptive State Estimation for Legged Robots Using Multiple Leg-Mounted IMUs - YibinWu/DogLegs
 
 ## C++ / Development
 
@@ -235,6 +235,7 @@ Repositories: `209`
 - [ChiyunNoh/GTSAM-Legged-Estimator-ROS2](https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2)
 - [francois141/upal](https://github.com/francois141/upal)
 - [sjtuyinjie/Ultra-Fusion](https://github.com/sjtuyinjie/Ultra-Fusion) - Ultra-Fusion: A Resilient Tightly-Coupled Multi-Sensor Fusion SLAM Framework under Sensor Degradation and Spatiotemporal Perturbation
+- [svendbot/smfeval](https://github.com/svendbot/smfeval)
 
 ## Visualization / Annotation
 
