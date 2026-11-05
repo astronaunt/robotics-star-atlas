@@ -2,7 +2,7 @@
 
 Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.
 
-Repositories: `109`
+Repositories: `110`
 
 [Back to README](../../README.md)
 
@@ -110,6 +110,7 @@ Repositories: `109`
 - [lab-sun/Triplet-Graph](https://github.com/lab-sun/Triplet-Graph) - [RAL 2024] Triplet-Graph: Global Metric Localization Based on Semantic Triplet Graph for Autonomous Vehicles
 - [robot-wljywp/HBFusion](https://github.com/robot-wljywp/HBFusion)
 - [UniLauX/SPR](https://github.com/UniLauX/SPR) - MATLAB code for "Scalable Place Recognition Under Appearance Change for Autonomous Driving" - ICCV 2019
+- [ASIG-X/RESPLE2](https://github.com/ASIG-X/RESPLE2) - First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2:...
 - [liw95/LightLoc-PlusPlus](https://github.com/liw95/LightLoc-PlusPlus) - Official repository for LightLoc++: Sensor-Robust Representation Learning for Efficient Outdoor LiDAR Localization. - liw95/LightLoc-PlusPlus
 - [LTU-RAI/InLiER](https://github.com/LTU-RAI/InLiER) - Learning-Free Heterogeneous LiDAR Place Recognition via Intermediate Mixed-Radix Structural Keypoint Tokenization, accepted @ RA-L'26 - LTU-RAI/InLiER
 - [minwoo0611/TreeLoc-plusplus](https://github.com/minwoo0611/TreeLoc-plusplus) - Repository for TreeLoc++ (TFR 2026)

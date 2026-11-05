@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-29T02:40:52.532153+00:00",
-  "total_unique_repos": 1434,
+  "generated_at": "2026-11-05T03:50:41.765867+00:00",
+  "total_unique_repos": 1441,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
       "name_zh": "激光惯导里程计",
       "description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
       "kind": "algorithm",
-      "count": 162,
-      "primary_count": 156
+      "count": 163,
+      "primary_count": 157
     },
     "lidar-odometry": {
       "name": "LiDAR State Estimation",
@@ -23,23 +23,23 @@
       "name_zh": "视觉里程计与视觉惯导",
       "description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
       "kind": "algorithm",
-      "count": 76,
-      "primary_count": 73
+      "count": 77,
+      "primary_count": 74
     },
     "lidar-visual-inertial-odometry": {
       "name": "LiDAR-Visual-Inertial State Estimation",
       "name_zh": "激光视觉惯导里程计",
       "description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
       "kind": "algorithm",
-      "count": 35,
-      "primary_count": 29
+      "count": 37,
+      "primary_count": 30
     },
     "place-recognition-loop-closure": {
       "name": "Place Recognition & Loop Closure",
       "name_zh": "地点识别与回环检测",
       "description": "Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers.",
       "kind": "algorithm",
-      "count": 109,
+      "count": 110,
       "primary_count": 104
     },
     "mapping-map-representation": {
@@ -47,8 +47,8 @@
       "name_zh": "建图与地图表达",
       "description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "kind": "algorithm",
-      "count": 191,
-      "primary_count": 179
+      "count": 193,
+      "primary_count": 181
     },
     "point-cloud-registration": {
       "name": "Point Cloud Registration",
@@ -87,8 +87,8 @@
       "name_zh": "标定与时间同步",
       "description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
       "kind": "algorithm",
-      "count": 31,
-      "primary_count": 31
+      "count": 32,
+      "primary_count": 32
     },
     "degeneracy-robustness": {
       "name": "Degeneracy, Robustness & Failure Analysis",
@@ -151,8 +151,8 @@
       "name_zh": "数据集与基准",
       "description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
       "kind": "resource",
-      "count": 63,
-      "primary_count": 61
+      "count": 64,
+      "primary_count": 62
     },
     "slam-learning-handbooks": {
       "name": "SLAM Learning, Handbooks & Notes",
@@ -194,6 +194,14 @@
       "count": 1,
       "primary_count": 1
     },
+    "feed-forward": {
+      "name": "feed-forward",
+      "name_zh": "前馈式重建相关",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "count": 1,
+      "primary_count": 0
+    },
     "fmcw-slam": {
       "name": "FMCW SLAM",
       "name_zh": "FMCW SLAM",
@@ -207,8 +215,16 @@
       "name_zh": "Leg",
       "description": "Custom user-defined category.",
       "kind": "custom",
-      "count": 11,
+      "count": 12,
       "primary_count": 7
+    },
+    "spatial-memory": {
+      "name": "Spatial Memory",
+      "name_zh": "Spatial Memory",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "count": 1,
+      "primary_count": 0
     },
     "uwb": {
       "name": "uwb",
@@ -55336,24 +55352,23 @@
     "xuankuzcr /FAST-LIVO2-RTK": {
       "full_name": "xuankuzcr /FAST-LIVO2-RTK",
       "url": "https://github.com/xuankuzcr/FAST-LIVO2-RTK",
-      "owner": "xuankuzcr ",
+      "owner": "xuankuzcr",
       "repo": "FAST-LIVO2-RTK",
-      "list_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
-      "list_stars_label": "132",
-      "list_language": "C++",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
       "source_lists": [
-        "gnss",
-        "slam-livo"
+        "manual"
       ],
-      "fetched_at": "2026-06-06T15:01:47.000618+00:00",
+      "fetched_at": "2026-11-05T03:16:43.241048+00:00",
       "archived": false,
-      "about": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
+      "about": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK",
       "topics": [],
       "homepage": "http://wiki.ros.org/ROS/Installation",
-      "readme_excerpt": "FAST-LIVO2-RTK FAST-LIVO2-RTK extends FAST-LIVO2 with RTK/GNSS-constrained global optimization for long-term LiDAR-visual mapping. Key highlights include: Fully Reproducible: Complete open-source software and hardware setup guaranteeing fully reproducible LIVO-RTK experiments. Robust Initialization Module: Built-in initialization featuring DTW-based time offset estimation and hand-eye extrinsic calibration. LIV-RTK Fusion Paradigm: A comprehensive example paradigm for fusing LIVO trajectories with RTK observations. 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . Collected in a challenging scene with degraded geometry and texture. a2, b2, c2 : FAST-LIVO2 baseline. a1, b1, c1 : results after RTK fusion. 1. Prerequisited 1.1 Ubuntu and ROS Ubuntu 18.04~20.04. See ROS Installation . 1.2 PCL, Eigen, and OpenCV PCL>=1.8, Eigen>=3.3.4, OpenCV>=4.2. 1.3 Sophus Install the non-templated/double-only version of Sophus. git clone https://github.com/strasdat/Sophus.git cd Sophus git checkout a621ff mkdir build && cd build && cmake .. make sudo make install 1.4 Vikit Vikit provides the camera models and math utilities required by this project. Put it in your catkin workspace source folder. cd ~ /catkin_ws/src git clone https://github.com/xuankuzcr/rpg_vikit.git 1.5 RTK Dependencies The RTK branch depends on the GNSS ROS message package used by the u-blox/GVINS toolchain. Put it in the same catkin workspace: cd ~ /catkin_ws/src git clone https://github.com/HKUST-Aerial-Robotics/gnss_comm.git GTSAM is used for factor graph-based post-processing optimization. git clone https://github.com/borglab/gtsam.git cd gtsam mkdir build && cd build cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF -DGTSAM_USE_SYSTEM_EIGEN=ON .. make -j $( nproc ) sudo make install GeographicLib is used for converting geographic coordinates to local Cartesian coordinates. sudo apt-get install libgeographic-dev ros- ${ROS_DISTRO} -eigen-conversions 2. Run our examples Download the provided RTK test rosbag file: RTK-Dataset . Launch the system and load the configuration file: roslaunch fast_livo HH.launch Play the rosbag. Once the sequence is finished, press Enter in the terminal running the launch file to trigger the backend optimizer. rosbag play HH-LVGO-01.bag 3. Appendix Time Synchronization: The diagram illustrates the time synchronization scheme among GNSS, LiDAR, and image data. Hardware Platform: The table below summarizes the main devices used by the platform. Device Image Model Description LiDAR Model: Livox Mid-360 Camera Model: MV-CB016-10GC-S-W GNSS Receiver Model: u-blox ZED-F9P Computing Unit Model: N100 mini PC Synchronization Controller Model: STM32 4. Acknowledgements This repository is built on top of FAST-LIVO2 and uses sever",
+      "readme_excerpt": "FAST-LIVO2-RTK FAST-LIVO2-RTK extends FAST-LIVO2 with RTK/GNSS-constrained global optimization for long-term LiDAR-visual mapping. Key highlights include: Fully Reproducible: Complete open-source software and hardware setup guaranteeing fully reproducible LIVO-RTK experiments. Robust Initialization Module: Built-in initialization featuring cross-correlation-based time offset estimation and hand-eye extrinsic calibration. LIV-RTK Fusion Paradigm: A simple example paradigm for fusing LIVO trajectories with RTK observations. 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . Collected in a challenging scene with degraded geometry and texture. a2, b2, c2 : FAST-LIVO2 baseline. a1, b1, c1 : results after RTK fusion. 1. Prerequisited 1.1 Ubuntu and ROS Ubuntu 18.04~20.04. See ROS Installation . 1.2 PCL, Eigen, and OpenCV PCL>=1.8, Eigen>=3.3.4, OpenCV>=4.2. 1.3 Sophus Install the non-templated/double-only version of Sophus. git clone https://github.com/strasdat/Sophus.git cd Sophus git checkout a621ff mkdir build && cd build && cmake .. make sudo make install 1.4 Vikit Vikit provides the camera models and math utilities required by this project. Put it in your catkin workspace source folder. cd ~ /catkin_ws/src git clone https://github.com/xuankuzcr/rpg_vikit.git 1.5 RTK Dependencies The RTK branch depends on the GNSS ROS message package used by the u-blox/GVINS toolchain. Put it in the same catkin workspace: cd ~ /catkin_ws/src git clone https://github.com/HKUST-Aerial-Robotics/gnss_comm.git GTSAM is used for factor graph-based post-processing optimization. git clone https://github.com/borglab/gtsam.git cd gtsam mkdir build && cd build cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF -DGTSAM_USE_SYSTEM_EIGEN=ON .. make -j $( nproc ) sudo make install GeographicLib is used for converting geographic coordinates to local Cartesian coordinates. sudo apt-get install libgeographic-dev ros- ${ROS_DISTRO} -eigen-conversions 2. Run our examples Download the provided RTK test rosbag file: RTK-Dataset . Launch the system and load the configuration file: roslaunch fast_livo HH.launch Play the rosbag. Once the sequence is finished, press Enter in the terminal running the launch file to trigger the backend optimizer. rosbag play HH-LVGO-01.bag 3. Appendix Time Synchronization: The diagram illustrates the time synchronization scheme among GNSS, LiDAR, and image data. Hardware Platform: The table below summarizes the main devices used by the platform. Device Image Model Description LiDAR Model: Livox Mid-360 Camera Model: MV-CB016-10GC-S-W GNSS Receiver Model: u-blox ZED-F9P Computing Unit Model: N100 mini PC Synchronization Controller Model: STM32 4. Acknowledgements This repository is built on top of FAST-LIVO2 and use",
       "fetched_ok": true,
       "display_name": "xuankuzcr/FAST-LIVO2-RTK",
-      "display_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
+      "display_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK",
       "manual_note": "",
       "manual_labels": [],
       "labels": [
@@ -55365,11 +55380,12 @@
       "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "",
-      "primary_score": 49,
-      "secondary_categories": [],
+      "primary_score": 30,
+      "secondary_categories": [
+        "calibration-synchronization"
+      ],
       "match_hits": [
         "gnss",
-        "list:gnss",
         "rtk"
       ]
     },
@@ -60752,6 +60768,287 @@
         "lidar-inertial odometry",
         "lio"
       ]
+    },
+    "JokerJohn /IntrinsicCalib": {
+      "full_name": "JokerJohn /IntrinsicCalib",
+      "url": "https://github.com/JokerJohn/IntrinsicCalib",
+      "owner": "JokerJohn",
+      "repo": "IntrinsicCalib",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:11:32.310939+00:00",
+      "archived": false,
+      "about": "[RA-P'2026] Automatic Reproducible Camera Intrinsic Calibration (自动筛选数据的相机标定工具箱) - JokerJohn/IntrinsicCalib",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2609.10082",
+      "readme_excerpt": "Automatic Reproducible Camera Intrinsic Calibration Xiangcheng Hu English | 中文 Introduction Accurate camera intrinsic calibration depends on the quality of the collected images, yet existing target-based methods often require the practitioner to select high-quality images and to specify the radial distortion order manually. This work determines both from the collected data. Key insight: the two decisions are coupled through the residual. A higher-order model lowers the residual scale that defines the rejection threshold, and the calibration-set residual cannot validate the added coefficient. Image rejection therefore runs under each candidate order, and the order is selected on held-out images with the intrinsics and distortion fixed. Intrinsic calibration method. An automatic and operator-free method iteratively selects high-quality images and the distortion order, yielding accurate and reproducible intrinsics. Distortion-order selection. A criterion evaluates each candidate on held-out images with the intrinsics and distortion fixed, avoiding the use of calibration-set residuals to assess model adequacy. Interactive calibration tool. An open-source tool for chessboard and AprilGrid targets, validated on public datasets and real-world robots. News 2026/11 : The paper has been accepted by IEEE Robotics and Automation Practice (RA-P). 2026/10/11 : The calibration tool, data and experiment scripts are released. 2026/09/09 : The paper is available on arXiv . Video Click the image to play the full video (92 s). Method Image selection. Stage 1 admits an image only if the extractor recovers the complete inner-corner grid. Stage 2 iteratively rejects the images whose mean residual exceeds a multiple of the median and re-solves the calibration: $$ \\tau^{(t)} = \\kappa,\\tilde{e}^{(t)}, \\qquad \\mathcal{I}^{(t+1)} = \\lbrace, i\\in\\mathcal{I}^{(t)} \\mid \\bar{e}_i^{(t)} \\le \\tau^{(t)} ,\\rbrace $$ Distortion-order selection. The accepted set is split into an estimation subset and a validation subset $\\mathcal{V}$ . Each candidate is estimated with Stage 2 applied internally, and only the board pose is re-estimated on $\\mathcal{V}$ . $\\mathrm{M}_3$ (adds $k_3$ to $\\mathrm{M}_2$ ) is adopted if and only if it degrades neither the mean nor the worst-view error: $$ \\bar{e}_{\\mathrm{v}}(\\mathrm{M}_3) \\le \\alpha,\\bar{e}_{\\mathrm{v}}(\\mathrm{M}_2) \\quad\\text{and}\\quad e^{\\max}_{\\mathrm{v}}(\\mathrm{M}_3) \\le \\beta,e^{\\max}_{\\mathrm{v}}(\\mathrm{M}_2) $$ All hyper-parameters are fixed across every dataset: $\\kappa=2$ , $\\alpha=\\beta=1$ , $N_{\\min}=15$ , $N_{\\mathrm{stop}}=8$ , $T_{\\max}=3$ . Interactive tool. The tool displays the filtering status of every image and the distribution of calibration points, and records every decision. Left: a chessboard session (Rig-A, played a",
+      "fetched_ok": true,
+      "display_name": "JokerJohn/IntrinsicCalib",
+      "display_description": "[RA-P'2026] Automatic Reproducible Camera Intrinsic Calibration (自动筛选数据的相机标定工具箱) - JokerJohn/IntrinsicCalib",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "calibration-synchronization"
+      ],
+      "primary_category": "calibration-synchronization",
+      "primary_category_name": "Calibration & Time Synchronization",
+      "primary_category_name_zh": "标定与时间同步",
+      "primary_category_description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 35,
+      "secondary_categories": [],
+      "match_hits": [
+        "calibration",
+        "intrinsic"
+      ]
+    },
+    "WilsonGuo /Global-LVBA": {
+      "full_name": "WilsonGuo /Global-LVBA",
+      "url": "https://github.com/WilsonGuo/Global-LVBA",
+      "owner": "WilsonGuo",
+      "repo": "Global-LVBA",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:14:40.972987+00:00",
+      "archived": false,
+      "about": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+      "topics": [],
+      "homepage": "https://drive.google.com/drive/folders/19fYG4z666hcxyP6StVXs-ZOI2cbHsU5J?usp=drive_link",
+      "readme_excerpt": "增加了导出3DGS所需素材的功能 可以搭配FAST-LIVO2-RTK See FAST-LIVO2-RTK . Global-LVBA Global LiDAR-Visual Bundle Adjustment Global-LVBA is a globally consistent LiDAR–Visual Bundle Adjustment system for refinement after LiDAR-inertial-visual odometry (e.g., FAST-LIVO2). If you want to push accuracy to the next level, Global-LVBA further optimizes: point-cloud map consistency (reducing layering/stratification artifacts). camera poses towards pixel-level reprojection accuracy . 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . This figure shows qualitative comparisons before and after Global-LVBA refinement from both texture and geometric-structure perspectives. The initial poses are provided by FAST-LIVO2. 1. Prerequisites Python 3.8 Ceres Solver 2.1.0 Eigen 3.3.7 OpenCV 4.2.0 2. Build cd catkin_ws/src/Global-LVBA git submodule update --init --recursive cd SiftGPU && mkdir build && cd build && cmake .. && make cd catkin_ws && catkin_make 3. Dataset preparation Global-LVBA/ └── dataset/ └── your_sequence_name/ ├── all_image/ │ ├── 1661398632.022152.png # image named by timestamp │ ├── 1661398632.121881.png │ ├── ... │ └── image_poses.txt # camera poses (timestamp-aligned) ├── all_pcd_body/ │ ├── 1661398632.022152.pcd # point cloud named by timestamp │ ├── 1661398632.121881.pcd │ ├── ... │ └── lidar_poses.txt # LiDAR poses (timestamp-aligned) ├── colmap/ │ ├── match.db # feature matching database │ └── sparse/ # optional: COLMAP output for 3DGS │ └── 0/ │ ├── images.txt │ └── points3D.txt ├── depth/ # optional: generated depth maps └── reproj/ # optional: reprojection error logs 4. Dataset download The LVBA-Dataset ( Google Drive ) is generated from the raw rosbag in FAST-LIVO2-Dataset ( Google Drive ). 💡 Note: To prepare your own data with FAST-LIVO2, set pcd_save_en: false , type: 1 , and img_save_en: true in the FAST-LIVO2 config to directly generate the required files for Global-LVBA. 5. Run our examples Download the example data from LVBA-Dataset. roslaunch Global-LVBA lvba.launch 💡 Note: We recommend using the .db file generated by COLMAP to obtain feature correspondences. The built-in SiftGPU extraction/matching in this repo is provided for convenience, but its matching quality is generally inferior to COLMAP. 6. License The source code of this package is released under the MIT license.",
+      "fetched_ok": true,
+      "display_name": "WilsonGuo/Global-LVBA",
+      "display_description": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+      "manual_note": "",
+      "manual_labels": [
+        "lidar-visual-inertial-odometry"
+      ],
+      "labels": [
+        "mapping-map-representation",
+        "lidar-visual-inertial-odometry"
+      ],
+      "primary_category": "mapping-map-representation",
+      "primary_category_name": "Mapping & Map Representation",
+      "primary_category_name_zh": "建图与地图表达",
+      "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "3D Gaussian Splatting",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "cocel-postech /genz-lio": {
+      "full_name": "cocel-postech /genz-lio",
+      "url": "https://github.com/cocel-postech/genz-lio",
+      "owner": "cocel-postech",
+      "repo": "genz-lio",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:41:18.724010+00:00",
+      "archived": false,
+      "about": "GenZ-LIO: SOTA robust LiDAR-inertial odometry (IEEE T-FR 2026) - cocel-postech/genz-lio",
+      "topics": [],
+      "homepage": "https://youtu.be/jrUT97huwNE",
+      "readme_excerpt": "GenZ-LIO Generalizable LiDAR-Inertial Odometry Beyond Confined–Open Boundaries Youtube • Bilibili • Paper • Dataset • Install • Python • ROS (October 7, 2026) pip installation is now live: GenZ-LIO is designed for robust and computationally efficient LiDAR-inertial odometry across confined spaces, open environments, and transitions between them. Python support Process recorded data with an optional visualizer; no ROS installation is needed. Install and run (Linux x86-64, Python 3.8–3.12) 1. Prepare the environment Use Linux x86-64 with Python 3.8–3.12. Ubuntu 20.04, 22.04, and 24.04 provide Python 3.8, 3.10, and 3.12, respectively. sudo apt-get update sudo apt-get install -y python3-venv libgl1 python3 -m venv .venv source .venv/bin/activate python -m pip install --upgrade pip 2. Install Install all optional readers (rosbag and Ouster PCAP) and the visualizer: python -m pip install ' genz-lio[all] ' The published wheels include the compiled C++ extension; no local C++ build or ROS installation is required. Plain pip install genz-lio installs the core and CLI. 3. Prepare configurations The experiments/ YAMLs provide the sequence-specific configurations for reproducing the benchmark experiments in the paper. The default/ YAMLs are sensor templates for your own recordings. Export all bundled YAMLs once, preserving their default/ and experiments/ subdirectories under configs/ : genz_lio_pipeline list-configs | while IFS= read -r config ; do mkdir -p \" configs/ $( dirname \" $config \" ) \" genz_lio_pipeline export-config \" $config \" \" configs/ $config \" done Run this in the directory where you will run the examples below. This copies all 36 YAMLs unchanged and works with both source and wheel installations. Keep this folder for subsequent runs; there is no need to export again per sequence. Exported YAMLs are editable. Re-running the export will not overwrite existing files or your changes. 4. Run 1) For reproducing benchmark experiments (e.g., NarrowWide Handheld-A-01) Use the experiment YAML prepared above with the NarrowWide Handheld-A-01 recording: genz_lio_pipeline run \" {path_to_bag}/{NW_Handheld-A-01}.bag \" \\ --config configs/experiments/narrowwide/vlp16_handheld_a_01.yaml \\ --visualize --image-topic /camera/color/image_raw/compressed \\ --output results/narrowwide_handheld_a_01 The experiment YAML already contains the benchmark sensor topics and calibration. Obtain the dataset separately. The optional --image-topic displays the camera images recorded in this bag; omit it to run without the camera panel. Press SPACE to start. For rosbag2, pass the recording directory instead of a .bag file. The exported YAMLs also work outside the source checkout. ▶️ All benchmark sequences: downloads and Python commands (42 sequences) The commands use configs/experim",
+      "fetched_ok": true,
+      "display_name": "cocel-postech/genz-lio",
+      "display_description": "GenZ-LIO: SOTA robust LiDAR-inertial odometry (IEEE T-FR 2026) - cocel-postech/genz-lio",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "lidar-inertial-odometry"
+      ],
+      "primary_category": "lidar-inertial-odometry",
+      "primary_category_name": "LiDAR-Inertial State Estimation",
+      "primary_category_name_zh": "激光惯导里程计",
+      "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 53,
+      "secondary_categories": [],
+      "match_hits": [
+        "lidar inertial odometry",
+        "lidar-inertial odometry",
+        "lio"
+      ]
+    },
+    "ori-drs /FoundationVIO": {
+      "full_name": "ori-drs /FoundationVIO",
+      "url": "https://github.com/ori-drs/FoundationVIO",
+      "owner": "ori-drs",
+      "repo": "FoundationVIO",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:42:22.769175+00:00",
+      "archived": false,
+      "about": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+      "topics": [],
+      "homepage": "https://jinrhee.github.io",
+      "readme_excerpt": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry Jin Rhee 1 , Yuhao Zhang 1 , Frank Dellaert 2 , Maurice Fallon 1 1 Dynamic Robot Systems Group, University of Oxford 2 Georgia Institute of Technology FoundationVIO is a visual-inertial odometry method that fuses inertial sensing with learned geometry from general feed-forward 3D geometric foundation models (GFMs) in a factor-graph based optimisation. Due to its use of a GFM and inertial sensing, FoundationVIO is able to 1) remain robust in low-texture sequences that are challenging for classical methods and 2) enforce metric scale in odometry estimates and reconstructions. We additionally add GFM-based initialisation and loop-closure to demonstrate globally accurate trajectories and reconstruction. The method is compatible with general N-view GFMs such as DepthAnything3 and VGGT-Omega and naturally profits from advances in model accuracy and speed. Preview We use a simple factor graph formulation to optimise for per-frame poses and per-batch scale. The input consists of IMU measurements, model predicted poses, and relative scale between batches of predicted geometry. Setup The method is tested using CUDA 12.8 with > 12GB of VRAM. git submodule update --init --recursive curl -fsSL https://pixi.sh/install.sh | bash source ~/.bashrc pixi install Model weights (DA3, DINOv2, SALAD) download on the first run. Packages are in pixi.toml . Examples Project Aria The script downloads BigRoom3 into data/aria , runs the full sequence, and evaluates it. pixi run example-aria # or: pixi run example-aria <dataset_dir> See Aria Office dataset for more sequences. To run manually, unzip one into data/aria , then: pixi run python -m foundation_vio.run --config configs/aria.yaml --sequence <name> ScaRF-SLAM The r05 sequence from the ScaRF-SLAM dataset is a short sequence to quickly test. Use the script to download, extract, undistort, and run the full sequence. pixi run example-scarf # or: pixi run example-scarf <dataset_dir> Oxford Spires The script below downloads and runs the chch03 sequence from the Oxford Spires dataset. pixi run example-spires # or: pixi run example-spires <dataset_dir> Evaluating results A run writes one trajectory, tum_poses.csv : SLAM with loop closures (the default), or odometry with --set loop_closure.enabled=False . The example scripts evaluate their run. To evaluate any run, evaluate.py prints the trajectory's ATE [m] and RPE over 1 m segments [m/m] against the dataset's ground truth: # Aria: ground truth in the IMU frame pixi run python scripts/evaluate.py <run_dir> data/aria/<name>_sequence/gt_poses_in_right_imu_frame_tum.txt --gt-frame imu # ScaRF-SLAM: camera frame, extrinsics from the Kalibr camchain pixi run python scripts/evaluate.py <run_dir> data/scarf/<",
+      "fetched_ok": true,
+      "display_name": "ori-drs/FoundationVIO",
+      "display_description": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+      "manual_note": "",
+      "manual_labels": [
+        "feed-forward"
+      ],
+      "labels": [
+        "visual-inertial-odometry",
+        "feed-forward"
+      ],
+      "primary_category": "visual-inertial-odometry",
+      "primary_category_name": "Visual / Visual-Inertial State Estimation",
+      "primary_category_name_zh": "视觉里程计与视觉惯导",
+      "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "ASIG-X /RESPLE2": {
+      "full_name": "ASIG-X /RESPLE2",
+      "url": "https://github.com/ASIG-X/RESPLE2",
+      "owner": "ASIG-X",
+      "repo": "RESPLE2",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:43:29.051017+00:00",
+      "archived": false,
+      "about": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+      "topics": [],
+      "homepage": "https://www.youtube.com/watch?v=6bgAY8SLhvw",
+      "readme_excerpt": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement YouTube | arXiv | Website | Dataset RESPLE2 is a recursive non-uniform B-spline state estimation framework supporting a versatile range of multi-sensor odometry configurations, enabling LiDAR-inertial, LiDAR-visual-inertial (LVIO), LiDAR-leg-inertial (LKIO), and LiDAR-leg-visual-inertial (LKVIO) odometry systems with a unified design with optional global spline correction. All runs comfortably within real-time constraints. BibTex Citation @article{cao2026resple2, title={RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement}, author={Cao, Ziyu and Talbot, William and Li, Song and Chirarattananon, Pakpong and Gustafsson, Fredrik and Hutter, Marco and Li, Kailai}, journal={arXiv preprint arXiv:2610.37602}, year={2026} } Dependencies RESPLE2 supports ROS 2 Humble on Ubuntu 22.04 and ROS 2 Jazzy on Ubuntu 24.04. Install the corresponding ROS 2 distribution, then source it and install the dependencies: # Choose the setup file for your ROS 2 distribution: source /opt/ros/humble/setup.bash # source /opt/ros/jazzy/setup.bash sudo apt install build-essential cmake python3-colcon-common-extensions python3-yaml \\ libpcl-dev libeigen3-dev libopencv-dev libyaml-cpp-dev libboost-thread-dev \\ libsuitesparse-dev libceres-dev sudo apt install ros- ${ROS_DISTRO} -pcl-conversions ros- ${ROS_DISTRO} -cv-bridge ros- ${ROS_DISTRO} -image-transport \\ ros- ${ROS_DISTRO} -rosidl-default-generators ros- ${ROS_DISTRO} -rosidl-generator-dds-idl \\ ros- ${ROS_DISTRO} -ament-lint-auto ros- ${ROS_DISTRO} -ament-lint-common # Optional: for playing MCAP bags sudo apt install ros- ${ROS_DISTRO} -rosbag2-storage-mcap Legged-robot kinematics is enabled by default and requires Pinocchio 3.9.0 . LIO and LVIO users can build without it by disabling RESPLE2_ENABLE_KINEMATICS as shown below. If CMake cannot locate an installed Pinocchio, pass -Dpinocchio_DIR=/path/to/lib/cmake/pinocchio under --cmake-args when building. Compilation source /opt/ros/ ${ROS_DISTRO} /setup.bash mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE2.git cd ~ /ros2_ws colcon build --symlink-install --packages-up-to resple2 source install/setup.bash To build without Pinocchio or legged-robot message dependencies , run from the workspace root: export RESPLE2_ENABLE_KINEMATICS=OFF colcon build --symlink-install --packages-up-to resple2 \\ --cmake-args -DRESPLE2_ENABLE_KINEMATICS=OFF source install/setup.bash Keep if_kin: false in the selected YAML configuration. Setting it to true in this build produces a startup error explaining how to enable kinematics. To restore legged-robot support, install Pinocc",
+      "fetched_ok": true,
+      "display_name": "ASIG-X/RESPLE2",
+      "display_description": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+      "manual_note": "",
+      "manual_labels": [
+        "place-recognition-loop-closure",
+        "leg"
+      ],
+      "labels": [
+        "lidar-visual-inertial-odometry",
+        "place-recognition-loop-closure",
+        "leg"
+      ],
+      "primary_category": "lidar-visual-inertial-odometry",
+      "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+      "primary_category_name_zh": "激光视觉惯导里程计",
+      "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "url-kaist /se3-livom-comfort": {
+      "full_name": "url-kaist /se3-livom-comfort",
+      "url": "https://github.com/url-kaist/se3-livom-comfort",
+      "owner": "url-kaist",
+      "repo": "se3-livom-comfort",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:45:50.068898+00:00",
+      "archived": false,
+      "about": "SE(3)-LIVOM for the COMFORT Localization Benchmark - url-kaist/se3-livom-comfort",
+      "topics": [],
+      "homepage": "https://grand-tour.leggedrobotics.com/tasks/localization",
+      "readme_excerpt": "SE(3)-LIVOM for the COMFORT Localization Benchmark Our entry to the COMFORT Localization Benchmark ( GrandTour Dataset , IROS 2026 Data in Field Robotics workshop ). SE(3)-LIVOM: Adaptive Multi-LiDAR-Inertial-Visual Odometry and Mapping for the COMFORT Benchmark ( technical report, PDF ) ▶ Method overview and full runs on the six Test missions ▶ Adaptive downsampling on ARC-2 Framework Build bash docker/build_docker.sh # image comfort:ros1 Run export DATA=/path/to/grandtour # folder with the mission folders <id>_<MISSION>_release_<date>/ and their bags bash scripts/run.sh arc-2 frontend # frontend only (submission 933011) bash scripts/run.sh arc-2 # frontend + backend (submission 935484, the leaderboard entry) The container runs with --cpus=8 --memory=16g ( CPUSET=<cores> pins it, e.g. the P-cores of an i9-13900 in our runs). Per-mission IMU time offsets are in src/se3-lio/config/imu_dt.yaml ; all options are in scripts/run_se3lio.sh . Output: results/<seq>-se3lio-multi-livo-ad-n2000[-backend]-rt-online/<seq>.tum (frontend, prism frame) and <seq>_backend_prism.tum (backend). These files, renamed <seq>.tum , are the submission. The prism frame comes from tools/to_prism.py : T_imu_prism of the mission's /tf_static plus a constant lever-arm correction of (-5.7, 1.8, -11.4) mm in the IMU frame, fitted once on the six Validation missions and applied unchanged to every mission. Evaluate bash docker/run_docker.sh python3 tools/eval.py results/ < name > / < seq > .tum < gt.tum > # same ATE rule as the Codabench scorer <gt.tum> is the prism ground truth of a Validation mission ( tools/extract.py <mission_dir> writes it to <mission_dir>/comfort_offline/gt.tum ). References used for code paper frontend (SE(3) filter) url-kaist/se3-lio Shin et al., ICRA 2026 voxel map hku-mars/VoxelMap Yuan et al., RA-L 2022 photometric update hku-mars/FAST-LIVO2 Zheng et al., T-RO 2024 backend plane BA hku-mars/HBA Liu et al., RA-L 2023 backend pose graph (iSAM2) borglab/gtsam Kaess et al., IJRR 2012 evaluation MichaelGrupp/evo",
+      "fetched_ok": true,
+      "display_name": "url-kaist/se3-livom-comfort",
+      "display_description": "SE(3)-LIVOM for the COMFORT Localization Benchmark - url-kaist/se3-livom-comfort",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "datasets-benchmarks"
+      ],
+      "primary_category": "datasets-benchmarks",
+      "primary_category_name": "Datasets & Benchmarks",
+      "primary_category_name_zh": "数据集与基准",
+      "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+      "primary_category_kind": "resource",
+      "primary_subtopic": "",
+      "primary_score": 25,
+      "secondary_categories": [
+        "multi-lidar-fusion"
+      ],
+      "match_hits": [
+        "benchmark",
+        "readme:dataset",
+        "readme:ground truth",
+        "readme:leaderboard"
+      ]
+    },
+    "GoldenGait /FARM-Project": {
+      "full_name": "GoldenGait /FARM-Project",
+      "url": "https://github.com/GoldenGait/FARM-Project",
+      "owner": "GoldenGait",
+      "repo": "FARM-Project",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-05T03:50:41.765867+00:00",
+      "archived": false,
+      "about": "Contribute to GoldenGait/FARM-Project development by creating an account on GitHub.",
+      "topics": [],
+      "homepage": "https://arxiv.org/abs/2606.15476",
+      "readme_excerpt": "FARM: Find Anything using Relational Spatial Memory (1) Memory construction: RGBD streams are fused in real time into an object-level spatial memory — every box is a remembered object with 3D geometry, a caption, and multi-modal embeddings (left: multi-floor house; right: 15,000 m² construction site). (2) Retrieval: a natural referential expression is parsed into a target plus spatial relations and grounded against that memory to find the queried object (insets). FARM is a robot memory system: it builds, in real time (5–10 Hz) , a compact, open-vocabulary, object-level memory of a scene from RGBD streams — 3D Gaussian geometry, VLM captions, multi-modal embeddings, and viewpoint evidence per object — and then finds things in it from natural language , grounding spatial constraints (\"the ladder left of the crates\") through relational predicates over the memory. This repository is the official implementation: the mapping pipeline (offline datasets and live ROS 2 share the same algorithm code), the interactive 3D viewer with language retrieval, and the retrieval stack used in the paper. The library imports as scene_graph . Paper: arXiv:2606.15476 Summary video: youtube.com/watch?v=0Ek-wPV9O1g Project page: goldengait.github.io/farm Dataset: FARM-Scenes — 7 large-scale real-robot scenes (47,300 m², 3 platforms) with GT annotations, referring expressions, and prebuilt scene graphs Setup Prerequisites: an NVIDIA GPU with CUDA 12.8+ drivers, Docker with the NVIDIA container runtime, and docker compose . All runtime work happens inside the container — there is no supported host-side pip install path; this keeps the CUDA/ROS 2/PyTorch/YOLOE version matrix reproducible. Compute. The full stack (mapping + LLM/embedding services + 3D viewer) uses about 50 GB of GPU memory in total (~65 GB on our largest scenes) and ~26 GB of disk. Tested on RTX 5090 and RTX PRO 6000 machines, and on NVIDIA Jetson Thor on-robot. git clone --recursive https://github.com/GoldenGait/FARM-Project.git && cd FARM-Project ./bootstrap_models.sh # YOLOE + MobileCLIP + SigLIP2 weights (public URLs, no account needed) ./run.sh build # builds scene_graph:latest (CUDA 12.8 + ROS 2 Humble) ./run.sh shell /path/to/your/data # container shell; the dir is mounted at /data If you cloned without --recursive , run git submodule update --init --recursive first — the Docker build installs third_party/yoloe editably and fails without it. The DINOv3 merge backbone ships in-repo ( models/dinov3-vits16 ), so nothing else is required to run. GitHub's autogenerated source archives do not include submodule contents. Use a recursive clone or the complete source archive attached to each release. Optional: paper-grade DINOv3 backbone (gated) The pipeline auto-prefers the gated ViT-S+/16 ( dinov3-vits16plus ) — ",
+      "fetched_ok": true,
+      "display_name": "GoldenGait/FARM-Project",
+      "display_description": "",
+      "manual_note": "",
+      "manual_labels": [
+        "spatial-memory"
+      ],
+      "labels": [
+        "mapping-map-representation",
+        "spatial-memory"
+      ],
+      "primary_category": "mapping-map-representation",
+      "primary_category_name": "Mapping & Map Representation",
+      "primary_category_name_zh": "建图与地图表达",
+      "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "General Mapping",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
     }
   },
   "grouped": {
@@ -60992,6 +61289,48 @@
         "match_hits": [
           "lidar visual inertial",
           "readme:livo"
+        ]
+      },
+      {
+        "full_name": "ASIG-X /RESPLE2",
+        "url": "https://github.com/ASIG-X/RESPLE2",
+        "owner": "ASIG-X",
+        "repo": "RESPLE2",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:43:29.051017+00:00",
+        "archived": false,
+        "about": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "topics": [],
+        "homepage": "https://www.youtube.com/watch?v=6bgAY8SLhvw",
+        "readme_excerpt": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement YouTube | arXiv | Website | Dataset RESPLE2 is a recursive non-uniform B-spline state estimation framework supporting a versatile range of multi-sensor odometry configurations, enabling LiDAR-inertial, LiDAR-visual-inertial (LVIO), LiDAR-leg-inertial (LKIO), and LiDAR-leg-visual-inertial (LKVIO) odometry systems with a unified design with optional global spline correction. All runs comfortably within real-time constraints. BibTex Citation @article{cao2026resple2, title={RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement}, author={Cao, Ziyu and Talbot, William and Li, Song and Chirarattananon, Pakpong and Gustafsson, Fredrik and Hutter, Marco and Li, Kailai}, journal={arXiv preprint arXiv:2610.37602}, year={2026} } Dependencies RESPLE2 supports ROS 2 Humble on Ubuntu 22.04 and ROS 2 Jazzy on Ubuntu 24.04. Install the corresponding ROS 2 distribution, then source it and install the dependencies: # Choose the setup file for your ROS 2 distribution: source /opt/ros/humble/setup.bash # source /opt/ros/jazzy/setup.bash sudo apt install build-essential cmake python3-colcon-common-extensions python3-yaml \\ libpcl-dev libeigen3-dev libopencv-dev libyaml-cpp-dev libboost-thread-dev \\ libsuitesparse-dev libceres-dev sudo apt install ros- ${ROS_DISTRO} -pcl-conversions ros- ${ROS_DISTRO} -cv-bridge ros- ${ROS_DISTRO} -image-transport \\ ros- ${ROS_DISTRO} -rosidl-default-generators ros- ${ROS_DISTRO} -rosidl-generator-dds-idl \\ ros- ${ROS_DISTRO} -ament-lint-auto ros- ${ROS_DISTRO} -ament-lint-common # Optional: for playing MCAP bags sudo apt install ros- ${ROS_DISTRO} -rosbag2-storage-mcap Legged-robot kinematics is enabled by default and requires Pinocchio 3.9.0 . LIO and LVIO users can build without it by disabling RESPLE2_ENABLE_KINEMATICS as shown below. If CMake cannot locate an installed Pinocchio, pass -Dpinocchio_DIR=/path/to/lib/cmake/pinocchio under --cmake-args when building. Compilation source /opt/ros/ ${ROS_DISTRO} /setup.bash mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE2.git cd ~ /ros2_ws colcon build --symlink-install --packages-up-to resple2 source install/setup.bash To build without Pinocchio or legged-robot message dependencies , run from the workspace root: export RESPLE2_ENABLE_KINEMATICS=OFF colcon build --symlink-install --packages-up-to resple2 \\ --cmake-args -DRESPLE2_ENABLE_KINEMATICS=OFF source install/setup.bash Keep if_kin: false in the selected YAML configuration. Setting it to true in this build produces a startup error explaining how to enable kinematics. To restore legged-robot support, install Pinocc",
+        "fetched_ok": true,
+        "display_name": "ASIG-X/RESPLE2",
+        "display_description": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "manual_note": "",
+        "manual_labels": [
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "labels": [
+          "lidar-visual-inertial-odometry",
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "primary_category": "lidar-visual-inertial-odometry",
+        "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+        "primary_category_name_zh": "激光视觉惯导里程计",
+        "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -61981,6 +62320,46 @@
         ]
       },
       {
+        "full_name": "WilsonGuo /Global-LVBA",
+        "url": "https://github.com/WilsonGuo/Global-LVBA",
+        "owner": "WilsonGuo",
+        "repo": "Global-LVBA",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:14:40.972987+00:00",
+        "archived": false,
+        "about": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+        "topics": [],
+        "homepage": "https://drive.google.com/drive/folders/19fYG4z666hcxyP6StVXs-ZOI2cbHsU5J?usp=drive_link",
+        "readme_excerpt": "增加了导出3DGS所需素材的功能 可以搭配FAST-LIVO2-RTK See FAST-LIVO2-RTK . Global-LVBA Global LiDAR-Visual Bundle Adjustment Global-LVBA is a globally consistent LiDAR–Visual Bundle Adjustment system for refinement after LiDAR-inertial-visual odometry (e.g., FAST-LIVO2). If you want to push accuracy to the next level, Global-LVBA further optimizes: point-cloud map consistency (reducing layering/stratification artifacts). camera poses towards pixel-level reprojection accuracy . 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . This figure shows qualitative comparisons before and after Global-LVBA refinement from both texture and geometric-structure perspectives. The initial poses are provided by FAST-LIVO2. 1. Prerequisites Python 3.8 Ceres Solver 2.1.0 Eigen 3.3.7 OpenCV 4.2.0 2. Build cd catkin_ws/src/Global-LVBA git submodule update --init --recursive cd SiftGPU && mkdir build && cd build && cmake .. && make cd catkin_ws && catkin_make 3. Dataset preparation Global-LVBA/ └── dataset/ └── your_sequence_name/ ├── all_image/ │ ├── 1661398632.022152.png # image named by timestamp │ ├── 1661398632.121881.png │ ├── ... │ └── image_poses.txt # camera poses (timestamp-aligned) ├── all_pcd_body/ │ ├── 1661398632.022152.pcd # point cloud named by timestamp │ ├── 1661398632.121881.pcd │ ├── ... │ └── lidar_poses.txt # LiDAR poses (timestamp-aligned) ├── colmap/ │ ├── match.db # feature matching database │ └── sparse/ # optional: COLMAP output for 3DGS │ └── 0/ │ ├── images.txt │ └── points3D.txt ├── depth/ # optional: generated depth maps └── reproj/ # optional: reprojection error logs 4. Dataset download The LVBA-Dataset ( Google Drive ) is generated from the raw rosbag in FAST-LIVO2-Dataset ( Google Drive ). 💡 Note: To prepare your own data with FAST-LIVO2, set pcd_save_en: false , type: 1 , and img_save_en: true in the FAST-LIVO2 config to directly generate the required files for Global-LVBA. 5. Run our examples Download the example data from LVBA-Dataset. roslaunch Global-LVBA lvba.launch 💡 Note: We recommend using the .db file generated by COLMAP to obtain feature correspondences. The built-in SiftGPU extraction/matching in this repo is provided for convenience, but its matching quality is generally inferior to COLMAP. 6. License The source code of this package is released under the MIT license.",
+        "fetched_ok": true,
+        "display_name": "WilsonGuo/Global-LVBA",
+        "display_description": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+        "manual_note": "",
+        "manual_labels": [
+          "lidar-visual-inertial-odometry"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "lidar-visual-inertial-odometry"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "3D Gaussian Splatting",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "xuankuzcr /Global-LVBA",
         "url": "https://github.com/xuankuzcr/Global-LVBA",
         "owner": "xuankuzcr ",
@@ -62443,6 +62822,48 @@
           "list:place-recognition",
           "place recognition",
           "retrieval"
+        ]
+      },
+      {
+        "full_name": "ASIG-X /RESPLE2",
+        "url": "https://github.com/ASIG-X/RESPLE2",
+        "owner": "ASIG-X",
+        "repo": "RESPLE2",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:43:29.051017+00:00",
+        "archived": false,
+        "about": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "topics": [],
+        "homepage": "https://www.youtube.com/watch?v=6bgAY8SLhvw",
+        "readme_excerpt": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement YouTube | arXiv | Website | Dataset RESPLE2 is a recursive non-uniform B-spline state estimation framework supporting a versatile range of multi-sensor odometry configurations, enabling LiDAR-inertial, LiDAR-visual-inertial (LVIO), LiDAR-leg-inertial (LKIO), and LiDAR-leg-visual-inertial (LKVIO) odometry systems with a unified design with optional global spline correction. All runs comfortably within real-time constraints. BibTex Citation @article{cao2026resple2, title={RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement}, author={Cao, Ziyu and Talbot, William and Li, Song and Chirarattananon, Pakpong and Gustafsson, Fredrik and Hutter, Marco and Li, Kailai}, journal={arXiv preprint arXiv:2610.37602}, year={2026} } Dependencies RESPLE2 supports ROS 2 Humble on Ubuntu 22.04 and ROS 2 Jazzy on Ubuntu 24.04. Install the corresponding ROS 2 distribution, then source it and install the dependencies: # Choose the setup file for your ROS 2 distribution: source /opt/ros/humble/setup.bash # source /opt/ros/jazzy/setup.bash sudo apt install build-essential cmake python3-colcon-common-extensions python3-yaml \\ libpcl-dev libeigen3-dev libopencv-dev libyaml-cpp-dev libboost-thread-dev \\ libsuitesparse-dev libceres-dev sudo apt install ros- ${ROS_DISTRO} -pcl-conversions ros- ${ROS_DISTRO} -cv-bridge ros- ${ROS_DISTRO} -image-transport \\ ros- ${ROS_DISTRO} -rosidl-default-generators ros- ${ROS_DISTRO} -rosidl-generator-dds-idl \\ ros- ${ROS_DISTRO} -ament-lint-auto ros- ${ROS_DISTRO} -ament-lint-common # Optional: for playing MCAP bags sudo apt install ros- ${ROS_DISTRO} -rosbag2-storage-mcap Legged-robot kinematics is enabled by default and requires Pinocchio 3.9.0 . LIO and LVIO users can build without it by disabling RESPLE2_ENABLE_KINEMATICS as shown below. If CMake cannot locate an installed Pinocchio, pass -Dpinocchio_DIR=/path/to/lib/cmake/pinocchio under --cmake-args when building. Compilation source /opt/ros/ ${ROS_DISTRO} /setup.bash mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE2.git cd ~ /ros2_ws colcon build --symlink-install --packages-up-to resple2 source install/setup.bash To build without Pinocchio or legged-robot message dependencies , run from the workspace root: export RESPLE2_ENABLE_KINEMATICS=OFF colcon build --symlink-install --packages-up-to resple2 \\ --cmake-args -DRESPLE2_ENABLE_KINEMATICS=OFF source install/setup.bash Keep if_kin: false in the selected YAML configuration. Setting it to true in this build produces a startup error explaining how to enable kinematics. To restore legged-robot support, install Pinocc",
+        "fetched_ok": true,
+        "display_name": "ASIG-X/RESPLE2",
+        "display_description": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "manual_note": "",
+        "manual_labels": [
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "labels": [
+          "lidar-visual-inertial-odometry",
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "primary_category": "lidar-visual-inertial-odometry",
+        "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+        "primary_category_name_zh": "激光视觉惯导里程计",
+        "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -77825,6 +78246,46 @@
         ]
       },
       {
+        "full_name": "ori-drs /FoundationVIO",
+        "url": "https://github.com/ori-drs/FoundationVIO",
+        "owner": "ori-drs",
+        "repo": "FoundationVIO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:42:22.769175+00:00",
+        "archived": false,
+        "about": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+        "topics": [],
+        "homepage": "https://jinrhee.github.io",
+        "readme_excerpt": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry Jin Rhee 1 , Yuhao Zhang 1 , Frank Dellaert 2 , Maurice Fallon 1 1 Dynamic Robot Systems Group, University of Oxford 2 Georgia Institute of Technology FoundationVIO is a visual-inertial odometry method that fuses inertial sensing with learned geometry from general feed-forward 3D geometric foundation models (GFMs) in a factor-graph based optimisation. Due to its use of a GFM and inertial sensing, FoundationVIO is able to 1) remain robust in low-texture sequences that are challenging for classical methods and 2) enforce metric scale in odometry estimates and reconstructions. We additionally add GFM-based initialisation and loop-closure to demonstrate globally accurate trajectories and reconstruction. The method is compatible with general N-view GFMs such as DepthAnything3 and VGGT-Omega and naturally profits from advances in model accuracy and speed. Preview We use a simple factor graph formulation to optimise for per-frame poses and per-batch scale. The input consists of IMU measurements, model predicted poses, and relative scale between batches of predicted geometry. Setup The method is tested using CUDA 12.8 with > 12GB of VRAM. git submodule update --init --recursive curl -fsSL https://pixi.sh/install.sh | bash source ~/.bashrc pixi install Model weights (DA3, DINOv2, SALAD) download on the first run. Packages are in pixi.toml . Examples Project Aria The script downloads BigRoom3 into data/aria , runs the full sequence, and evaluates it. pixi run example-aria # or: pixi run example-aria <dataset_dir> See Aria Office dataset for more sequences. To run manually, unzip one into data/aria , then: pixi run python -m foundation_vio.run --config configs/aria.yaml --sequence <name> ScaRF-SLAM The r05 sequence from the ScaRF-SLAM dataset is a short sequence to quickly test. Use the script to download, extract, undistort, and run the full sequence. pixi run example-scarf # or: pixi run example-scarf <dataset_dir> Oxford Spires The script below downloads and runs the chch03 sequence from the Oxford Spires dataset. pixi run example-spires # or: pixi run example-spires <dataset_dir> Evaluating results A run writes one trajectory, tum_poses.csv : SLAM with loop closures (the default), or odometry with --set loop_closure.enabled=False . The example scripts evaluate their run. To evaluate any run, evaluate.py prints the trajectory's ATE [m] and RPE over 1 m segments [m/m] against the dataset's ground truth: # Aria: ground truth in the IMU frame pixi run python scripts/evaluate.py <run_dir> data/aria/<name>_sequence/gt_poses_in_right_imu_frame_tum.txt --gt-frame imu # ScaRF-SLAM: camera frame, extrinsics from the Kalibr camchain pixi run python scripts/evaluate.py <run_dir> data/scarf/<",
+        "fetched_ok": true,
+        "display_name": "ori-drs/FoundationVIO",
+        "display_description": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+        "manual_note": "",
+        "manual_labels": [
+          "feed-forward"
+        ],
+        "labels": [
+          "visual-inertial-odometry",
+          "feed-forward"
+        ],
+        "primary_category": "visual-inertial-odometry",
+        "primary_category_name": "Visual / Visual-Inertial State Estimation",
+        "primary_category_name_zh": "视觉里程计与视觉惯导",
+        "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "PANshuyi /MR-Voxel-SVIO",
         "url": "https://github.com/PANshuyi/MR-Voxel-SVIO",
         "owner": "PANshuyi",
@@ -80690,6 +81151,46 @@
         "match_hits": [
           "list:slam-map",
           "mapping"
+        ]
+      },
+      {
+        "full_name": "GoldenGait /FARM-Project",
+        "url": "https://github.com/GoldenGait/FARM-Project",
+        "owner": "GoldenGait",
+        "repo": "FARM-Project",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:50:41.765867+00:00",
+        "archived": false,
+        "about": "Contribute to GoldenGait/FARM-Project development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2606.15476",
+        "readme_excerpt": "FARM: Find Anything using Relational Spatial Memory (1) Memory construction: RGBD streams are fused in real time into an object-level spatial memory — every box is a remembered object with 3D geometry, a caption, and multi-modal embeddings (left: multi-floor house; right: 15,000 m² construction site). (2) Retrieval: a natural referential expression is parsed into a target plus spatial relations and grounded against that memory to find the queried object (insets). FARM is a robot memory system: it builds, in real time (5–10 Hz) , a compact, open-vocabulary, object-level memory of a scene from RGBD streams — 3D Gaussian geometry, VLM captions, multi-modal embeddings, and viewpoint evidence per object — and then finds things in it from natural language , grounding spatial constraints (\"the ladder left of the crates\") through relational predicates over the memory. This repository is the official implementation: the mapping pipeline (offline datasets and live ROS 2 share the same algorithm code), the interactive 3D viewer with language retrieval, and the retrieval stack used in the paper. The library imports as scene_graph . Paper: arXiv:2606.15476 Summary video: youtube.com/watch?v=0Ek-wPV9O1g Project page: goldengait.github.io/farm Dataset: FARM-Scenes — 7 large-scale real-robot scenes (47,300 m², 3 platforms) with GT annotations, referring expressions, and prebuilt scene graphs Setup Prerequisites: an NVIDIA GPU with CUDA 12.8+ drivers, Docker with the NVIDIA container runtime, and docker compose . All runtime work happens inside the container — there is no supported host-side pip install path; this keeps the CUDA/ROS 2/PyTorch/YOLOE version matrix reproducible. Compute. The full stack (mapping + LLM/embedding services + 3D viewer) uses about 50 GB of GPU memory in total (~65 GB on our largest scenes) and ~26 GB of disk. Tested on RTX 5090 and RTX PRO 6000 machines, and on NVIDIA Jetson Thor on-robot. git clone --recursive https://github.com/GoldenGait/FARM-Project.git && cd FARM-Project ./bootstrap_models.sh # YOLOE + MobileCLIP + SigLIP2 weights (public URLs, no account needed) ./run.sh build # builds scene_graph:latest (CUDA 12.8 + ROS 2 Humble) ./run.sh shell /path/to/your/data # container shell; the dir is mounted at /data If you cloned without --recursive , run git submodule update --init --recursive first — the Docker build installs third_party/yoloe editably and fails without it. The DINOv3 merge backbone ships in-repo ( models/dinov3-vits16 ), so nothing else is required to run. GitHub's autogenerated source archives do not include submodule contents. Use a recursive clone or the complete source archive attached to each release. Optional: paper-grade DINOv3 backbone (gated) The pipeline auto-prefers the gated ViT-S+/16 ( dinov3-vits16plus ) — ",
+        "fetched_ok": true,
+        "display_name": "GoldenGait/FARM-Project",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "spatial-memory"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "spatial-memory"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "General Mapping",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -86182,6 +86683,46 @@
           "readme:3d gaussian splatting",
           "readme:3dgs",
           "splatting"
+        ]
+      },
+      {
+        "full_name": "WilsonGuo /Global-LVBA",
+        "url": "https://github.com/WilsonGuo/Global-LVBA",
+        "owner": "WilsonGuo",
+        "repo": "Global-LVBA",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:14:40.972987+00:00",
+        "archived": false,
+        "about": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+        "topics": [],
+        "homepage": "https://drive.google.com/drive/folders/19fYG4z666hcxyP6StVXs-ZOI2cbHsU5J?usp=drive_link",
+        "readme_excerpt": "增加了导出3DGS所需素材的功能 可以搭配FAST-LIVO2-RTK See FAST-LIVO2-RTK . Global-LVBA Global LiDAR-Visual Bundle Adjustment Global-LVBA is a globally consistent LiDAR–Visual Bundle Adjustment system for refinement after LiDAR-inertial-visual odometry (e.g., FAST-LIVO2). If you want to push accuracy to the next level, Global-LVBA further optimizes: point-cloud map consistency (reducing layering/stratification artifacts). camera poses towards pixel-level reprojection accuracy . 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . This figure shows qualitative comparisons before and after Global-LVBA refinement from both texture and geometric-structure perspectives. The initial poses are provided by FAST-LIVO2. 1. Prerequisites Python 3.8 Ceres Solver 2.1.0 Eigen 3.3.7 OpenCV 4.2.0 2. Build cd catkin_ws/src/Global-LVBA git submodule update --init --recursive cd SiftGPU && mkdir build && cd build && cmake .. && make cd catkin_ws && catkin_make 3. Dataset preparation Global-LVBA/ └── dataset/ └── your_sequence_name/ ├── all_image/ │ ├── 1661398632.022152.png # image named by timestamp │ ├── 1661398632.121881.png │ ├── ... │ └── image_poses.txt # camera poses (timestamp-aligned) ├── all_pcd_body/ │ ├── 1661398632.022152.pcd # point cloud named by timestamp │ ├── 1661398632.121881.pcd │ ├── ... │ └── lidar_poses.txt # LiDAR poses (timestamp-aligned) ├── colmap/ │ ├── match.db # feature matching database │ └── sparse/ # optional: COLMAP output for 3DGS │ └── 0/ │ ├── images.txt │ └── points3D.txt ├── depth/ # optional: generated depth maps └── reproj/ # optional: reprojection error logs 4. Dataset download The LVBA-Dataset ( Google Drive ) is generated from the raw rosbag in FAST-LIVO2-Dataset ( Google Drive ). 💡 Note: To prepare your own data with FAST-LIVO2, set pcd_save_en: false , type: 1 , and img_save_en: true in the FAST-LIVO2 config to directly generate the required files for Global-LVBA. 5. Run our examples Download the example data from LVBA-Dataset. roslaunch Global-LVBA lvba.launch 💡 Note: We recommend using the .db file generated by COLMAP to obtain feature correspondences. The built-in SiftGPU extraction/matching in this repo is provided for convenience, but its matching quality is generally inferior to COLMAP. 6. License The source code of this package is released under the MIT license.",
+        "fetched_ok": true,
+        "display_name": "WilsonGuo/Global-LVBA",
+        "display_description": "原版 Global-LVBA 更偏向“LiDAR BA + Visual BA 的研究实现”；我们现在这版则是在尽量保留原版 LiDAR BA 的基础上，把视觉部分改得更保守、更稳定、更可诊断，并专门增加了一条面向 FAST-LIVO2 → Global-LVBA → 3DGS 的完整输出链路 - WilsonGuo/Global-LVBA",
+        "manual_note": "",
+        "manual_labels": [
+          "lidar-visual-inertial-odometry"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "lidar-visual-inertial-odometry"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "3D Gaussian Splatting",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
         ]
       },
       {
@@ -94870,6 +95411,45 @@
         ]
       },
       {
+        "full_name": "cocel-postech /genz-lio",
+        "url": "https://github.com/cocel-postech/genz-lio",
+        "owner": "cocel-postech",
+        "repo": "genz-lio",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:41:18.724010+00:00",
+        "archived": false,
+        "about": "GenZ-LIO: SOTA robust LiDAR-inertial odometry (IEEE T-FR 2026) - cocel-postech/genz-lio",
+        "topics": [],
+        "homepage": "https://youtu.be/jrUT97huwNE",
+        "readme_excerpt": "GenZ-LIO Generalizable LiDAR-Inertial Odometry Beyond Confined–Open Boundaries Youtube • Bilibili • Paper • Dataset • Install • Python • ROS (October 7, 2026) pip installation is now live: GenZ-LIO is designed for robust and computationally efficient LiDAR-inertial odometry across confined spaces, open environments, and transitions between them. Python support Process recorded data with an optional visualizer; no ROS installation is needed. Install and run (Linux x86-64, Python 3.8–3.12) 1. Prepare the environment Use Linux x86-64 with Python 3.8–3.12. Ubuntu 20.04, 22.04, and 24.04 provide Python 3.8, 3.10, and 3.12, respectively. sudo apt-get update sudo apt-get install -y python3-venv libgl1 python3 -m venv .venv source .venv/bin/activate python -m pip install --upgrade pip 2. Install Install all optional readers (rosbag and Ouster PCAP) and the visualizer: python -m pip install ' genz-lio[all] ' The published wheels include the compiled C++ extension; no local C++ build or ROS installation is required. Plain pip install genz-lio installs the core and CLI. 3. Prepare configurations The experiments/ YAMLs provide the sequence-specific configurations for reproducing the benchmark experiments in the paper. The default/ YAMLs are sensor templates for your own recordings. Export all bundled YAMLs once, preserving their default/ and experiments/ subdirectories under configs/ : genz_lio_pipeline list-configs | while IFS= read -r config ; do mkdir -p \" configs/ $( dirname \" $config \" ) \" genz_lio_pipeline export-config \" $config \" \" configs/ $config \" done Run this in the directory where you will run the examples below. This copies all 36 YAMLs unchanged and works with both source and wheel installations. Keep this folder for subsequent runs; there is no need to export again per sequence. Exported YAMLs are editable. Re-running the export will not overwrite existing files or your changes. 4. Run 1) For reproducing benchmark experiments (e.g., NarrowWide Handheld-A-01) Use the experiment YAML prepared above with the NarrowWide Handheld-A-01 recording: genz_lio_pipeline run \" {path_to_bag}/{NW_Handheld-A-01}.bag \" \\ --config configs/experiments/narrowwide/vlp16_handheld_a_01.yaml \\ --visualize --image-topic /camera/color/image_raw/compressed \\ --output results/narrowwide_handheld_a_01 The experiment YAML already contains the benchmark sensor topics and calibration. Obtain the dataset separately. The optional --image-topic displays the camera images recorded in this bag; omit it to run without the camera panel. Press SPACE to start. For rosbag2, pass the recording directory instead of a .bag file. The exported YAMLs also work outside the source checkout. ▶️ All benchmark sequences: downloads and Python commands (42 sequences) The commands use configs/experim",
+        "fetched_ok": true,
+        "display_name": "cocel-postech/genz-lio",
+        "display_description": "GenZ-LIO: SOTA robust LiDAR-inertial odometry (IEEE T-FR 2026) - cocel-postech/genz-lio",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "lidar-inertial-odometry"
+        ],
+        "primary_category": "lidar-inertial-odometry",
+        "primary_category_name": "LiDAR-Inertial State Estimation",
+        "primary_category_name_zh": "激光惯导里程计",
+        "primary_category_description": "LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 53,
+        "secondary_categories": [],
+        "match_hits": [
+          "lidar inertial odometry",
+          "lidar-inertial odometry",
+          "lio"
+        ]
+      },
+      {
         "full_name": "comrob /liorf-crl",
         "url": "https://github.com/comrob/liorf-crl",
         "owner": "comrob ",
@@ -101709,6 +102289,44 @@
         "secondary_categories": [],
         "match_hits": [
           "manual override"
+        ]
+      },
+      {
+        "full_name": "JokerJohn /IntrinsicCalib",
+        "url": "https://github.com/JokerJohn/IntrinsicCalib",
+        "owner": "JokerJohn",
+        "repo": "IntrinsicCalib",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:11:32.310939+00:00",
+        "archived": false,
+        "about": "[RA-P'2026] Automatic Reproducible Camera Intrinsic Calibration (自动筛选数据的相机标定工具箱) - JokerJohn/IntrinsicCalib",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2609.10082",
+        "readme_excerpt": "Automatic Reproducible Camera Intrinsic Calibration Xiangcheng Hu English | 中文 Introduction Accurate camera intrinsic calibration depends on the quality of the collected images, yet existing target-based methods often require the practitioner to select high-quality images and to specify the radial distortion order manually. This work determines both from the collected data. Key insight: the two decisions are coupled through the residual. A higher-order model lowers the residual scale that defines the rejection threshold, and the calibration-set residual cannot validate the added coefficient. Image rejection therefore runs under each candidate order, and the order is selected on held-out images with the intrinsics and distortion fixed. Intrinsic calibration method. An automatic and operator-free method iteratively selects high-quality images and the distortion order, yielding accurate and reproducible intrinsics. Distortion-order selection. A criterion evaluates each candidate on held-out images with the intrinsics and distortion fixed, avoiding the use of calibration-set residuals to assess model adequacy. Interactive calibration tool. An open-source tool for chessboard and AprilGrid targets, validated on public datasets and real-world robots. News 2026/11 : The paper has been accepted by IEEE Robotics and Automation Practice (RA-P). 2026/10/11 : The calibration tool, data and experiment scripts are released. 2026/09/09 : The paper is available on arXiv . Video Click the image to play the full video (92 s). Method Image selection. Stage 1 admits an image only if the extractor recovers the complete inner-corner grid. Stage 2 iteratively rejects the images whose mean residual exceeds a multiple of the median and re-solves the calibration: $$ \\tau^{(t)} = \\kappa,\\tilde{e}^{(t)}, \\qquad \\mathcal{I}^{(t+1)} = \\lbrace, i\\in\\mathcal{I}^{(t)} \\mid \\bar{e}_i^{(t)} \\le \\tau^{(t)} ,\\rbrace $$ Distortion-order selection. The accepted set is split into an estimation subset and a validation subset $\\mathcal{V}$ . Each candidate is estimated with Stage 2 applied internally, and only the board pose is re-estimated on $\\mathcal{V}$ . $\\mathrm{M}_3$ (adds $k_3$ to $\\mathrm{M}_2$ ) is adopted if and only if it degrades neither the mean nor the worst-view error: $$ \\bar{e}_{\\mathrm{v}}(\\mathrm{M}_3) \\le \\alpha,\\bar{e}_{\\mathrm{v}}(\\mathrm{M}_2) \\quad\\text{and}\\quad e^{\\max}_{\\mathrm{v}}(\\mathrm{M}_3) \\le \\beta,e^{\\max}_{\\mathrm{v}}(\\mathrm{M}_2) $$ All hyper-parameters are fixed across every dataset: $\\kappa=2$ , $\\alpha=\\beta=1$ , $N_{\\min}=15$ , $N_{\\mathrm{stop}}=8$ , $T_{\\max}=3$ . Interactive tool. The tool displays the filtering status of every image and the distribution of calibration points, and records every decision. Left: a chessboard session (Rig-A, played a",
+        "fetched_ok": true,
+        "display_name": "JokerJohn/IntrinsicCalib",
+        "display_description": "[RA-P'2026] Automatic Reproducible Camera Intrinsic Calibration (自动筛选数据的相机标定工具箱) - JokerJohn/IntrinsicCalib",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "calibration-synchronization"
+        ],
+        "primary_category": "calibration-synchronization",
+        "primary_category_name": "Calibration & Time Synchronization",
+        "primary_category_name_zh": "标定与时间同步",
+        "primary_category_description": "Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 35,
+        "secondary_categories": [],
+        "match_hits": [
+          "calibration",
+          "intrinsic"
         ]
       },
       {
@@ -116207,6 +116825,48 @@
         ]
       },
       {
+        "full_name": "url-kaist /se3-livom-comfort",
+        "url": "https://github.com/url-kaist/se3-livom-comfort",
+        "owner": "url-kaist",
+        "repo": "se3-livom-comfort",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:45:50.068898+00:00",
+        "archived": false,
+        "about": "SE(3)-LIVOM for the COMFORT Localization Benchmark - url-kaist/se3-livom-comfort",
+        "topics": [],
+        "homepage": "https://grand-tour.leggedrobotics.com/tasks/localization",
+        "readme_excerpt": "SE(3)-LIVOM for the COMFORT Localization Benchmark Our entry to the COMFORT Localization Benchmark ( GrandTour Dataset , IROS 2026 Data in Field Robotics workshop ). SE(3)-LIVOM: Adaptive Multi-LiDAR-Inertial-Visual Odometry and Mapping for the COMFORT Benchmark ( technical report, PDF ) ▶ Method overview and full runs on the six Test missions ▶ Adaptive downsampling on ARC-2 Framework Build bash docker/build_docker.sh # image comfort:ros1 Run export DATA=/path/to/grandtour # folder with the mission folders <id>_<MISSION>_release_<date>/ and their bags bash scripts/run.sh arc-2 frontend # frontend only (submission 933011) bash scripts/run.sh arc-2 # frontend + backend (submission 935484, the leaderboard entry) The container runs with --cpus=8 --memory=16g ( CPUSET=<cores> pins it, e.g. the P-cores of an i9-13900 in our runs). Per-mission IMU time offsets are in src/se3-lio/config/imu_dt.yaml ; all options are in scripts/run_se3lio.sh . Output: results/<seq>-se3lio-multi-livo-ad-n2000[-backend]-rt-online/<seq>.tum (frontend, prism frame) and <seq>_backend_prism.tum (backend). These files, renamed <seq>.tum , are the submission. The prism frame comes from tools/to_prism.py : T_imu_prism of the mission's /tf_static plus a constant lever-arm correction of (-5.7, 1.8, -11.4) mm in the IMU frame, fitted once on the six Validation missions and applied unchanged to every mission. Evaluate bash docker/run_docker.sh python3 tools/eval.py results/ < name > / < seq > .tum < gt.tum > # same ATE rule as the Codabench scorer <gt.tum> is the prism ground truth of a Validation mission ( tools/extract.py <mission_dir> writes it to <mission_dir>/comfort_offline/gt.tum ). References used for code paper frontend (SE(3) filter) url-kaist/se3-lio Shin et al., ICRA 2026 voxel map hku-mars/VoxelMap Yuan et al., RA-L 2022 photometric update hku-mars/FAST-LIVO2 Zheng et al., T-RO 2024 backend plane BA hku-mars/HBA Liu et al., RA-L 2023 backend pose graph (iSAM2) borglab/gtsam Kaess et al., IJRR 2012 evaluation MichaelGrupp/evo",
+        "fetched_ok": true,
+        "display_name": "url-kaist/se3-livom-comfort",
+        "display_description": "SE(3)-LIVOM for the COMFORT Localization Benchmark - url-kaist/se3-livom-comfort",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "datasets-benchmarks"
+        ],
+        "primary_category": "datasets-benchmarks",
+        "primary_category_name": "Datasets & Benchmarks",
+        "primary_category_name_zh": "数据集与基准",
+        "primary_category_description": "Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.",
+        "primary_category_kind": "resource",
+        "primary_subtopic": "",
+        "primary_score": 25,
+        "secondary_categories": [
+          "multi-lidar-fusion"
+        ],
+        "match_hits": [
+          "benchmark",
+          "readme:dataset",
+          "readme:ground truth",
+          "readme:leaderboard"
+        ]
+      },
+      {
         "full_name": "utiasSTARS /pykitti",
         "url": "https://github.com/utiasSTARS/pykitti",
         "owner": "utiasSTARS ",
@@ -117997,24 +118657,23 @@
       {
         "full_name": "xuankuzcr /FAST-LIVO2-RTK",
         "url": "https://github.com/xuankuzcr/FAST-LIVO2-RTK",
-        "owner": "xuankuzcr ",
+        "owner": "xuankuzcr",
         "repo": "FAST-LIVO2-RTK",
-        "list_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
-        "list_stars_label": "132",
-        "list_language": "C++",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
         "source_lists": [
-          "gnss",
-          "slam-livo"
+          "manual"
         ],
-        "fetched_at": "2026-06-06T15:01:47.000618+00:00",
+        "fetched_at": "2026-11-05T03:16:43.241048+00:00",
         "archived": false,
-        "about": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
+        "about": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK",
         "topics": [],
         "homepage": "http://wiki.ros.org/ROS/Installation",
-        "readme_excerpt": "FAST-LIVO2-RTK FAST-LIVO2-RTK extends FAST-LIVO2 with RTK/GNSS-constrained global optimization for long-term LiDAR-visual mapping. Key highlights include: Fully Reproducible: Complete open-source software and hardware setup guaranteeing fully reproducible LIVO-RTK experiments. Robust Initialization Module: Built-in initialization featuring DTW-based time offset estimation and hand-eye extrinsic calibration. LIV-RTK Fusion Paradigm: A comprehensive example paradigm for fusing LIVO trajectories with RTK observations. 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . Collected in a challenging scene with degraded geometry and texture. a2, b2, c2 : FAST-LIVO2 baseline. a1, b1, c1 : results after RTK fusion. 1. Prerequisited 1.1 Ubuntu and ROS Ubuntu 18.04~20.04. See ROS Installation . 1.2 PCL, Eigen, and OpenCV PCL>=1.8, Eigen>=3.3.4, OpenCV>=4.2. 1.3 Sophus Install the non-templated/double-only version of Sophus. git clone https://github.com/strasdat/Sophus.git cd Sophus git checkout a621ff mkdir build && cd build && cmake .. make sudo make install 1.4 Vikit Vikit provides the camera models and math utilities required by this project. Put it in your catkin workspace source folder. cd ~ /catkin_ws/src git clone https://github.com/xuankuzcr/rpg_vikit.git 1.5 RTK Dependencies The RTK branch depends on the GNSS ROS message package used by the u-blox/GVINS toolchain. Put it in the same catkin workspace: cd ~ /catkin_ws/src git clone https://github.com/HKUST-Aerial-Robotics/gnss_comm.git GTSAM is used for factor graph-based post-processing optimization. git clone https://github.com/borglab/gtsam.git cd gtsam mkdir build && cd build cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF -DGTSAM_USE_SYSTEM_EIGEN=ON .. make -j $( nproc ) sudo make install GeographicLib is used for converting geographic coordinates to local Cartesian coordinates. sudo apt-get install libgeographic-dev ros- ${ROS_DISTRO} -eigen-conversions 2. Run our examples Download the provided RTK test rosbag file: RTK-Dataset . Launch the system and load the configuration file: roslaunch fast_livo HH.launch Play the rosbag. Once the sequence is finished, press Enter in the terminal running the launch file to trigger the backend optimizer. rosbag play HH-LVGO-01.bag 3. Appendix Time Synchronization: The diagram illustrates the time synchronization scheme among GNSS, LiDAR, and image data. Hardware Platform: The table below summarizes the main devices used by the platform. Device Image Model Description LiDAR Model: Livox Mid-360 Camera Model: MV-CB016-10GC-S-W GNSS Receiver Model: u-blox ZED-F9P Computing Unit Model: N100 mini PC Synchronization Controller Model: STM32 4. Acknowledgements This repository is built on top of FAST-LIVO2 and uses sever",
+        "readme_excerpt": "FAST-LIVO2-RTK FAST-LIVO2-RTK extends FAST-LIVO2 with RTK/GNSS-constrained global optimization for long-term LiDAR-visual mapping. Key highlights include: Fully Reproducible: Complete open-source software and hardware setup guaranteeing fully reproducible LIVO-RTK experiments. Robust Initialization Module: Built-in initialization featuring cross-correlation-based time offset estimation and hand-eye extrinsic calibration. LIV-RTK Fusion Paradigm: A simple example paradigm for fusing LIVO trajectories with RTK observations. 📬 For further assistance or inquiries, please feel free to contact Chunran Zheng at zhengcr@connect.hku.hk . Collected in a challenging scene with degraded geometry and texture. a2, b2, c2 : FAST-LIVO2 baseline. a1, b1, c1 : results after RTK fusion. 1. Prerequisited 1.1 Ubuntu and ROS Ubuntu 18.04~20.04. See ROS Installation . 1.2 PCL, Eigen, and OpenCV PCL>=1.8, Eigen>=3.3.4, OpenCV>=4.2. 1.3 Sophus Install the non-templated/double-only version of Sophus. git clone https://github.com/strasdat/Sophus.git cd Sophus git checkout a621ff mkdir build && cd build && cmake .. make sudo make install 1.4 Vikit Vikit provides the camera models and math utilities required by this project. Put it in your catkin workspace source folder. cd ~ /catkin_ws/src git clone https://github.com/xuankuzcr/rpg_vikit.git 1.5 RTK Dependencies The RTK branch depends on the GNSS ROS message package used by the u-blox/GVINS toolchain. Put it in the same catkin workspace: cd ~ /catkin_ws/src git clone https://github.com/HKUST-Aerial-Robotics/gnss_comm.git GTSAM is used for factor graph-based post-processing optimization. git clone https://github.com/borglab/gtsam.git cd gtsam mkdir build && cd build cmake -DGTSAM_BUILD_WITH_MARCH_NATIVE=OFF -DGTSAM_USE_SYSTEM_EIGEN=ON .. make -j $( nproc ) sudo make install GeographicLib is used for converting geographic coordinates to local Cartesian coordinates. sudo apt-get install libgeographic-dev ros- ${ROS_DISTRO} -eigen-conversions 2. Run our examples Download the provided RTK test rosbag file: RTK-Dataset . Launch the system and load the configuration file: roslaunch fast_livo HH.launch Play the rosbag. Once the sequence is finished, press Enter in the terminal running the launch file to trigger the backend optimizer. rosbag play HH-LVGO-01.bag 3. Appendix Time Synchronization: The diagram illustrates the time synchronization scheme among GNSS, LiDAR, and image data. Hardware Platform: The table below summarizes the main devices used by the platform. Device Image Model Description LiDAR Model: Livox Mid-360 Camera Model: MV-CB016-10GC-S-W GNSS Receiver Model: u-blox ZED-F9P Computing Unit Model: N100 mini PC Synchronization Controller Model: STM32 4. Acknowledgements This repository is built on top of FAST-LIVO2 and use",
         "fetched_ok": true,
         "display_name": "xuankuzcr/FAST-LIVO2-RTK",
-        "display_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.",
+        "display_description": "FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK",
         "manual_note": "",
         "manual_labels": [],
         "labels": [
@@ -118026,11 +118685,12 @@
         "primary_category_description": "GNSS/INS, RTK, HD maps, map matching, global localization, and map-based relocalization.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "",
-        "primary_score": 49,
-        "secondary_categories": [],
+        "primary_score": 30,
+        "secondary_categories": [
+          "calibration-synchronization"
+        ],
         "match_hits": [
           "gnss",
-          "list:gnss",
           "rtk"
         ]
       },
@@ -123928,6 +124588,48 @@
     ],
     "leg": [
       {
+        "full_name": "ASIG-X /RESPLE2",
+        "url": "https://github.com/ASIG-X/RESPLE2",
+        "owner": "ASIG-X",
+        "repo": "RESPLE2",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:43:29.051017+00:00",
+        "archived": false,
+        "about": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "topics": [],
+        "homepage": "https://www.youtube.com/watch?v=6bgAY8SLhvw",
+        "readme_excerpt": "RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement YouTube | arXiv | Website | Dataset RESPLE2 is a recursive non-uniform B-spline state estimation framework supporting a versatile range of multi-sensor odometry configurations, enabling LiDAR-inertial, LiDAR-visual-inertial (LVIO), LiDAR-leg-inertial (LKIO), and LiDAR-leg-visual-inertial (LKVIO) odometry systems with a unified design with optional global spline correction. All runs comfortably within real-time constraints. BibTex Citation @article{cao2026resple2, title={RESPLE2: Inertial-Informed Recursive Non-Uniform Spline Estimation for Multi-Sensor Odometry with Global Refinement}, author={Cao, Ziyu and Talbot, William and Li, Song and Chirarattananon, Pakpong and Gustafsson, Fredrik and Hutter, Marco and Li, Kailai}, journal={arXiv preprint arXiv:2610.37602}, year={2026} } Dependencies RESPLE2 supports ROS 2 Humble on Ubuntu 22.04 and ROS 2 Jazzy on Ubuntu 24.04. Install the corresponding ROS 2 distribution, then source it and install the dependencies: # Choose the setup file for your ROS 2 distribution: source /opt/ros/humble/setup.bash # source /opt/ros/jazzy/setup.bash sudo apt install build-essential cmake python3-colcon-common-extensions python3-yaml \\ libpcl-dev libeigen3-dev libopencv-dev libyaml-cpp-dev libboost-thread-dev \\ libsuitesparse-dev libceres-dev sudo apt install ros- ${ROS_DISTRO} -pcl-conversions ros- ${ROS_DISTRO} -cv-bridge ros- ${ROS_DISTRO} -image-transport \\ ros- ${ROS_DISTRO} -rosidl-default-generators ros- ${ROS_DISTRO} -rosidl-generator-dds-idl \\ ros- ${ROS_DISTRO} -ament-lint-auto ros- ${ROS_DISTRO} -ament-lint-common # Optional: for playing MCAP bags sudo apt install ros- ${ROS_DISTRO} -rosbag2-storage-mcap Legged-robot kinematics is enabled by default and requires Pinocchio 3.9.0 . LIO and LVIO users can build without it by disabling RESPLE2_ENABLE_KINEMATICS as shown below. If CMake cannot locate an installed Pinocchio, pass -Dpinocchio_DIR=/path/to/lib/cmake/pinocchio under --cmake-args when building. Compilation source /opt/ros/ ${ROS_DISTRO} /setup.bash mkdir -p ~ /ros2_ws/src cd ~ /ros2_ws/src git clone --recursive https://github.com/ASIG-X/RESPLE2.git cd ~ /ros2_ws colcon build --symlink-install --packages-up-to resple2 source install/setup.bash To build without Pinocchio or legged-robot message dependencies , run from the workspace root: export RESPLE2_ENABLE_KINEMATICS=OFF colcon build --symlink-install --packages-up-to resple2 \\ --cmake-args -DRESPLE2_ENABLE_KINEMATICS=OFF source install/setup.bash Keep if_kin: false in the selected YAML configuration. Setting it to true in this build produces a startup error explaining how to enable kinematics. To restore legged-robot support, install Pinocc",
+        "fetched_ok": true,
+        "display_name": "ASIG-X/RESPLE2",
+        "display_description": "First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2: First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction.",
+        "manual_note": "",
+        "manual_labels": [
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "labels": [
+          "lidar-visual-inertial-odometry",
+          "place-recognition-loop-closure",
+          "leg"
+        ],
+        "primary_category": "lidar-visual-inertial-odometry",
+        "primary_category_name": "LiDAR-Visual-Inertial State Estimation",
+        "primary_category_name_zh": "激光视觉惯导里程计",
+        "primary_category_description": "LiDAR-camera-IMU state estimation, LIVO, LIC, and multi-modal state estimation / SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "ChiyunNoh /GTSAM-Legged-Estimator-ROS2",
         "url": "https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2",
         "owner": "ChiyunNoh",
@@ -125345,6 +126047,90 @@
         "primary_category_description": "Custom user-defined category.",
         "primary_category_kind": "custom",
         "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      }
+    ],
+    "feed-forward": [
+      {
+        "full_name": "ori-drs /FoundationVIO",
+        "url": "https://github.com/ori-drs/FoundationVIO",
+        "owner": "ori-drs",
+        "repo": "FoundationVIO",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:42:22.769175+00:00",
+        "archived": false,
+        "about": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+        "topics": [],
+        "homepage": "https://jinrhee.github.io",
+        "readme_excerpt": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry Jin Rhee 1 , Yuhao Zhang 1 , Frank Dellaert 2 , Maurice Fallon 1 1 Dynamic Robot Systems Group, University of Oxford 2 Georgia Institute of Technology FoundationVIO is a visual-inertial odometry method that fuses inertial sensing with learned geometry from general feed-forward 3D geometric foundation models (GFMs) in a factor-graph based optimisation. Due to its use of a GFM and inertial sensing, FoundationVIO is able to 1) remain robust in low-texture sequences that are challenging for classical methods and 2) enforce metric scale in odometry estimates and reconstructions. We additionally add GFM-based initialisation and loop-closure to demonstrate globally accurate trajectories and reconstruction. The method is compatible with general N-view GFMs such as DepthAnything3 and VGGT-Omega and naturally profits from advances in model accuracy and speed. Preview We use a simple factor graph formulation to optimise for per-frame poses and per-batch scale. The input consists of IMU measurements, model predicted poses, and relative scale between batches of predicted geometry. Setup The method is tested using CUDA 12.8 with > 12GB of VRAM. git submodule update --init --recursive curl -fsSL https://pixi.sh/install.sh | bash source ~/.bashrc pixi install Model weights (DA3, DINOv2, SALAD) download on the first run. Packages are in pixi.toml . Examples Project Aria The script downloads BigRoom3 into data/aria , runs the full sequence, and evaluates it. pixi run example-aria # or: pixi run example-aria <dataset_dir> See Aria Office dataset for more sequences. To run manually, unzip one into data/aria , then: pixi run python -m foundation_vio.run --config configs/aria.yaml --sequence <name> ScaRF-SLAM The r05 sequence from the ScaRF-SLAM dataset is a short sequence to quickly test. Use the script to download, extract, undistort, and run the full sequence. pixi run example-scarf # or: pixi run example-scarf <dataset_dir> Oxford Spires The script below downloads and runs the chch03 sequence from the Oxford Spires dataset. pixi run example-spires # or: pixi run example-spires <dataset_dir> Evaluating results A run writes one trajectory, tum_poses.csv : SLAM with loop closures (the default), or odometry with --set loop_closure.enabled=False . The example scripts evaluate their run. To evaluate any run, evaluate.py prints the trajectory's ATE [m] and RPE over 1 m segments [m/m] against the dataset's ground truth: # Aria: ground truth in the IMU frame pixi run python scripts/evaluate.py <run_dir> data/aria/<name>_sequence/gt_poses_in_right_imu_frame_tum.txt --gt-frame imu # ScaRF-SLAM: camera frame, extrinsics from the Kalibr camchain pixi run python scripts/evaluate.py <run_dir> data/scarf/<",
+        "fetched_ok": true,
+        "display_name": "ori-drs/FoundationVIO",
+        "display_description": "FoundationVIO: Enforcing Metric Scale in Feed-forward Visual-Inertial Odometry - ori-drs/FoundationVIO",
+        "manual_note": "",
+        "manual_labels": [
+          "feed-forward"
+        ],
+        "labels": [
+          "visual-inertial-odometry",
+          "feed-forward"
+        ],
+        "primary_category": "visual-inertial-odometry",
+        "primary_category_name": "Visual / Visual-Inertial State Estimation",
+        "primary_category_name_zh": "视觉里程计与视觉惯导",
+        "primary_category_description": "Visual state estimation, visual-inertial state estimation, monocular/stereo/RGB-D VO, and VIO SLAM systems.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      }
+    ],
+    "spatial-memory": [
+      {
+        "full_name": "GoldenGait /FARM-Project",
+        "url": "https://github.com/GoldenGait/FARM-Project",
+        "owner": "GoldenGait",
+        "repo": "FARM-Project",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-05T03:50:41.765867+00:00",
+        "archived": false,
+        "about": "Contribute to GoldenGait/FARM-Project development by creating an account on GitHub.",
+        "topics": [],
+        "homepage": "https://arxiv.org/abs/2606.15476",
+        "readme_excerpt": "FARM: Find Anything using Relational Spatial Memory (1) Memory construction: RGBD streams are fused in real time into an object-level spatial memory — every box is a remembered object with 3D geometry, a caption, and multi-modal embeddings (left: multi-floor house; right: 15,000 m² construction site). (2) Retrieval: a natural referential expression is parsed into a target plus spatial relations and grounded against that memory to find the queried object (insets). FARM is a robot memory system: it builds, in real time (5–10 Hz) , a compact, open-vocabulary, object-level memory of a scene from RGBD streams — 3D Gaussian geometry, VLM captions, multi-modal embeddings, and viewpoint evidence per object — and then finds things in it from natural language , grounding spatial constraints (\"the ladder left of the crates\") through relational predicates over the memory. This repository is the official implementation: the mapping pipeline (offline datasets and live ROS 2 share the same algorithm code), the interactive 3D viewer with language retrieval, and the retrieval stack used in the paper. The library imports as scene_graph . Paper: arXiv:2606.15476 Summary video: youtube.com/watch?v=0Ek-wPV9O1g Project page: goldengait.github.io/farm Dataset: FARM-Scenes — 7 large-scale real-robot scenes (47,300 m², 3 platforms) with GT annotations, referring expressions, and prebuilt scene graphs Setup Prerequisites: an NVIDIA GPU with CUDA 12.8+ drivers, Docker with the NVIDIA container runtime, and docker compose . All runtime work happens inside the container — there is no supported host-side pip install path; this keeps the CUDA/ROS 2/PyTorch/YOLOE version matrix reproducible. Compute. The full stack (mapping + LLM/embedding services + 3D viewer) uses about 50 GB of GPU memory in total (~65 GB on our largest scenes) and ~26 GB of disk. Tested on RTX 5090 and RTX PRO 6000 machines, and on NVIDIA Jetson Thor on-robot. git clone --recursive https://github.com/GoldenGait/FARM-Project.git && cd FARM-Project ./bootstrap_models.sh # YOLOE + MobileCLIP + SigLIP2 weights (public URLs, no account needed) ./run.sh build # builds scene_graph:latest (CUDA 12.8 + ROS 2 Humble) ./run.sh shell /path/to/your/data # container shell; the dir is mounted at /data If you cloned without --recursive , run git submodule update --init --recursive first — the Docker build installs third_party/yoloe editably and fails without it. The DINOv3 merge backbone ships in-repo ( models/dinov3-vits16 ), so nothing else is required to run. GitHub's autogenerated source archives do not include submodule contents. Use a recursive clone or the complete source archive attached to each release. Optional: paper-grade DINOv3 backbone (gated) The pipeline auto-prefers the gated ViT-S+/16 ( dinov3-vits16plus ) — ",
+        "fetched_ok": true,
+        "display_name": "GoldenGait/FARM-Project",
+        "display_description": "",
+        "manual_note": "",
+        "manual_labels": [
+          "spatial-memory"
+        ],
+        "labels": [
+          "mapping-map-representation",
+          "spatial-memory"
+        ],
+        "primary_category": "mapping-map-representation",
+        "primary_category_name": "Mapping & Map Representation",
+        "primary_category_name_zh": "建图与地图表达",
+        "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "General Mapping",
         "primary_score": 999,
         "secondary_categories": [],
         "match_hits": [

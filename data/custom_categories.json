@@ -19,6 +19,15 @@
       "lists": {}
     },
     {
+      "id": "feed-forward",
+      "name": "feed-forward",
+      "name_zh": "前馈式重建相关",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
       "id": "fmcw-slam",
       "name": "FMCW SLAM",
       "name_zh": "FMCW SLAM",
@@ -31,6 +40,15 @@
       "id": "leg",
       "name": "Leg",
       "name_zh": "Leg",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
+    },
+    {
+      "id": "spatial-memory",
+      "name": "Spatial Memory",
+      "name_zh": "Spatial Memory",
       "description": "Custom user-defined category.",
       "kind": "custom",
       "keywords": {},

@@ -2,7 +2,7 @@
 
 Datasets, benchmarks, leaderboards, dataset APIs, ground truth, and evaluation protocols.
 
-Repositories: `63`
+Repositories: `64`
 
 [Back to README](../../README.md)
 
@@ -69,3 +69,4 @@ Repositories: `63`
 - [physical-superintelligence-lab/Humanoid-Everyday](https://github.com/physical-superintelligence-lab/Humanoid-Everyday) - Humanoid dataset for learning
 - [RNP-lab/viking_hill_radar_lidar_camera_dataset](https://github.com/RNP-lab/viking_hill_radar_lidar_camera_dataset) - Radar, lidar and camera dataset focusing on obstacle classification in forest environment
 - [svendbot/smfeval](https://github.com/svendbot/smfeval)
+- [url-kaist/se3-livom-comfort](https://github.com/url-kaist/se3-livom-comfort) - SE(3)-LIVOM for the COMFORT Localization Benchmark - url-kaist/se3-livom-comfort

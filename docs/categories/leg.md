@@ -2,7 +2,7 @@
 
 Custom user-defined category.
 
-Repositories: `11`
+Repositories: `12`
 
 [Back to README](../../README.md)
 
@@ -15,5 +15,6 @@ Repositories: `11`
 - [JixinGao/HR2-KILO](https://github.com/JixinGao/HR2-KILO) - A High-Rate, Robust, Kinematic-Inertial-LiDAR Odometry for Humanoid Robots
 - [Karltommy/WL-SLAM](https://github.com/Karltommy/WL-SLAM)
 - [SangwooJung98/SPOT_ego_Velocity](https://github.com/SangwooJung98/SPOT_ego_Velocity) - leg kinematic based ego-velocity estimator for Boston Dynamics SPOT
+- [ASIG-X/RESPLE2](https://github.com/ASIG-X/RESPLE2) - First recursive non-uniform B-spline state estimation framework, supporting a wide range of multi-sensor odometry systems with optional loop closure correction. - GitHub - ASIG-X/RESPLE2:...
 - [ChiyunNoh/GTSAM-Legged-Estimator-ROS2](https://github.com/ChiyunNoh/GTSAM-Legged-Estimator-ROS2)
 - [ori-drs/pronto](https://github.com/ori-drs/pronto) - Pronto - Legged Robot State Estimator - libraries, ROS wrapper and messages

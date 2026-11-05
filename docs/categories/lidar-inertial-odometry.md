@@ -2,7 +2,7 @@
 
 LiDAR-IMU state estimation, LIO SLAM, filtering/smoothing-based LIO, and LIO mapping systems.
 
-Repositories: `162`
+Repositories: `163`
 
 [Back to README](../../README.md)
 
@@ -156,6 +156,7 @@ Repositories: `162`
 - [wolf943134497/FAST-LIO-Multi-Sensor-Fusion](https://github.com/wolf943134497/FAST-LIO-Multi-Sensor-Fusion) - Fusing GNSS and wheel measurements based on FAST-LIO and IKFOM
 - [changh95/LIO-SAM-nvidia-docker](https://github.com/changh95/LIO-SAM-nvidia-docker) - LIO-SAM: Tightly-coupled Lidar Inertial Odometry via Smoothing and Mapping
 - [comrob/liorf-crl](https://github.com/comrob/liorf-crl) - CRL modification of the ROS1 liorf SLAM
+- [cocel-postech/genz-lio](https://github.com/cocel-postech/genz-lio) - GenZ-LIO: SOTA robust LiDAR-inertial odometry (IEEE T-FR 2026) - cocel-postech/genz-lio
 - [ethz-asl/BIEVR-LIO](https://github.com/ethz-asl/BIEVR-LIO) - [RSS 2026] 🦫 BIEVR-LIO: Robust LiDAR-Inertial Odometry through Bump-Image-Enhanced Voxel Maps
 - [Functionhx/Batch-LIO](https://github.com/Functionhx/Batch-LIO) - Batch-wise extension of Point-LIO: per-~1ms batch EKF update + in-batch de-skew for high-bandwidth, lower-compute LiDAR-inertial odometry (reproduction of Point-LIWO innovation #1). - Fun...
 - [MOLAorg/mola](https://github.com/MOLAorg/mola) - A Modular Optimization framework for Localization and mApping (MOLA) - MOLAorg/mola

@@ -16,6 +16,11 @@
       "added_at": "2026-08-26T03:53:47.842381+00:00"
     },
     {
+      "full_name": "ASIG-X/RESPLE2",
+      "url": "https://github.com/ASIG-X/RESPLE2",
+      "added_at": "2026-11-05T03:43:26.741739+00:00"
+    },
+    {
       "full_name": "ASIG-X/SFUISE",
       "url": "https://github.com/ASIG-X/SFUISE",
       "added_at": "2026-06-08T03:51:20.343631+00:00"
@@ -34,6 +39,11 @@
       "full_name": "ChiyunNoh/TRaIL-Odom",
       "url": "https://github.com/ChiyunNoh/TRaIL-Odom",
       "added_at": "2026-08-26T09:11:35.814078+00:00"
+    },
+    {
+      "full_name": "cocel-postech/genz-lio",
+      "url": "https://github.com/cocel-postech/genz-lio",
+      "added_at": "2026-11-05T03:32:23.764941+00:00"
     },
     {
       "full_name": "cvg/OpenFrontier",
@@ -86,6 +96,11 @@
       "added_at": "2026-06-18T01:52:21.828118+00:00"
     },
     {
+      "full_name": "GoldenGait/FARM-Project",
+      "url": "https://github.com/GoldenGait/FARM-Project",
+      "added_at": "2026-11-05T03:50:39.405978+00:00"
+    },
+    {
       "full_name": "HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
       "url": "https://github.com/HKUST-Aerial-Robotics/HKUST-ELEC5660-Introduction-to-Aerial-Robotics",
       "added_at": "2026-08-07T02:20:51.952106+00:00"
@@ -109,6 +124,11 @@
       "full_name": "jashshah999/vggt-factor-refinement",
       "url": "https://github.com/jashshah999/vggt-factor-refinement",
       "added_at": "2026-06-09T02:36:21.035411+00:00"
+    },
+    {
+      "full_name": "JokerJohn/IntrinsicCalib",
+      "url": "https://github.com/JokerJohn/IntrinsicCalib",
+      "added_at": "2026-11-05T03:08:42.147526+00:00"
     },
     {
       "full_name": "KJ-Falloutlast/FIRE-LIVWO",
@@ -179,6 +199,11 @@
       "full_name": "OmerMersin/FAST_LIO_GPU",
       "url": "https://github.com/OmerMersin/FAST_LIO_GPU",
       "added_at": "2026-07-24T03:55:11.953120+00:00"
+    },
+    {
+      "full_name": "ori-drs/FoundationVIO",
+      "url": "https://github.com/ori-drs/FoundationVIO",
+      "added_at": "2026-11-05T03:42:20.388080+00:00"
     },
     {
       "full_name": "ori-drs/pronto",
@@ -311,6 +336,16 @@
       "added_at": "2026-06-29T02:16:18.199027+00:00"
     },
     {
+      "full_name": "url-kaist/se3-livom-comfort",
+      "url": "https://github.com/url-kaist/se3-livom-comfort",
+      "added_at": "2026-11-05T03:45:47.738253+00:00"
+    },
+    {
+      "full_name": "WilsonGuo/Global-LVBA",
+      "url": "https://github.com/WilsonGuo/Global-LVBA",
+      "added_at": "2026-11-05T03:14:38.527564+00:00"
+    },
+    {
       "full_name": "wukaipeng-dev/IELTS",
       "url": "https://github.com/wukaipeng-dev/IELTS",
       "added_at": "2026-09-03T03:08:41.101308+00:00"
@@ -329,6 +364,11 @@
       "full_name": "xiaofan4122/Elevator-LIO",
       "url": "https://github.com/xiaofan4122/Elevator-LIO",
       "added_at": "2026-06-29T02:17:02.433097+00:00"
+    },
+    {
+      "full_name": "xuankuzcr/FAST-LIVO2-RTK",
+      "url": "https://github.com/xuankuzcr/FAST-LIVO2-RTK",
+      "added_at": "2026-11-05T03:16:40.908790+00:00"
     },
     {
       "full_name": "Ycsyyds/fastlivo2-tech-docs",

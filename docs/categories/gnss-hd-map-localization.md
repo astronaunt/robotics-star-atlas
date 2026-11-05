@@ -32,7 +32,6 @@ Repositories: `34`
 - [i2Nav-WHU/LE-VINS](https://github.com/i2Nav-WHU/LE-VINS) - INS-Centric Visual-Inertial Navigation System With LiDAR Enhancement
 - [rwth-irt/gnssFGO](https://github.com/rwth-irt/gnssFGO) - This is the official repo of the project gnssFGO.
 - [xiaohong-huang/RTK-Visual-Inertial-Navigation](https://github.com/xiaohong-huang/RTK-Visual-Inertial-Navigation) - A method used sliding window filter frame work for RTK-Visual-Inertial-Navigation
-- [xuankuzcr/FAST-LIVO2-RTK](https://github.com/xuankuzcr/FAST-LIVO2-RTK) - FAST-LIVO2 with RTK/GNSS-constrained Global Optimization.
 - [taroz/gtsam_gnss](https://github.com/taroz/gtsam_gnss) - Factor graph optimization library for GNSS positining
 - [ShiPC-AI/LiDAR-Localization-100FPS](https://github.com/ShiPC-AI/LiDAR-Localization-100FPS) - [JAG 2023] LiDAR localization at 100FPS: A map-aided and template descriptor-based global method
 - [FAIRSpace-AdMaLL/ndt_localizer](https://github.com/FAIRSpace-AdMaLL/ndt_localizer) - This robot lcoalisation package for lidar-map based localisation using multi-sensor state estimation.
@@ -46,6 +45,7 @@ Repositories: `34`
 - [RISC-NYUAD/tomographic-map-matching](https://github.com/RISC-NYUAD/tomographic-map-matching) - A lightweight algorithm for large-scale 3D map matching
 - [barbeau/awesome-gnss](https://github.com/barbeau/awesome-gnss) - Community list of open-source GNSS software and resources :satellite: - barbeau/awesome-gnss
 - [Garfield-cn/GLINS](https://github.com/Garfield-cn/GLINS) - GNSS-LiDAR-INS Integrated Navigation System
+- [xuankuzcr/FAST-LIVO2-RTK](https://github.com/xuankuzcr/FAST-LIVO2-RTK) - FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK
 
 ## ROS / Robotics Tools
 

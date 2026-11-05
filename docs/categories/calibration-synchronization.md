@@ -2,7 +2,7 @@
 
 Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization.
 
-Repositories: `31`
+Repositories: `32`
 
 [Back to README](../../README.md)
 
@@ -37,3 +37,4 @@ Repositories: `31`
 - [jizhang-cmu/360_camera](https://github.com/jizhang-cmu/360_camera) - Ricoh Theta Z1 camera driver and lidar-to-camera extrinsic/latency calibration for Mecanum wheel platform
 - [soytony/IntensityCalibration](https://github.com/soytony/IntensityCalibration) - Intensity Calibration tools, forked from http://www2.informatik.uni-freiburg.de/~steder .
 - [ARVCUMH/fisheye_lidar_calibration](https://github.com/ARVCUMH/fisheye_lidar_calibration) - A method to calibrate the coordinate transformation between a fisheye camera and a LIDAR - ARVCUMH/fisheye_lidar_calibration
+- [JokerJohn/IntrinsicCalib](https://github.com/JokerJohn/IntrinsicCalib)

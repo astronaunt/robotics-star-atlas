@@ -2,14 +2,14 @@
 
 Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.
 
-Repositories: `191`
+Repositories: `193`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General Mapping | 63 |
-| 3D Gaussian Splatting | 58 |
+| General Mapping | 64 |
+| 3D Gaussian Splatting | 59 |
 | General | 29 |
 | NeRF & Neural Rendering | 27 |
 | Voxel / TSDF / Occupancy Maps | 12 |
@@ -78,6 +78,7 @@ Repositories: `191`
 - [uniericuni/MultiRobotSAM](https://github.com/uniericuni/MultiRobotSAM) - An implementation of the 2010 paper "Multiple Relative Pose Graphs for Robust Cooperative Mapping" by Been et. al.
 - [dongjae0107/LAPS](https://github.com/dongjae0107/LAPS) - [RA-L 2026] LAPS: Improving Incremental LiDAR Mapping using Active Pooling and Sampling for Neural Distance Fields
 - [efc-robot/MR-COGraphs](https://github.com/efc-robot/MR-COGraphs) - [RA-L25] MR-COGraphs: Communication-efficient multi-robot open-vocabulary mapping system via 3D scene graphs
+- [GoldenGait/FARM-Project](https://github.com/GoldenGait/FARM-Project)
 - [HorizonRobotics/HoloAgent](https://github.com/HorizonRobotics/HoloAgent) - A unified, agentic system for general-purpose robots, enabling multi-modal perception, mapping and localization, and autonomous mobility and manipulation, with intelligent interaction wit...
 - [ori-drs/ScaRF-SLAM](https://github.com/ori-drs/ScaRF-SLAM) - ScaRF-SLAM: A Framework for Globally Consistent Online Visual Dense Reconstruction
 - [superxslam/SuperMap](https://github.com/superxslam/SuperMap) - SuperMap is a living spatial memory for embodied AI — it perceives the world, remembers its evolution, and supports reasoning and action.
@@ -142,6 +143,7 @@ Repositories: `191`
 - [jashshah999/vggt-factor-refinement](https://github.com/jashshah999/vggt-factor-refinement) - Factor graph refinement of VGGT feed-forward 3D reconstruction
 - [leggedrobotics/DiskChunGS](https://github.com/leggedrobotics/DiskChunGS) - [RA-L 2026] DiskChunGS: Large-Scale 3D Gaussian SLAM Through Chunk-Based Memory Management - leggedrobotics/DiskChunGS
 - [MIT-SPARK/Clio](https://github.com/MIT-SPARK/Clio)
+- [WilsonGuo/Global-LVBA](https://github.com/WilsonGuo/Global-LVBA)
 
 ## General
 
