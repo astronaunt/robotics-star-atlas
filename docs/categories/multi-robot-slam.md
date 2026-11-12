@@ -2,13 +2,13 @@
 
 Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.
 
-Repositories: `69`
+Repositories: `70`
 
 [Back to README](../../README.md)
 
 | Topic | Repos |
 | --- | ---: |
-| General | 68 |
+| General | 69 |
 | General Mapping | 1 |
 
 ## General
@@ -75,6 +75,7 @@ Repositories: `69`
 - [yeweihuang/distributed-mapper](https://github.com/yeweihuang/distributed-mapper) - Replace the GaussianFactorGraph in rotation optimization with nonlinearFactorGraph & ISAM2
 - [G-SEI-Lab/Leap-SLAM](https://github.com/G-SEI-Lab/Leap-SLAM) - Home page
 - [NeBula-Autonomy/nebula-odometry-dataset](https://github.com/NeBula-Autonomy/nebula-odometry-dataset) - Ready to test your SLAM system in challenging datasets from extreme environments? Try this out! The dataset is provided by the Team CoSTAR that has been intensively testing multi-robot sy...
+- [NorwegianSmokedSalmon/LEMONMapping](https://github.com/NorwegianSmokedSalmon/LEMONMapping) - [2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping
 - [PRBonn/rko_slam](https://github.com/PRBonn/rko_slam) - ROS2 LiDAR-inertial SLAM and multi-session alignment - PRBonn/rko_slam
 - [rpl-cmu/rimesa](https://github.com/rpl-cmu/rimesa) - [TRO 2026] riMESA is a robust and incremental collaborative SLAM algorithm.
 - [sparolab/Commerge](https://github.com/sparolab/Commerge) - SOTA communication-efficient, fast, and robust map merging using 3D point cloud (accepted in IJRR)

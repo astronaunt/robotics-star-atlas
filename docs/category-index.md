@@ -11,8 +11,8 @@ Direct small-category index generated from repository metadata and the original 
 | [Place Recognition & Loop Closure](categories/place-recognition-loop-closure.md) | 110 | Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers. |
 | [Mapping & Map Representation](categories/mapping-map-representation.md) | 193 | Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting. |
 | [Point Cloud Registration](categories/point-cloud-registration.md) | 41 | Point cloud registration, ICP/GICP/NDT, scan matching, feature matching, and correspondence-based alignment. |
-| [Point Cloud Perception](categories/point-cloud-perception.md) | 60 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
-| [Multi-Robot SLAM & Collaborative Perception](categories/multi-robot-slam.md) | 69 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
+| [Point Cloud Perception](categories/point-cloud-perception.md) | 61 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
+| [Multi-Robot SLAM & Collaborative Perception](categories/multi-robot-slam.md) | 70 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
 | [Radar SLAM & Perception](categories/radar-slam-perception.md) | 41 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
 | [Calibration & Time Synchronization](categories/calibration-synchronization.md) | 32 | Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization. |
 | [Degeneracy, Robustness & Failure Analysis](categories/degeneracy-robustness.md) | 22 | Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM. |
@@ -34,3 +34,4 @@ Direct small-category index generated from repository metadata and the original 
 | [Spatial Memory](categories/spatial-memory.md) | 1 | Custom user-defined category. |
 | [uwb](categories/uwb.md) | 4 | Custom user-defined category. |
 | [Wheel](categories/wheel.md) | 2 | Custom user-defined category. |
+| [whole-body motion tracking](categories/whole-body-motion-tracking.md) | 1 | Custom user-defined category. |

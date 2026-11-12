@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-11-05T03:50:41.765867+00:00",
-  "total_unique_repos": 1441,
+  "generated_at": "2026-11-12T02:07:03.405052+00:00",
+  "total_unique_repos": 1443,
   "categories": {
     "lidar-inertial-odometry": {
       "name": "LiDAR-Inertial State Estimation",
@@ -63,15 +63,15 @@
       "name_zh": "点云感知",
       "description": "Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.",
       "kind": "algorithm",
-      "count": 60,
-      "primary_count": 59
+      "count": 61,
+      "primary_count": 60
     },
     "multi-robot-slam": {
       "name": "Multi-Robot SLAM & Collaborative Perception",
       "name_zh": "多机器人 SLAM 与协同感知",
       "description": "Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion.",
       "kind": "algorithm",
-      "count": 69,
+      "count": 70,
       "primary_count": 61
     },
     "radar-slam-perception": {
@@ -241,6 +241,14 @@
       "kind": "custom",
       "count": 2,
       "primary_count": 0
+    },
+    "whole-body-motion-tracking": {
+      "name": "whole-body motion tracking",
+      "name_zh": "全身运动",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "count": 1,
+      "primary_count": 1
     }
   },
   "uncategorized_count": 21,
@@ -58506,26 +58514,15 @@
       "source_lists": [
         "manual"
       ],
-      "fetched_at": "2026-06-09T02:24:10.274490+00:00",
+      "fetched_at": "2026-11-12T01:54:14.610278+00:00",
       "archived": false,
-      "about": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
-      "topics": [
-        "c-plus-plus",
-        "gnss",
-        "localization",
-        "positioning",
-        "ppp",
-        "qzss",
-        "rinex",
-        "ros2",
-        "rtcm",
-        "rtk"
-      ],
-      "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/",
-      "readme_excerpt": "libgnss++ Modern C++17 GNSS toolkit for non-GUI positioning. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Results Area Public comparison Current result RTK PPC Tokyo/Nagoya vs RTKLIB demo5 +17.0 pp positioning, +28.1 pp official score, -11.96 m P95 H delta CLAS PPP QZSS CLAS vs CLASLIB 3.57 mm vs 7.29 mm RMS 3D Urban RTK UrbanNav Tokyo Odaiba vs RTKLIB demo5 More fixes, lower Hp95/Vp95; --preset odaiba closes Hmed SPP PPC SPP adaptive robust + policy gate No P95 regression with <=1 pp positioning drop PPC RTK vs RTKLIB demo5 These are public PPC Tokyo/Nagoya moving-RTK replays using the same rover/base/nav observations for libgnss++ and RTKLIB demo5 . Run gnssplusplus Positioning RTKLIB Positioning Delta gnssplusplus Fix RTKLIB Fix PPC official score RTKLIB official score Official delta P95 H delta Tokyo run1 90.0% 66.3% +23.7 pp 54.4% 30.5% 34.9% 0.0% +34.9 pp +3.39 m Tokyo run2 95.3% 84.3% +11.0 pp 64.1% 27.6% 69.0% 16.9% +52.1 pp -18.51 m Tokyo run3 95.7% 93.1% +2.5 pp 63.0% 40.5% 60.6% 35.6% +25.0 pp -0.24 m Nagoya run1 88.8% 65.8% +23.0 pp 64.5% 33.8% 49.5% 22.4% +27.1 pp -23.78 m Nagoya run2 85.6% 69.8% +15.8 pp 51.4% 18.8% 20.9% 11.0% +9.9 pp -27.24 m Nagoya run3 93.8% 67.7% +26.1 pp 27.1% 13.9% 27.4% 7.6% +19.7 pp -5.37 m Across these six public runs, the coverage profile averages +17.0 pp Positioning-rate lead, +28.1 pp PPC official-score lead, and -11.96 m P95 horizontal-error delta versus RTKLIB demo5 . CLAS PPP vs CLASLIB QZSS CLAS PPP from raw L6 binary, 2019-08-27 static dataset, 1 hour ( 3599 epochs): Metric libgnss++ --claslib-parity CLASLIB Matched fixed epochs 3594 / 3599 (99.86%) 3594 / 3599 (99.86%) RMS 3D fixed-only 3.57 mm 7.29 mm 3D bias mean offset 1.66 mm 4.84 mm RMS East 1.15 mm 1.52 mm RMS North 1.21 mm 0.92 mm RMS Up 3.15 mm 7.07 mm First fix epoch epoch 6 epoch 6 Runtime dependency no CLASLIB runtime CLASLIB runtime CLASLIB 2D libgnss++ 2D RTKLIB Odaiba 2D libgnss++ Odaiba 2D Quick Start Choose the entrypoint that matches your job: Robotics quick start : RTK replay, local web inspection, ROS2 receiver launch, and rosbag capture. Research quick start : repeatable sign-off runs, profile comparisons, Python inspection, and artifact layout. Dataset gallery : current public dataset lanes and the adapter contract for adding more. Build: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build -j python3 apps/gnss.py doctor python3 apps/gnss.py ros2-doctor --device /dev/ttyUSB0 python3 apps/gnss.py ros2-bag-doctor --bag /path/to/ro",
+      "about": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
+      "topics": [],
+      "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/app/",
+      "readme_excerpt": "libgnss++ Modern C++20 GNSS toolkit: command-line tools, a browser GUI and a library. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. Selected UrbanNav Odaiba showcase: Ground Truth, libgnss++, and RTKLIB demo5 in one scene. Median horizontal error on 172 common epochs: 0.38 m vs 7.41 m (libgnss++ default settings vs RTKLIB demo5, both with GPS, GLONASS, Galileo, QZSS and BeiDou; a favorable selected segment, not a full-run benchmark: over the whole drive demo5 fixes more epochs than the default settings, while --preset urban fixes more than demo5 with fewer wrong fixes, see the Urban RTK row below). Zenith inset: satellite IDs and LOS/NLOS predictions from PLATEAU buildings and bridges, not measured labels. Data, attribution, and rendering details . What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Choose a use case : urban RTK + IMU continuity , urban canyon RTK options , real-time RTK with gnss live , RTKLIB migration , ROS2 receiver/bag replay , or QZSS L6 / CLAS / MADOCA . Try it No install at all: the browser GUI runs gnss convert , gnss solve , gnss fuse , gnss fgo , gnss spp and gnss ppp compiled to WebAssembly, RTKLIB-style (post-process, convert, plot, observations), on your files or a bundled RTCM3 sample, without uploading anything ( guide ). The fastest command-line run uses the published runtime image; no local build is needed: mkdir -p output docker run --rm \\ -v \" $PWD /output:/workspace/output \" \\ ghcr.io/rsasaki0109/gnssplusplus-library:v0.6.0 \\ demo --output-dir /workspace/output/self-contained-demo The command runs the tracked, project-authored synthetic PPP fixture entirely offline after the image is available. It should report 8 processed and 8 valid PPP solutions and write demo_solution.pos , demo_solution.kml , and demo_summary.json under output/self-contained-demo/ . This validates CLI/build/artifact plumbing, not field accuracy, real-world satellite geometry, or RTK fix performance. See the full demo guide for provenance and native-build instructions. Prefer a native source checkout? Build the PPP executable and run the same tracked demo: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build --target gnss_ppp --parallel 2 python3 apps/gnss.py demo After the native demo, run python3 apps/gnss.py next . It validates the local demo result and gives one copy-paste next command for SPP, RTK, PPP, ROS2, QZSS, or C++ integration. The check is local; it does not transmit or store usage data. After a standard SPP, RTK, or PPP output is created, the same command validates that it contai",
       "fetched_ok": true,
       "display_name": "rsasaki0109/gnssplusplus-library",
-      "display_description": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
+      "display_description": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
       "manual_note": "",
       "manual_labels": [
         "gnss-hd-map-localization"
@@ -58539,7 +58536,7 @@
       "primary_category_name_zh": "工具、工程与科研效率",
       "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
       "primary_category_kind": "tool",
-      "primary_subtopic": "ROS / Robotics Tools",
+      "primary_subtopic": "C++ / Development",
       "primary_score": 999,
       "secondary_categories": [],
       "match_hits": [
@@ -61044,6 +61041,83 @@
       "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
       "primary_category_kind": "algorithm",
       "primary_subtopic": "General Mapping",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "NorwegianSmokedSalmon /LEMONMapping": {
+      "full_name": "NorwegianSmokedSalmon /LEMONMapping",
+      "url": "https://github.com/NorwegianSmokedSalmon/LEMONMapping",
+      "owner": "NorwegianSmokedSalmon",
+      "repo": "LEMONMapping",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-09T04:09:13.777026+00:00",
+      "archived": false,
+      "about": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+      "topics": [],
+      "homepage": "https://ieeexplore.ieee.org/abstract/document/11593811",
+      "readme_excerpt": "LEMON-Mapping Official implementation of LEMON-Mapping: Loop-Enhanced Large-Scale Multi-Session Point Cloud Merging and Optimization for Globally Consistent Mapping , published in IEEE Transactions on Automation Science and Engineering , 2026. Merged maps with a distinct elevation color band for each session. System Overview LEMON-Mapping merges independently collected LiDAR maps through robust loop processing, spatial bundle adjustment, and pose graph optimization. Installation The recommended setup uses ROS Noetic in Docker and a separate Conda environment for RING++ . The host does not need ROS1. See installation for host prerequisites and GPU configuration. git clone https://github.com/NorwegianSmokedSalmon/LEMONMapping.git cd LEMONMapping make docker-install # Ubuntu: install Docker and NVIDIA Container Toolkit # Log out and back in if Docker group membership changed. make build # Fetch pinned dependencies and build both Docker images make ring-setup # Configure RING++ and compile its CUDA extensions Images: lemon-mapping:noetic and lemon-mapping:fastlio . Run a ROS bag make run BAG=/path/to/AMvalley03.bag SESSIONS=3 This runs independent FAST-LIO sessions, RING++ loop detection, initial PGO, spatial BA, final PGO, and PLY/PCD export. Set SKIP_BUILD=1 to reuse existing images. Example Sessions AMtown02 4 HKairport03 / HKisland03 2 AMvalley03 3 Session starts are spaced by 170 seconds, with 70 seconds of overlap. Adjust SESSION_STEP and OVERLAP for other bags. The bundled frontend configuration targets downward-facing Livox Avia data; adapt the sensor configuration for another setup. Results are written to data/<bag>_<two|three|four>/ and output/<bag>_<two|three|four>/ . All four stages retain their poses, timestamps, and maps. make view MAP_OUTPUT=output/AMvalley03_three make map-render MAP_OUTPUT=output/AMvalley03_three # Optional elevation colors and filtering make render-view MAP_OUTPUT=output/AMvalley03_three Run R3LIVE (20 sessions) SKIP_BUILD=1 make r3live-run BAG=/path/to/hkust_campus_03.bag R3LIVE_SESSIONS=20 make render-view MAP_OUTPUT=output/hkust_campus_03_twenty The R3LIVE runner splits the full bag into 20 independent FAST-LIO sessions with 40 seconds of overlap, then runs RING++, both PGO passes, and spatial BA. All four stages and the final elevation-colored PLY are saved. See sensor configuration and scripts . Run S3E (three robots) SKIP_BUILD=1 make s3e-run S3E_SOURCE=/path/to/S3E_Campus_Road_3 make render-view MAP_OUTPUT=output/S3E_Campus_Road_3 The entry point is pipeline/run_s3e.py . It converts the ROS2 bag, applies each robot’s S3Ev2 calibration, and runs Alpha, Bob, and Carol through the full pipeline. Results are saved in output/S3E_Campus_Road_3/ , including all four stages and the colored elevation map. See S3E setup an",
+      "fetched_ok": true,
+      "display_name": "NorwegianSmokedSalmon/LEMONMapping",
+      "display_description": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+      "manual_note": "",
+      "manual_labels": [
+        "multi-robot-slam"
+      ],
+      "labels": [
+        "point-cloud-perception",
+        "multi-robot-slam"
+      ],
+      "primary_category": "point-cloud-perception",
+      "primary_category_name": "Point Cloud Perception",
+      "primary_category_name_zh": "点云感知",
+      "primary_category_description": "Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.",
+      "primary_category_kind": "algorithm",
+      "primary_subtopic": "",
+      "primary_score": 999,
+      "secondary_categories": [],
+      "match_hits": [
+        "manual override"
+      ]
+    },
+    "HybridRobotics /supermimic": {
+      "full_name": "HybridRobotics /supermimic",
+      "url": "https://github.com/HybridRobotics/supermimic",
+      "owner": "HybridRobotics",
+      "repo": "supermimic",
+      "list_description": "",
+      "list_stars_label": "",
+      "list_language": "",
+      "source_lists": [
+        "manual"
+      ],
+      "fetched_at": "2026-11-12T02:07:03.403993+00:00",
+      "archived": false,
+      "about": "Humanoid whole-body motion tracking with one differentiable world model. - HybridRobotics/supermimic",
+      "topics": [],
+      "homepage": "https://supermimic.github.io",
+      "readme_excerpt": "SuperMimic Project page | Paper SuperMimic trains a humanoid whole-body motion tracker with one differentiable world model, built on mjlab . Setup Install uv : curl -LsSf https://astral.sh/uv/install.sh | sh Clone both repos as siblings: mkdir supermimic_ws && cd supermimic_ws git clone git@github.com:HybridRobotics/supermimic.git git clone git@github.com:HybridRobotics/mjlab_research.git cd supermimic Usage Available task IDs: SuperMimic-GenCoord-G1 — generalized coordinates representation SuperMimic-MaxCoord-G1 — maximal coordinates representation Train a world model and policy: CUDA_VISIBLE_DEVICES= < GPU_ID > uv run src/supermimic/scripts/train.py \\ < TASK_ID > --runner.run_name < description > Play back a trained model: uv run src/supermimic/scripts/play.py \\ < TASK_ID > --wandb-path < RUN_PATH > Acknowledgements SuperMimic contains code inspired by these projects: ControlVAE (BSD-3-Clause) robotic_world_model (Apache-2.0) DreamerV3 (MIT) License Copyright 2026 The SuperMimic Authors. Released under the Apache License 2.0 .",
+      "fetched_ok": true,
+      "display_name": "HybridRobotics/supermimic",
+      "display_description": "Humanoid whole-body motion tracking with one differentiable world model. - HybridRobotics/supermimic",
+      "manual_note": "",
+      "manual_labels": [],
+      "labels": [
+        "whole-body-motion-tracking"
+      ],
+      "primary_category": "whole-body-motion-tracking",
+      "primary_category_name": "whole-body motion tracking",
+      "primary_category_name_zh": "全身运动",
+      "primary_category_description": "Custom user-defined category.",
+      "primary_category_kind": "custom",
+      "primary_subtopic": "",
       "primary_score": 999,
       "secondary_categories": [],
       "match_hits": [
@@ -73565,26 +73639,15 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-09T02:24:10.274490+00:00",
+        "fetched_at": "2026-11-12T01:54:14.610278+00:00",
         "archived": false,
-        "about": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
-        "topics": [
-          "c-plus-plus",
-          "gnss",
-          "localization",
-          "positioning",
-          "ppp",
-          "qzss",
-          "rinex",
-          "ros2",
-          "rtcm",
-          "rtk"
-        ],
-        "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/",
-        "readme_excerpt": "libgnss++ Modern C++17 GNSS toolkit for non-GUI positioning. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Results Area Public comparison Current result RTK PPC Tokyo/Nagoya vs RTKLIB demo5 +17.0 pp positioning, +28.1 pp official score, -11.96 m P95 H delta CLAS PPP QZSS CLAS vs CLASLIB 3.57 mm vs 7.29 mm RMS 3D Urban RTK UrbanNav Tokyo Odaiba vs RTKLIB demo5 More fixes, lower Hp95/Vp95; --preset odaiba closes Hmed SPP PPC SPP adaptive robust + policy gate No P95 regression with <=1 pp positioning drop PPC RTK vs RTKLIB demo5 These are public PPC Tokyo/Nagoya moving-RTK replays using the same rover/base/nav observations for libgnss++ and RTKLIB demo5 . Run gnssplusplus Positioning RTKLIB Positioning Delta gnssplusplus Fix RTKLIB Fix PPC official score RTKLIB official score Official delta P95 H delta Tokyo run1 90.0% 66.3% +23.7 pp 54.4% 30.5% 34.9% 0.0% +34.9 pp +3.39 m Tokyo run2 95.3% 84.3% +11.0 pp 64.1% 27.6% 69.0% 16.9% +52.1 pp -18.51 m Tokyo run3 95.7% 93.1% +2.5 pp 63.0% 40.5% 60.6% 35.6% +25.0 pp -0.24 m Nagoya run1 88.8% 65.8% +23.0 pp 64.5% 33.8% 49.5% 22.4% +27.1 pp -23.78 m Nagoya run2 85.6% 69.8% +15.8 pp 51.4% 18.8% 20.9% 11.0% +9.9 pp -27.24 m Nagoya run3 93.8% 67.7% +26.1 pp 27.1% 13.9% 27.4% 7.6% +19.7 pp -5.37 m Across these six public runs, the coverage profile averages +17.0 pp Positioning-rate lead, +28.1 pp PPC official-score lead, and -11.96 m P95 horizontal-error delta versus RTKLIB demo5 . CLAS PPP vs CLASLIB QZSS CLAS PPP from raw L6 binary, 2019-08-27 static dataset, 1 hour ( 3599 epochs): Metric libgnss++ --claslib-parity CLASLIB Matched fixed epochs 3594 / 3599 (99.86%) 3594 / 3599 (99.86%) RMS 3D fixed-only 3.57 mm 7.29 mm 3D bias mean offset 1.66 mm 4.84 mm RMS East 1.15 mm 1.52 mm RMS North 1.21 mm 0.92 mm RMS Up 3.15 mm 7.07 mm First fix epoch epoch 6 epoch 6 Runtime dependency no CLASLIB runtime CLASLIB runtime CLASLIB 2D libgnss++ 2D RTKLIB Odaiba 2D libgnss++ Odaiba 2D Quick Start Choose the entrypoint that matches your job: Robotics quick start : RTK replay, local web inspection, ROS2 receiver launch, and rosbag capture. Research quick start : repeatable sign-off runs, profile comparisons, Python inspection, and artifact layout. Dataset gallery : current public dataset lanes and the adapter contract for adding more. Build: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build -j python3 apps/gnss.py doctor python3 apps/gnss.py ros2-doctor --device /dev/ttyUSB0 python3 apps/gnss.py ros2-bag-doctor --bag /path/to/ro",
+        "about": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
+        "topics": [],
+        "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/app/",
+        "readme_excerpt": "libgnss++ Modern C++20 GNSS toolkit: command-line tools, a browser GUI and a library. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. Selected UrbanNav Odaiba showcase: Ground Truth, libgnss++, and RTKLIB demo5 in one scene. Median horizontal error on 172 common epochs: 0.38 m vs 7.41 m (libgnss++ default settings vs RTKLIB demo5, both with GPS, GLONASS, Galileo, QZSS and BeiDou; a favorable selected segment, not a full-run benchmark: over the whole drive demo5 fixes more epochs than the default settings, while --preset urban fixes more than demo5 with fewer wrong fixes, see the Urban RTK row below). Zenith inset: satellite IDs and LOS/NLOS predictions from PLATEAU buildings and bridges, not measured labels. Data, attribution, and rendering details . What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Choose a use case : urban RTK + IMU continuity , urban canyon RTK options , real-time RTK with gnss live , RTKLIB migration , ROS2 receiver/bag replay , or QZSS L6 / CLAS / MADOCA . Try it No install at all: the browser GUI runs gnss convert , gnss solve , gnss fuse , gnss fgo , gnss spp and gnss ppp compiled to WebAssembly, RTKLIB-style (post-process, convert, plot, observations), on your files or a bundled RTCM3 sample, without uploading anything ( guide ). The fastest command-line run uses the published runtime image; no local build is needed: mkdir -p output docker run --rm \\ -v \" $PWD /output:/workspace/output \" \\ ghcr.io/rsasaki0109/gnssplusplus-library:v0.6.0 \\ demo --output-dir /workspace/output/self-contained-demo The command runs the tracked, project-authored synthetic PPP fixture entirely offline after the image is available. It should report 8 processed and 8 valid PPP solutions and write demo_solution.pos , demo_solution.kml , and demo_summary.json under output/self-contained-demo/ . This validates CLI/build/artifact plumbing, not field accuracy, real-world satellite geometry, or RTK fix performance. See the full demo guide for provenance and native-build instructions. Prefer a native source checkout? Build the PPP executable and run the same tracked demo: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build --target gnss_ppp --parallel 2 python3 apps/gnss.py demo After the native demo, run python3 apps/gnss.py next . It validates the local demo result and gives one copy-paste next command for SPP, RTK, PPP, ROS2, QZSS, or C++ integration. The check is local; it does not transmit or store usage data. After a standard SPP, RTK, or PPP output is created, the same command validates that it contai",
         "fetched_ok": true,
         "display_name": "rsasaki0109/gnssplusplus-library",
-        "display_description": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
+        "display_description": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
         "manual_note": "",
         "manual_labels": [
           "gnss-hd-map-localization"
@@ -73598,7 +73661,7 @@
         "primary_category_name_zh": "工具、工程与科研效率",
         "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
         "primary_category_kind": "tool",
-        "primary_subtopic": "ROS / Robotics Tools",
+        "primary_subtopic": "C++ / Development",
         "primary_score": 999,
         "secondary_categories": [],
         "match_hits": [
@@ -108507,6 +108570,46 @@
         ]
       },
       {
+        "full_name": "NorwegianSmokedSalmon /LEMONMapping",
+        "url": "https://github.com/NorwegianSmokedSalmon/LEMONMapping",
+        "owner": "NorwegianSmokedSalmon",
+        "repo": "LEMONMapping",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-09T04:09:13.777026+00:00",
+        "archived": false,
+        "about": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+        "topics": [],
+        "homepage": "https://ieeexplore.ieee.org/abstract/document/11593811",
+        "readme_excerpt": "LEMON-Mapping Official implementation of LEMON-Mapping: Loop-Enhanced Large-Scale Multi-Session Point Cloud Merging and Optimization for Globally Consistent Mapping , published in IEEE Transactions on Automation Science and Engineering , 2026. Merged maps with a distinct elevation color band for each session. System Overview LEMON-Mapping merges independently collected LiDAR maps through robust loop processing, spatial bundle adjustment, and pose graph optimization. Installation The recommended setup uses ROS Noetic in Docker and a separate Conda environment for RING++ . The host does not need ROS1. See installation for host prerequisites and GPU configuration. git clone https://github.com/NorwegianSmokedSalmon/LEMONMapping.git cd LEMONMapping make docker-install # Ubuntu: install Docker and NVIDIA Container Toolkit # Log out and back in if Docker group membership changed. make build # Fetch pinned dependencies and build both Docker images make ring-setup # Configure RING++ and compile its CUDA extensions Images: lemon-mapping:noetic and lemon-mapping:fastlio . Run a ROS bag make run BAG=/path/to/AMvalley03.bag SESSIONS=3 This runs independent FAST-LIO sessions, RING++ loop detection, initial PGO, spatial BA, final PGO, and PLY/PCD export. Set SKIP_BUILD=1 to reuse existing images. Example Sessions AMtown02 4 HKairport03 / HKisland03 2 AMvalley03 3 Session starts are spaced by 170 seconds, with 70 seconds of overlap. Adjust SESSION_STEP and OVERLAP for other bags. The bundled frontend configuration targets downward-facing Livox Avia data; adapt the sensor configuration for another setup. Results are written to data/<bag>_<two|three|four>/ and output/<bag>_<two|three|four>/ . All four stages retain their poses, timestamps, and maps. make view MAP_OUTPUT=output/AMvalley03_three make map-render MAP_OUTPUT=output/AMvalley03_three # Optional elevation colors and filtering make render-view MAP_OUTPUT=output/AMvalley03_three Run R3LIVE (20 sessions) SKIP_BUILD=1 make r3live-run BAG=/path/to/hkust_campus_03.bag R3LIVE_SESSIONS=20 make render-view MAP_OUTPUT=output/hkust_campus_03_twenty The R3LIVE runner splits the full bag into 20 independent FAST-LIO sessions with 40 seconds of overlap, then runs RING++, both PGO passes, and spatial BA. All four stages and the final elevation-colored PLY are saved. See sensor configuration and scripts . Run S3E (three robots) SKIP_BUILD=1 make s3e-run S3E_SOURCE=/path/to/S3E_Campus_Road_3 make render-view MAP_OUTPUT=output/S3E_Campus_Road_3 The entry point is pipeline/run_s3e.py . It converts the ROS2 bag, applies each robot’s S3Ev2 calibration, and runs Alpha, Bob, and Carol through the full pipeline. Results are saved in output/S3E_Campus_Road_3/ , including all four stages and the colored elevation map. See S3E setup an",
+        "fetched_ok": true,
+        "display_name": "NorwegianSmokedSalmon/LEMONMapping",
+        "display_description": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "point-cloud-perception",
+          "multi-robot-slam"
+        ],
+        "primary_category": "point-cloud-perception",
+        "primary_category_name": "Point Cloud Perception",
+        "primary_category_name_zh": "点云感知",
+        "primary_category_description": "Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
         "full_name": "PRBonn /rko_slam",
         "url": "https://github.com/PRBonn/rko_slam",
         "owner": "PRBonn",
@@ -113019,6 +113122,46 @@
         "primary_category_description": "Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "Segmentation",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      },
+      {
+        "full_name": "NorwegianSmokedSalmon /LEMONMapping",
+        "url": "https://github.com/NorwegianSmokedSalmon/LEMONMapping",
+        "owner": "NorwegianSmokedSalmon",
+        "repo": "LEMONMapping",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-09T04:09:13.777026+00:00",
+        "archived": false,
+        "about": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+        "topics": [],
+        "homepage": "https://ieeexplore.ieee.org/abstract/document/11593811",
+        "readme_excerpt": "LEMON-Mapping Official implementation of LEMON-Mapping: Loop-Enhanced Large-Scale Multi-Session Point Cloud Merging and Optimization for Globally Consistent Mapping , published in IEEE Transactions on Automation Science and Engineering , 2026. Merged maps with a distinct elevation color band for each session. System Overview LEMON-Mapping merges independently collected LiDAR maps through robust loop processing, spatial bundle adjustment, and pose graph optimization. Installation The recommended setup uses ROS Noetic in Docker and a separate Conda environment for RING++ . The host does not need ROS1. See installation for host prerequisites and GPU configuration. git clone https://github.com/NorwegianSmokedSalmon/LEMONMapping.git cd LEMONMapping make docker-install # Ubuntu: install Docker and NVIDIA Container Toolkit # Log out and back in if Docker group membership changed. make build # Fetch pinned dependencies and build both Docker images make ring-setup # Configure RING++ and compile its CUDA extensions Images: lemon-mapping:noetic and lemon-mapping:fastlio . Run a ROS bag make run BAG=/path/to/AMvalley03.bag SESSIONS=3 This runs independent FAST-LIO sessions, RING++ loop detection, initial PGO, spatial BA, final PGO, and PLY/PCD export. Set SKIP_BUILD=1 to reuse existing images. Example Sessions AMtown02 4 HKairport03 / HKisland03 2 AMvalley03 3 Session starts are spaced by 170 seconds, with 70 seconds of overlap. Adjust SESSION_STEP and OVERLAP for other bags. The bundled frontend configuration targets downward-facing Livox Avia data; adapt the sensor configuration for another setup. Results are written to data/<bag>_<two|three|four>/ and output/<bag>_<two|three|four>/ . All four stages retain their poses, timestamps, and maps. make view MAP_OUTPUT=output/AMvalley03_three make map-render MAP_OUTPUT=output/AMvalley03_three # Optional elevation colors and filtering make render-view MAP_OUTPUT=output/AMvalley03_three Run R3LIVE (20 sessions) SKIP_BUILD=1 make r3live-run BAG=/path/to/hkust_campus_03.bag R3LIVE_SESSIONS=20 make render-view MAP_OUTPUT=output/hkust_campus_03_twenty The R3LIVE runner splits the full bag into 20 independent FAST-LIO sessions with 40 seconds of overlap, then runs RING++, both PGO passes, and spatial BA. All four stages and the final elevation-colored PLY are saved. See sensor configuration and scripts . Run S3E (three robots) SKIP_BUILD=1 make s3e-run S3E_SOURCE=/path/to/S3E_Campus_Road_3 make render-view MAP_OUTPUT=output/S3E_Campus_Road_3 The entry point is pipeline/run_s3e.py . It converts the ROS2 bag, applies each robot’s S3Ev2 calibration, and runs Alpha, Bob, and Carol through the full pipeline. Results are saved in output/S3E_Campus_Road_3/ , including all four stages and the colored elevation map. See S3E setup an",
+        "fetched_ok": true,
+        "display_name": "NorwegianSmokedSalmon/LEMONMapping",
+        "display_description": "[2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping",
+        "manual_note": "",
+        "manual_labels": [
+          "multi-robot-slam"
+        ],
+        "labels": [
+          "point-cloud-perception",
+          "multi-robot-slam"
+        ],
+        "primary_category": "point-cloud-perception",
+        "primary_category_name": "Point Cloud Perception",
+        "primary_category_name_zh": "点云感知",
+        "primary_category_description": "Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.",
+        "primary_category_kind": "algorithm",
+        "primary_subtopic": "",
         "primary_score": 999,
         "secondary_categories": [],
         "match_hits": [
@@ -118281,26 +118424,15 @@
         "source_lists": [
           "manual"
         ],
-        "fetched_at": "2026-06-09T02:24:10.274490+00:00",
+        "fetched_at": "2026-11-12T01:54:14.610278+00:00",
         "archived": false,
-        "about": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
-        "topics": [
-          "c-plus-plus",
-          "gnss",
-          "localization",
-          "positioning",
-          "ppp",
-          "qzss",
-          "rinex",
-          "ros2",
-          "rtcm",
-          "rtk"
-        ],
-        "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/",
-        "readme_excerpt": "libgnss++ Modern C++17 GNSS toolkit for non-GUI positioning. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Results Area Public comparison Current result RTK PPC Tokyo/Nagoya vs RTKLIB demo5 +17.0 pp positioning, +28.1 pp official score, -11.96 m P95 H delta CLAS PPP QZSS CLAS vs CLASLIB 3.57 mm vs 7.29 mm RMS 3D Urban RTK UrbanNav Tokyo Odaiba vs RTKLIB demo5 More fixes, lower Hp95/Vp95; --preset odaiba closes Hmed SPP PPC SPP adaptive robust + policy gate No P95 regression with <=1 pp positioning drop PPC RTK vs RTKLIB demo5 These are public PPC Tokyo/Nagoya moving-RTK replays using the same rover/base/nav observations for libgnss++ and RTKLIB demo5 . Run gnssplusplus Positioning RTKLIB Positioning Delta gnssplusplus Fix RTKLIB Fix PPC official score RTKLIB official score Official delta P95 H delta Tokyo run1 90.0% 66.3% +23.7 pp 54.4% 30.5% 34.9% 0.0% +34.9 pp +3.39 m Tokyo run2 95.3% 84.3% +11.0 pp 64.1% 27.6% 69.0% 16.9% +52.1 pp -18.51 m Tokyo run3 95.7% 93.1% +2.5 pp 63.0% 40.5% 60.6% 35.6% +25.0 pp -0.24 m Nagoya run1 88.8% 65.8% +23.0 pp 64.5% 33.8% 49.5% 22.4% +27.1 pp -23.78 m Nagoya run2 85.6% 69.8% +15.8 pp 51.4% 18.8% 20.9% 11.0% +9.9 pp -27.24 m Nagoya run3 93.8% 67.7% +26.1 pp 27.1% 13.9% 27.4% 7.6% +19.7 pp -5.37 m Across these six public runs, the coverage profile averages +17.0 pp Positioning-rate lead, +28.1 pp PPC official-score lead, and -11.96 m P95 horizontal-error delta versus RTKLIB demo5 . CLAS PPP vs CLASLIB QZSS CLAS PPP from raw L6 binary, 2019-08-27 static dataset, 1 hour ( 3599 epochs): Metric libgnss++ --claslib-parity CLASLIB Matched fixed epochs 3594 / 3599 (99.86%) 3594 / 3599 (99.86%) RMS 3D fixed-only 3.57 mm 7.29 mm 3D bias mean offset 1.66 mm 4.84 mm RMS East 1.15 mm 1.52 mm RMS North 1.21 mm 0.92 mm RMS Up 3.15 mm 7.07 mm First fix epoch epoch 6 epoch 6 Runtime dependency no CLASLIB runtime CLASLIB runtime CLASLIB 2D libgnss++ 2D RTKLIB Odaiba 2D libgnss++ Odaiba 2D Quick Start Choose the entrypoint that matches your job: Robotics quick start : RTK replay, local web inspection, ROS2 receiver launch, and rosbag capture. Research quick start : repeatable sign-off runs, profile comparisons, Python inspection, and artifact layout. Dataset gallery : current public dataset lanes and the adapter contract for adding more. Build: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build -j python3 apps/gnss.py doctor python3 apps/gnss.py ros2-doctor --device /dev/ttyUSB0 python3 apps/gnss.py ros2-bag-doctor --bag /path/to/ro",
+        "about": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
+        "topics": [],
+        "homepage": "https://rsasaki0109.github.io/gnssplusplus-library/app/",
+        "readme_excerpt": "libgnss++ Modern C++20 GNSS toolkit: command-line tools, a browser GUI and a library. Native SPP , RTK , PPP , CLAS/MADOCA , RTCM , UBX , and direct QZSS L6 handling without an external RTKLIB runtime. Selected UrbanNav Odaiba showcase: Ground Truth, libgnss++, and RTKLIB demo5 in one scene. Median horizontal error on 172 common epochs: 0.38 m vs 7.41 m (libgnss++ default settings vs RTKLIB demo5, both with GPS, GLONASS, Galileo, QZSS and BeiDou; a favorable selected segment, not a full-run benchmark: over the whole drive demo5 fixes more epochs than the default settings, while --preset urban fixes more than demo5 with fewer wrong fixes, see the Urban RTK row below). Zenith inset: satellite IDs and LOS/NLOS predictions from PLATEAU buildings and bridges, not measured labels. Data, attribution, and rendering details . What You Get Solvers: gnss spp , gnss solve , gnss ppp Inputs/tools: RINEX, RTCM, UBX, SBF, NMEA, BINEX, QZSS L6 Products: SP3 , CLK , IONEX , DCB Extras: benchmarks, web dashboard, Python bindings, Docker, ROS 2 playback Choose a use case : urban RTK + IMU continuity , urban canyon RTK options , real-time RTK with gnss live , RTKLIB migration , ROS2 receiver/bag replay , or QZSS L6 / CLAS / MADOCA . Try it No install at all: the browser GUI runs gnss convert , gnss solve , gnss fuse , gnss fgo , gnss spp and gnss ppp compiled to WebAssembly, RTKLIB-style (post-process, convert, plot, observations), on your files or a bundled RTCM3 sample, without uploading anything ( guide ). The fastest command-line run uses the published runtime image; no local build is needed: mkdir -p output docker run --rm \\ -v \" $PWD /output:/workspace/output \" \\ ghcr.io/rsasaki0109/gnssplusplus-library:v0.6.0 \\ demo --output-dir /workspace/output/self-contained-demo The command runs the tracked, project-authored synthetic PPP fixture entirely offline after the image is available. It should report 8 processed and 8 valid PPP solutions and write demo_solution.pos , demo_solution.kml , and demo_summary.json under output/self-contained-demo/ . This validates CLI/build/artifact plumbing, not field accuracy, real-world satellite geometry, or RTK fix performance. See the full demo guide for provenance and native-build instructions. Prefer a native source checkout? Build the PPP executable and run the same tracked demo: cmake -S . -B build -DCMAKE_BUILD_TYPE=Release cmake --build build --target gnss_ppp --parallel 2 python3 apps/gnss.py demo After the native demo, run python3 apps/gnss.py next . It validates the local demo result and gives one copy-paste next command for SPP, RTK, PPP, ROS2, QZSS, or C++ integration. The check is local; it does not transmit or store usage data. After a standard SPP, RTK, or PPP output is created, the same command validates that it contai",
         "fetched_ok": true,
         "display_name": "rsasaki0109/gnssplusplus-library",
-        "display_description": "Modern C++ GNSS/RTK/PPP/CLAS toolkit.",
+        "display_description": "Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library",
         "manual_note": "",
         "manual_labels": [
           "gnss-hd-map-localization"
@@ -118314,7 +118446,7 @@
         "primary_category_name_zh": "工具、工程与科研效率",
         "primary_category_description": "ROS/ROS2 tools, Docker/reproduction environments, visualization, annotation, productivity, LLM tools, C++ resources, and research utilities.",
         "primary_category_kind": "tool",
-        "primary_subtopic": "ROS / Robotics Tools",
+        "primary_subtopic": "C++ / Development",
         "primary_score": 999,
         "secondary_categories": [],
         "match_hits": [
@@ -126131,6 +126263,45 @@
         "primary_category_description": "Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting.",
         "primary_category_kind": "algorithm",
         "primary_subtopic": "General Mapping",
+        "primary_score": 999,
+        "secondary_categories": [],
+        "match_hits": [
+          "manual override"
+        ]
+      }
+    ],
+    "whole-body-motion-tracking": [
+      {
+        "full_name": "HybridRobotics /supermimic",
+        "url": "https://github.com/HybridRobotics/supermimic",
+        "owner": "HybridRobotics",
+        "repo": "supermimic",
+        "list_description": "",
+        "list_stars_label": "",
+        "list_language": "",
+        "source_lists": [
+          "manual"
+        ],
+        "fetched_at": "2026-11-12T02:07:03.403993+00:00",
+        "archived": false,
+        "about": "Humanoid whole-body motion tracking with one differentiable world model. - HybridRobotics/supermimic",
+        "topics": [],
+        "homepage": "https://supermimic.github.io",
+        "readme_excerpt": "SuperMimic Project page | Paper SuperMimic trains a humanoid whole-body motion tracker with one differentiable world model, built on mjlab . Setup Install uv : curl -LsSf https://astral.sh/uv/install.sh | sh Clone both repos as siblings: mkdir supermimic_ws && cd supermimic_ws git clone git@github.com:HybridRobotics/supermimic.git git clone git@github.com:HybridRobotics/mjlab_research.git cd supermimic Usage Available task IDs: SuperMimic-GenCoord-G1 — generalized coordinates representation SuperMimic-MaxCoord-G1 — maximal coordinates representation Train a world model and policy: CUDA_VISIBLE_DEVICES= < GPU_ID > uv run src/supermimic/scripts/train.py \\ < TASK_ID > --runner.run_name < description > Play back a trained model: uv run src/supermimic/scripts/play.py \\ < TASK_ID > --wandb-path < RUN_PATH > Acknowledgements SuperMimic contains code inspired by these projects: ControlVAE (BSD-3-Clause) robotic_world_model (Apache-2.0) DreamerV3 (MIT) License Copyright 2026 The SuperMimic Authors. Released under the Apache License 2.0 .",
+        "fetched_ok": true,
+        "display_name": "HybridRobotics/supermimic",
+        "display_description": "Humanoid whole-body motion tracking with one differentiable world model. - HybridRobotics/supermimic",
+        "manual_note": "",
+        "manual_labels": [],
+        "labels": [
+          "whole-body-motion-tracking"
+        ],
+        "primary_category": "whole-body-motion-tracking",
+        "primary_category_name": "whole-body motion tracking",
+        "primary_category_name_zh": "全身运动",
+        "primary_category_description": "Custom user-defined category.",
+        "primary_category_kind": "custom",
+        "primary_subtopic": "",
         "primary_score": 999,
         "secondary_categories": [],
         "match_hits": [

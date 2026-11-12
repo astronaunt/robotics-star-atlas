@@ -5,9 +5,9 @@
 </p>
 
 <p align="center">
-  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1441-1f6f5b">
-  <img alt="Categories" src="https://img.shields.io/badge/categories-30-2f4858">
-  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1438-4f7f52">
+  <img alt="Indexed repositories" src="https://img.shields.io/badge/indexed%20repos-1443-1f6f5b">
+  <img alt="Categories" src="https://img.shields.io/badge/categories-31-2f4858">
+  <img alt="Fetched repositories" src="https://img.shields.io/badge/fetched-1440-4f7f52">
 </p>
 
 Robotics Star Atlas turns my GitHub stars into a searchable, manually curated research map. It is designed as a personal navigation system first, and as a public reference for researchers and engineers who work around robotics, 3D vision, and autonomous systems.
@@ -32,11 +32,11 @@ The generated README and category pages can be browsed directly on GitHub. The l
 <table>
   <tr>
     <td><strong>GitHub user</strong><br><code>@astronaunt</code></td>
-    <td><strong>Indexed repositories</strong><br><code>1441</code></td>
-    <td><strong>Categories</strong><br><code>30</code></td>
+    <td><strong>Indexed repositories</strong><br><code>1443</code></td>
+    <td><strong>Categories</strong><br><code>31</code></td>
   </tr>
   <tr>
-    <td><strong>Fetched successfully</strong><br><code>1438</code></td>
+    <td><strong>Fetched successfully</strong><br><code>1440</code></td>
     <td><strong>Focus</strong><br><code>Robotics & 3D Vision</code></td>
     <td><strong>Maintenance</strong><br><code>Manual + Generated</code></td>
   </tr>
@@ -57,8 +57,8 @@ This index is semi-automatic. Repository metadata, GitHub Lists, README snippets
 | [Place Recognition & Loop Closure](docs/categories/place-recognition-loop-closure.md) | 110 | Place recognition, loop closure, scan context, global descriptors, retrieval, and relocalization triggers. |
 | [Mapping & Map Representation](docs/categories/mapping-map-representation.md) | 193 | Mapping, map representation, occupancy/voxel/surfel/TSDF maps, neural maps, NeRF, and 3D Gaussian Splatting. |
 | [Point Cloud Registration](docs/categories/point-cloud-registration.md) | 41 | Point cloud registration, ICP/GICP/NDT, scan matching, feature matching, and correspondence-based alignment. |
-| [Point Cloud Perception](docs/categories/point-cloud-perception.md) | 60 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
-| [Multi-Robot SLAM & Collaborative Perception](docs/categories/multi-robot-slam.md) | 69 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
+| [Point Cloud Perception](docs/categories/point-cloud-perception.md) | 61 | Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks. |
+| [Multi-Robot SLAM & Collaborative Perception](docs/categories/multi-robot-slam.md) | 70 | Multi-robot SLAM, distributed mapping, collaborative perception, V2X perception, and multi-agent fusion. |
 | [Radar SLAM & Perception](docs/categories/radar-slam-perception.md) | 41 | Radar state estimation, radar SLAM, mmWave radar perception, imaging radar, and radar-LiDAR fusion. |
 | [Calibration & Time Synchronization](docs/categories/calibration-synchronization.md) | 32 | Camera/LiDAR/IMU/radar calibration, extrinsics, intrinsics, targetless calibration, and time synchronization. |
 | [Degeneracy, Robustness & Failure Analysis](docs/categories/degeneracy-robustness.md) | 22 | Degeneracy analysis, robustness, failure detection, outlier rejection, and uncertainty-aware SLAM. |
@@ -80,6 +80,7 @@ This index is semi-automatic. Repository metadata, GitHub Lists, README snippets
 | [Spatial Memory](docs/categories/spatial-memory.md) | 1 | Custom user-defined category. |
 | [uwb](docs/categories/uwb.md) | 4 | Custom user-defined category. |
 | [Wheel](docs/categories/wheel.md) | 2 | Custom user-defined category. |
+| [whole-body motion tracking](docs/categories/whole-body-motion-tracking.md) | 1 | Custom user-defined category. |
 
 ## How To Update
 

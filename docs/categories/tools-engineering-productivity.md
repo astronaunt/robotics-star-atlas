@@ -8,9 +8,9 @@ Repositories: `210`
 
 | Topic | Repos |
 | --- | ---: |
-| ROS / Robotics Tools | 81 |
+| ROS / Robotics Tools | 80 |
 | Research Productivity | 37 |
-| C++ / Development | 34 |
+| C++ / Development | 35 |
 | LLM / AI Tools | 27 |
 | Docker / Reproducibility | 13 |
 | General | 11 |
@@ -97,7 +97,6 @@ Repositories: `210`
 - [arpit6232/Leica_Total_Station_ROS](https://github.com/arpit6232/Leica_Total_Station_ROS)
 - [gogojjh/hkustgz_segnet](https://github.com/gogojjh/hkustgz_segnet)
 - [wwtinwhu/ros_tools](https://github.com/wwtinwhu/ros_tools)
-- [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++ GNSS/RTK/PPP/CLAS toolkit.
 - [SS47816/lidar_obstacle_detector](https://github.com/SS47816/lidar_obstacle_detector) - 3D LiDAR Object Detection & Tracking using Euclidean Clustering, RANSAC, & Hungarian Algorithm - SS47816/lidar_obstacle_detector
 
 ## Research Productivity
@@ -176,6 +175,7 @@ Repositories: `210`
 - [MX-LZX/free_dog_AddContact](https://github.com/MX-LZX/free_dog_AddContact)
 - [Taeyoung96/GTSAM-example-supplementary](https://github.com/Taeyoung96/GTSAM-example-supplementary) - A personal study material for the IMU Factor example in Korean
 - [wangx1996/Semantic-Kitti-Label-Read](https://github.com/wangx1996/Semantic-Kitti-Label-Read) - A c++ version code to read semantic kitti label.
+- [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library
 
 ## LLM / AI Tools
 

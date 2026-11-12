@@ -2,7 +2,7 @@
 
 Point cloud processing, segmentation, detection, completion, representation learning, and 3D perception networks.
 
-Repositories: `60`
+Repositories: `61`
 
 [Back to README](../../README.md)
 
@@ -10,7 +10,7 @@ Repositories: `60`
 | --- | ---: |
 | Segmentation | 26 |
 | Processing Libraries | 16 |
-| General | 13 |
+| General | 14 |
 | 3D Detection | 3 |
 | Representation Learning | 2 |
 
@@ -77,6 +77,7 @@ Repositories: `60`
 - [IIT-PAVIS/SC3K](https://github.com/IIT-PAVIS/SC3K) - Repository of the ICCV23 paper "SC3K: Self-supervised and Coherent 3D Keypoints Estimation from Rotated, Noisy, and Decimated Point Cloud Data"
 - [NTNU-Math-Chern/FracGM](https://github.com/NTNU-Math-Chern/FracGM) - A Fast Fractional Programming Technique for Geman-McClure Robust Estimator (RA-L 2024)
 - [francois141/upal](https://github.com/francois141/upal)
+- [NorwegianSmokedSalmon/LEMONMapping](https://github.com/NorwegianSmokedSalmon/LEMONMapping) - [2026 T-ASE] LEMON-Mapping: Loop-enhanced large-scale multi-session point cloud merging and optimization for globally consistent mapping - NorwegianSmokedSalmon/LEMONMapping
 
 ## 3D Detection
 

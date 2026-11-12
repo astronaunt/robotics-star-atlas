@@ -71,6 +71,15 @@
       "kind": "custom",
       "keywords": {},
       "lists": {}
+    },
+    {
+      "id": "whole-body-motion-tracking",
+      "name": "whole-body motion tracking",
+      "name_zh": "全身运动",
+      "description": "Custom user-defined category.",
+      "kind": "custom",
+      "keywords": {},
+      "lists": {}
     }
   ]
 }

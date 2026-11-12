@@ -9,7 +9,7 @@ Repositories: `34`
 | Topic | Repos |
 | --- | ---: |
 | General | 33 |
-| ROS / Robotics Tools | 1 |
+| C++ / Development | 1 |
 
 ## General
 
@@ -47,6 +47,6 @@ Repositories: `34`
 - [Garfield-cn/GLINS](https://github.com/Garfield-cn/GLINS) - GNSS-LiDAR-INS Integrated Navigation System
 - [xuankuzcr/FAST-LIVO2-RTK](https://github.com/xuankuzcr/FAST-LIVO2-RTK) - FAST-LIVO2 with RTK/GNSS-constrained Global Optimization. - xuankuzcr/FAST-LIVO2-RTK
 
-## ROS / Robotics Tools
+## C++ / Development
 
-- [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++ GNSS/RTK/PPP/CLAS toolkit.
+- [rsasaki0109/gnssplusplus-library](https://github.com/rsasaki0109/gnssplusplus-library) - Modern C++20 GNSS toolkit — RTK/PPP/CLAS/IMU fusion. - rsasaki0109/gnssplusplus-library
